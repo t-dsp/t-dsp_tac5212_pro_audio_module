@@ -1,0 +1,76 @@
+(footprint "audio_project_board_outline_100x70_minus2long" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 61F80B99)
+  (property "Digikey" "-")
+  (property "Manufacturer" "-")
+  (property "Manufacturer_Part_Number" "-")
+  (property "Package / Case" "board")
+  (property "Sheetfile" "teensy41_audio_project_board.kicad_sch")
+  (property "Sheetname" "")
+  (property "mouser" "-")
+  (attr through_hole)
+  (fp_text reference "board_outline2" (at 66.414 162.40148 180) (layer "F.SilkS")
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 921d41d9-6512-4375-9460-95149c15d763)
+  )
+  (fp_text value "board" (at 0 3.81 180) (layer "F.Fab")
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp eceb45c0-0f0e-4c0d-8140-da3c7281a6c5)
+  )
+  (fp_line (start 68.4064 -6.35) (end 68.4064 0) (layer "F.SilkS") (width 0.12) (tstamp 009403da-7db0-4549-a3c5-9339267a22d5))
+  (fp_line (start 61.269 -6.35) (end 61.269 0) (layer "F.SilkS") (width 0.12) (tstamp 0b7ce273-fe12-4904-9815-e17d6cc4abd0))
+  (fp_line (start 69.9812 -6.35) (end 69.9812 0) (layer "F.SilkS") (width 0.12) (tstamp 21f699f7-1ca6-4f07-b5fe-6dd6af8ccca8))
+  (fp_line (start 70.0062 -99.975) (end 70.0062 -93.625) (layer "F.SilkS") (width 0.12) (tstamp 2a005275-cb5d-479b-8f32-ae0d3f9a8e19))
+  (fp_line (start 69.9812 0) (end 61.269 0) (layer "F.SilkS") (width 0.12) (tstamp 31f564a0-e5f3-4798-9623-cf1b3e65b0e0))
+  (fp_line (start 69.9812 -6.35) (end 61.269 -6.35) (layer "F.SilkS") (width 0.12) (tstamp 418ab10d-763e-4113-8f69-e2ed18f3dfc2))
+  (fp_line (start 70.0062 -99.975) (end 61.294 -99.975) (layer "F.SilkS") (width 0.12) (tstamp 8a7315c7-36b7-4525-b163-0a9fcffcfa1c))
+  (fp_line (start 61.294 -99.975) (end 61.294 -93.625) (layer "F.SilkS") (width 0.12) (tstamp 99fa3c3b-4bec-4ed1-bb32-617f19d8431a))
+  (fp_line (start 68.4314 -99.975) (end 68.4314 -93.625) (layer "F.SilkS") (width 0.12) (tstamp e4d06725-9094-42bc-a45e-21584fa4754e))
+  (fp_line (start 70.0062 -93.625) (end 61.294 -93.625) (layer "F.SilkS") (width 0.12) (tstamp f56fcbce-d035-496e-8170-d7bf65475de8))
+  (fp_line (start 0 0) (end 70 0) (layer "Edge.Cuts") (width 0.12) (tstamp 7ed08395-21d0-4243-8287-6515984bf2f4))
+  (fp_line (start 70 0) (end 70 -100) (layer "Edge.Cuts") (width 0.12) (tstamp b157bbb8-52b7-471e-853a-79506a559d5c))
+  (fp_line (start 0 -100) (end 70 -100) (layer "Edge.Cuts") (width 0.12) (tstamp bf28d6b0-523d-4682-ae0a-5bff58bc1d8c))
+  (fp_line (start 0 0) (end 0 -100) (layer "Edge.Cuts") (width 0.12) (tstamp f48fcaca-cd68-4a94-92e4-4eeab0be0330))
+  (pad "1" thru_hole circle (at 64.85 -96.8) (size 2.75 2.75) (drill 2.45) (layers *.Cu *.Mask) (tstamp 85ea750f-cde9-4eb2-860f-42ee793ec04b))
+  (pad "1" thru_hole circle (at 64.825 -3.175) (size 2.75 2.75) (drill 2.45) (layers *.Cu *.Mask) (tstamp b5b0ef25-c007-4fc2-9359-736c8e865ad0))
+  (group "" (id 315e18d9-37cf-4a4e-a405-65a33931fcb0)
+    (members
+      009403da-7db0-4549-a3c5-9339267a22d5
+      0b7ce273-fe12-4904-9815-e17d6cc4abd0
+      21f699f7-1ca6-4f07-b5fe-6dd6af8ccca8
+      31f564a0-e5f3-4798-9623-cf1b3e65b0e0
+      418ab10d-763e-4113-8f69-e2ed18f3dfc2
+      b5b0ef25-c007-4fc2-9359-736c8e865ad0
+    )
+  )
+  (group "" (id f6a33c6f-d0f3-4d7d-bc8f-0d098dfcf68f)
+    (members
+      2a005275-cb5d-479b-8f32-ae0d3f9a8e19
+      85ea750f-cde9-4eb2-860f-42ee793ec04b
+      8a7315c7-36b7-4525-b163-0a9fcffcfa1c
+      99fa3c3b-4bec-4ed1-bb32-617f19d8431a
+      e4d06725-9094-42bc-a45e-21584fa4754e
+      f56fcbce-d035-496e-8170-d7bf65475de8
+    )
+  )
+  (model "${KIPRJMOD}/3d_models/Bracket 4-40 621.STEP" hide
+    (offset (xyz -0.325 3.5 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 90 90))
+  )
+  (model "${KIPRJMOD}/3d_models/Bracket 4-40 621.STEP"
+    (offset (xyz 70 3.5 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 90 0))
+  )
+  (model "${KIPRJMOD}/3d_models/Bracket 4-40 621.STEP" hide
+    (offset (xyz 0.175 97 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
+  (model "${KIPRJMOD}/3d_models/Bracket 4-40 621.STEP"
+    (offset (xyz 70 97 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 90 0))
+  )
+)

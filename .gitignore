@@ -1,0 +1,32 @@
+# For PCBs designed using KiCad: https://www.kicad.org/
+# Format documentation: https://kicad.org/help/file-formats/
+
+# Temporary files
+*.000
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-backups
+*.kicad_prl
+*.sch-bak
+*~
+_autosave-*
+*.tmp
+*-save.pro
+*-save.kicad_pcb
+fp-info-cache
+
+# Netlist files (exported from Eeschema)
+*.net
+
+# Autorouter files (exported from Pcbnew)
+*.dsn
+*.ses
+
+# Exported BOM files
+*.xml
+*.csv
+documentation/E2E FORUM/TLV320AIC3105_ Can you clarify Electrical Characteristics of the device with and without an additional low-pass filter_ - Audio forum - Audio - TI E2E support forums.pdf
+documentation/TLV320AIC3105_ Can you clarify Electrical Characteristics of the device with and without an additional low-pass filter_ - Audio forum - Audio - TI E2E support forums.pdf
+documentation/TPD1E10B09_ What's the recommended schematic for a microphone input with phantom power and ESD protection with TPD1E10B09_ - Interface forum - Interface - TI E2E support forums.pdf

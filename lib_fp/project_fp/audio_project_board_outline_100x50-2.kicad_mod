@@ -1,0 +1,82 @@
+(footprint "audio_project_board_outline_100x50-2" (version 20221018) (generator pcbnew)
+  locked (layer "F.Cu")
+  (property "Digikey" "-")
+  (property "Manufacturer" "-")
+  (property "Manufacturer_Part_Number" "-")
+  (property "Package / Case" "board")
+  (property "Sheetfile" "tlv320aic3105_audio_board.kicad_sch")
+  (property "Sheetname" "")
+  (property "exclude_from_bom" "")
+  (property "mouser" "-")
+  (attr through_hole exclude_from_bom)
+  (fp_text reference "REF**" (at -0.075 1.85 180) (layer "F.SilkS")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 6e0d24ea-d1b3-4f9a-b24a-51b6cc69e244)
+  )
+  (fp_text value "board" (at 0 3.81 180) (layer "F.Fab")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp c65229ec-9fe5-486e-89b9-de0c66b129cc)
+  )
+  (fp_text user "${REFERENCE}" (at -0.525 1.85) (layer "F.Fab")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp b0ceb132-5fe9-4a7b-8f28-1b223d11a83f)
+  )
+  (fp_circle (center 3 -3) (end 5.75 -3)
+    (stroke (width 0.15) (type solid)) (fill none) (layer "Cmts.User") (tstamp c080ec53-652c-4209-8cd2-db9e9fa89a0c))
+  (fp_circle (center 47 -3) (end 49.75 -3)
+    (stroke (width 0.15) (type solid)) (fill none) (layer "Cmts.User") (tstamp 24361778-3f62-4e1a-b724-5458ec596231))
+  (fp_line (start 0 -100) (end 50 -100)
+    (stroke (width 0.12) (type solid)) (layer "Edge.Cuts") (tstamp b0f31f51-c65e-4178-bd17-6c8c7f146bb3))
+  (fp_line (start 0 0) (end 0 -100)
+    (stroke (width 0.12) (type solid)) (layer "Edge.Cuts") (tstamp 8c26951d-7f6c-4550-a8c6-55db63797c7d))
+  (fp_line (start 0 0) (end 50 0)
+    (stroke (width 0.12) (type solid)) (layer "Edge.Cuts") (tstamp 9e9b392e-50c3-4eb8-b650-302c52ed6c2b))
+  (fp_line (start 50 0) (end 50 -100)
+    (stroke (width 0.12) (type solid)) (layer "Edge.Cuts") (tstamp f8db666e-39e8-427c-9025-29685776caa7))
+  (fp_circle (center 3 -3) (end 6 -3)
+    (stroke (width 0.05) (type solid)) (fill none) (layer "F.CrtYd") (tstamp 2d6eff9e-a5a3-4d9d-8f5e-1da52425fca1))
+  (fp_circle (center 47 -3) (end 50 -3)
+    (stroke (width 0.05) (type solid)) (fill none) (layer "F.CrtYd") (tstamp 698bb4fd-4008-4f26-8637-2fba281f889a))
+  (pad "1" thru_hole circle locked (at 3 -3) (size 5.5 5.5) (drill 3.2) (layers "F&B.Cu" "*.Mask") (tstamp 721ab2be-9ee1-4a06-b6cf-c3b0c2fdd86f))
+  (pad "1" thru_hole circle locked (at 47 -3) (size 5.5 5.5) (drill 3.2) (layers "F&B.Cu" "*.Mask") (tstamp d208b4b7-8f34-4d86-a7e6-9e3938c0d404))
+  (group "" (id 113b369d-6fce-44c7-ba8b-fa21b1ca1d32)
+    (members
+      2d6eff9e-a5a3-4d9d-8f5e-1da52425fca1
+      721ab2be-9ee1-4a06-b6cf-c3b0c2fdd86f
+      c080ec53-652c-4209-8cd2-db9e9fa89a0c
+    )
+  )
+  (group "" (id 22a1975a-f19e-45cd-b794-835d4d30e299)
+    (members
+      113b369d-6fce-44c7-ba8b-fa21b1ca1d32
+      3bb5402f-df75-4a90-9151-d594cd2b1852
+    )
+  )
+  (group "" (id 3bb5402f-df75-4a90-9151-d594cd2b1852)
+    (members
+      24361778-3f62-4e1a-b724-5458ec596231
+      698bb4fd-4008-4f26-8637-2fba281f889a
+      d208b4b7-8f34-4d86-a7e6-9e3938c0d404
+    )
+  )
+  (model "${KIPRJMOD}/3d_models/Bracket 4-40 621.STEP" hide
+    (offset (xyz -0.325 3.5 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 90 90))
+  )
+  (model "${KIPRJMOD}/3d_models/Bracket 4-40 621.STEP" hide
+    (offset (xyz 70 3.5 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 90 0))
+  )
+  (model "${KIPRJMOD}/3d_models/Bracket 4-40 621.STEP" hide
+    (offset (xyz 0.175 97 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
+  (model "${KIPRJMOD}/3d_models/Bracket 4-40 621.STEP" hide
+    (offset (xyz 70 97 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 90 0))
+  )
+)

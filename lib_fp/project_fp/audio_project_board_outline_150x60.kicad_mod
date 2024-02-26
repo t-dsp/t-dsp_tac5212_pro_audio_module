@@ -1,0 +1,108 @@
+(footprint "audio_project_board_outline_150x60" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 61F80B99)
+  (property "Digikey" "-")
+  (property "Manufacturer" "-")
+  (property "Manufacturer_Part_Number" "-")
+  (property "Package / Case" "board")
+  (property "Sheetfile" "teensy41_audio_project_board.kicad_sch")
+  (property "Sheetname" "")
+  (property "mouser" "-")
+  (attr through_hole)
+  (fp_text reference "board_outline2" (at 31.65 1.6 180) (layer "F.SilkS")
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 88dab5c6-6688-44cd-bc38-13180b83b6d5)
+  )
+  (fp_text value "board" (at 0 3.81 180) (layer "F.Fab")
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp f21b4a86-6a66-46a8-b941-1cbe8fa9d086)
+  )
+  (fp_line (start 50.0062 -133.65) (end 41.294 -133.65) (layer "F.SilkS") (width 0.12) (tstamp 01825d55-4c09-4ee5-aa62-9dfa5b696d88))
+  (fp_line (start 50.0062 -140) (end 50.0062 -133.65) (layer "F.SilkS") (width 0.12) (tstamp 08b53987-e066-42d3-9d56-77da895f55dc))
+  (fp_line (start 50.0062 -140) (end 41.294 -140) (layer "F.SilkS") (width 0.12) (tstamp 096a287b-cacd-410f-abac-ea4b4e036774))
+  (fp_line (start 0 0) (end 0 -6.35) (layer "F.SilkS") (width 0.12) (tstamp 12577add-420e-436a-9a1c-976d822c9bbe))
+  (fp_line (start 41.269 -6.35) (end 41.269 0) (layer "F.SilkS") (width 0.12) (tstamp 204d9cec-10a1-4ee9-9215-04ae97ebf363))
+  (fp_line (start 0 0) (end 8.7122 0) (layer "F.SilkS") (width 0.12) (tstamp 480cae36-e801-4722-be3c-d45433c60e5d))
+  (fp_line (start -0.0062 -140) (end 8.706 -140) (layer "F.SilkS") (width 0.12) (tstamp 57447491-f218-44f4-a477-109813c370ad))
+  (fp_line (start 48.4064 -6.35) (end 48.4064 0) (layer "F.SilkS") (width 0.12) (tstamp 7134594b-ebf6-4f1e-a99f-7f85803b1b06))
+  (fp_line (start 0 -6.35) (end 8.7122 -6.35) (layer "F.SilkS") (width 0.12) (tstamp 7a588899-afc3-4a44-9f27-c4f8d8f7cd4d))
+  (fp_line (start -0.0062 -133.65) (end -0.0062 -140) (layer "F.SilkS") (width 0.12) (tstamp 866f2b27-1bf8-415c-8044-a044f9d1ff5c))
+  (fp_line (start 49.9812 -6.35) (end 41.269 -6.35) (layer "F.SilkS") (width 0.12) (tstamp 8efc329c-1343-4fe0-95c5-b582d8fedc5b))
+  (fp_line (start -0.0062 -133.65) (end 8.706 -133.65) (layer "F.SilkS") (width 0.12) (tstamp add75783-686e-4504-9fe5-3f08d4c6b308))
+  (fp_line (start 1.5748 0) (end 1.5748 -6.35) (layer "F.SilkS") (width 0.12) (tstamp bb7bc758-191f-48da-985b-85c4ea2cbdfa))
+  (fp_line (start 41.294 -140) (end 41.294 -133.65) (layer "F.SilkS") (width 0.12) (tstamp ce5ff332-3afa-48c7-93b1-9147806a0b7e))
+  (fp_line (start 49.9812 -6.35) (end 49.9812 0) (layer "F.SilkS") (width 0.12) (tstamp dd9cafd4-56a2-4684-adb8-7a7b419aff28))
+  (fp_line (start 1.5686 -133.65) (end 1.5686 -140) (layer "F.SilkS") (width 0.12) (tstamp df0b5d83-c6a8-4607-a4f6-c6406526c8d5))
+  (fp_line (start 48.4314 -140) (end 48.4314 -133.65) (layer "F.SilkS") (width 0.12) (tstamp e603083d-72f2-41f8-8125-b0fba5403707))
+  (fp_line (start 8.706 -133.65) (end 8.706 -140) (layer "F.SilkS") (width 0.12) (tstamp eb136aa5-6a53-420d-8490-32507f939a30))
+  (fp_line (start 49.9812 0) (end 41.269 0) (layer "F.SilkS") (width 0.12) (tstamp edf385dd-c108-4f1e-8a7f-7ea416800d2c))
+  (fp_line (start 8.7122 0) (end 8.7122 -6.35) (layer "F.SilkS") (width 0.12) (tstamp f35190bf-c52a-4116-b43a-9a4dbc0dfc45))
+  (fp_line (start 50 0) (end 50 -140) (layer "Edge.Cuts") (width 0.12) (tstamp 1be99be4-3dca-4f96-80f8-e31f35111b73))
+  (fp_line (start 0 -140) (end 50 -140) (layer "Edge.Cuts") (width 0.12) (tstamp 57bd88e6-2dc9-4c93-b2cd-f3809f1ab66f))
+  (fp_line (start 0 0) (end 50 0) (layer "Edge.Cuts") (width 0.12) (tstamp 9e34dbb7-f413-432c-afab-a8790b90f5f9))
+  (fp_line (start 0 0) (end 0 -140) (layer "Edge.Cuts") (width 0.12) (tstamp b4e54938-f9dd-423c-9916-fe36b08b2cc6))
+  (pad "1" thru_hole circle (at 44.825 -3.175) (size 2.75 2.75) (drill 2.45) (layers *.Cu *.Mask) (tstamp 13235630-e8aa-469a-8663-8926d3915935))
+  (pad "1" thru_hole circle (at 5.15 -136.825 180) (size 2.75 2.75) (drill 2.45) (layers *.Cu *.Mask) (tstamp 2e105668-2e96-469b-9636-6503a39f8db6))
+  (pad "1" thru_hole circle (at 44.85 -136.825) (size 2.75 2.75) (drill 2.45) (layers *.Cu *.Mask) (tstamp 6799d8cb-4848-4ff6-8345-b9d8a403f312))
+  (pad "1" thru_hole circle (at 5.1562 -3.175 180) (size 2.75 2.75) (drill 2.45) (layers *.Cu *.Mask) (tstamp 698718fd-8246-4fd9-bbae-3c6a51a2b9b8))
+  (group "" (id 4763f8ac-0e19-4cbf-91dd-976e4da8c984)
+    (members
+      12577add-420e-436a-9a1c-976d822c9bbe
+      480cae36-e801-4722-be3c-d45433c60e5d
+      698718fd-8246-4fd9-bbae-3c6a51a2b9b8
+      7a588899-afc3-4a44-9f27-c4f8d8f7cd4d
+      bb7bc758-191f-48da-985b-85c4ea2cbdfa
+      f35190bf-c52a-4116-b43a-9a4dbc0dfc45
+    )
+  )
+  (group "" (id c45e4773-62ab-47ba-ab96-e1a3f8e85ee1)
+    (members
+      2e105668-2e96-469b-9636-6503a39f8db6
+      57447491-f218-44f4-a477-109813c370ad
+      866f2b27-1bf8-415c-8044-a044f9d1ff5c
+      add75783-686e-4504-9fe5-3f08d4c6b308
+      df0b5d83-c6a8-4607-a4f6-c6406526c8d5
+      eb136aa5-6a53-420d-8490-32507f939a30
+    )
+  )
+  (group "" (id ef2cde81-81be-4673-b590-b4e7d89a4419)
+    (members
+      13235630-e8aa-469a-8663-8926d3915935
+      204d9cec-10a1-4ee9-9215-04ae97ebf363
+      7134594b-ebf6-4f1e-a99f-7f85803b1b06
+      8efc329c-1343-4fe0-95c5-b582d8fedc5b
+      dd9cafd4-56a2-4684-adb8-7a7b419aff28
+      edf385dd-c108-4f1e-8a7f-7ea416800d2c
+    )
+  )
+  (group "" (id fb102c33-d3a4-4e7e-a1f2-cbadf3ea5dd3)
+    (members
+      01825d55-4c09-4ee5-aa62-9dfa5b696d88
+      08b53987-e066-42d3-9d56-77da895f55dc
+      096a287b-cacd-410f-abac-ea4b4e036774
+      6799d8cb-4848-4ff6-8345-b9d8a403f312
+      ce5ff332-3afa-48c7-93b1-9147806a0b7e
+      e603083d-72f2-41f8-8125-b0fba5403707
+    )
+  )
+  (model "${KIPRJMOD}/3d_models/Bracket 4-40 621.STEP"
+    (offset (xyz -0.325 3.5 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 90 90))
+  )
+  (model "${KIPRJMOD}/3d_models/Bracket 4-40 621.STEP"
+    (offset (xyz 100 3.5 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 90 0))
+  )
+  (model "${KIPRJMOD}/3d_models/Bracket 4-40 621.STEP"
+    (offset (xyz 0.175 147.06 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
+  (model "${KIPRJMOD}/3d_models/Bracket 4-40 621.STEP"
+    (offset (xyz 100.675 146.5 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 90 0))
+  )
+)

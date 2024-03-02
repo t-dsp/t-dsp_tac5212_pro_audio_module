@@ -1,6 +1,8 @@
 (sym_lib_table
+  (version 7)
   (lib (name "project_lib")(type "Legacy")(uri "${KIPRJMOD}/lib_sch/project_lib.lib")(options "")(descr ""))
   (lib (name "project_lib3")(type "Legacy")(uri "${KIPRJMOD}/lib_sch/project_lib3.lib")(options "")(descr ""))
   (lib (name "Project_New_Library")(type "KiCad")(uri "${KIPRJMOD}/lib_sch/Project_New_Library.kicad_sym")(options "")(descr ""))
   (lib (name "project_lib_3105")(type "KiCad")(uri "${KIPRJMOD}/lib_sch/project_lib_3105.kicad_sym")(options "")(descr ""))
+  (lib (name "project_lib_tac5212")(type "KiCad")(uri "${KIPRJMOD}/lib_sch/project_lib_tac5212.kicad_sym")(options "")(descr ""))
 )

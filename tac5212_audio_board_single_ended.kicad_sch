@@ -19559,7 +19559,7 @@
 				)
 			)
 		)
-		(property "Footprint" "project_fp:audio_module_board_outline_50x34.5_b1"
+		(property "Footprint" "project_fp:audio_module_board_outline_50x34.5_c1"
 			(at 247.65 370.84 0)
 			(effects
 				(font

@@ -299,199 +299,6 @@
 				)
 			)
 		)
-		(symbol "SP0502BAJT_2"
-			(pin_names hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 5.715 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "SP0502BAJT_2"
-				(at -1.905 -6.985 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70"
-				(at -1.905 -8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf"
-				(at -4.445 -4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "TVS Diode Array, 5.5V Standoff, 2 Channels, SC-70 package"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "usb esd protection suppression transient"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT?323*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SP0502BAJT_2_0_1"
-				(rectangle
-					(start -1.651 1.27)
-					(end 2.286 -1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.127 0) (xy 0.508 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.1102 0.0437) (xy 1.8402 0.0437)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.1595 0.0344) (xy 0.1105 0.6694) (xy 0.1105 -0.6006) (xy -1.1595 0.0344)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.9055 -0.7276) (xy -1.1595 -0.7276) (xy -1.1595 0.6694) (xy -1.1595 0.7964)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.5862 0.8057) (xy 1.8402 0.8057) (xy 1.8402 -0.5913) (xy 1.8402 -0.7183)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.8402 0.0437) (xy 0.5702 0.6787) (xy 0.5702 -0.5913) (xy 1.8402 0.0437)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SP0502BAJT_2_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 4.445 0 180)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "proejct_lib:74LVC1G125GV,125"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4159,6 +3966,199 @@
 				)
 			)
 		)
+		(symbol "proejct_lib:SP0502BAJT_2"
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 5.715 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SP0502BAJT_2"
+				(at -1.905 -6.985 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "project_fp:D_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
+				(at -1.905 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf"
+				(at -4.445 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "TVS Diode Array, 5.5V Standoff, 2 Channels, SC-70 package"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "usb esd protection suppression transient"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?323*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SP0502BAJT_2_0_1"
+				(rectangle
+					(start -1.651 1.27)
+					(end 2.286 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.127 0) (xy 0.508 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.1102 0.0437) (xy 1.8402 0.0437)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.1595 0.0344) (xy 0.1105 0.6694) (xy 0.1105 -0.6006) (xy -1.1595 0.0344)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.9055 -0.7276) (xy -1.1595 -0.7276) (xy -1.1595 0.6694) (xy -1.1595 0.7964)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.5862 0.8057) (xy 1.8402 0.8057) (xy 1.8402 -0.5913) (xy 1.8402 -0.7183)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.8402 0.0437) (xy 0.5702 0.6787) (xy 0.5702 -0.5913) (xy 1.8402 0.0437)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SP0502BAJT_2_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "proejct_lib:SPH0611LR5H-1"
 			(pin_names
 				(offset 1.016)
@@ -5255,6 +5255,12 @@
 		(uuid "35dddeaa-1e28-48af-9153-a9a0fc1f09da")
 	)
 	(junction
+		(at 208.28 297.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "37f49c91-ba4e-425a-bf65-845ff6ec7b78")
+	)
+	(junction
 		(at 68.58 166.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5351,6 +5357,12 @@
 		(uuid "71db61c7-4988-44bd-8866-2bb6d289f589")
 	)
 	(junction
+		(at 194.31 304.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "807bcbe6-93ae-4b46-94cf-ff30619d4d1c")
+	)
+	(junction
 		(at 237.49 203.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5387,6 +5399,12 @@
 		(uuid "921dd3e3-3143-4b37-8779-eb5a9fcfe793")
 	)
 	(junction
+		(at 208.28 304.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "94296b90-8775-426d-817a-109f83063b4c")
+	)
+	(junction
 		(at 77.47 168.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5411,16 +5429,40 @@
 		(uuid "9e65c7c9-6dd6-43dc-96b8-7d7ea277c857")
 	)
 	(junction
+		(at 208.28 302.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9e732dcc-4155-4541-86f3-259b6d4d3c62")
+	)
+	(junction
 		(at 45.72 365.76)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a28488c5-5d97-4df8-8898-a7495ff9e192")
 	)
 	(junction
+		(at 208.28 307.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ade9360f-77fd-45f4-8469-d650c539b704")
+	)
+	(junction
 		(at 237.49 168.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ae94ca50-fc6b-4034-8743-621306f1c95d")
+	)
+	(junction
+		(at 208.28 309.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b585e02a-7f5d-4c9d-b986-e65d4f0b4352")
+	)
+	(junction
+		(at 208.28 312.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b79a503f-306a-4238-9de5-a4d518530fe3")
 	)
 	(junction
 		(at 229.87 113.03)
@@ -5451,6 +5493,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cbb0bf3d-756b-44d8-b025-c88766963876")
+	)
+	(junction
+		(at 208.28 299.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cc6bb36f-d2f7-45ba-9291-70614f1d1e66")
 	)
 	(junction
 		(at 55.88 102.87)
@@ -5533,6 +5581,16 @@
 			(type default)
 		)
 		(uuid "011e194c-220b-448e-a382-89a9f3d5eb2c")
+	)
+	(wire
+		(pts
+			(xy 200.66 297.18) (xy 208.28 297.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "033d0dc9-eb24-4301-9192-c1df6a23aae4")
 	)
 	(wire
 		(pts
@@ -5756,6 +5814,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 307.34) (xy 208.28 309.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "214efbda-10cd-496a-8e1f-0894c2145087")
+	)
+	(wire
+		(pts
 			(xy 237.49 203.2) (xy 231.14 203.2)
 		)
 		(stroke
@@ -5793,6 +5861,16 @@
 			(type default)
 		)
 		(uuid "29b9b7cd-14fa-42ab-a88c-19481c00d5a0")
+	)
+	(wire
+		(pts
+			(xy 208.28 302.26) (xy 208.28 304.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a20af93-4040-4d47-a51e-37a9c7b88a6d")
 	)
 	(wire
 		(pts
@@ -6016,6 +6094,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 309.88) (xy 208.28 312.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f5e8443-6eba-46fb-94f4-3541ada6ec53")
+	)
+	(wire
+		(pts
 			(xy 154.94 364.49) (xy 154.94 367.03)
 		)
 		(stroke
@@ -6043,6 +6131,16 @@
 			(type default)
 		)
 		(uuid "54a0d1e1-0bb0-44a2-bee3-8c2f9a7d559c")
+	)
+	(wire
+		(pts
+			(xy 208.28 304.8) (xy 208.28 307.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54b56ae9-e3c2-47b2-8695-1ce776fb79b6")
 	)
 	(wire
 		(pts
@@ -6436,6 +6534,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 304.8) (xy 200.66 297.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "879ce9e7-4285-45bb-969a-db4d25e18aa4")
+	)
+	(wire
+		(pts
 			(xy 49.53 138.43) (xy 78.74 138.43)
 		)
 		(stroke
@@ -6666,16 +6774,6 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 104.14) (xy 232.41 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6d5b5d0-5727-4be3-b60e-f73d5acc6d9c")
-	)
-	(wire
-		(pts
 			(xy 73.66 176.53) (xy 73.66 185.42)
 		)
 		(stroke
@@ -6726,6 +6824,16 @@
 	)
 	(wire
 		(pts
+			(xy 194.31 304.8) (xy 200.66 304.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acd5a033-12e2-43e8-bc9a-ae53d4516482")
+	)
+	(wire
+		(pts
 			(xy 83.82 133.35) (xy 90.17 133.35)
 		)
 		(stroke
@@ -6753,6 +6861,16 @@
 			(type default)
 		)
 		(uuid "b2a9e929-bb46-4d9e-8135-3e454e4b3bb5")
+	)
+	(wire
+		(pts
+			(xy 208.28 297.18) (xy 208.28 299.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3c9c932-2369-4327-b27d-caec21cbd84c")
 	)
 	(wire
 		(pts
@@ -6803,16 +6921,6 @@
 			(type default)
 		)
 		(uuid "b70f6f9e-0bd9-424c-a880-ae7059e0b854")
-	)
-	(wire
-		(pts
-			(xy 232.41 104.14) (xy 229.87 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b819dbd1-cd0f-410d-b501-47fe721c4b4f")
 	)
 	(wire
 		(pts
@@ -7096,16 +7204,6 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 104.14) (xy 229.87 104.775)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dcb1e21b-195d-4301-9991-016b21ff1481")
-	)
-	(wire
-		(pts
 			(xy 27.94 113.03) (xy 33.02 113.03)
 		)
 		(stroke
@@ -7133,6 +7231,16 @@
 			(type default)
 		)
 		(uuid "dfbfc8e4-dc20-4f12-93ad-db5000bd6fb8")
+	)
+	(wire
+		(pts
+			(xy 208.28 299.72) (xy 208.28 302.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dffafc55-bee3-454c-a396-51b895c57626")
 	)
 	(wire
 		(pts
@@ -7216,6 +7324,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 312.42) (xy 208.28 314.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edabc9c6-db0b-4eb9-9e61-1975a7ffa89f")
+	)
+	(wire
+		(pts
 			(xy 69.85 368.3) (xy 69.85 365.76)
 		)
 		(stroke
@@ -7253,16 +7371,6 @@
 			(type default)
 		)
 		(uuid "f36b52c5-1e64-469e-9f4b-7f7ce3030341")
-	)
-	(wire
-		(pts
-			(xy 229.87 121.92) (xy 229.87 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f40994b8-cde6-4b3e-a31e-919dbad31903")
 	)
 	(wire
 		(pts
@@ -9601,6 +9709,72 @@
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
 					(reference "R1017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "proejct_lib:GNDD")
+		(at 184.15 304.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0c44b3ae-3b77-4000-8a62-961b4360eee8")
+		(property "Reference" "#PWR05"
+			(at 184.15 311.15 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 184.15 320.802 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 184.15 304.8 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 304.8 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 184.15 304.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3bdd9ac9-2bec-48c5-b685-a59174dc2c9a")
+		)
+		(instances
+			(project "tac5212_audio_board_single_ended"
+				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -12039,7 +12213,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SP0502BAJT_2")
 		(lib_id "proejct_lib:SP0502BAJT_2")
 		(at 217.17 190.5 90)
 		(mirror x)
@@ -12086,7 +12259,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "TVS Diode Array, 5.5V Standoff, 2 Channels, SC-70 package"
 			(at 217.17 190.5 0)
 			(effects
 				(font
@@ -12138,6 +12311,74 @@
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
 					(reference "D1003")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "proejct_lib:Earth")
+		(at 194.31 304.8 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "55731c92-550e-4006-868d-a2b89cee3616")
+		(property "Reference" "#PWR03"
+			(at 194.31 311.15 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 194.31 308.61 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 194.31 304.8 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 194.31 304.8 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 194.31 304.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "869c784b-63d0-4c70-ac18-47fd0b4db7a4")
+		)
+		(instances
+			(project "tac5212_audio_board_single_ended"
+				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -12992,7 +13233,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SP0502BAJT_2")
 		(lib_id "proejct_lib:SP0502BAJT_2")
 		(at 229.87 116.84 270)
 		(unit 1)
@@ -13037,7 +13277,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "TVS Diode Array, 5.5V Standoff, 2 Channels, SC-70 package"
 			(at 229.87 116.84 0)
 			(effects
 				(font
@@ -13557,7 +13797,7 @@
 	)
 	(symbol
 		(lib_id "proejct_lib:Earth")
-		(at 217.17 212.09 0)
+		(at 217.17 210.82 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13567,7 +13807,7 @@
 		(fields_autoplaced yes)
 		(uuid "83edf354-93ac-44fe-b419-f36b9f2a87af")
 		(property "Reference" "#PWR01018"
-			(at 217.17 218.44 0)
+			(at 217.17 217.17 0)
 			(effects
 				(font
 					(size 1 1)
@@ -13576,7 +13816,7 @@
 			)
 		)
 		(property "Value" "Earth"
-			(at 217.17 215.9 0)
+			(at 217.17 214.63 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -13585,7 +13825,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 217.17 212.09 0)
+			(at 217.17 210.82 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -13594,7 +13834,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 217.17 212.09 0)
+			(at 217.17 210.82 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -13603,7 +13843,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 217.17 212.09 0)
+			(at 217.17 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13810,7 +14050,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SP0502BAJT_2")
 		(lib_id "proejct_lib:SP0502BAJT_2")
 		(at 229.87 100.33 270)
 		(unit 1)
@@ -13856,7 +14095,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "TVS Diode Array, 5.5V Standoff, 2 Channels, SC-70 package"
 			(at 229.87 100.33 0)
 			(effects
 				(font
@@ -15122,7 +15361,7 @@
 	)
 	(symbol
 		(lib_id "proejct_lib:Earth")
-		(at 232.41 105.41 0)
+		(at 229.87 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15131,7 +15370,7 @@
 		(fields_autoplaced yes)
 		(uuid "a59f530a-8620-4b31-82e0-1dab4cbd1801")
 		(property "Reference" "#PWR01023"
-			(at 232.41 111.76 0)
+			(at 229.87 110.49 0)
 			(effects
 				(font
 					(size 1 1)
@@ -15140,7 +15379,7 @@
 			)
 		)
 		(property "Value" "Earth"
-			(at 232.41 109.22 0)
+			(at 229.87 107.95 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -15149,7 +15388,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 232.41 105.41 0)
+			(at 229.87 104.14 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -15158,7 +15397,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 232.41 105.41 0)
+			(at 229.87 104.14 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -15167,7 +15406,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 232.41 105.41 0)
+			(at 229.87 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15345,7 +15584,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SP0502BAJT_2")
 		(lib_id "proejct_lib:SP0502BAJT_2")
 		(at 218.44 156.21 90)
 		(mirror x)
@@ -15382,7 +15620,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf"
 			(at 222.885 151.765 0)
 			(effects
 				(font
@@ -15391,7 +15629,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "TVS Diode Array, 5.5V Standoff, 2 Channels, SC-70 package"
 			(at 218.44 156.21 0)
 			(effects
 				(font
@@ -16086,79 +16324,6 @@
 		)
 	)
 	(symbol
-		(lib_id "proejct_lib:Earth")
-		(at 229.87 123.19 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b9c61e92-4eb0-45fd-9f0a-f55300fa026d")
-		(property "Reference" "#PWR01020"
-			(at 229.87 129.54 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "Earth"
-			(at 229.87 127 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 229.87 123.19 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 229.87 123.19 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 229.87 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "25acf9e1-4bd5-49ed-ba07-96cf9c197b20")
-		)
-		(instances
-			(project "tac5212_audio_board"
-				(path "/2a1c4609-653f-4eaf-819c-f6b44c840ed7"
-					(reference "#PWR01020")
-					(unit 1)
-				)
-			)
-			(project "tac5212_audio_board_single_ended"
-				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "#PWR044")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "proejct_lib:Jumper_NO_Small-Device")
 		(at 240.03 165.1 0)
 		(unit 1)
@@ -16330,7 +16495,7 @@
 	)
 	(symbol
 		(lib_id "proejct_lib:Earth")
-		(at 228.6 91.44 0)
+		(at 228.6 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16339,7 +16504,7 @@
 		(fields_autoplaced yes)
 		(uuid "bfa19f3c-3a21-43b3-b415-7478e068b287")
 		(property "Reference" "#PWR01021"
-			(at 228.6 97.79 0)
+			(at 228.6 96.52 0)
 			(effects
 				(font
 					(size 1 1)
@@ -16348,7 +16513,7 @@
 			)
 		)
 		(property "Value" "Earth"
-			(at 228.6 95.25 0)
+			(at 228.6 93.98 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -16357,7 +16522,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 228.6 91.44 0)
+			(at 228.6 90.17 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -16366,7 +16531,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 228.6 91.44 0)
+			(at 228.6 90.17 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -16375,7 +16540,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 228.6 91.44 0)
+			(at 228.6 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17132,6 +17297,100 @@
 		)
 	)
 	(symbol
+		(lib_id "proejct_lib:Jumper_2_Bridged")
+		(at 189.23 304.8 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d58f1f68-66f2-4e1e-a6aa-126d05d6f4d3")
+		(property "Reference" "SCL1"
+			(at 189.23 299.593 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "jumper"
+			(at 189.23 301.9044 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "project_fp:jumper_slice"
+			(at 189.23 304.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 189.23 304.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, closed/bridged"
+			(at 189.23 304.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PCBWAY_2020_04_18" "NO COMPONENT"
+			(at 189.23 304.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PCBWAY_2020-06-09" "NO COMPONENT"
+			(at 189.23 304.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PCBWAY_2020-08-27" "NO COMPONENT"
+			(at 189.23 304.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c1359738-183f-4242-89c5-62f84b7a4014")
+		)
+		(pin "2"
+			(uuid "ce043837-59c0-4b12-80d0-f1e5996bbfdd")
+		)
+		(instances
+			(project "tac5212_audio_board_single_ended"
+				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
+					(reference "SCL1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "proejct_lib:R_Small")
 		(at 210.82 82.55 270)
 		(unit 1)
@@ -17207,7 +17466,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SP0502BAJT_2")
 		(lib_id "proejct_lib:SP0502BAJT_2")
 		(at 217.17 207.01 90)
 		(mirror x)
@@ -17254,7 +17512,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "TVS Diode Array, 5.5V Standoff, 2 Channels, SC-70 package"
 			(at 217.17 207.01 0)
 			(effects
 				(font
@@ -17312,7 +17570,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SP0502BAJT_2")
 		(lib_id "proejct_lib:SP0502BAJT_2")
 		(at 228.6 133.35 270)
 		(unit 1)
@@ -17358,7 +17615,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "TVS Diode Array, 5.5V Standoff, 2 Channels, SC-70 package"
 			(at 228.6 133.35 0)
 			(effects
 				(font
@@ -17615,7 +17872,72 @@
 		)
 	)
 	(symbol
-		(lib_name "SP0502BAJT_2")
+		(lib_id "proejct_lib:GNDD")
+		(at 149.86 171.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "de36644b-de69-494a-97b0-3006f9fe8e40")
+		(property "Reference" "#PWR04"
+			(at 149.86 177.8 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 149.86 187.452 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 171.45 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 171.45 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 149.86 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "86877199-a73c-4049-a3ef-f9a543dad2cd")
+		)
+		(instances
+			(project "tac5212_audio_board_single_ended"
+				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "proejct_lib:SP0502BAJT_2")
 		(at 217.17 173.99 90)
 		(mirror x)
@@ -17662,7 +17984,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "TVS Diode Array, 5.5V Standoff, 2 Channels, SC-70 package"
 			(at 217.17 173.99 0)
 			(effects
 				(font
@@ -17720,7 +18042,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SP0502BAJT_2")
 		(lib_id "proejct_lib:SP0502BAJT_2")
 		(at 228.6 86.36 270)
 		(unit 1)
@@ -17765,7 +18086,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "TVS Diode Array, 5.5V Standoff, 2 Channels, SC-70 package"
 			(at 228.6 86.36 0)
 			(effects
 				(font
@@ -18192,152 +18513,6 @@
 		)
 	)
 	(symbol
-		(lib_id "proejct_lib:Earth")
-		(at 232.41 138.43 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e98e406b-a06c-4168-9c59-d1e829488f9e")
-		(property "Reference" "#PWR01022"
-			(at 232.41 144.78 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "Earth"
-			(at 232.41 142.24 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 232.41 138.43 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 232.41 138.43 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 232.41 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "584b3576-3d7e-4095-a8c0-a4179b055d6e")
-		)
-		(instances
-			(project "tac5212_audio_board"
-				(path "/2a1c4609-653f-4eaf-819c-f6b44c840ed7"
-					(reference "#PWR01022")
-					(unit 1)
-				)
-			)
-			(project "tac5212_audio_board_single_ended"
-				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "#PWR046")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "proejct_lib:Earth")
-		(at 149.86 171.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ea626a62-1fa1-4057-bd8a-84c613b8c7f2")
-		(property "Reference" "#PWR01011"
-			(at 149.86 177.8 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "Earth"
-			(at 149.86 175.26 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 149.86 171.45 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 149.86 171.45 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 149.86 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8f2679ea-0dee-496e-939e-cc0b6d7fe47a")
-		)
-		(instances
-			(project "tac5212_audio_board"
-				(path "/2a1c4609-653f-4eaf-819c-f6b44c840ed7"
-					(reference "#PWR01011")
-					(unit 1)
-				)
-			)
-			(project "tac5212_audio_board_single_ended"
-				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "#PWR035")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "proejct_lib:TAC5212")
 		(at 118.11 123.19 0)
 		(unit 1)
@@ -18556,7 +18731,7 @@
 	)
 	(symbol
 		(lib_id "proejct_lib:Earth")
-		(at 217.17 179.07 0)
+		(at 217.17 177.8 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18566,7 +18741,7 @@
 		(fields_autoplaced yes)
 		(uuid "ef777096-73aa-4cc4-a007-5bf86e1164df")
 		(property "Reference" "#PWR01016"
-			(at 217.17 185.42 0)
+			(at 217.17 184.15 0)
 			(effects
 				(font
 					(size 1 1)
@@ -18575,7 +18750,7 @@
 			)
 		)
 		(property "Value" "Earth"
-			(at 217.17 182.88 0)
+			(at 217.17 181.61 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -18584,7 +18759,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 217.17 179.07 0)
+			(at 217.17 177.8 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -18593,7 +18768,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 217.17 179.07 0)
+			(at 217.17 177.8 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -18602,7 +18777,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 217.17 179.07 0)
+			(at 217.17 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)

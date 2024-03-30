@@ -749,6 +749,14 @@
       {
         "netclass": ".75",
         "pattern": "ENABLE2"
+      },
+      {
+        "netclass": ".75",
+        "pattern": "3.3V_LDO"
+      },
+      {
+        "netclass": ".75",
+        "pattern": "3V3_A"
       }
     ]
   },

@@ -1,4 +1,4 @@
-(footprint "SolderJumper-2_Open_Pad0.5x1.0mm"
+(footprint "SolderJumper-2_Open_Pad0.5x1.0mm_ADDR"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -194,7 +194,7 @@
 		(uuid "0fe772c5-cd5f-44f1-a0ed-3bce85acda78")
 	)
 	(fp_text user "${Label}"
-		(at 1.25 0 0)
+		(at -0.02 0 0)
 		(layer "F.SilkS")
 		(uuid "18fec9f2-af47-45a1-947a-a3ad2ebd3e51")
 		(effects
@@ -203,7 +203,6 @@
 				(thickness 0.15)
 				(bold yes)
 			)
-			(justify left)
 		)
 	)
 	(pad "1" smd rect

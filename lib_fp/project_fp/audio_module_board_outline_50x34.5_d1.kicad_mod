@@ -965,6 +965,18 @@
 			)
 		)
 	)
+	(fp_text user "G"
+		(at 37.18 -1.8 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "5e3c62e2-faf6-4ba6-aaab-917c990bd46a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(fp_text user "1+"
 		(at 17.28 -19.605 90)
 		(unlocked yes)
@@ -1878,6 +1890,22 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "fe48878a-7dbb-4e2b-b4da-c6867ed45eda")
+	)
+	(pad "45" thru_hole oval
+		(at 40.06 -6.88 90)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d11819b6-aa95-4ef1-b90f-9aa9f8952beb")
+	)
+	(pad "46" thru_hole oval
+		(at 40.06 -9.42 90)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "83146531-ab94-478c-b970-5f1235b8e805")
 	)
 	(pad "E" thru_hole circle
 		(at 12.12 -24.66)

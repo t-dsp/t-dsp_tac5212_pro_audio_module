@@ -3865,8 +3865,19 @@
 				)
 			)
 			(rectangle
+				(start -20.32 -25.4)
+				(end -19.05 -25.654)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
 				(start -20.32 -24.13)
-				(end 21.59 -31.75)
+				(end 21.59 -30.48)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -4206,6 +4217,17 @@
 				)
 			)
 			(rectangle
+				(start 20.32 -25.4)
+				(end 21.59 -25.654)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
 				(start 21.59 -2.54)
 				(end 20.32 -2.794)
 				(stroke
@@ -4421,14 +4443,6 @@
 			)
 			(text "GPIO"
 				(at -0.508 -9.144 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(text "Mounting Holes"
-				(at -0.254 -27.94 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -5138,6 +5152,42 @@
 				)
 			)
 			(pin passive line
+				(at -24.13 -25.4 0)
+				(length 3.81)
+				(name "45"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "45"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -24.13 -27.94 0)
+				(length 3.81)
+				(name "46"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "46"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
 				(at -24.13 35.56 0)
 				(length 3.81)
 				(name "Pin_5"
@@ -5228,7 +5278,7 @@
 				)
 			)
 			(pin passive line
-				(at 25.4 -27.94 180)
+				(at 25.4 -25.4 180)
 				(length 3.81)
 				(name "AGND"
 					(effects
@@ -5246,7 +5296,7 @@
 				)
 			)
 			(pin passive line
-				(at -24.13 -27.94 0)
+				(at 25.4 -27.94 180)
 				(length 3.81)
 				(name "DGND"
 					(effects

@@ -75,7 +75,7 @@
 		(uuid "9e248a22-28d6-4f1a-a72a-b27114683dfc")
 	)
 	(fp_text user "${Label}"
-		(at -0.75 0 0)
+		(at -0.8 0 180)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "afc1cb6f-0d25-46cf-b29a-4c9bcef7d15b")
@@ -85,7 +85,7 @@
 				(thickness 0.15)
 				(bold yes)
 			)
-			(justify right)
+			(justify left)
 		)
 	)
 	(pad "1" smd rect

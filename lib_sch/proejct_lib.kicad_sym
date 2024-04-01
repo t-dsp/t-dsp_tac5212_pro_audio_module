@@ -3787,7 +3787,8 @@
 	)
 	(symbol "Conn_02x33_Odd_Even"
 		(pin_names
-			(offset 1.016) hide)
+			(offset 1.016)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4738,7 +4739,7 @@
 			(pin passive line
 				(at -24.13 15.24 0)
 				(length 3.81)
-				(name "Pin_21"
+				(name "OUTP"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4774,7 +4775,7 @@
 			(pin passive line
 				(at -24.13 12.7 0)
 				(length 3.81)
-				(name "Pin_23"
+				(name "OUT1M"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4810,7 +4811,7 @@
 			(pin passive line
 				(at -24.13 10.16 0)
 				(length 3.81)
-				(name "Pin_25"
+				(name "OUT2P"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4846,7 +4847,7 @@
 			(pin passive line
 				(at -24.13 7.62 0)
 				(length 3.81)
-				(name "Pin_27"
+				(name "OUT2M"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4882,7 +4883,7 @@
 			(pin passive line
 				(at -24.13 5.08 0)
 				(length 3.81)
-				(name "Pin_29"
+				(name "IN1P"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4936,7 +4937,7 @@
 			(pin passive line
 				(at -24.13 2.54 0)
 				(length 3.81)
-				(name "Pin_31"
+				(name "IN1M"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4972,7 +4973,7 @@
 			(pin passive line
 				(at -24.13 0 0)
 				(length 3.81)
-				(name "Pin_33"
+				(name "IN2M"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5260,7 +5261,7 @@
 			(pin passive line
 				(at -24.13 -33.02 0)
 				(length 3.81)
-				(name "DGND"
+				(name "MIC_BIAS"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5276,7 +5277,7 @@
 				)
 			)
 			(pin passive line
-				(at 25.4 -30.48 180)
+				(at 25.4 -25.4 180)
 				(length 3.81)
 				(name "AGND"
 					(effects
@@ -5312,6 +5313,42 @@
 				)
 			)
 			(pin passive line
+				(at 25.4 -27.94 180)
+				(length 3.81)
+				(name "AGND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "50"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 25.4 -30.48 180)
+				(length 3.81)
+				(name "DGND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "51"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
 				(at 25.4 -33.02 180)
 				(length 3.81)
 				(name "DGND"
@@ -5321,7 +5358,7 @@
 						)
 					)
 				)
-				(number "50"
+				(number "52"
 					(effects
 						(font
 							(size 1.27 1.27)

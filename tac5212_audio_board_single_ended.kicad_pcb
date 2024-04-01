@@ -25338,8 +25338,8 @@
 		)
 	)
 	(gr_text_box "TINY AUDIO\nCODEC 1.0"
-		(start 96 101.25)
-		(end 104.7 109.95)
+		(start 123.4 101.35)
+		(end 132.1 110.05)
 		(angle 90)
 		(layer "F.SilkS")
 		(uuid "10949a73-0167-47ba-ac14-1bcec44982ae")

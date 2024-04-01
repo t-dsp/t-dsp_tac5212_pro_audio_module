@@ -211,8 +211,14 @@
 	(net 63 "/DSP_5V")
 	(net 64 "3.3V_A")
 	(net 65 "Net-(PU_EN1001-Pad1)")
-	(net 66 "Net-(E1-A)")
-	(net 67 "Net-(G1-A)")
+	(net 66 "unconnected-(board_outline1-DGND-Pad51)")
+	(net 67 "unconnected-(board_outline1-AGND-Pad49)")
+	(net 68 "unconnected-(board_outline1-AGND-Pad50)")
+	(net 69 "unconnected-(board_outline1-DGND-Pad52)")
+	(net 70 "unconnected-(E1-A-Pad1)")
+	(net 71 "unconnected-(E2-A-Pad1)")
+	(net 72 "unconnected-(G1-A-Pad1)")
+	(net 73 "unconnected-(G2-A-Pad1)")
 	(footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "00234e0d-09bc-4a94-85a0-516206b678ca")
@@ -277,7 +283,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/4df05a01-3c05-4d12-9eb8-0ce5b7d61f7b")
+		(sheetname "Root")
+		(sheetfile "tac5212_audio_board_single_ended.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.167621 -0.380001)
@@ -484,7 +493,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/a88efb0c-aced-44cd-9f06-f57de231dc50")
+		(sheetname "Root")
+		(sheetfile "tac5212_audio_board_single_ended.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 0.38)
@@ -699,6 +711,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -710,6 +723,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -721,6 +735,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -732,6 +747,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -743,11 +759,15 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
+		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/3231bc24-1064-43bb-8477-d16427a71b7b")
-		(attr through_hole exclude_from_bom)
+		(sheetname "Root")
+		(sheetfile "tac5212_audio_board_single_ended.kicad_sch")
+		(attr through_hole)
 		(fp_line
 			(start 0.635 -0.475)
 			(end 0.635 -25.995)
@@ -2407,7 +2427,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 62 "OUT1P+")
-			(pinfunction "Pin_21")
+			(pinfunction "OUTP")
 			(pintype "passive")
 			(uuid "d82c9b89-abbf-4144-ba9d-8999fb350e28")
 		)
@@ -2429,7 +2449,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 55 "OUT1M+")
-			(pinfunction "Pin_23")
+			(pinfunction "OUT1M")
 			(pintype "passive")
 			(uuid "fc17dddc-99b7-4670-8a55-13e427b37288")
 		)
@@ -2451,7 +2471,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 57 "OUT2P+")
-			(pinfunction "Pin_25")
+			(pinfunction "OUT2P")
 			(pintype "passive")
 			(uuid "3537d7ee-7c94-4ca6-8884-553d42664bf4")
 		)
@@ -2473,7 +2493,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 56 "OUT2M+")
-			(pinfunction "Pin_27")
+			(pinfunction "OUT2M")
 			(pintype "passive")
 			(uuid "eab4e5f6-7b9d-4e64-944a-032f8276a203")
 		)
@@ -2495,7 +2515,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 59 "IN1P+")
-			(pinfunction "Pin_29")
+			(pinfunction "IN1P")
 			(pintype "passive")
 			(uuid "c7de7e1f-949c-4cf1-b44b-df2269ebc79c")
 		)
@@ -2517,7 +2537,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 58 "IN1M+")
-			(pinfunction "Pin_31")
+			(pinfunction "IN1M")
 			(pintype "passive")
 			(uuid "71f48d9e-4975-4d26-8d0c-5191b2f35627")
 		)
@@ -2539,7 +2559,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 60 "IN2P+")
-			(pinfunction "Pin_33")
+			(pinfunction "IN2M")
 			(pintype "passive")
 			(uuid "7e806350-df70-4ec2-8b77-2a0cb98ce1c0")
 		)
@@ -2704,7 +2724,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 40 "MICBIAS")
-			(pinfunction "DGND")
+			(pinfunction "MIC_BIAS")
 			(pintype "passive")
 			(uuid "13966683-2cd5-4173-91cb-755159f9a960")
 		)
@@ -2714,7 +2734,7 @@
 			(drill 2.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 66 "Net-(E1-A)")
+			(net 67 "unconnected-(board_outline1-AGND-Pad49)")
 			(pinfunction "AGND")
 			(pintype "passive")
 			(uuid "3f88d999-e34b-4c7a-8be8-3a36b867060b")
@@ -2725,8 +2745,8 @@
 			(drill 2.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 67 "Net-(G1-A)")
-			(pinfunction "DGND")
+			(net 68 "unconnected-(board_outline1-AGND-Pad50)")
+			(pinfunction "AGND")
 			(pintype "passive")
 			(uuid "535a3662-761b-4a50-9d25-aef28af04343")
 		)
@@ -2736,6 +2756,9 @@
 			(drill 2.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
+			(net 66 "unconnected-(board_outline1-DGND-Pad51)")
+			(pinfunction "DGND")
+			(pintype "passive")
 			(uuid "11658839-2a6d-4fdd-a09c-6dc5a71dc2b4")
 		)
 		(pad "52" thru_hole circle
@@ -2744,6 +2767,9 @@
 			(drill 2.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
+			(net 69 "unconnected-(board_outline1-DGND-Pad52)")
+			(pinfunction "DGND")
+			(pintype "passive")
 			(uuid "df35fb0d-63ec-4431-b245-b899b3972549")
 		)
 		(group ""
@@ -3006,9 +3032,12 @@
 				)
 			)
 		)
+		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/1dc06f07-cdb8-4beb-9e2f-ab26b8e65bba")
+		(sheetname "Root")
+		(sheetfile "tac5212_audio_board_single_ended.kicad_sch")
 		(zone_connect 2)
-		(attr smd)
+		(attr smd exclude_from_bom)
 		(pad "1" thru_hole circle
 			(at 0 0)
 			(size 0.5 0.5)
@@ -3160,7 +3189,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "SolderJumper*Open*")
 		(path "/8acdf66e-e739-4809-945a-796cc7810be5")
+		(sheetname "Root")
+		(sheetfile "tac5212_audio_board_single_ended.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 1.25 -0.6)
@@ -3338,7 +3370,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/03917c9f-2bee-4de9-baaa-5b498adae7dc")
+		(sheetname "Root")
+		(sheetfile "tac5212_audio_board_single_ended.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.167621 -0.380001)
@@ -3545,7 +3580,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/90f26414-8cbf-4346-95bd-932af8ae32af")
+		(sheetname "Root")
+		(sheetfile "tac5212_audio_board_single_ended.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 0.735)
@@ -3752,7 +3790,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/9383fa1a-d908-441e-94bf-7dcada1c6790")
+		(sheetname "Root")
+		(sheetfile "tac5212_audio_board_single_ended.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.167621 -0.380001)
@@ -3959,7 +4000,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/b6c875d6-f251-455c-b01f-de41b74db385")
+		(sheetname "Root")
+		(sheetfile "tac5212_audio_board_single_ended.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.167621 -0.380001)
@@ -4228,7 +4272,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "SolderJumper*Open*")
 		(path "/89b099ad-122e-4dbb-8bca-d2709c66fc1b")
+		(sheetname "Root")
+		(sheetfile "tac5212_audio_board_single_ended.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 1.25 -0.6)
@@ -4406,7 +4453,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/a776c7b8-ea60-4559-99a4-2f0c2fb8293f")
+		(sheetname "Root")
+		(sheetfile "tac5212_audio_board_single_ended.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.107836 -0.36)
@@ -4675,7 +4725,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "SolderJumper*Open*")
 		(path "/efa3ede6-0a22-4bb6-8f66-bfc66ed7b433")
+		(sheetname "Root")
+		(sheetfile "tac5212_audio_board_single_ended.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 1.25 -0.6)
@@ -4853,7 +4906,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/38b286b6-e218-4b62-80f5-d830ef815799")
+		(sheetname "Root")
+		(sheetfile "tac5212_audio_board_single_ended.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261253 -0.735)
@@ -5062,9 +5118,12 @@
 				)
 			)
 		)
+		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/ffa9a5b3-62d2-4d21-ab9a-06a66f35380e")
+		(sheetname "Root")
+		(sheetfile "tac5212_audio_board_single_ended.kicad_sch")
 		(zone_connect 2)
-		(attr smd)
+		(attr smd exclude_from_bom)
 		(pad "1" thru_hole circle
 			(at 0 0)
 			(size 0.5 0.5)
@@ -5156,9 +5215,12 @@
 				)
 			)
 		)
+		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/90e72c1b-1b63-436a-a402-e66c09b02004")
+		(sheetname "Root")
+		(sheetfile "tac5212_audio_board_single_ended.kicad_sch")
 		(zone_connect 2)
-		(attr smd)
+		(attr smd exclude_from_bom)
 		(pad "1" thru_hole circle
 			(at 0 0)
 			(size 0.5 0.5)
@@ -5296,7 +5358,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "SOT?23*")
 		(path "/1792e624-bf86-4447-9b59-761502973174")
+		(sheetname "Root")
+		(sheetfile "tac5212_audio_board_single_ended.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 1.56)
@@ -5565,7 +5630,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/65abf481-318d-49e9-bd83-f0da0540a3a6")
+		(sheetname "Root")
+		(sheetfile "tac5212_audio_board_single_ended.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.167621 -0.380001)
@@ -5774,9 +5842,12 @@
 				)
 			)
 		)
+		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/e94db00c-b1b5-4b6c-b398-95a6b8fb7dd4")
+		(sheetname "Root")
+		(sheetfile "tac5212_audio_board_single_ended.kicad_sch")
 		(zone_connect 2)
-		(attr smd)
+		(attr smd exclude_from_bom)
 		(pad "1" thru_hole circle
 			(at 0 0)
 			(size 0.5 0.5)
@@ -5868,9 +5939,12 @@
 				)
 			)
 		)
+		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/e8504821-d847-4246-a641-2021084b7a41")
+		(sheetname "Root")
+		(sheetfile "tac5212_audio_board_single_ended.kicad_sch")
 		(zone_connect 2)
-		(attr smd)
+		(attr smd exclude_from_bom)
 		(pad "1" thru_hole circle
 			(at 0 0)
 			(size 0.5 0.5)
@@ -6019,7 +6093,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/7bd5a80e-076d-4e7d-bd85-11e6e29294c2")
+		(sheetname "Root")
+		(sheetfile "tac5212_audio_board_single_ended.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -6234,6 +6311,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6245,6 +6323,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6256,6 +6335,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6267,6 +6347,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6278,6 +6359,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6289,6 +6371,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6344,8 +6427,11 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Jumper* TestPoint*2Pads* TestPoint*Bridge*")
 		(path "/f5e169a2-e60c-4f21-82f1-3c4691e3fb77")
-		(attr through_hole exclude_from_bom)
+		(sheetname "Root")
+		(sheetfile "tac5212_audio_board_single_ended.kicad_sch")
+		(attr through_hole)
 		(net_tie_pad_groups "1, 2")
 		(fp_poly
 			(pts
@@ -6389,7 +6475,7 @@
 			(at -0.504 0 270)
 			(size 0.5 0.508)
 			(layers "F.Cu" "F.Mask")
-			(net 66 "Net-(E1-A)")
+			(net 70 "unconnected-(E1-A-Pad1)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "e4a20f20-0280-47d3-9791-d531f41a2fec")
@@ -6480,7 +6566,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/0e6b2f6d-9e9b-45fb-bfef-898e1d6151a8")
+		(sheetname "Root")
+		(sheetfile "tac5212_audio_board_single_ended.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.146267 -0.51)
@@ -6687,7 +6776,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/b1737431-4690-44d0-aca8-e9623630387c")
+		(sheetname "Root")
+		(sheetfile "tac5212_audio_board_single_ended.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.107836 0.36)
@@ -6894,7 +6986,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/e8089c50-a19e-473b-a100-146653c3b273")
+		(sheetname "Root")
+		(sheetfile "tac5212_audio_board_single_ended.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261253 0.735)
@@ -7101,7 +7196,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/3960899a-3c41-4fde-9385-d1319229285b")
+		(sheetname "Root")
+		(sheetfile "tac5212_audio_board_single_ended.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 1.6 -1.135)
@@ -7370,7 +7468,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/bf469e22-872a-4552-b4f3-52fcf0df4ac7")
+		(sheetname "Root")
+		(sheetfile "tac5212_audio_board_single_ended.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.107836 0.36)
@@ -7585,6 +7686,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -7596,6 +7698,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -7607,6 +7710,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -7618,6 +7722,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -7629,6 +7734,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -7640,6 +7746,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -7695,8 +7802,11 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Jumper* TestPoint*2Pads* TestPoint*Bridge*")
 		(path "/94eb7cb5-f04a-4400-a349-326c33ddde95")
-		(attr through_hole exclude_from_bom)
+		(sheetname "Root")
+		(sheetfile "tac5212_audio_board_single_ended.kicad_sch")
+		(attr through_hole)
 		(net_tie_pad_groups "1, 2")
 		(fp_poly
 			(pts
@@ -7740,7 +7850,7 @@
 			(at -0.504 0 270)
 			(size 0.5 0.508)
 			(layers "F.Cu" "F.Mask")
-			(net 66 "Net-(E1-A)")
+			(net 71 "unconnected-(E2-A-Pad1)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "9a0bd523-6573-43a7-89c3-6599ec81ae52")
@@ -7881,7 +7991,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "SolderJumper*Open*")
 		(path "/8c0518e0-1c41-404a-971e-d5b30ae2b1d6")
+		(sheetname "Root")
+		(sheetfile "tac5212_audio_board_single_ended.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 1.25 -0.6)
@@ -8109,8 +8222,11 @@
 				)
 			)
 		)
+		(property ki_fp_filters "SolderJumper*Open*")
 		(path "/f7ddfa20-9d8a-4e95-8ea1-91dc8231e9ac")
-		(attr through_hole)
+		(sheetname "Root")
+		(sheetfile "tac5212_audio_board_single_ended.kicad_sch")
+		(attr through_hole exclude_from_bom)
 		(fp_poly
 			(pts
 				(xy 0.254 0.254) (xy -0.254 0.254) (xy -0.254 -0.254) (xy 0.254 -0.254)
@@ -8220,7 +8336,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/68dbba23-7cb5-49a0-a424-56d8432f501d")
+		(sheetname "Root")
+		(sheetfile "tac5212_audio_board_single_ended.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.167621 -0.380001)
@@ -8435,6 +8554,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -8446,6 +8566,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -8457,6 +8578,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -8468,6 +8590,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -8479,6 +8602,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -8490,6 +8614,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -8545,8 +8670,11 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Jumper* TestPoint*2Pads* TestPoint*Bridge*")
 		(path "/d367cfba-26e9-491e-9e4e-8e3f63954153")
-		(attr through_hole exclude_from_bom)
+		(sheetname "Root")
+		(sheetfile "tac5212_audio_board_single_ended.kicad_sch")
+		(attr through_hole)
 		(net_tie_pad_groups "1, 2")
 		(fp_poly
 			(pts
@@ -8728,7 +8856,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/80a13349-d8c0-4e62-889a-42d7dd342091")
+		(sheetname "Root")
+		(sheetfile "tac5212_audio_board_single_ended.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 -0.735)
@@ -8971,7 +9102,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/87531ab6-437f-45d0-984c-2fe8b1819e8d")
+		(sheetname "Root")
+		(sheetfile "tac5212_audio_board_single_ended.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 0.38)
@@ -9178,7 +9312,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/09c47674-d419-48aa-9e77-56f928472679")
+		(sheetname "Root")
+		(sheetfile "tac5212_audio_board_single_ended.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.140581 -0.51)
@@ -9421,7 +9558,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/b7ed700e-af47-4d03-be4a-ec2c56df2e1f")
+		(sheetname "Root")
+		(sheetfile "tac5212_audio_board_single_ended.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 0.38)
@@ -9628,7 +9768,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/acf83691-4030-4c5c-9117-884e61fef32a")
+		(sheetname "Root")
+		(sheetfile "tac5212_audio_board_single_ended.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.167621 -0.380001)
@@ -9897,7 +10040,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "SolderJumper*Open*")
 		(path "/e4d6606e-9b04-4793-a38e-267210672300")
+		(sheetname "Root")
+		(sheetfile "tac5212_audio_board_single_ended.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -1.25 -0.6)
@@ -10076,7 +10222,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/b372c18f-5a8a-4579-926b-286550e80329")
+		(sheetname "Root")
+		(sheetfile "tac5212_audio_board_single_ended.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.167621 -0.380001)
@@ -10283,7 +10432,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/ec219fb4-6577-4da0-82b6-5187992ee125")
+		(sheetname "Root")
+		(sheetfile "tac5212_audio_board_single_ended.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.635 -2.11)
@@ -10925,6 +11077,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -10936,6 +11089,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -10947,6 +11101,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -10958,6 +11113,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -10969,6 +11125,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -10980,6 +11137,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -11035,8 +11193,11 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Jumper* TestPoint*2Pads* TestPoint*Bridge*")
 		(path "/ce9e8631-bcbf-4890-9c94-c53b49356a29")
-		(attr through_hole exclude_from_bom)
+		(sheetname "Root")
+		(sheetfile "tac5212_audio_board_single_ended.kicad_sch")
+		(attr through_hole)
 		(net_tie_pad_groups "1, 2")
 		(fp_poly
 			(pts
@@ -11080,7 +11241,7 @@
 			(at -0.504 0 90)
 			(size 0.5 0.508)
 			(layers "F.Cu" "F.Mask")
-			(net 67 "Net-(G1-A)")
+			(net 73 "unconnected-(G2-A-Pad1)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "ae962c2b-22a4-4ccf-8f85-1f4d9f21ca11")
@@ -11195,7 +11356,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/74a01037-2e4c-4fc0-91e0-01c1dd5938fc")
+		(sheetname "Root")
+		(sheetfile "tac5212_audio_board_single_ended.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 0.38)
@@ -11404,9 +11568,12 @@
 				)
 			)
 		)
+		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/02c2136c-2069-412a-84ce-6d59986e427f")
+		(sheetname "Root")
+		(sheetfile "tac5212_audio_board_single_ended.kicad_sch")
 		(zone_connect 2)
-		(attr smd)
+		(attr smd exclude_from_bom)
 		(pad "1" thru_hole circle
 			(at 0 0)
 			(size 0.5 0.5)
@@ -11498,9 +11665,12 @@
 				)
 			)
 		)
+		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/e06702df-1f64-4ce6-823a-77fce2e74341")
+		(sheetname "Root")
+		(sheetfile "tac5212_audio_board_single_ended.kicad_sch")
 		(zone_connect 2)
-		(attr smd)
+		(attr smd exclude_from_bom)
 		(pad "1" thru_hole circle
 			(at 0 0)
 			(size 0.5 0.5)
@@ -11649,7 +11819,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/83213711-8e51-4d8c-9242-b542feb57926")
+		(sheetname "Root")
+		(sheetfile "tac5212_audio_board_single_ended.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -11864,6 +12037,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -11875,6 +12049,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -11886,6 +12061,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -11897,6 +12073,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -11908,6 +12085,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -11919,6 +12097,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -11974,8 +12153,11 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Jumper* TestPoint*2Pads* TestPoint*Bridge*")
 		(path "/068586b6-1410-4173-892d-37c578ac3e2f")
-		(attr through_hole exclude_from_bom)
+		(sheetname "Root")
+		(sheetfile "tac5212_audio_board_single_ended.kicad_sch")
+		(attr through_hole)
 		(net_tie_pad_groups "1, 2")
 		(fp_poly
 			(pts
@@ -12019,7 +12201,7 @@
 			(at -0.504 0 90)
 			(size 0.5 0.508)
 			(layers "F.Cu" "F.Mask")
-			(net 67 "Net-(G1-A)")
+			(net 72 "unconnected-(G1-A-Pad1)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "d112ad3d-fdf2-4fd0-bb1a-6d740b9012b1")
@@ -12100,9 +12282,12 @@
 				)
 			)
 		)
+		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/f8505495-35fe-4bd7-9735-5708e4e46385")
+		(sheetname "Root")
+		(sheetfile "tac5212_audio_board_single_ended.kicad_sch")
 		(zone_connect 2)
-		(attr smd)
+		(attr smd exclude_from_bom)
 		(pad "1" thru_hole circle
 			(at 0 0)
 			(size 0.5 0.5)
@@ -12194,9 +12379,12 @@
 				)
 			)
 		)
+		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/f13eb2cb-fd0e-4cde-a205-2e4a51425ab2")
+		(sheetname "Root")
+		(sheetfile "tac5212_audio_board_single_ended.kicad_sch")
 		(zone_connect 2)
-		(attr smd)
+		(attr smd exclude_from_bom)
 		(pad "1" thru_hole circle
 			(at 0 0)
 			(size 0.5 0.5)
@@ -12286,7 +12474,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/82986b35-0265-4797-9141-435dd7f20874")
+		(sheetname "Root")
+		(sheetfile "tac5212_audio_board_single_ended.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 -0.38)
@@ -12563,7 +12754,10 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/7c99ebb8-899c-4337-b4b9-04c6a002a9a6")
+		(sheetname "Root")
+		(sheetfile "tac5212_audio_board_single_ended.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.261252 -0.735)
@@ -12789,7 +12983,10 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "CP_*")
 		(path "/853bb9c1-555d-4658-8586-37f57bdad46c")
+		(sheetname "Root")
+		(sheetfile "tac5212_audio_board_single_ended.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.146267 0.51)
@@ -13176,8 +13373,11 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "SolderJumper*Open*")
 		(path "/ce895be6-b4ee-4e53-a50d-d6e245b04b15")
-		(attr through_hole)
+		(sheetname "Root")
+		(sheetfile "tac5212_audio_board_single_ended.kicad_sch")
+		(attr through_hole exclude_from_bom)
 		(net_tie_pad_groups "1, 2")
 		(fp_rect
 			(start 0.475 -0.2)
@@ -13345,7 +13545,10 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "SOT?323*")
 		(path "/db86e28f-0a1f-40ab-9c1e-d11acc784735")
+		(sheetname "Root")
+		(sheetfile "tac5212_audio_board_single_ended.kicad_sch")
 		(attr smd)
 		(fp_circle
 			(center -1.265 0)
@@ -13635,7 +13838,10 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/d68ec82a-dd0c-46f5-9525-62d0fd80df40")
+		(sheetname "Root")
+		(sheetfile "tac5212_audio_board_single_ended.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.227064 -0.735)
@@ -14022,8 +14228,11 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "SolderJumper*Open*")
 		(path "/bf37fb8e-5015-407b-87fe-e7b5faafd973")
-		(attr through_hole)
+		(sheetname "Root")
+		(sheetfile "tac5212_audio_board_single_ended.kicad_sch")
+		(attr through_hole exclude_from_bom)
 		(net_tie_pad_groups "1, 2")
 		(fp_rect
 			(start 0.475 -0.2)
@@ -14217,7 +14426,10 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/d2ed790a-27c6-4771-88b9-6a93eaf99f59")
+		(sheetname "Root")
+		(sheetfile "tac5212_audio_board_single_ended.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.261252 -0.735)
@@ -14521,7 +14733,10 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "CP_*")
 		(path "/72097a06-01f4-4219-9d8b-0c15219087d8")
+		(sheetname "Root")
+		(sheetfile "tac5212_audio_board_single_ended.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.146267 0.51)
@@ -14742,6 +14957,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -14754,6 +14970,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -14766,6 +14983,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -14778,6 +14996,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -14790,6 +15009,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -14802,6 +15022,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -14862,8 +15083,11 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "Jumper* TestPoint*2Pads* TestPoint*Bridge*")
 		(path "/d58f1f68-66f2-4e1e-a6aa-126d05d6f4d3")
-		(attr through_hole exclude_from_bom)
+		(sheetname "Root")
+		(sheetfile "tac5212_audio_board_single_ended.kicad_sch")
+		(attr through_hole)
 		(net_tie_pad_groups "1, 2")
 		(fp_poly
 			(pts
@@ -15082,7 +15306,10 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "CP_*")
 		(path "/0e6fd2cf-9106-4bad-a8dc-837159eb16d2")
+		(sheetname "Root")
+		(sheetfile "tac5212_audio_board_single_ended.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.146267 0.51)
@@ -15469,8 +15696,11 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "SolderJumper*Open*")
 		(path "/86461545-efbc-4fe3-bdd6-65b7f7562556")
-		(attr through_hole)
+		(sheetname "Root")
+		(sheetfile "tac5212_audio_board_single_ended.kicad_sch")
+		(attr through_hole exclude_from_bom)
 		(net_tie_pad_groups "1, 2")
 		(fp_rect
 			(start 0.475 -0.2)
@@ -15677,7 +15907,10 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "CP_*")
 		(path "/14379ae9-dd05-4247-85bc-dcedae74d42a")
+		(sheetname "Root")
+		(sheetfile "tac5212_audio_board_single_ended.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 1.75 -1.51)
@@ -15975,7 +16208,10 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/08dbf94f-c680-4433-b89a-eaf7914142b1")
+		(sheetname "Root")
+		(sheetfile "tac5212_audio_board_single_ended.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.261252 -0.735)
@@ -16362,8 +16598,11 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "SolderJumper*Open*")
 		(path "/43e4781f-629d-4e96-937a-ca9341f6d277")
-		(attr through_hole)
+		(sheetname "Root")
+		(sheetfile "tac5212_audio_board_single_ended.kicad_sch")
+		(attr through_hole exclude_from_bom)
 		(net_tie_pad_groups "1, 2")
 		(fp_rect
 			(start 0.475 -0.2)
@@ -16500,6 +16739,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -16512,6 +16752,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -16524,6 +16765,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -16536,6 +16778,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -16548,6 +16791,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -16560,6 +16804,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -16620,8 +16865,11 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "Jumper* TestPoint*2Pads* TestPoint*Bridge*")
 		(path "/d518a76d-5df6-4e5c-ae14-fe8c7b1bdf42")
-		(attr through_hole exclude_from_bom)
+		(sheetname "Root")
+		(sheetfile "tac5212_audio_board_single_ended.kicad_sch")
+		(attr through_hole)
 		(net_tie_pad_groups "1, 2")
 		(fp_poly
 			(pts
@@ -16756,6 +17004,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -16768,6 +17017,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -16780,6 +17030,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -16792,6 +17043,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -16804,6 +17056,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -16816,6 +17069,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -16873,8 +17127,11 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "Jumper* TestPoint*2Pads* TestPoint*Bridge*")
 		(path "/fbaffd3e-450b-449c-86a6-cca6ba0a3653")
-		(attr through_hole exclude_from_bom)
+		(sheetname "Root")
+		(sheetfile "tac5212_audio_board_single_ended.kicad_sch")
+		(attr through_hole)
 		(net_tie_pad_groups "1, 2")
 		(fp_poly
 			(pts
@@ -17056,7 +17313,10 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "SolderJumper*Open*")
 		(path "/4be506fc-d95a-4519-9ad4-8c6f78f8335e")
+		(sheetname "Root")
+		(sheetfile "tac5212_audio_board_single_ended.kicad_sch")
 		(attr through_hole)
 		(fp_poly
 			(pts
@@ -17237,7 +17497,10 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "CP_*")
 		(path "/00ab8bf5-2e64-43a7-921f-e9b5f95ae03f")
+		(sheetname "Root")
+		(sheetfile "tac5212_audio_board_single_ended.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.635 -1.51)
@@ -17478,6 +17741,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -17490,6 +17754,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -17502,6 +17767,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -17514,6 +17780,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -17526,6 +17793,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -17538,6 +17806,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -17595,8 +17864,11 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "Jumper* TestPoint*2Pads* TestPoint*Bridge*")
 		(path "/8f5e9a60-abdf-4468-941d-5dab1e2710e9")
-		(attr through_hole exclude_from_bom)
+		(sheetname "Root")
+		(sheetfile "tac5212_audio_board_single_ended.kicad_sch")
+		(attr through_hole)
 		(net_tie_pad_groups "1, 2")
 		(fp_poly
 			(pts
@@ -17788,7 +18060,10 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/fabbbe39-452d-4824-8a8f-b37cb5775882")
+		(sheetname "Root")
+		(sheetfile "tac5212_audio_board_single_ended.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.227064 0.735)
@@ -18040,7 +18315,10 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "SOT?323*")
 		(path "/dee494ce-70bb-46d0-86f5-5ddf4e42005d")
+		(sheetname "Root")
+		(sheetfile "tac5212_audio_board_single_ended.kicad_sch")
 		(attr smd)
 		(fp_circle
 			(center -1.265 0)
@@ -18331,7 +18609,10 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "Inductor_* L_* *Ferrite*")
 		(path "/c49b3aa7-4cc5-4652-9853-13f0928253f5")
+		(sheetname "Root")
+		(sheetfile "tac5212_audio_board_single_ended.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.261252 0.735)
@@ -18609,7 +18890,10 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "Inductor_* L_* *Ferrite*")
 		(path "/820ef078-264f-40e9-be44-385b2bf11963")
+		(sheetname "Root")
+		(sheetfile "tac5212_audio_board_single_ended.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.261252 0.735)
@@ -18886,7 +19170,10 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/466cfa18-e62b-46e5-871b-ad6b184f09b1")
+		(sheetname "Root")
+		(sheetfile "tac5212_audio_board_single_ended.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.227064 -0.735)
@@ -19138,7 +19425,10 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "SOT?323*")
 		(path "/accef275-5270-4995-bd4e-5d6dde1c94c3")
+		(sheetname "Root")
+		(sheetfile "tac5212_audio_board_single_ended.kicad_sch")
 		(attr smd)
 		(fp_circle
 			(center -1.265 0)
@@ -19429,7 +19719,10 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/9d4efde3-d228-44d5-95eb-f099f723a324")
+		(sheetname "Root")
+		(sheetfile "tac5212_audio_board_single_ended.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.261252 -0.735)
@@ -19694,7 +19987,10 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "SOT?23*")
 		(path "/dd059499-dea7-4ab4-816d-cb440703fe76")
+		(sheetname "Root")
+		(sheetfile "tac5212_audio_board_single_ended.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.8 1.56)
@@ -20008,7 +20304,10 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "SOT?323*")
 		(path "/defead2f-0ea1-42cd-b7bf-2a45e5d8cce5")
+		(sheetname "Root")
+		(sheetfile "tac5212_audio_board_single_ended.kicad_sch")
 		(attr smd)
 		(fp_circle
 			(center -1.265 0)
@@ -20299,7 +20598,10 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/c81bfab6-d25f-48d2-a967-66e9cb052afc")
+		(sheetname "Root")
+		(sheetfile "tac5212_audio_board_single_ended.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.261252 -0.735)
@@ -20525,7 +20827,10 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "CP_*")
 		(path "/c04c3f4e-23b3-43b0-b9f7-7f95087b9356")
+		(sheetname "Root")
+		(sheetfile "tac5212_audio_board_single_ended.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.146267 0.51)
@@ -20777,7 +21082,10 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "SOT?323*")
 		(path "/7cd36c3e-aa98-49dd-8b1a-9d2a362012e2")
+		(sheetname "Root")
+		(sheetfile "tac5212_audio_board_single_ended.kicad_sch")
 		(attr smd)
 		(fp_circle
 			(center -1.265 0)
@@ -21081,7 +21389,10 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "CP_*")
 		(path "/3ad03f81-6efc-43eb-a8eb-225c26425005")
+		(sheetname "Root")
+		(sheetfile "tac5212_audio_board_single_ended.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 1.75 -1.51)
@@ -21353,7 +21664,10 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "SOT?323*")
 		(path "/8651d1d0-3c7e-49bb-b720-efc32b7fb343")
+		(sheetname "Root")
+		(sheetfile "tac5212_audio_board_single_ended.kicad_sch")
 		(attr smd)
 		(fp_circle
 			(center -1.265 0)
@@ -21644,7 +21958,10 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/e907b9c0-b480-4adb-ae03-80f7c78ac466")
+		(sheetname "Root")
+		(sheetfile "tac5212_audio_board_single_ended.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.261252 -0.735)
@@ -21922,7 +22239,10 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "CP_*")
 		(path "/ddedf5d1-e93c-4dd8-a8b7-67e37a1a866c")
+		(sheetname "Root")
+		(sheetfile "tac5212_audio_board_single_ended.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 1.75 -1.51)
@@ -22194,7 +22514,10 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "SOT?323*")
 		(path "/545dc02a-2590-498b-b85d-657e0d143001")
+		(sheetname "Root")
+		(sheetfile "tac5212_audio_board_single_ended.kicad_sch")
 		(attr smd)
 		(fp_circle
 			(center -1.265 0)
@@ -22594,8 +22917,11 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "SolderJumper*Open*")
 		(path "/347c3975-05e9-43f9-9192-a7155bed6c0e")
-		(attr through_hole)
+		(sheetname "Root")
+		(sheetfile "tac5212_audio_board_single_ended.kicad_sch")
+		(attr through_hole exclude_from_bom)
 		(net_tie_pad_groups "1, 2")
 		(fp_rect
 			(start 0.475 -0.2)
@@ -22788,7 +23114,10 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/0ae28cf7-d0cd-4273-87b7-8d4878ec4f17")
+		(sheetname "Root")
+		(sheetfile "tac5212_audio_board_single_ended.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.227064 0.735)
@@ -23175,8 +23504,11 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "SolderJumper*Open*")
 		(path "/0d82802a-4fd5-4ce1-a812-e993e4c48ed6")
-		(attr through_hole)
+		(sheetname "Root")
+		(sheetfile "tac5212_audio_board_single_ended.kicad_sch")
+		(attr through_hole exclude_from_bom)
 		(net_tie_pad_groups "1, 2")
 		(fp_rect
 			(start 0.475 -0.2)
@@ -23370,7 +23702,10 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "Inductor_* L_* *Ferrite*")
 		(path "/50accd38-6890-4098-a782-2427713d8e6c")
+		(sheetname "Root")
+		(sheetfile "tac5212_audio_board_single_ended.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.261252 0.735)
@@ -23648,7 +23983,10 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "Inductor_* L_* *Ferrite*")
 		(path "/3dfdf0d0-9bfe-4514-8886-44f5e1a00c03")
+		(sheetname "Root")
+		(sheetfile "tac5212_audio_board_single_ended.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.261252 0.735)
@@ -23900,7 +24238,10 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "SOT?323*")
 		(path "/d9f2d0e2-789d-481b-b97c-10b24d54a733")
+		(sheetname "Root")
+		(sheetfile "tac5212_audio_board_single_ended.kicad_sch")
 		(attr smd)
 		(fp_circle
 			(center -1.265 0)
@@ -24300,8 +24641,11 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "SolderJumper*Open*")
 		(path "/59d9d0d7-e8ad-4718-b601-364aeaf28410")
-		(attr through_hole)
+		(sheetname "Root")
+		(sheetfile "tac5212_audio_board_single_ended.kicad_sch")
+		(attr through_hole exclude_from_bom)
 		(net_tie_pad_groups "1, 2")
 		(fp_rect
 			(start 0.475 -0.2)
@@ -24495,7 +24839,10 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/b0c765ba-4c2b-412a-9e04-e67326a6cded")
+		(sheetname "Root")
+		(sheetfile "tac5212_audio_board_single_ended.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.261252 -0.735)
@@ -24882,8 +25229,11 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "SolderJumper*Open*")
 		(path "/7d45ced2-df90-4452-8d0f-c41a668e0b44")
-		(attr through_hole)
+		(sheetname "Root")
+		(sheetfile "tac5212_audio_board_single_ended.kicad_sch")
+		(attr through_hole exclude_from_bom)
 		(net_tie_pad_groups "1, 2")
 		(fp_rect
 			(start 0.475 -0.2)
@@ -25006,6 +25356,94 @@
 			(width 0)
 			(type solid)
 		)
+	)
+	(segment
+		(start 100.326 98.57)
+		(end 99.7 99.196)
+		(width 0.25)
+		(layer "F.Cu")
+		(net 0)
+		(uuid "078dbccb-1560-4f40-8657-4150acd974ee")
+	)
+	(segment
+		(start 99.7 99.196)
+		(end 97.5015 99.196)
+		(width 0.25)
+		(layer "F.Cu")
+		(net 0)
+		(uuid "0909c066-5510-4bf0-8acd-e1b5f2a85413")
+	)
+	(segment
+		(start 124.3435 99.196)
+		(end 122.1 99.196)
+		(width 0.25)
+		(layer "F.Cu")
+		(net 0)
+		(uuid "1a687a99-b95c-4fe4-b9de-3622eaf3393b")
+	)
+	(segment
+		(start 122.1 99.196)
+		(end 121.474 98.57)
+		(width 0.25)
+		(layer "F.Cu")
+		(net 0)
+		(uuid "2133e076-a3cc-4295-8f86-46192e48dca6")
+	)
+	(segment
+		(start 96.9525 122.605)
+		(end 99.399 122.605)
+		(width 0.25)
+		(layer "F.Cu")
+		(net 0)
+		(uuid "27650c29-cba1-463e-8b82-78dd9017b865")
+	)
+	(segment
+		(start 121.474 98.57)
+		(end 100.326 98.57)
+		(width 0.25)
+		(layer "F.Cu")
+		(net 0)
+		(uuid "398d1f3c-a80b-4772-afb2-5a94f6ce9bea")
+	)
+	(segment
+		(start 124.2975 123.2)
+		(end 122.2 123.2)
+		(width 0.25)
+		(layer "F.Cu")
+		(net 0)
+		(uuid "425e7504-4974-4778-84f4-d7bdf9f4d569")
+	)
+	(segment
+		(start 99.399 122.605)
+		(end 99.5 122.504)
+		(width 0.25)
+		(layer "F.Cu")
+		(net 0)
+		(uuid "7d186b1b-df10-4a9d-b9a0-121c72de163c")
+	)
+	(segment
+		(start 124.8925 99.745)
+		(end 124.3435 99.196)
+		(width 0.25)
+		(layer "F.Cu")
+		(net 0)
+		(uuid "a7b6aa4c-7d22-4c69-a7a6-eec041c2b619")
+	)
+	(segment
+		(start 124.8925 122.605)
+		(end 124.2975 123.2)
+		(width 0.25)
+		(layer "F.Cu")
+		(net 0)
+		(uuid "bf9ed5bc-9453-4db0-8baf-f1c0caf9a733")
+	)
+	(segment
+		(start 97.5015 99.196)
+		(end 96.9525 99.745)
+		(width 0.25)
+		(layer "F.Cu")
+		(net 0)
+		(uuid "f57ac02a-068f-4662-9e63-4ac8feb50f46")
 	)
 	(segment
 		(start 100.728249 111.498961)
@@ -29222,94 +29660,6 @@
 		(layer "B.Cu")
 		(net 65)
 		(uuid "a37b6818-8237-42a4-bd69-4424a680a5a5")
-	)
-	(segment
-		(start 100.326 98.57)
-		(end 99.7 99.196)
-		(width 0.25)
-		(layer "F.Cu")
-		(net 66)
-		(uuid "078dbccb-1560-4f40-8657-4150acd974ee")
-	)
-	(segment
-		(start 99.7 99.196)
-		(end 97.5015 99.196)
-		(width 0.25)
-		(layer "F.Cu")
-		(net 66)
-		(uuid "0909c066-5510-4bf0-8acd-e1b5f2a85413")
-	)
-	(segment
-		(start 124.3435 99.196)
-		(end 122.1 99.196)
-		(width 0.25)
-		(layer "F.Cu")
-		(net 66)
-		(uuid "1a687a99-b95c-4fe4-b9de-3622eaf3393b")
-	)
-	(segment
-		(start 122.1 99.196)
-		(end 121.474 98.57)
-		(width 0.25)
-		(layer "F.Cu")
-		(net 66)
-		(uuid "2133e076-a3cc-4295-8f86-46192e48dca6")
-	)
-	(segment
-		(start 121.474 98.57)
-		(end 100.326 98.57)
-		(width 0.25)
-		(layer "F.Cu")
-		(net 66)
-		(uuid "398d1f3c-a80b-4772-afb2-5a94f6ce9bea")
-	)
-	(segment
-		(start 124.8925 99.745)
-		(end 124.3435 99.196)
-		(width 0.25)
-		(layer "F.Cu")
-		(net 66)
-		(uuid "a7b6aa4c-7d22-4c69-a7a6-eec041c2b619")
-	)
-	(segment
-		(start 97.5015 99.196)
-		(end 96.9525 99.745)
-		(width 0.25)
-		(layer "F.Cu")
-		(net 66)
-		(uuid "f57ac02a-068f-4662-9e63-4ac8feb50f46")
-	)
-	(segment
-		(start 96.9525 122.605)
-		(end 99.399 122.605)
-		(width 0.25)
-		(layer "F.Cu")
-		(net 67)
-		(uuid "27650c29-cba1-463e-8b82-78dd9017b865")
-	)
-	(segment
-		(start 124.2975 123.2)
-		(end 122.2 123.2)
-		(width 0.25)
-		(layer "F.Cu")
-		(net 67)
-		(uuid "425e7504-4974-4778-84f4-d7bdf9f4d569")
-	)
-	(segment
-		(start 99.399 122.605)
-		(end 99.5 122.504)
-		(width 0.25)
-		(layer "F.Cu")
-		(net 67)
-		(uuid "7d186b1b-df10-4a9d-b9a0-121c72de163c")
-	)
-	(segment
-		(start 124.8925 122.605)
-		(end 124.2975 123.2)
-		(width 0.25)
-		(layer "F.Cu")
-		(net 67)
-		(uuid "bf9ed5bc-9453-4db0-8baf-f1c0caf9a733")
 	)
 	(zone
 		(net 3)

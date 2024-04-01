@@ -3854,6 +3854,28 @@
 		)
 		(symbol "Conn_02x33_Odd_Even_1_1"
 			(rectangle
+				(start -20.32 -33.02)
+				(end -19.05 -33.274)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -20.32 -30.48)
+				(end -19.05 -30.734)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
 				(start -20.32 -27.94)
 				(end -19.05 -28.194)
 				(stroke
@@ -5218,7 +5240,7 @@
 				)
 			)
 			(pin passive line
-				(at 25.4 -25.4 180)
+				(at -24.13 -30.48 0)
 				(length 3.81)
 				(name "AGND"
 					(effects
@@ -5236,7 +5258,7 @@
 				)
 			)
 			(pin passive line
-				(at 25.4 -27.94 180)
+				(at -24.13 -33.02 0)
 				(length 3.81)
 				(name "DGND"
 					(effects

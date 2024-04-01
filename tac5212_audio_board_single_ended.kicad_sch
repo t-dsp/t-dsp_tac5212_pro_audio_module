@@ -940,6 +940,28 @@
 			)
 			(symbol "Conn_02x33_Odd_Even_1_1"
 				(rectangle
+					(start -20.32 -33.02)
+					(end -19.05 -33.274)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -20.32 -30.48)
+					(end -19.05 -30.734)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
 					(start -20.32 -27.94)
 					(end -19.05 -28.194)
 					(stroke
@@ -2304,7 +2326,7 @@
 					)
 				)
 				(pin passive line
-					(at 25.4 -25.4 180)
+					(at -24.13 -30.48 0)
 					(length 3.81)
 					(name "AGND"
 						(effects
@@ -2322,7 +2344,7 @@
 					)
 				)
 				(pin passive line
-					(at 25.4 -27.94 180)
+					(at -24.13 -33.02 0)
 					(length 3.81)
 					(name "DGND"
 						(effects
@@ -4904,16 +4926,22 @@
 		(uuid "096a7a0f-04a8-4df7-bb24-27b8d8390237")
 	)
 	(junction
-		(at 33.02 118.11)
+		(at 104.14 299.72)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0d0cbdf4-c0d8-4653-8d2a-8a32a2168077")
+		(uuid "0d7d5905-9a0f-4e3d-977d-e4d00f334421")
 	)
 	(junction
 		(at 229.87 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "11e07deb-1824-4406-857d-21e3e06693fd")
+	)
+	(junction
+		(at 33.02 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "15766631-37ac-4352-aeb3-4cd53f53ccc4")
 	)
 	(junction
 		(at 234.95 82.55)
@@ -4932,12 +4960,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1ef4c573-7a78-4231-8a81-36ab46c4f88a")
-	)
-	(junction
-		(at 33.02 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "279acf07-363b-4e0a-b93e-1d7a68454603")
 	)
 	(junction
 		(at 217.17 186.69)
@@ -5004,6 +5026,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4dc0cc40-422e-41aa-ad9e-804c6f7b89e7")
+	)
+	(junction
+		(at 262.89 345.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5103ff22-007a-447c-8a2e-c8f3145840b8")
 	)
 	(junction
 		(at 217.17 168.91)
@@ -5076,6 +5104,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "824778ef-2bb7-46c6-b6a8-cefc95e5eb8a")
+	)
+	(junction
+		(at 262.89 340.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "83495e79-6c92-40ae-bfa1-9f9be35ee35d")
 	)
 	(junction
 		(at 96.52 365.76)
@@ -5160,6 +5194,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b15aace0-1154-4418-b0fc-40945d53b700")
+	)
+	(junction
+		(at 33.02 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b60c2c16-d39b-49e0-8cb5-770c1f968de4")
 	)
 	(junction
 		(at 229.87 113.03)
@@ -5283,7 +5323,7 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 345.44) (xy 274.32 345.44)
+			(xy 279.4 350.52) (xy 274.32 350.52)
 		)
 		(stroke
 			(width 0)
@@ -5323,7 +5363,7 @@
 	)
 	(wire
 		(pts
-			(xy 284.48 340.36) (xy 274.32 340.36)
+			(xy 279.4 340.36) (xy 274.32 340.36)
 		)
 		(stroke
 			(width 0)
@@ -5343,7 +5383,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 342.9) (xy 257.81 342.9)
+			(xy 264.16 340.36) (xy 262.89 340.36)
 		)
 		(stroke
 			(width 0)
@@ -5583,7 +5623,7 @@
 	)
 	(wire
 		(pts
-			(xy 287.02 337.82) (xy 274.32 337.82)
+			(xy 279.4 335.28) (xy 274.32 335.28)
 		)
 		(stroke
 			(width 0)
@@ -5593,13 +5633,23 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 337.82) (xy 257.81 337.82)
+			(xy 264.16 335.28) (xy 262.89 335.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2a5f44eb-1af8-4bfa-81e2-9a1a3d83b5a8")
+	)
+	(wire
+		(pts
+			(xy 104.14 299.72) (xy 114.3 299.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b847f38-f969-4dc9-8496-51a504fa863d")
 	)
 	(wire
 		(pts
@@ -5690,6 +5740,26 @@
 			(type default)
 		)
 		(uuid "3b437ff5-9d29-4ba3-869d-7cdbb2490e43")
+	)
+	(wire
+		(pts
+			(xy 262.89 340.36) (xy 262.89 342.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d9d0e09-9fb4-46b3-ad18-13f41770fa70")
+	)
+	(wire
+		(pts
+			(xy 88.9 299.72) (xy 104.14 299.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3de64083-2965-4792-b89b-a33898f146c3")
 	)
 	(wire
 		(pts
@@ -5863,6 +5933,26 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 294.64) (xy 104.14 299.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f80c21b-9f6a-4a44-85c6-60e5cdb020ae")
+	)
+	(wire
+		(pts
+			(xy 64.77 298.45) (xy 67.31 298.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fa0f7dc-ba35-4040-bb05-4eb723a39abf")
+	)
+	(wire
+		(pts
 			(xy 154.94 364.49) (xy 154.94 367.03)
 		)
 		(stroke
@@ -5943,16 +6033,6 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 340.36) (xy 257.81 340.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c866c98-a7df-4da8-97ca-f83b0329cab0")
-	)
-	(wire
-		(pts
 			(xy 69.85 113.03) (xy 53.34 113.03)
 		)
 		(stroke
@@ -6023,7 +6103,17 @@
 	)
 	(wire
 		(pts
-			(xy 280.67 342.9) (xy 274.32 342.9)
+			(xy 262.89 335.28) (xy 262.89 340.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66e1d739-ec32-49f8-a277-00def926537a")
+	)
+	(wire
+		(pts
+			(xy 279.4 345.44) (xy 274.32 345.44)
 		)
 		(stroke
 			(width 0)
@@ -6233,6 +6323,16 @@
 	)
 	(wire
 		(pts
+			(xy 262.89 345.44) (xy 257.81 345.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e3acb1c-1f8c-4943-85d6-02f45b915d3f")
+	)
+	(wire
+		(pts
 			(xy 153.67 359.41) (xy 158.75 359.41)
 		)
 		(stroke
@@ -6293,7 +6393,17 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 322.58) (xy 208.28 322.58)
+			(xy 264.16 345.44) (xy 262.89 345.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85a9199c-13ef-45f3-bf67-5bf04fc274fb")
+	)
+	(wire
+		(pts
+			(xy 200.66 322.58) (xy 208.28 322.58)
 		)
 		(stroke
 			(width 0)
@@ -6380,6 +6490,16 @@
 			(type default)
 		)
 		(uuid "902fe34a-223b-45f8-92d4-a6ceaa1ec872")
+	)
+	(wire
+		(pts
+			(xy 113.03 365.76) (xy 113.03 379.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90b3cb72-0083-4a07-be70-bee94ac9126b")
 	)
 	(wire
 		(pts
@@ -6593,6 +6713,16 @@
 	)
 	(wire
 		(pts
+			(xy 262.89 350.52) (xy 262.89 345.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5c17336-7ee5-4b24-b7f2-0346593ed1d0")
+	)
+	(wire
+		(pts
 			(xy 73.66 190.5) (xy 73.66 199.39)
 		)
 		(stroke
@@ -6613,7 +6743,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 299.72) (xy 78.74 299.72)
+			(xy 81.28 299.72) (xy 78.74 299.72)
 		)
 		(stroke
 			(width 0)
@@ -6983,6 +7113,16 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 342.9) (xy 208.28 342.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8a2b3e5-7bb5-4aea-a0f0-7c2424ad99c1")
+	)
+	(wire
+		(pts
 			(xy 196.85 168.91) (xy 217.17 168.91)
 		)
 		(stroke
@@ -7050,6 +7190,16 @@
 			(type default)
 		)
 		(uuid "dfbfc8e4-dc20-4f12-93ad-db5000bd6fb8")
+	)
+	(wire
+		(pts
+			(xy 191.77 335.28) (xy 208.28 335.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1191046-9f9f-43a7-ac96-247a2bc6ba22")
 	)
 	(wire
 		(pts
@@ -7183,6 +7333,16 @@
 	)
 	(wire
 		(pts
+			(xy 262.89 342.9) (xy 257.81 342.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4524767-6f62-4a03-93dd-f02a4eee9a6b")
+	)
+	(wire
+		(pts
 			(xy 196.85 186.69) (xy 217.17 186.69)
 		)
 		(stroke
@@ -7213,7 +7373,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 345.44) (xy 257.81 345.44)
+			(xy 264.16 350.52) (xy 262.89 350.52)
 		)
 		(stroke
 			(width 0)
@@ -7344,17 +7504,6 @@
 		)
 		(uuid "038f2775-00ff-4463-96f3-b76263b18b0b")
 	)
-	(label "MICBIAS"
-		(at 208.28 335.28 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "085cb51b-8ee5-4a96-a041-c2be8d42e875")
-	)
 	(label "DSP_12V"
 		(at 185.42 276.86 0)
 		(fields_autoplaced yes)
@@ -7464,17 +7613,6 @@
 			(justify left bottom)
 		)
 		(uuid "996e9e15-ab52-43c9-b72b-83b0dba46b88")
-	)
-	(label "MICBIAS"
-		(at 57.15 128.27 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9d7c0c0c-6007-4f41-a010-1fee49255739")
 	)
 	(label "GPI1"
 		(at 57.15 130.81 0)
@@ -7632,7 +7770,7 @@
 	)
 	(global_label "5212_DOUT1"
 		(shape input)
-		(at 67.31 298.45 180)
+		(at 64.77 298.45 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7642,7 +7780,7 @@
 		)
 		(uuid "100bc035-357f-4b7e-a350-b9a6d4688985")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 57.925 298.45 0)
+			(at 55.385 298.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7888,6 +8026,28 @@
 			(effects
 				(font
 					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "AVDD"
+		(shape input)
+		(at 113.03 373.38 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.8 0.8)
+			)
+			(justify left)
+		)
+		(uuid "40386e2c-3a9a-45a4-b552-39cd53653ce0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 117.8817 373.38 0)
+			(effects
+				(font
+					(size 1 1)
 				)
 				(justify left)
 				(hide yes)
@@ -8180,6 +8340,28 @@
 			)
 		)
 	)
+	(global_label "5212_DOUT1"
+		(shape input)
+		(at 99.06 294.64 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.8 0.8)
+			)
+			(justify right)
+		)
+		(uuid "65b6c046-96ca-4a6f-b96d-a596186ec689")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 89.675 294.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "OUT2P"
 		(shape input)
 		(at 186.69 113.03 180)
@@ -8290,6 +8472,28 @@
 			)
 		)
 	)
+	(global_label "IOVDD"
+		(shape input)
+		(at 113.03 365.76 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "794135ec-9e03-4608-8a5e-c946646dcbf4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 119.311 365.6975 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "OUT1M"
 		(shape input)
 		(at 240.03 92.71 0)
@@ -8314,7 +8518,7 @@
 	)
 	(global_label "5212_DOUT1+"
 		(shape input)
-		(at 90.17 299.72 0)
+		(at 114.3 299.72 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8324,7 +8528,7 @@
 		)
 		(uuid "841fd962-79df-4f9e-8ec8-a50c645b63d2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 106.6413 299.72 0)
+			(at 130.7713 299.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8488,7 +8692,7 @@
 			)
 		)
 	)
-	(global_label "AVDD"
+	(global_label "IOVDD"
 		(shape input)
 		(at 54.61 218.44 180)
 		(fields_autoplaced yes)
@@ -8500,7 +8704,7 @@
 		)
 		(uuid "969c0348-efc4-4619-af6a-54aa7d01eb57")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 48.5455 218.44 0)
+			(at 49.2249 218.44 0)
 			(effects
 				(font
 					(size 1 1)
@@ -8567,6 +8771,28 @@
 		(uuid "aea82f18-5e62-4296-a720-1eb1d2417ef3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 191.6431 314.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MICBIAS"
+		(shape input)
+		(at 49.53 128.27 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b1722268-2182-4909-b129-f21d4704d588")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 39.0457 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8655,6 +8881,28 @@
 		(uuid "ba6965a0-3f17-42bf-92bc-9e2aa0c70593")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 177.0507 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MICBIAS"
+		(shape input)
+		(at 208.28 345.44 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bbed415d-5e19-4934-acba-f2bc96dd7f80")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 197.7957 345.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9062,7 +9310,7 @@
 	)
 	(global_label "3.3V_LDO"
 		(shape input)
-		(at 113.03 365.76 0)
+		(at 113.03 379.73 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9072,7 +9320,7 @@
 		)
 		(uuid "fa9be757-cb75-4f9f-88e7-b66300193962")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 122.2374 365.76 0)
+			(at 122.2374 379.73 0)
 			(effects
 				(font
 					(size 1 1)
@@ -9475,7 +9723,7 @@
 	)
 	(symbol
 		(lib_id "proejct_lib:Jumper_2_Bridged")
-		(at 269.24 342.9 0)
+		(at 269.24 345.44 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
@@ -9483,7 +9731,7 @@
 		(dnp no)
 		(uuid "068586b6-1410-4173-892d-37c578ac3e2f")
 		(property "Reference" "G1"
-			(at 274.574 341.884 0)
+			(at 274.574 344.424 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9491,7 +9739,7 @@
 			)
 		)
 		(property "Value" "jumper"
-			(at 262.89 341.63 0)
+			(at 262.89 344.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9499,7 +9747,7 @@
 			)
 		)
 		(property "Footprint" "project_fp:jumper_slice"
-			(at 269.24 342.9 0)
+			(at 269.24 345.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9508,7 +9756,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 269.24 342.9 0)
+			(at 269.24 345.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9517,7 +9765,7 @@
 			)
 		)
 		(property "Description" "Jumper, 2-pole, closed/bridged"
-			(at 269.24 342.9 0)
+			(at 269.24 345.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9526,7 +9774,7 @@
 			)
 		)
 		(property "PCBWAY_2020_04_18" "NO COMPONENT"
-			(at 269.24 342.9 0)
+			(at 269.24 345.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9535,7 +9783,7 @@
 			)
 		)
 		(property "PCBWAY_2020-06-09" "NO COMPONENT"
-			(at 269.24 342.9 0)
+			(at 269.24 345.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9544,7 +9792,7 @@
 			)
 		)
 		(property "PCBWAY_2020-08-27" "NO COMPONENT"
-			(at 269.24 342.9 0)
+			(at 269.24 345.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9553,7 +9801,7 @@
 			)
 		)
 		(property "Label" "G"
-			(at 269.24 342.9 0)
+			(at 269.24 345.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10499,6 +10747,72 @@
 	)
 	(symbol
 		(lib_id "proejct_lib:GNDD")
+		(at 191.77 342.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "10ef3281-600e-4164-b7db-61dd39673f5f")
+		(property "Reference" "#PWR017"
+			(at 191.77 349.25 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 191.77 358.902 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.77 342.9 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 342.9 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 191.77 342.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6031e8c6-82db-442b-ad66-507c6826f59b")
+		)
+		(instances
+			(project "tac5212_audio_board_single_ended"
+				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "proejct_lib:GNDD")
 		(at 72.39 306.07 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10716,79 +11030,6 @@
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
 					(reference "C1014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "proejct_lib:Earth")
-		(at 33.02 107.95 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "162de1c9-58cb-49a9-a9d3-155f89b0b307")
-		(property "Reference" "#PWR01003"
-			(at 33.02 114.3 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "Earth"
-			(at 33.02 111.76 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 33.02 107.95 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 33.02 107.95 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 33.02 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6c06af0d-f5c3-4c66-b4fc-a124bfbde837")
-		)
-		(instances
-			(project "tac5212_audio_board"
-				(path "/2a1c4609-653f-4eaf-819c-f6b44c840ed7"
-					(reference "#PWR01003")
-					(unit 1)
-				)
-			)
-			(project "tac5212_audio_board_single_ended"
-				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -11098,6 +11339,72 @@
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "proejct_lib:GNDD")
+		(at 33.02 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "306b4ae1-fe26-4e8b-91b0-50451de12723")
+		(property "Reference" "#PWR014"
+			(at 33.02 114.3 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 33.02 112.522 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 107.95 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 107.95 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 33.02 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d589b3ca-ce83-458d-bc3e-073e431c5b99")
+		)
+		(instances
+			(project "tac5212_audio_board_single_ended"
+				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -13018,7 +13325,7 @@
 	)
 	(symbol
 		(lib_id "proejct_lib:Earth")
-		(at 287.02 337.82 0)
+		(at 279.4 335.28 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13028,7 +13335,7 @@
 		(fields_autoplaced yes)
 		(uuid "71f4c329-f0da-4a52-a1d6-10d087d36d62")
 		(property "Reference" "#PWR03"
-			(at 287.02 344.17 0)
+			(at 279.4 341.63 0)
 			(effects
 				(font
 					(size 1 1)
@@ -13037,7 +13344,7 @@
 			)
 		)
 		(property "Value" "Earth"
-			(at 287.02 341.63 0)
+			(at 279.4 339.09 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -13046,7 +13353,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 287.02 337.82 0)
+			(at 279.4 335.28 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -13055,7 +13362,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 287.02 337.82 0)
+			(at 279.4 335.28 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -13064,7 +13371,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 287.02 337.82 0)
+			(at 279.4 335.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14143,7 +14450,7 @@
 	)
 	(symbol
 		(lib_id "proejct_lib:R")
-		(at 86.36 299.72 270)
+		(at 85.09 299.72 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14151,7 +14458,7 @@
 		(dnp no)
 		(uuid "83213711-8e51-4d8c-9242-b542feb57926")
 		(property "Reference" "R1"
-			(at 84.709 299.339 90)
+			(at 83.82 299.212 90)
 			(effects
 				(font
 					(size 1 1)
@@ -14159,7 +14466,7 @@
 			)
 		)
 		(property "Value" "49.9 ohm"
-			(at 85.979 300.228 90)
+			(at 84.709 300.228 90)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -14167,7 +14474,7 @@
 			)
 		)
 		(property "Footprint" "project_fp:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 86.36 297.942 90)
+			(at 85.09 297.942 90)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -14176,7 +14483,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 86.36 299.72 0)
+			(at 85.09 299.72 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -14185,7 +14492,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 86.36 299.72 0)
+			(at 85.09 299.72 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -14194,7 +14501,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 86.36 299.72 0)
+			(at 85.09 299.72 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -14203,7 +14510,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 86.36 299.72 0)
+			(at 85.09 299.72 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -14212,7 +14519,7 @@
 			)
 		)
 		(property "Package / Case" "R0805"
-			(at 86.36 299.72 0)
+			(at 85.09 299.72 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -14221,7 +14528,7 @@
 			)
 		)
 		(property "Digikey" ""
-			(at 86.36 299.72 0)
+			(at 85.09 299.72 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -14230,7 +14537,7 @@
 			)
 		)
 		(property "mouser" "603-RC0805DR-072K2L"
-			(at 86.36 299.72 0)
+			(at 85.09 299.72 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -15531,7 +15838,7 @@
 		(dnp no)
 		(uuid "94eb7cb5-f04a-4400-a349-326c33ddde95")
 		(property "Reference" "E2"
-			(at 274.574 339.344 0)
+			(at 274.574 336.804 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15539,7 +15846,7 @@
 			)
 		)
 		(property "Value" "jumper"
-			(at 262.89 339.09 0)
+			(at 262.89 336.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15626,7 +15933,7 @@
 	)
 	(symbol
 		(lib_id "proejct_lib:GNDD")
-		(at 276.86 345.44 0)
+		(at 279.4 350.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15634,7 +15941,7 @@
 		(dnp no)
 		(uuid "9523962e-911d-4cb2-8a60-1df792d651e7")
 		(property "Reference" "#PWR010"
-			(at 276.86 351.79 0)
+			(at 279.4 356.87 0)
 			(effects
 				(font
 					(size 1 1)
@@ -15643,7 +15950,7 @@
 			)
 		)
 		(property "Value" "GNDD"
-			(at 276.86 361.442 0)
+			(at 279.4 366.522 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -15652,7 +15959,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 276.86 345.44 0)
+			(at 279.4 350.52 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -15661,7 +15968,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 276.86 345.44 0)
+			(at 279.4 350.52 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -15670,7 +15977,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 276.86 345.44 0)
+			(at 279.4 350.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16150,79 +16457,6 @@
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
 					(reference "#T#PWR020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "proejct_lib:Earth")
-		(at 33.02 118.11 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9eef5bbe-a347-4299-8f4d-637dc5ca735a")
-		(property "Reference" "#PWR01004"
-			(at 33.02 124.46 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "Earth"
-			(at 33.02 121.92 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 33.02 118.11 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 33.02 118.11 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 33.02 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fff56265-3f6b-4d3b-a033-ec5bd0fcb17f")
-		)
-		(instances
-			(project "tac5212_audio_board"
-				(path "/2a1c4609-653f-4eaf-819c-f6b44c840ed7"
-					(reference "#PWR01004")
-					(unit 1)
-				)
-			)
-			(project "tac5212_audio_board_single_ended"
-				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -16737,7 +16971,7 @@
 	)
 	(symbol
 		(lib_id "proejct_lib:GNDD")
-		(at 201.93 322.58 0)
+		(at 200.66 322.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16745,7 +16979,7 @@
 		(dnp no)
 		(uuid "af0ee138-b265-443c-9a41-d35cf2c2c8c2")
 		(property "Reference" "#PWR011"
-			(at 201.93 328.93 0)
+			(at 200.66 328.93 0)
 			(effects
 				(font
 					(size 1 1)
@@ -16754,7 +16988,7 @@
 			)
 		)
 		(property "Value" "GNDD"
-			(at 201.93 338.582 0)
+			(at 200.66 338.582 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -16763,7 +16997,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 201.93 322.58 0)
+			(at 200.66 322.58 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -16772,7 +17006,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 201.93 322.58 0)
+			(at 200.66 322.58 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -16781,7 +17015,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 201.93 322.58 0)
+			(at 200.66 322.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17251,81 +17485,8 @@
 		)
 	)
 	(symbol
-		(lib_id "proejct_lib:Earth")
-		(at 54.61 201.93 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b9632d01-dce2-44b6-9c33-2f77cbaf6937")
-		(property "Reference" "#PWR01007"
-			(at 54.61 208.28 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "Earth"
-			(at 54.61 205.74 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 54.61 201.93 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 54.61 201.93 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 54.61 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "736a3a04-95b3-4ea5-b1cf-84ea1069545b")
-		)
-		(instances
-			(project "tac5212_audio_board"
-				(path "/2a1c4609-653f-4eaf-819c-f6b44c840ed7"
-					(reference "#PWR01007")
-					(unit 1)
-				)
-			)
-			(project "tac5212_audio_board_single_ended"
-				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "#PWR033")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "proejct_lib:GNDD")
-		(at 280.67 342.9 0)
+		(at 279.4 345.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17333,7 +17494,7 @@
 		(dnp no)
 		(uuid "bb2bd791-e95f-41b6-bc5b-b7a4db142fe9")
 		(property "Reference" "#PWR06"
-			(at 280.67 349.25 0)
+			(at 279.4 351.79 0)
 			(effects
 				(font
 					(size 1 1)
@@ -17342,7 +17503,7 @@
 			)
 		)
 		(property "Value" "GNDD"
-			(at 280.67 358.902 0)
+			(at 279.4 361.442 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -17351,7 +17512,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 280.67 342.9 0)
+			(at 279.4 345.44 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -17360,7 +17521,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 280.67 342.9 0)
+			(at 279.4 345.44 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -17369,7 +17530,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 280.67 342.9 0)
+			(at 279.4 345.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17642,6 +17803,72 @@
 		)
 	)
 	(symbol
+		(lib_id "proejct_lib:GNDD")
+		(at 54.61 201.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c03abb0d-c1f1-4782-800c-fa8baac58fc5")
+		(property "Reference" "#PWR016"
+			(at 54.61 208.28 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 54.61 206.502 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 201.93 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 201.93 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 54.61 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "302f9350-2a3b-425b-b9f3-3c2b94094089")
+		)
+		(instances
+			(project "tac5212_audio_board_single_ended"
+				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "proejct_lib:C_Polarized_Small")
 		(at 194.31 186.69 270)
 		(mirror x)
@@ -17803,7 +18030,7 @@
 	)
 	(symbol
 		(lib_id "proejct_lib:Earth")
-		(at 284.48 340.36 0)
+		(at 279.4 340.36 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17813,7 +18040,7 @@
 		(fields_autoplaced yes)
 		(uuid "c4d853d6-e49d-4454-acf4-d785dce1d654")
 		(property "Reference" "#PWR08"
-			(at 284.48 346.71 0)
+			(at 279.4 346.71 0)
 			(effects
 				(font
 					(size 1 1)
@@ -17822,7 +18049,7 @@
 			)
 		)
 		(property "Value" "Earth"
-			(at 284.48 344.17 0)
+			(at 279.4 344.17 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -17831,7 +18058,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 284.48 340.36 0)
+			(at 279.4 340.36 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -17840,7 +18067,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 284.48 340.36 0)
+			(at 279.4 340.36 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -17849,7 +18076,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 284.48 340.36 0)
+			(at 279.4 340.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18336,7 +18563,7 @@
 	)
 	(symbol
 		(lib_id "proejct_lib:Jumper_2_Bridged")
-		(at 269.24 345.44 0)
+		(at 269.24 350.52 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
@@ -18344,7 +18571,7 @@
 		(dnp no)
 		(uuid "ce9e8631-bcbf-4890-9c94-c53b49356a29")
 		(property "Reference" "G2"
-			(at 274.574 344.424 0)
+			(at 274.574 349.504 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18352,7 +18579,7 @@
 			)
 		)
 		(property "Value" "jumper"
-			(at 262.89 344.17 0)
+			(at 262.89 349.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18360,7 +18587,7 @@
 			)
 		)
 		(property "Footprint" "project_fp:jumper_slice"
-			(at 269.24 345.44 0)
+			(at 269.24 350.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18369,7 +18596,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 269.24 345.44 0)
+			(at 269.24 350.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18378,7 +18605,7 @@
 			)
 		)
 		(property "Description" "Jumper, 2-pole, closed/bridged"
-			(at 269.24 345.44 0)
+			(at 269.24 350.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18387,7 +18614,7 @@
 			)
 		)
 		(property "PCBWAY_2020_04_18" "NO COMPONENT"
-			(at 269.24 345.44 0)
+			(at 269.24 350.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18396,7 +18623,7 @@
 			)
 		)
 		(property "PCBWAY_2020-06-09" "NO COMPONENT"
-			(at 269.24 345.44 0)
+			(at 269.24 350.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18405,7 +18632,7 @@
 			)
 		)
 		(property "PCBWAY_2020-08-27" "NO COMPONENT"
-			(at 269.24 345.44 0)
+			(at 269.24 350.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18414,7 +18641,7 @@
 			)
 		)
 		(property "Label" "G"
-			(at 269.24 345.44 0)
+			(at 269.24 350.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20850,8 +21077,74 @@
 		)
 	)
 	(symbol
+		(lib_id "proejct_lib:GNDD")
+		(at 33.02 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f1908f28-8188-4676-a906-6e0036ab1eb3")
+		(property "Reference" "#PWR012"
+			(at 33.02 124.46 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 33.02 122.682 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 118.11 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 118.11 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 33.02 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a316897f-247f-4dac-8243-7b2bca9e0914")
+		)
+		(instances
+			(project "tac5212_audio_board_single_ended"
+				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "proejct_lib:Jumper_2_Bridged")
-		(at 269.24 337.82 0)
+		(at 269.24 335.28 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
@@ -20859,7 +21152,7 @@
 		(dnp no)
 		(uuid "f5e169a2-e60c-4f21-82f1-3c4691e3fb77")
 		(property "Reference" "E1"
-			(at 274.574 336.804 0)
+			(at 274.574 334.264 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20867,7 +21160,7 @@
 			)
 		)
 		(property "Value" "jumper"
-			(at 262.89 336.55 0)
+			(at 262.89 334.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20875,7 +21168,7 @@
 			)
 		)
 		(property "Footprint" "project_fp:jumper_slice"
-			(at 269.24 337.82 0)
+			(at 269.24 335.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20884,7 +21177,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 269.24 337.82 0)
+			(at 269.24 335.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20893,7 +21186,7 @@
 			)
 		)
 		(property "Description" "Jumper, 2-pole, closed/bridged"
-			(at 269.24 337.82 0)
+			(at 269.24 335.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20902,7 +21195,7 @@
 			)
 		)
 		(property "PCBWAY_2020_04_18" "NO COMPONENT"
-			(at 269.24 337.82 0)
+			(at 269.24 335.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20911,7 +21204,7 @@
 			)
 		)
 		(property "PCBWAY_2020-06-09" "NO COMPONENT"
-			(at 269.24 337.82 0)
+			(at 269.24 335.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20920,7 +21213,7 @@
 			)
 		)
 		(property "PCBWAY_2020-08-27" "NO COMPONENT"
-			(at 269.24 337.82 0)
+			(at 269.24 335.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20929,7 +21222,7 @@
 			)
 		)
 		(property "Label" "E"
-			(at 269.24 337.82 0)
+			(at 269.24 335.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20947,6 +21240,109 @@
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
 					(reference "E1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "proejct_lib:Jumper_NO_Small-Device")
+		(at 101.6 294.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "f7ddfa20-9d8a-4e95-8ea1-91dc8231e9ac")
+		(property "Reference" "DOUT1"
+			(at 101.854 295.91 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Value" "Jump DOUT1"
+			(at 101.6 292.354 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" "project_fp:jumper_slice_disconnected_alt-text"
+			(at 101.6 294.64 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "NO COMPONENT"
+			(at 101.6 294.64 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 101.6 294.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number 2020-05-29" "NO COMPONENT"
+			(at 101.6 294.64 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number 2020-08-26" "NO COMPONENT"
+			(at 101.6 294.64 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number 2020-09-07" "NO NEED TO PURCHASE OR MOUNT"
+			(at 101.6 294.64 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Label" "DOUT"
+			(at 101.6 294.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "26625ae4-6577-4175-b3ad-577b7ceb7694")
+		)
+		(pin "2"
+			(uuid "e40cac3b-4d03-44d4-af1b-67105706c0c9")
+		)
+		(instances
+			(project "tac5212_audio_board_single_ended"
+				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
+					(reference "DOUT1")
 					(unit 1)
 				)
 			)
@@ -21248,6 +21644,72 @@
 			(project "pcm5242_audio_board"
 				(path "/e7aa576d-8903-4167-b9d6-4adc3ce8e184"
 					(reference "SDA1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "proejct_lib:GNDD")
+		(at 191.77 335.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fe0b6807-938f-4901-9678-18379169b3dc")
+		(property "Reference" "#PWR018"
+			(at 191.77 341.63 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 191.77 351.282 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.77 335.28 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 335.28 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 191.77 335.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9eccfe9a-1e51-42ce-a9e2-ef592c75abec")
+		)
+		(instances
+			(project "tac5212_audio_board_single_ended"
+				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)

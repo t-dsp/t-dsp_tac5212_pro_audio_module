@@ -76,7 +76,6 @@
 	)
 	(fp_text user "${Label}"
 		(at 0.7 0 0)
-		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "afc1cb6f-0d25-46cf-b29a-4c9bcef7d15b")
 		(effects

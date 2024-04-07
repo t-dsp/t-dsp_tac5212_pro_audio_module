@@ -765,7 +765,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "gerber/2024-04-07_TAC5212_BREAKOUT/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "tlv320aic3105_audio_board50.step",
@@ -775,7 +775,7 @@
     "page_layout_descr_file": ""
   },
   "schematic": {
-    "annotate_start_num": 0,
+    "annotate_start_num": 107,
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -792,12 +792,18 @@
       "fields_ordered": [
         {
           "group_by": false,
+          "label": "Qty",
+          "name": "${QUANTITY}",
+          "show": true
+        },
+        {
+          "group_by": false,
           "label": "Reference",
           "name": "Reference",
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Value",
           "name": "Value",
           "show": true
@@ -810,33 +816,9 @@
         },
         {
           "group_by": false,
-          "label": "Footprint",
-          "name": "Footprint",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Qty",
-          "name": "${QUANTITY}",
-          "show": false
-        },
-        {
-          "group_by": true,
-          "label": "DNP",
-          "name": "${DNP}",
-          "show": true
-        },
-        {
-          "group_by": false,
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
-        },
-        {
-          "group_by": false,
-          "label": "EVM",
-          "name": "EVM",
-          "show": true
         },
         {
           "group_by": false,
@@ -846,14 +828,32 @@
         },
         {
           "group_by": false,
-          "label": "Package / Case",
-          "name": "Package / Case",
-          "show": false
+          "label": "Description",
+          "name": "Description",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "TAC5212EVM",
+          "name": "TAC5212EVM",
+          "show": true
         },
         {
           "group_by": false,
-          "label": "Description",
-          "name": "Description",
+          "label": "Footprint",
+          "name": "Footprint",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Package / Case",
+          "name": "Package / Case",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "DNP",
+          "name": "${DNP}",
           "show": true
         }
       ],
@@ -861,7 +861,7 @@
       "group_symbols": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Value"
+      "sort_field": "Datasheet"
     },
     "connection_grid_size": 50.0,
     "drawing": {

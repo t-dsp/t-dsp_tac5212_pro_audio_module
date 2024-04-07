@@ -4637,12 +4637,6 @@
 		(uuid "024b59a1-2a12-4ed3-8bbc-b57b81428f9e")
 	)
 	(junction
-		(at 41.91 143.51)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "096a7a0f-04a8-4df7-bb24-27b8d8390237")
-	)
-	(junction
 		(at 144.78 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4653,6 +4647,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0d7d5905-9a0f-4e3d-977d-e4d00f334421")
+	)
+	(junction
+		(at 41.91 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1036b5b8-c33f-4640-8767-c164a95c4d36")
+	)
+	(junction
+		(at 22.86 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "104753af-9be3-44d8-82fa-341cceaf2c81")
 	)
 	(junction
 		(at 233.68 105.41)
@@ -4757,7 +4763,7 @@
 		(uuid "681c52b9-ffb3-4638-af37-2b91e2d7593c")
 	)
 	(junction
-		(at 41.91 153.67)
+		(at 41.91 168.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6c09895b-81f8-4110-9912-e2c8f0dc2684")
@@ -4773,12 +4779,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6e954a5f-34c2-4da9-8648-7585989e8ce3")
-	)
-	(junction
-		(at 22.86 143.51)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6ea4095d-1110-4e2e-bd19-2341db066d0e")
 	)
 	(junction
 		(at 54.61 121.92)
@@ -4815,12 +4815,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8c1f5dbe-7851-4b84-a32a-1a534d80d2b6")
-	)
-	(junction
-		(at 41.91 162.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8ef008c7-2d94-46fd-b553-009220ccb364")
 	)
 	(junction
 		(at 238.76 138.43)
@@ -4865,6 +4859,12 @@
 		(uuid "9b35d23d-9374-44fe-b56a-259ead07f5f9")
 	)
 	(junction
+		(at 41.91 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a1b52acb-68c0-4c65-8523-abb4067ce38c")
+	)
+	(junction
 		(at 54.61 355.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4899,6 +4899,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b3ba6575-feb4-468c-8bfb-b56cab68c0e2")
+	)
+	(junction
+		(at 22.86 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b443a625-e8c6-4f88-9517-14c8b30291f1")
+	)
+	(junction
+		(at 41.91 177.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b9087aaa-cd1d-4d5d-aa19-5c8df8f62746")
 	)
 	(junction
 		(at 233.68 121.92)
@@ -5048,7 +5060,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 134.62) (xy 38.1 134.62)
+			(xy 41.91 140.97) (xy 38.1 140.97)
 		)
 		(stroke
 			(width 0)
@@ -5108,7 +5120,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 143.51) (xy 33.02 143.51)
+			(xy 30.48 177.8) (xy 33.02 177.8)
 		)
 		(stroke
 			(width 0)
@@ -5168,7 +5180,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 153.67) (xy 22.86 162.56)
+			(xy 22.86 160.02) (xy 22.86 168.91)
 		)
 		(stroke
 			(width 0)
@@ -5288,13 +5300,13 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 143.51) (xy 22.86 134.62)
+			(xy 41.91 160.02) (xy 41.91 168.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2886d52c-3399-4316-9798-ab1fa787a6fc")
+		(uuid "27328cef-3826-4504-9112-72e998454ef7")
 	)
 	(wire
 		(pts
@@ -5438,7 +5450,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 143.51) (xy 38.1 143.51)
+			(xy 41.91 177.8) (xy 38.1 177.8)
 		)
 		(stroke
 			(width 0)
@@ -5508,6 +5520,16 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 140.97) (xy 41.91 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "414e9235-764a-48ff-a0ee-538add045d78")
+	)
+	(wire
+		(pts
 			(xy 71.12 157.48) (xy 82.55 157.48)
 		)
 		(stroke
@@ -5538,7 +5560,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 153.67) (xy 38.1 153.67)
+			(xy 41.91 160.02) (xy 38.1 160.02)
 		)
 		(stroke
 			(width 0)
@@ -5878,7 +5900,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 162.56) (xy 82.55 162.56)
+			(xy 41.91 177.8) (xy 82.55 177.8)
 		)
 		(stroke
 			(width 0)
@@ -5988,7 +6010,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 134.62) (xy 33.02 134.62)
+			(xy 22.86 140.97) (xy 33.02 140.97)
 		)
 		(stroke
 			(width 0)
@@ -6088,6 +6110,16 @@
 	)
 	(wire
 		(pts
+			(xy 22.86 149.86) (xy 33.02 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84f12100-e7f7-40e8-b6a6-37323ae812d7")
+	)
+	(wire
+		(pts
 			(xy 58.42 274.32) (xy 66.04 274.32)
 		)
 		(stroke
@@ -6105,6 +6137,16 @@
 			(type default)
 		)
 		(uuid "85cbd1a7-13df-4f2b-bcfd-e5a075aced1f")
+	)
+	(wire
+		(pts
+			(xy 82.55 177.8) (xy 82.55 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86b864fe-321c-4803-9f28-4c8a78dcd675")
 	)
 	(wire
 		(pts
@@ -6318,6 +6360,16 @@
 	)
 	(wire
 		(pts
+			(xy 22.86 179.07) (xy 22.86 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d605c73-2f02-442f-bdd0-a8d3109abfb9")
+	)
+	(wire
+		(pts
 			(xy 233.68 121.92) (xy 238.76 121.92)
 		)
 		(stroke
@@ -6348,7 +6400,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 153.67) (xy 33.02 153.67)
+			(xy 30.48 160.02) (xy 33.02 160.02)
 		)
 		(stroke
 			(width 0)
@@ -6358,7 +6410,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 162.56) (xy 38.1 162.56)
+			(xy 41.91 168.91) (xy 38.1 168.91)
 		)
 		(stroke
 			(width 0)
@@ -6378,16 +6430,6 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 134.62) (xy 41.91 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a816ae46-6976-4b70-ad1d-efe3969dbc07")
-	)
-	(wire
-		(pts
 			(xy 33.02 99.06) (xy 48.26 99.06)
 		)
 		(stroke
@@ -6395,6 +6437,16 @@
 			(type default)
 		)
 		(uuid "a8305a30-8342-4a5d-ac53-b3418cb6d3f3")
+	)
+	(wire
+		(pts
+			(xy 22.86 149.86) (xy 22.86 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aab1979b-7889-4f2f-bfae-0626cf8a9350")
 	)
 	(wire
 		(pts
@@ -6478,7 +6530,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 153.67) (xy 41.91 162.56)
+			(xy 41.91 168.91) (xy 41.91 177.8)
 		)
 		(stroke
 			(width 0)
@@ -6568,7 +6620,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 162.56) (xy 33.02 162.56)
+			(xy 30.48 168.91) (xy 33.02 168.91)
 		)
 		(stroke
 			(width 0)
@@ -6708,26 +6760,6 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 146.05) (xy 22.86 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d331db60-f2eb-4b74-a296-068d96be54c1")
-	)
-	(wire
-		(pts
-			(xy 41.91 143.51) (xy 41.91 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d74d2172-3865-4df5-8e6a-43a6e70f7446")
-	)
-	(wire
-		(pts
 			(xy 49.53 294.64) (xy 66.04 294.64)
 		)
 		(stroke
@@ -6748,6 +6780,16 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 149.86) (xy 41.91 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da4a4fa1-b7df-487d-b0ce-63bc6f78dda2")
+	)
+	(wire
+		(pts
 			(xy 71.12 151.13) (xy 80.01 151.13)
 		)
 		(stroke
@@ -6765,6 +6807,16 @@
 			(type default)
 		)
 		(uuid "da9b41e3-2c51-450a-a1d1-e1c119e88b20")
+	)
+	(wire
+		(pts
+			(xy 20.32 149.86) (xy 22.86 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dde750cc-e2b0-493b-85b9-e09715dbe423")
 	)
 	(wire
 		(pts
@@ -6795,6 +6847,16 @@
 			(type default)
 		)
 		(uuid "e1191046-9f9f-43a7-ac96-247a2bc6ba22")
+	)
+	(wire
+		(pts
+			(xy 38.1 149.86) (xy 41.91 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e229b170-2274-4e4b-8dca-16b4adcbf75a")
 	)
 	(wire
 		(pts
@@ -7278,6 +7340,28 @@
 		(uuid "1a35dc8d-d5a7-401b-ba54-cff1810c70e8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 23.1455 83.82 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "AVDD"
+		(shape input)
+		(at 20.32 149.86 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify right)
+		)
+		(uuid "1ddc71dd-a4f7-4963-9d83-abf89c074119")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 14.9285 149.86 0)
 			(effects
 				(font
 					(size 1 1)
@@ -8189,28 +8273,6 @@
 			)
 		)
 	)
-	(global_label "IOVDD"
-		(shape input)
-		(at 22.86 162.56 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 0.889 0.889)
-			)
-			(justify right)
-		)
-		(uuid "969c0348-efc4-4619-af6a-54aa7d01eb57")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 17.4749 162.56 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "GPIO2"
 		(shape input)
 		(at 66.04 279.4 180)
@@ -8977,7 +9039,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47UF CAP CER 6.3V X5R 1210 - 47uF Radial"
+		(property "Value" "47uF"
 			(at 213.106 140.462 90)
 			(effects
 				(font
@@ -9005,7 +9067,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP, TA, 47 uF, 10 V, +/- 10%, 0.5 ohm, SMD"
 			(at 203.2 138.43 0)
 			(effects
 				(font
@@ -9014,11 +9076,20 @@
 				(hide yes)
 			)
 		)
-		(property "Package / Case" "C0805"
+		(property "Package / Case" "3528-21"
 			(at 203.2 138.43 0)
 			(effects
 				(font
 					(size 0.8 0.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "TAC5212EVM" "TPSB476K010R0500"
+			(at 203.2 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -9038,7 +9109,7 @@
 			)
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "C1016")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -9117,7 +9188,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "02c2136c-2069-412a-84ce-6d59986e427f")
 		(property "Reference" "G9"
@@ -9154,7 +9225,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
+		(property "Description" "Small Via to be incorporated into design."
+			(at 187.96 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "DNP"
+			(at 187.96 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TAC5212EVM" "n/a"
 			(at 187.96 205.74 0)
 			(effects
 				(font
@@ -9218,7 +9307,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES SMD 0 OHM JUMPER 1/10W 0402"
+			(at 73.66 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "R0402"
+			(at 73.66 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TAC5212EVM" "ERJ-2GE0R00X "
 			(at 73.66 124.46 0)
 			(effects
 				(font
@@ -9242,7 +9349,7 @@
 			)
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "R1006")
+					(reference "R101")
 					(unit 1)
 				)
 			)
@@ -9255,7 +9362,7 @@
 		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "068586b6-1410-4173-892d-37c578ac3e2f")
 		(property "Reference" "G1"
 			(at 131.064 291.084 0)
@@ -9292,7 +9399,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Jumper, 2-pole, closed/bridged"
+		(property "Description" "Jumper, open"
 			(at 125.73 292.1 0)
 			(effects
 				(font
@@ -9302,6 +9409,24 @@
 			)
 		)
 		(property "Label" "G"
+			(at 125.73 292.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "DNP"
+			(at 125.73 292.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TAC5212EVM" "n/a"
 			(at 125.73 292.1 0)
 			(effects
 				(font
@@ -9343,7 +9468,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "DNP (10uF)"
+		(property "Value" "10uF"
 			(at 107.7468 359.283 0)
 			(effects
 				(font
@@ -9370,7 +9495,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP, CERM, 10 μF, 16 V,+/- 10%, X7R, 0805"
 			(at 105.41 358.14 0)
 			(effects
 				(font
@@ -9384,6 +9509,15 @@
 			(effects
 				(font
 					(size 0.8 0.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "TAC5212EVM" "EMK212BB7106KG-T"
+			(at 105.41 358.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -9431,7 +9565,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 36.83 116.84 0)
 			(effects
 				(font
@@ -9449,7 +9583,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP, CERM, 1 uF, 35 V, +/- 10%, X7R, 0603"
+			(at 36.83 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "C0603"
+			(at 36.83 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TAC5212EVM" "C1608X7R1V105K080AC"
 			(at 36.83 116.84 0)
 			(effects
 				(font
@@ -9473,7 +9625,7 @@
 			)
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "C1004")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -9497,7 +9649,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1K RES SMD OHM 1% 1/2W 0805"
+		(property "Value" "100"
 			(at 207.645 135.89 90)
 			(effects
 				(font
@@ -9507,7 +9659,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "project_fp:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "project_fp:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 216.535 140.335 90)
 			(effects
 				(font
@@ -9525,7 +9677,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES, 100, 1%, 0.1 W, 0603"
+			(at 214.63 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "R0603"
+			(at 214.63 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TAC5212EVM" "RC0603FR-07100RL"
 			(at 214.63 138.43 0)
 			(effects
 				(font
@@ -9549,7 +9719,7 @@
 			)
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "R1017")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -9770,7 +9940,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "0d82802a-4fd5-4ce1-a812-e993e4c48ed6")
 		(property "Reference" "INM1"
 			(at 244.094 193.04 0)
@@ -9806,7 +9976,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Via with slice option to bypass audio filter. "
 			(at 243.84 191.77 0)
 			(effects
 				(font
@@ -9816,6 +9986,24 @@
 			)
 		)
 		(property "Label" "I1-"
+			(at 243.84 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "DNP"
+			(at 243.84 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TAC5212EVM" "n/a"
 			(at 243.84 191.77 0)
 			(effects
 				(font
@@ -9884,7 +10072,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP, CERM, 1 uF, 35 V, +/- 10%, X7R, 0603"
+			(at 66.04 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "C0603"
+			(at 66.04 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TAC5212EVM" "C1608X7R1V105K080AC"
 			(at 66.04 114.3 0)
 			(effects
 				(font
@@ -9908,7 +10114,7 @@
 			)
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "C1008")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -9933,7 +10139,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1UF - 100V Ceramic Chip Capacitor, ±10%, X7R"
+		(property "Value" "10UF"
 			(at 195.326 174.879 90)
 			(effects
 				(font
@@ -9961,7 +10167,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 10UF 16 V X5R 0603"
 			(at 198.12 177.8 0)
 			(effects
 				(font
@@ -9970,7 +10176,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package / Case" "C0805"
+		(property "Package / Case" "C0603"
 			(at 198.12 177.8 0)
 			(effects
 				(font
@@ -9979,11 +10185,11 @@
 				(hide yes)
 			)
 		)
-		(property "EVM" "16V Ceramic Chip Capacitor, ±10%, X7R"
-			(at 198.374 180.975 90)
+		(property "TAC5212EVM" "C1608X5R1C106M080AB"
+			(at 198.12 177.8 0)
 			(effects
 				(font
-					(size 0.8 0.8)
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -10078,79 +10284,6 @@
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
 					(reference "#PWR043")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "proejct_lib:Earth")
-		(at 227.33 196.85 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0eb72264-65d4-414c-a06c-3f01a86b3f65")
-		(property "Reference" "#T#PWR01010"
-			(at 227.33 203.2 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "Earth"
-			(at 227.33 200.66 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 227.33 196.85 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 227.33 196.85 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 227.33 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5c962e16-434b-45df-b8e3-4e5abf6b7b04")
-		)
-		(instances
-			(project "tac5212_audio_board"
-				(path "/2a1c4609-653f-4eaf-819c-f6b44c840ed7"
-					(reference "#T#PWR01010")
-					(unit 1)
-				)
-			)
-			(project "tac5212_audio_board_single_ended"
-				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "#T#PWR021")
 					(unit 1)
 				)
 			)
@@ -10379,7 +10512,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47UF CAP CER 6.3V X5R 1210 - 47uF Radial"
+		(property "Value" "47uF"
 			(at 210.439 107.696 90)
 			(effects
 				(font
@@ -10407,7 +10540,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP, TA, 47 uF, 10 V, +/- 10%, 0.5 ohm, SMD"
+			(at 201.93 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "3528-21"
+			(at 201.93 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TAC5212EVM" "TPSB476K010R0500"
 			(at 201.93 105.41 0)
 			(effects
 				(font
@@ -10431,7 +10582,7 @@
 			)
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "C1014")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -10480,7 +10631,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Buffer, Non-Inverting 1 Element 1 Bit per Element 3-State Output SC-74A"
 			(at 185.42 284.48 0)
 			(effects
 				(font
@@ -10489,11 +10640,20 @@
 				(hide yes)
 			)
 		)
-		(property "Package / Case" "SC70-5"
+		(property "Package / Case" "SOT-23-5"
 			(at 184.531 277.749 0)
 			(effects
 				(font
 					(size 0.8 0.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "TAC5212EVM" "74LVC1G125GV,125 "
+			(at 185.42 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -10595,7 +10755,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "1dc06f07-cdb8-4beb-9e2f-ab26b8e65bba")
 		(property "Reference" "G4"
@@ -10632,7 +10792,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
+		(property "Description" "Small Via to be incorporated into design."
+			(at 186.69 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "DNP"
+			(at 186.69 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TAC5212EVM" "n/a"
 			(at 186.69 116.84 0)
 			(effects
 				(font
@@ -10828,7 +11006,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x33, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "4 Layer PCB Outline"
 			(at 90.17 264.16 0)
 			(effects
 				(font
@@ -10837,11 +11015,20 @@
 				(hide yes)
 			)
 		)
-		(property "Package / Case" "board"
+		(property "Package / Case" "DNP"
 			(at 90.17 264.16 0)
 			(effects
 				(font
 					(size 0.8 0.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "TAC5212EVM" "n/a"
+			(at 90.17 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -11018,7 +11205,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "347c3975-05e9-43f9-9192-a7155bed6c0e")
 		(property "Reference" "OP1"
 			(at 241.554 88.9 0)
@@ -11054,7 +11241,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Via with slice option to bypass audio filter. "
 			(at 241.3 87.63 0)
 			(effects
 				(font
@@ -11064,6 +11251,24 @@
 			)
 		)
 		(property "Label" "O1+"
+			(at 241.3 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "DNP"
+			(at 241.3 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TAC5212EVM" "n/a"
 			(at 241.3 87.63 0)
 			(effects
 				(font
@@ -11189,7 +11394,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "project_fp:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 33.02 106.68 0)
 			(effects
 				(font
@@ -11207,7 +11412,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP, CERM, 10 μF, 16 V,+/- 10%, X7R, 0805"
+			(at 33.02 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "C0805"
+			(at 33.02 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TAC5212EVM" "EMK212BB7106KG-T"
 			(at 33.02 106.68 0)
 			(effects
 				(font
@@ -11231,7 +11454,7 @@
 			)
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "C1003")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -11255,7 +11478,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED - B2601USD-20D000423U1930"
+		(property "Value" "RED LED"
 			(at 183.642 359.156 90)
 			(effects
 				(font
@@ -11264,7 +11487,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "project_fp:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
+		(property "Footprint" "project_fp:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 209.55 350.52 0)
 			(effects
 				(font
@@ -11282,7 +11505,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Red 0805 LED 2v"
+			(at 209.55 350.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "1206(CHECKME)"
+			(at 209.55 350.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TAC5212EVM" "LTST-C170KRKT "
 			(at 209.55 350.52 0)
 			(effects
 				(font
@@ -11325,7 +11566,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47UF CAP CER 6.3V X5R 1210 - 47uF Radial"
+		(property "Value" "47uF"
 			(at 201.168 86.614 90)
 			(effects
 				(font
@@ -11352,7 +11593,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP, TA, 47 uF, 10 V, +/- 10%, 0.5 ohm, SMD"
+			(at 201.93 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "3528-21"
+			(at 201.93 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TAC5212EVM" "TPSB476K010R0500"
 			(at 201.93 91.44 0)
 			(effects
 				(font
@@ -11376,7 +11635,7 @@
 			)
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "C1013")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -11426,7 +11685,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ferrite Bead"
+			(at 229.87 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "C0805"
+			(at 229.87 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TAC5212EVM" "BLM21A601S - BLM21AG601SH1"
 			(at 229.87 161.29 0)
 			(effects
 				(font
@@ -11457,13 +11734,79 @@
 		)
 	)
 	(symbol
+		(lib_id "proejct_lib:GNDD")
+		(at 22.86 179.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4245e671-2c3f-49aa-bd5b-ce52ac93ed0d")
+		(property "Reference" "#PWR019"
+			(at 22.86 185.42 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 22.86 183.642 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 22.86 179.07 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 22.86 179.07 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 22.86 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aa8dc5b1-f60d-4360-9a62-48c0abe6ddbe")
+		)
+		(instances
+			(project "tac5212_audio_board_single_ended"
+				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "proejct_lib:Jumper_NO_Small-Device")
 		(at 241.3 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "43e4781f-629d-4e96-937a-ca9341f6d277")
 		(property "Reference" "OM2"
 			(at 241.554 135.89 0)
@@ -11499,7 +11842,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Via with slice option to bypass audio filter. "
 			(at 241.3 134.62 0)
 			(effects
 				(font
@@ -11509,6 +11852,24 @@
 			)
 		)
 		(property "Label" "O2M"
+			(at 241.3 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "DNP"
+			(at 241.3 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TAC5212EVM" "n/a"
 			(at 241.3 134.62 0)
 			(effects
 				(font
@@ -11616,7 +11977,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1K RES SMD OHM 1% 1/2W 0805"
+		(property "Value" "100"
 			(at 212.725 118.745 90)
 			(effects
 				(font
@@ -11625,7 +11986,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "project_fp:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "project_fp:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 216.535 123.825 90)
 			(effects
 				(font
@@ -11643,7 +12004,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES, 100, 1%, 0.1 W, 0603"
 			(at 214.63 121.92 0)
 			(effects
 				(font
@@ -11652,11 +12013,20 @@
 				(hide yes)
 			)
 		)
-		(property "Package / Case" "R0805"
+		(property "Package / Case" "R0603"
 			(at 214.63 118.11 90)
 			(effects
 				(font
 					(size 0.8 0.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "TAC5212EVM" "RC0603FR-07100RL"
+			(at 214.63 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -11676,7 +12046,7 @@
 			)
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "R1016")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -11762,7 +12132,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "4be506fc-d95a-4519-9ad4-8c6f78f8335e")
 		(property "Reference" "MCLK1"
 			(at 47.752 124.968 0)
@@ -11809,6 +12179,24 @@
 			)
 		)
 		(property "Label" "MC"
+			(at 46.99 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "DNP"
+			(at 46.99 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TAC5212EVM" "n/a"
 			(at 46.99 127 0)
 			(effects
 				(font
@@ -11875,7 +12263,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES SMD 0 OHM JUMPER 1/10W 0402"
+			(at 73.66 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "R0402"
+			(at 73.66 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TAC5212EVM" "ERJ-2GE0R00X "
 			(at 73.66 127 0)
 			(effects
 				(font
@@ -11899,7 +12305,7 @@
 			)
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "R1007")
+					(reference "R102")
 					(unit 1)
 				)
 			)
@@ -11949,7 +12355,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ferrite Bead"
+			(at 229.87 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "C0805"
+			(at 229.87 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TAC5212EVM" "BLM21A601S - BLM21AG601SH1"
 			(at 229.87 177.8 0)
 			(effects
 				(font
@@ -12160,7 +12584,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "TVS Diode Array, 5.5V Standoff, 2 Channels, SC-70 package"
+		(property "Description" "0402 Diode for Audio Systems 5v rating. (3.6v possible)"
+			(at 220.98 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "D0402"
+			(at 220.98 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TAC5212EVM" "TPD1E10B06DPYR"
 			(at 220.98 199.39 0)
 			(effects
 				(font
@@ -12197,7 +12639,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "59d9d0d7-e8ad-4718-b601-364aeaf28410")
 		(property "Reference" "OM1"
 			(at 241.554 102.87 0)
@@ -12233,7 +12675,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Via with slice option to bypass audio filter. "
 			(at 241.3 101.6 0)
 			(effects
 				(font
@@ -12243,6 +12685,24 @@
 			)
 		)
 		(property "Label" "O1-"
+			(at 241.3 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "DNP"
+			(at 241.3 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TAC5212EVM" "n/a"
 			(at 241.3 101.6 0)
 			(effects
 				(font
@@ -12309,7 +12769,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES SMD 0 OHM JUMPER 1/10W 0402"
+			(at 73.66 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "R0402"
+			(at 73.66 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TAC5212EVM" "ERJ-2GE0R00X "
 			(at 73.66 143.51 0)
 			(effects
 				(font
@@ -12333,7 +12811,7 @@
 			)
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "R1012")
+					(reference "R106")
 					(unit 1)
 				)
 			)
@@ -12382,7 +12860,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES SMD 0 OHM JUMPER 1/10W 0402"
+			(at 73.66 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "R0402"
+			(at 73.66 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TAC5212EVM" "ERJ-2GE0R00X "
 			(at 73.66 121.92 0)
 			(effects
 				(font
@@ -12406,7 +12902,7 @@
 			)
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "R1005")
+					(reference "R100")
 					(unit 1)
 				)
 			)
@@ -12573,7 +13069,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CAP CER 4.7UF 50V X7R 1206 - CAP ALUM 4.7UF 20% 50V RADIAL"
+		(property "Value" "10UF"
 			(at 187.96 152.146 90)
 			(effects
 				(font
@@ -12600,7 +13096,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 10UF 16 V X5R 0603"
 			(at 199.39 161.29 0)
 			(effects
 				(font
@@ -12614,6 +13110,15 @@
 			(effects
 				(font
 					(size 0.8 0.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "TAC5212EVM" "C1608X5R1C106M080AB"
+			(at 199.39 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -12641,7 +13146,7 @@
 	)
 	(symbol
 		(lib_id "proejct_lib:R")
-		(at 26.67 153.67 270)
+		(at 26.67 160.02 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12649,23 +13154,24 @@
 		(dnp no)
 		(uuid "74a01037-2e4c-4fc0-91e0-01c1dd5938fc")
 		(property "Reference" "R1002"
-			(at 26.924 155.956 90)
+			(at 26.924 162.306 90)
 			(effects
 				(font
 					(size 0.8 0.8)
 				)
 			)
 		)
-		(property "Value" "22KOhm"
-			(at 26.67 150.7236 90)
+		(property "Value" "22.0k"
+			(at 26.67 157.0736 90)
 			(effects
 				(font
 					(size 0.8 0.8)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 26.67 151.892 90)
+			(at 26.67 158.242 90)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -12674,7 +13180,7 @@
 			)
 		)
 		(property "Datasheet" "ERJ-ERJ-UP3J222V"
-			(at 26.67 153.67 0)
+			(at 26.67 160.02 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -12682,8 +13188,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 26.67 153.67 0)
+		(property "Description" "RES, 22.0 k, 0.1%, 0.1 W, 0603"
+			(at 26.67 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "R0402"
+			(at 26.67 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TAC5212EVM" "RG1608P-223-B-T5"
+			(at 26.67 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12706,7 +13230,7 @@
 			)
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "R1002")
+					(reference "R42")
 					(unit 1)
 				)
 			)
@@ -12812,7 +13336,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "project_fp:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 200.66 351.028 90)
 			(effects
 				(font
@@ -12830,7 +13354,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 2.2K OHM 1% 1/8W 0402"
 			(at 200.66 349.25 0)
 			(effects
 				(font
@@ -12839,11 +13363,20 @@
 				(hide yes)
 			)
 		)
-		(property "Package / Case" "R0805"
+		(property "Package / Case" "R0402"
 			(at 200.66 349.25 0)
 			(effects
 				(font
 					(size 0.8 0.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "TAC5212EVM" "RC0402FR-07100KL"
+			(at 200.66 349.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -12881,7 +13414,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "DNP (10uF)"
+		(property "Value" "10uF"
 			(at 56.9468 359.283 0)
 			(effects
 				(font
@@ -12908,7 +13441,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP, CERM, 10 μF, 16 V,+/- 10%, X7R, 0805"
 			(at 54.61 358.14 0)
 			(effects
 				(font
@@ -12922,6 +13455,15 @@
 			(effects
 				(font
 					(size 0.8 0.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "TAC5212EVM" "EMK212BB7106KG-T"
+			(at 54.61 358.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -12986,7 +13528,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "TVS Diode Array, 5.5V Standoff, 2 Channels, SC-70 package"
+		(property "Description" "0402 Diode for Audio Systems 5v rating. (3.6v possible)"
+			(at 233.68 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "D0402"
+			(at 233.68 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TAC5212EVM" "TPD1E10B06DPYR"
 			(at 233.68 125.73 0)
 			(effects
 				(font
@@ -13010,7 +13570,7 @@
 			)
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "D1009")
+					(reference "D19")
 					(unit 1)
 				)
 			)
@@ -13023,7 +13583,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "7d45ced2-df90-4452-8d0f-c41a668e0b44")
 		(property "Reference" "INP1"
 			(at 244.094 209.55 0)
@@ -13059,7 +13619,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Via with slice option to bypass audio filter. "
 			(at 243.84 208.28 0)
 			(effects
 				(font
@@ -13069,6 +13629,24 @@
 			)
 		)
 		(property "Label" "I1+"
+			(at 243.84 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "DNP"
+			(at 243.84 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TAC5212EVM" "n/a"
 			(at 243.84 208.28 0)
 			(effects
 				(font
@@ -13185,7 +13763,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "project_fp:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 189.23 273.05 0)
 			(effects
 				(font
@@ -13203,7 +13781,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP, CERM, 1 uF, 35 V, +/- 10%, X7R, 0603"
 			(at 189.23 273.05 0)
 			(effects
 				(font
@@ -13212,11 +13790,20 @@
 				(hide yes)
 			)
 		)
-		(property "Package / Case" "C0805"
+		(property "Package / Case" "C0603"
 			(at 189.23 273.05 0)
 			(effects
 				(font
 					(size 0.8 0.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "TAC5212EVM" "C1608X7R1V105K080AC"
+			(at 189.23 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -13280,7 +13867,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ferrite Bead"
+			(at 231.14 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "C0805"
+			(at 231.14 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TAC5212EVM" "BLM21A601S - BLM21AG601SH1"
 			(at 231.14 212.09 0)
 			(effects
 				(font
@@ -13356,7 +13961,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 2.2K OHM 1% 1/8W 0402"
+			(at 71.12 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "R0402"
+			(at 71.12 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TAC5212EVM" "RC0402FR-07100KL"
 			(at 71.12 153.67 0)
 			(effects
 				(font
@@ -13380,7 +14003,7 @@
 			)
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "R1004")
+					(reference "R108")
 					(unit 1)
 				)
 			)
@@ -13411,7 +14034,7 @@
 				)
 			)
 		)
-		(property "Footprint" "project_fp:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 198.12 282.702 90)
 			(effects
 				(font
@@ -13429,7 +14052,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 49.9 OHM 1% 1/8W 0402 "
 			(at 198.12 284.48 0)
 			(effects
 				(font
@@ -13443,6 +14066,15 @@
 			(effects
 				(font
 					(size 0.8 0.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "TAC5212EVM" "RC0402FR-7W49R9L"
+			(at 198.12 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -13555,7 +14187,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1UF - 100V Ceramic Chip Capacitor, ±10%, X7R"
+		(property "Value" "10UF"
 			(at 195.326 209.169 90)
 			(effects
 				(font
@@ -13583,7 +14215,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 10UF 16 V X5R 0603"
+			(at 198.12 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "C0603"
+			(at 198.12 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TAC5212EVM" "C1608X5R1C106M080AB"
 			(at 198.12 212.09 0)
 			(effects
 				(font
@@ -13620,7 +14270,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "86461545-efbc-4fe3-bdd6-65b7f7562556")
 		(property "Reference" "INM2"
 			(at 245.364 158.75 0)
@@ -13656,7 +14306,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Via with slice option to bypass audio filter. "
 			(at 245.11 157.48 0)
 			(effects
 				(font
@@ -13666,6 +14316,24 @@
 			)
 		)
 		(property "Label" "I2+"
+			(at 245.11 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "DNP"
+			(at 245.11 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TAC5212EVM" "n/a"
 			(at 245.11 157.48 0)
 			(effects
 				(font
@@ -13735,7 +14403,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "TVS Diode Array, 5.5V Standoff, 2 Channels, SC-70 package"
+		(property "Description" "0402 Diode for Audio Systems 5v rating. (3.6v possible)"
+			(at 233.68 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "D0402"
+			(at 233.68 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TAC5212EVM" "TPD1E10B06DPYR"
 			(at 233.68 109.22 0)
 			(effects
 				(font
@@ -13759,7 +14445,7 @@
 			)
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "D1008")
+					(reference "D18")
 					(unit 1)
 				)
 			)
@@ -13767,7 +14453,7 @@
 	)
 	(symbol
 		(lib_id "proejct_lib:R")
-		(at 26.67 162.56 270)
+		(at 26.67 168.91 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13775,15 +14461,15 @@
 		(dnp no)
 		(uuid "87531ab6-437f-45d0-984c-2fe8b1819e8d")
 		(property "Reference" "R1003"
-			(at 26.924 164.846 90)
+			(at 26.924 171.196 90)
 			(effects
 				(font
 					(size 0.8 0.8)
 				)
 			)
 		)
-		(property "Value" "4.7KOhm"
-			(at 26.67 159.6136 90)
+		(property "Value" "4.7k"
+			(at 26.67 165.9636 90)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -13791,7 +14477,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 26.67 160.782 90)
+			(at 26.67 167.132 90)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -13800,7 +14486,7 @@
 			)
 		)
 		(property "Datasheet" "ERJ-ERJ-UP3J222V"
-			(at 26.67 162.56 0)
+			(at 26.67 168.91 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -13808,8 +14494,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 26.67 162.56 0)
+		(property "Description" "RES, 4.7 k, 5%, 0.1 W, AEC-Q200 Grade 0, 0603"
+			(at 26.67 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "R0402"
+			(at 26.67 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TAC5212EVM" "ERJ-3GEYJ472V"
+			(at 26.67 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13832,7 +14536,7 @@
 			)
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "R1003")
+					(reference "R41")
 					(unit 1)
 				)
 			)
@@ -13913,15 +14617,15 @@
 	(symbol
 		(lib_name "Jumper_NO_Small-Device_1")
 		(lib_id "proejct_lib:Jumper_NO_Small-Device_1")
-		(at 35.56 143.51 0)
+		(at 35.56 177.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "89b099ad-122e-4dbb-8bca-d2709c66fc1b")
 		(property "Reference" "ADD1002"
-			(at 35.56 138.811 0)
+			(at 35.56 173.101 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -13929,7 +14633,7 @@
 			)
 		)
 		(property "Value" "0x51 | 0xA2"
-			(at 35.56 141.1224 0)
+			(at 35.56 175.4124 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -13937,7 +14641,7 @@
 			)
 		)
 		(property "Footprint" "project_fp:SolderJumper-2_Open_Pad0.5x1.0mm_ADDR"
-			(at 35.56 143.51 0)
+			(at 35.56 177.8 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -13946,7 +14650,7 @@
 			)
 		)
 		(property "Datasheet" "NO COMPONENT"
-			(at 35.56 143.51 0)
+			(at 35.56 177.8 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -13954,8 +14658,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 35.56 143.51 0)
+		(property "Description" "Jumper, open"
+			(at 35.56 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13964,7 +14668,25 @@
 			)
 		)
 		(property "Label" "51       A2"
-			(at 35.56 143.51 0)
+			(at 35.56 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "DNP"
+			(at 35.56 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TAC5212EVM" "n/a"
+			(at 35.56 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13996,15 +14718,15 @@
 	(symbol
 		(lib_name "Jumper_NO_Small-Device_2")
 		(lib_id "proejct_lib:Jumper_NO_Small-Device_2")
-		(at 35.56 134.62 0)
+		(at 35.56 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "8acdf66e-e739-4809-945a-796cc7810be5")
 		(property "Reference" "ADD1001"
-			(at 35.56 129.921 0)
+			(at 35.56 136.271 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -14012,7 +14734,7 @@
 			)
 		)
 		(property "Value" "0x50 | 0xA0"
-			(at 35.56 132.2324 0)
+			(at 35.56 138.5824 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -14020,7 +14742,7 @@
 			)
 		)
 		(property "Footprint" "project_fp:SolderJumper-2_Open_Pad0.5x1.0mm_ADDR"
-			(at 35.56 134.62 0)
+			(at 35.56 140.97 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -14029,7 +14751,7 @@
 			)
 		)
 		(property "Datasheet" "NO COMPONENT"
-			(at 35.56 134.62 0)
+			(at 35.56 140.97 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -14037,8 +14759,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 35.56 134.62 0)
+		(property "Description" "Jumper, open"
+			(at 35.56 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14047,7 +14769,25 @@
 			)
 		)
 		(property "Label" "50       A0"
-			(at 35.56 134.62 0)
+			(at 35.56 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "DNP"
+			(at 35.56 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TAC5212EVM" "n/a"
+			(at 35.56 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14078,15 +14818,15 @@
 	)
 	(symbol
 		(lib_id "proejct_lib:Jumper_NO_Small-Device")
-		(at 35.56 162.56 0)
+		(at 35.56 168.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "8c0518e0-1c41-404a-971e-d5b30ae2b1d6")
 		(property "Reference" "ADD1004"
-			(at 35.56 157.861 0)
+			(at 35.56 164.211 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -14094,7 +14834,7 @@
 			)
 		)
 		(property "Value" "0x53 | 0xA6"
-			(at 35.56 160.1724 0)
+			(at 35.56 166.5224 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -14102,7 +14842,7 @@
 			)
 		)
 		(property "Footprint" "project_fp:SolderJumper-2_Open_Pad0.5x1.0mm_ADDR"
-			(at 35.56 162.56 0)
+			(at 35.56 168.91 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -14111,7 +14851,7 @@
 			)
 		)
 		(property "Datasheet" "NO COMPONENT"
-			(at 35.56 162.56 0)
+			(at 35.56 168.91 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -14119,8 +14859,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 35.56 162.56 0)
+		(property "Description" "Jumper, open"
+			(at 35.56 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14129,7 +14869,25 @@
 			)
 		)
 		(property "Label" "53       A6"
-			(at 35.56 162.56 0)
+			(at 35.56 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "DNP"
+			(at 35.56 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TAC5212EVM" "n/a"
+			(at 35.56 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14237,7 +14995,7 @@
 		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "8f5e9a60-abdf-4468-941d-5dab1e2710e9")
 		(property "Reference" "SCL1001"
 			(at 38.1 265.938 0)
@@ -14274,7 +15032,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Jumper, 2-pole, closed/bridged"
+		(property "Description" "Jumper, open"
 			(at 38.1 269.24 0)
 			(effects
 				(font
@@ -14284,6 +15042,24 @@
 			)
 		)
 		(property "Label" "SC"
+			(at 38.1 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "DNP"
+			(at 38.1 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TAC5212EVM" "n/a"
 			(at 38.1 269.24 0)
 			(effects
 				(font
@@ -14326,7 +15102,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "90e72c1b-1b63-436a-a402-e66c09b02004")
 		(property "Reference" "G6"
@@ -14363,7 +15139,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
+		(property "Description" "Small Via to be incorporated into design."
+			(at 186.69 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "DNP"
+			(at 186.69 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TAC5212EVM" "n/a"
 			(at 186.69 149.86 0)
 			(effects
 				(font
@@ -14412,7 +15206,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "project_fp:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 33.02 96.52 0)
 			(effects
 				(font
@@ -14430,7 +15224,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP, CERM, 10 μF, 16 V,+/- 10%, X7R, 0805"
+			(at 33.02 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "C0805"
+			(at 33.02 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TAC5212EVM" "EMK212BB7106KG-T"
 			(at 33.02 96.52 0)
 			(effects
 				(font
@@ -14454,7 +15266,7 @@
 			)
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "C1002")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -14503,7 +15315,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES SMD 0 OHM JUMPER 1/10W 0402"
+			(at 73.66 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "R0402"
+			(at 73.66 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TAC5212EVM" "ERJ-2GE0R00X "
 			(at 73.66 129.54 0)
 			(effects
 				(font
@@ -14527,7 +15357,7 @@
 			)
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "R1008")
+					(reference "R103")
 					(unit 1)
 				)
 			)
@@ -14540,7 +15370,7 @@
 		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "94eb7cb5-f04a-4400-a349-326c33ddde95")
 		(property "Reference" "E2"
 			(at 131.064 283.464 0)
@@ -14577,7 +15407,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Jumper, 2-pole, closed/bridged"
+		(property "Description" "Jumper, open"
 			(at 125.73 287.02 0)
 			(effects
 				(font
@@ -14587,6 +15417,24 @@
 			)
 		)
 		(property "Label" "E"
+			(at 125.73 287.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "DNP"
+			(at 125.73 287.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TAC5212EVM" "n/a"
 			(at 125.73 287.02 0)
 			(effects
 				(font
@@ -14965,7 +15813,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47NF CAP CER 100V X7R 0805"
+		(property "Value" "0.047uF"
 			(at 242.57 147.32 0)
 			(effects
 				(font
@@ -14975,7 +15823,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "project_fp:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 226.06 140.97 0)
 			(effects
 				(font
@@ -14993,7 +15841,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP, CERM, 0.047 uF, 50 V, +/- 10%, X7R, 0603"
 			(at 226.06 140.97 0)
 			(effects
 				(font
@@ -15002,11 +15850,20 @@
 				(hide yes)
 			)
 		)
-		(property "Package / Case" "C0805"
+		(property "Package / Case" "C0603"
 			(at 226.06 140.97 0)
 			(effects
 				(font
 					(size 0.8 0.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "TAC5212EVM" "C1608X7R1H473K080AA"
+			(at 226.06 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -15026,7 +15883,7 @@
 			)
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "C1020")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -15224,7 +16081,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP, CERM, 0.1 uF, 16 V, +/- 10%, X7R, 0402"
+			(at 49.53 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "C0402"
+			(at 49.53 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TAC5212EVM" "GRM155R71C104KA88J"
 			(at 49.53 86.36 0)
 			(effects
 				(font
@@ -15248,7 +16123,7 @@
 			)
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "C1006")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -15299,7 +16174,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 2.2K OHM 1% 1/8W 0402"
+			(at 80.01 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "R0402"
+			(at 80.01 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TAC5212EVM" "RC0402FR-07100KL"
 			(at 80.01 153.67 0)
 			(effects
 				(font
@@ -15323,7 +16216,7 @@
 			)
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "R1009")
+					(reference "R109")
 					(unit 1)
 				)
 			)
@@ -15348,7 +16241,7 @@
 			)
 		)
 		(property "Value" "TPD1E1B04 - 0402 size"
-			(at 208.28 167.64 90)
+			(at 219.456 168.91 90)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -15374,7 +16267,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "TVS Diode Array, 5.5V Standoff, 2 Channels, SC-70 package"
+		(property "Description" "0402 Diode for Audio Systems 5v rating. (3.6v possible)"
+			(at 218.44 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "D0402"
+			(at 218.44 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TAC5212EVM" "TPD1E10B06DPYR"
 			(at 218.44 165.1 0)
 			(effects
 				(font
@@ -15447,7 +16358,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES SMD 0 OHM JUMPER 1/10W 0402"
+			(at 73.66 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "R0402"
+			(at 73.66 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TAC5212EVM" "ERJ-2GE0R00X "
 			(at 73.66 146.05 0)
 			(effects
 				(font
@@ -15471,7 +16400,7 @@
 			)
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "R1013")
+					(reference "R107")
 					(unit 1)
 				)
 			)
@@ -15693,7 +16622,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47NF CAP CER 100V X7R 0805"
+		(property "Value" "0.047uF"
 			(at 218.44 101.6 0)
 			(effects
 				(font
@@ -15703,7 +16632,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "project_fp:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 223.52 107.95 0)
 			(effects
 				(font
@@ -15721,7 +16650,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP, CERM, 0.047 uF, 50 V, +/- 10%, X7R, 0603"
 			(at 223.52 107.95 0)
 			(effects
 				(font
@@ -15730,11 +16659,20 @@
 				(hide yes)
 			)
 		)
-		(property "Package / Case" "C0805"
+		(property "Package / Case" "C0603"
 			(at 223.52 107.95 0)
 			(effects
 				(font
 					(size 0.8 0.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "TAC5212EVM" "C1608X7R1H473K080AA"
+			(at 223.52 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -15754,7 +16692,7 @@
 			)
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "C1017")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -15806,7 +16744,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP, CERM, 0.1 uF, 16 V, +/- 10%, X7R, 0402"
+			(at 45.72 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "C0402"
+			(at 45.72 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TAC5212EVM" "GRM155R71C104KA88J"
 			(at 45.72 106.68 0)
 			(effects
 				(font
@@ -15830,7 +16786,7 @@
 			)
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "C1005")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -15879,7 +16835,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES SMD 0 OHM JUMPER 1/10W 0402"
+			(at 73.66 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "R0402"
+			(at 73.66 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TAC5212EVM" "ERJ-2GE0R00X "
 			(at 73.66 140.97 0)
 			(effects
 				(font
@@ -15903,7 +16877,7 @@
 			)
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "R1011")
+					(reference "R105")
 					(unit 1)
 				)
 			)
@@ -15952,7 +16926,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES SMD 0 OHM JUMPER 1/10W 0402"
+			(at 73.66 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "R0402"
+			(at 73.66 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TAC5212EVM" "ERJ-2GE0R00X "
 			(at 73.66 138.43 0)
 			(effects
 				(font
@@ -15976,7 +16968,7 @@
 			)
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "R1010")
+					(reference "R104")
 					(unit 1)
 				)
 			)
@@ -15984,7 +16976,7 @@
 	)
 	(symbol
 		(lib_id "proejct_lib:R")
-		(at 26.67 143.51 270)
+		(at 26.67 177.8 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15992,15 +16984,15 @@
 		(dnp no)
 		(uuid "b7ed700e-af47-4d03-be4a-ec2c56df2e1f")
 		(property "Reference" "R1001"
-			(at 26.924 145.796 90)
+			(at 26.924 180.086 90)
 			(effects
 				(font
 					(size 0.8 0.8)
 				)
 			)
 		)
-		(property "Value" "4.7KOhm"
-			(at 26.67 140.5636 90)
+		(property "Value" "4.7k"
+			(at 26.67 174.8536 90)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -16008,7 +17000,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 26.67 141.732 90)
+			(at 26.67 176.022 90)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -16017,7 +17009,7 @@
 			)
 		)
 		(property "Datasheet" "ERJ-ERJ-UP3J222V"
-			(at 26.67 143.51 0)
+			(at 26.67 177.8 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -16025,8 +17017,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 26.67 143.51 0)
+		(property "Description" "RES, 4.7 k, 5%, 0.1 W, AEC-Q200 Grade 0, 0603"
+			(at 26.67 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "R0402"
+			(at 26.67 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TAC5212EVM" "ERJ-3GEYJ472V"
+			(at 26.67 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16049,7 +17059,7 @@
 			)
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "R1001")
+					(reference "R40")
 					(unit 1)
 				)
 			)
@@ -16128,7 +17138,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "bf37fb8e-5015-407b-87fe-e7b5faafd973")
 		(property "Reference" "INP2"
 			(at 244.094 175.26 0)
@@ -16164,7 +17174,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Via with slice option to bypass audio filter. "
 			(at 243.84 173.99 0)
 			(effects
 				(font
@@ -16174,6 +17184,24 @@
 			)
 		)
 		(property "Label" "I2+"
+			(at 243.84 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "DNP"
+			(at 243.84 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TAC5212EVM" "n/a"
 			(at 243.84 173.99 0)
 			(effects
 				(font
@@ -16243,7 +17271,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP, CERM, 0.1 uF, 16 V, +/- 10%, X7R, 0402"
+			(at 48.26 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "C0402"
+			(at 48.26 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TAC5212EVM" "GRM155R71C104KA88J"
 			(at 48.26 96.52 0)
 			(effects
 				(font
@@ -16267,7 +17313,7 @@
 			)
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "C1007")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -16348,7 +17394,7 @@
 	)
 	(symbol
 		(lib_id "proejct_lib:GNDD")
-		(at 22.86 146.05 0)
+		(at 22.86 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16357,7 +17403,7 @@
 		(fields_autoplaced yes)
 		(uuid "c03abb0d-c1f1-4782-800c-fa8baac58fc5")
 		(property "Reference" "#PWR016"
-			(at 22.86 152.4 0)
+			(at 22.86 147.32 0)
 			(effects
 				(font
 					(size 1 1)
@@ -16366,7 +17412,7 @@
 			)
 		)
 		(property "Value" "GNDD"
-			(at 22.86 150.622 0)
+			(at 22.86 145.542 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -16374,7 +17420,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 22.86 146.05 0)
+			(at 22.86 140.97 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -16383,7 +17429,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 22.86 146.05 0)
+			(at 22.86 140.97 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -16392,7 +17438,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 22.86 146.05 0)
+			(at 22.86 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16431,7 +17477,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1UF - 100V Ceramic Chip Capacitor, ±10%, X7R"
+		(property "Value" "10UF"
 			(at 195.326 192.659 90)
 			(effects
 				(font
@@ -16459,7 +17505,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 10UF 16 V X5R 0603"
+			(at 198.12 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "C0603"
+			(at 198.12 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TAC5212EVM" "C1608X5R1C106M080AB"
 			(at 198.12 195.58 0)
 			(effects
 				(font
@@ -16533,7 +17597,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ferrite Bead"
+			(at 229.87 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "C0805"
+			(at 229.87 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TAC5212EVM" "BLM21A601S - BLM21AG601SH1"
 			(at 229.87 195.58 0)
 			(effects
 				(font
@@ -16649,7 +17731,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47NF CAP CER 100V X7R 0805"
+		(property "Value" "0.047uF"
 			(at 205.74 99.06 0)
 			(effects
 				(font
@@ -16658,7 +17740,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "project_fp:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 223.52 92.71 0)
 			(effects
 				(font
@@ -16676,7 +17758,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP, CERM, 0.047 uF, 50 V, +/- 10%, X7R, 0603"
 			(at 224.79 96.52 0)
 			(effects
 				(font
@@ -16685,11 +17767,20 @@
 				(hide yes)
 			)
 		)
-		(property "Package / Case" "C0805"
+		(property "Package / Case" "C0603"
 			(at 224.79 92.71 0)
 			(effects
 				(font
 					(size 0.8 0.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "TAC5212EVM" "C1608X7R1H473K080AA"
+			(at 224.79 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -16709,7 +17800,7 @@
 			)
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "C1019")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -16788,7 +17879,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "ce895be6-b4ee-4e53-a50d-d6e245b04b15")
 		(property "Reference" "OP2"
 			(at 241.554 119.38 0)
@@ -16824,7 +17915,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Via with slice option to bypass audio filter. "
 			(at 241.3 118.11 0)
 			(effects
 				(font
@@ -16834,6 +17925,24 @@
 			)
 		)
 		(property "Label" "O2+"
+			(at 241.3 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "DNP"
+			(at 241.3 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TAC5212EVM" "n/a"
 			(at 241.3 118.11 0)
 			(effects
 				(font
@@ -16864,7 +17973,7 @@
 		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "ce9e8631-bcbf-4890-9c94-c53b49356a29")
 		(property "Reference" "G2"
 			(at 131.064 296.164 0)
@@ -16901,7 +18010,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Jumper, 2-pole, closed/bridged"
+		(property "Description" "Jumper, open"
 			(at 125.73 297.18 0)
 			(effects
 				(font
@@ -16911,6 +18020,24 @@
 			)
 		)
 		(property "Label" "G"
+			(at 125.73 297.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "DNP"
+			(at 125.73 297.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TAC5212EVM" "n/a"
 			(at 125.73 297.18 0)
 			(effects
 				(font
@@ -16961,7 +18088,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "project_fp:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 68.58 358.14 0)
 			(effects
 				(font
@@ -16979,7 +18106,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP, CERM, 1 uF, 35 V, +/- 10%, X7R, 0603"
 			(at 68.58 358.14 0)
 			(effects
 				(font
@@ -16988,11 +18115,20 @@
 				(hide yes)
 			)
 		)
-		(property "Package / Case" "C0805"
+		(property "Package / Case" "C0603"
 			(at 68.58 358.14 0)
 			(effects
 				(font
 					(size 0.8 0.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "TAC5212EVM" "C1608X7R1V105K080AC"
+			(at 68.58 358.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -17019,7 +18155,7 @@
 		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "d367cfba-26e9-491e-9e4e-8e3f63954153")
 		(property "Reference" "5V1"
 			(at 57.15 220.853 0)
@@ -17055,7 +18191,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Jumper, 2-pole, closed/bridged"
+		(property "Description" "Jumper to be sliced to disconnect."
 			(at 57.15 226.06 0)
 			(effects
 				(font
@@ -17065,6 +18201,24 @@
 			)
 		)
 		(property "Label" "5V"
+			(at 57.15 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "DNP"
+			(at 57.15 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TAC5212EVM" "n/a"
 			(at 57.15 226.06 0)
 			(effects
 				(font
@@ -17095,7 +18249,7 @@
 		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "d518a76d-5df6-4e5c-ae14-fe8c7b1bdf42")
 		(property "Reference" "3V3"
 			(at 116.84 350.393 0)
@@ -17131,7 +18285,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Jumper, 2-pole, closed/bridged"
+		(property "Description" "Jumper to be sliced to disconnect."
 			(at 116.84 355.6 0)
 			(effects
 				(font
@@ -17141,6 +18295,24 @@
 			)
 		)
 		(property "Label" "3V"
+			(at 116.84 355.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "DNP"
+			(at 116.84 355.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TAC5212EVM" "n/a"
 			(at 116.84 355.6 0)
 			(effects
 				(font
@@ -17171,7 +18343,7 @@
 		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "d58f1f68-66f2-4e1e-a6aa-126d05d6f4d3")
 		(property "Reference" "GND1"
 			(at 149.86 156.718 0)
@@ -17207,7 +18379,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Jumper, 2-pole, closed/bridged"
+		(property "Description" "Jumper, open"
 			(at 149.86 158.75 0)
 			(effects
 				(font
@@ -17217,6 +18389,24 @@
 			)
 		)
 		(property "Label" "GND"
+			(at 149.86 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "DNP"
+			(at 149.86 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TAC5212EVM" "n/a"
 			(at 149.86 158.75 0)
 			(effects
 				(font
@@ -17258,7 +18448,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100ohm"
+		(property "Value" "100"
 			(at 205.105 88.265 90)
 			(effects
 				(font
@@ -17267,7 +18457,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "project_fp:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "project_fp:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 216.535 93.345 90)
 			(effects
 				(font
@@ -17285,8 +18475,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES, 100, 1%, 0.1 W, 0603"
 			(at 214.63 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "R0603"
+			(at 214.63 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TAC5212EVM" "RC0603FR-07100RL"
+			(at 214.63 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17309,7 +18517,7 @@
 			)
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "R1015")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -17362,7 +18570,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "TVS Diode Array, 5.5V Standoff, 2 Channels, SC-70 package"
+		(property "Description" "0402 Diode for Audio Systems 5v rating. (3.6v possible)"
+			(at 220.98 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "D0402"
+			(at 220.98 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TAC5212EVM" "TPD1E10B06DPYR"
 			(at 220.98 215.9 0)
 			(effects
 				(font
@@ -17438,7 +18664,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "TVS Diode Array, 5.5V Standoff, 2 Channels, SC-70 package"
+		(property "Description" "0402 Diode for Audio Systems 5v rating. (3.6v possible)"
+			(at 232.41 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "D0402"
+			(at 232.41 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TAC5212EVM" "TPD1E10B06DPYR"
 			(at 232.41 142.24 0)
 			(effects
 				(font
@@ -17462,7 +18706,7 @@
 			)
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "D1007")
+					(reference "D20")
 					(unit 1)
 				)
 			)
@@ -17486,7 +18730,7 @@
 				)
 			)
 		)
-		(property "Value" "3.3v LDO - TLV74133PDQNR"
+		(property "Value" "3.3v LDO - TLV74133PDBVR"
 			(at 90.17 351.79 0)
 			(effects
 				(font
@@ -17513,7 +18757,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Linear Voltage Regulator IC Positive Fixed 1 Output 150mA SOT-23-5"
+			(at 90.17 358.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "SOT-23-5"
+			(at 90.17 358.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TAC5212EVM" "TLV74133PDBVR"
 			(at 90.17 358.14 0)
 			(effects
 				(font
@@ -17564,7 +18826,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47UF CAP CER 6.3V X5R 1210 - 47uF Radial"
+		(property "Value" "47uF"
 			(at 220.345 118.11 90)
 			(effects
 				(font
@@ -17592,7 +18854,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP, TA, 47 uF, 10 V, +/- 10%, 0.5 ohm, SMD"
 			(at 203.2 121.92 0)
 			(effects
 				(font
@@ -17601,11 +18863,20 @@
 				(hide yes)
 			)
 		)
-		(property "Package / Case" "through-5mm"
+		(property "Package / Case" "3528-21"
 			(at 203.2 121.92 0)
 			(effects
 				(font
 					(size 0.8 0.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "TAC5212EVM" "TPSB476K010R0500"
+			(at 203.2 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -17625,7 +18896,7 @@
 			)
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "C1015")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -17744,7 +19015,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "TVS Diode Array, 5.5V Standoff, 2 Channels, SC-70 package"
+		(property "Description" "0402 Diode for Audio Systems 5v rating. (3.6v possible)"
+			(at 220.98 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "D0402"
+			(at 220.98 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TAC5212EVM" "TPD1E10B06DPYR"
 			(at 220.98 182.88 0)
 			(effects
 				(font
@@ -17819,7 +19108,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "TVS Diode Array, 5.5V Standoff, 2 Channels, SC-70 package"
+		(property "Description" "0402 Diode for Audio Systems 5v rating. (3.6v possible)"
+			(at 232.41 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "D0402"
+			(at 232.41 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TAC5212EVM" "TPD1E10B06DPYR"
 			(at 232.41 95.25 0)
 			(effects
 				(font
@@ -17843,7 +19150,7 @@
 			)
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "D1006")
+					(reference "D17")
 					(unit 1)
 				)
 			)
@@ -17856,7 +19163,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "e06702df-1f64-4ce6-823a-77fce2e74341")
 		(property "Reference" "G8"
@@ -17893,7 +19200,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
+		(property "Description" "Small Via to be incorporated into design."
+			(at 186.69 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "DNP"
+			(at 186.69 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TAC5212EVM" "n/a"
 			(at 186.69 189.23 0)
 			(effects
 				(font
@@ -17987,7 +19312,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "e4d6606e-9b04-4793-a38e-267210672300")
 		(property "Reference" "PU_EN1001"
 			(at 67.564 149.352 0)
@@ -18024,7 +19349,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Jumper, 2-pole, open"
 			(at 67.31 151.13 0)
 			(effects
 				(font
@@ -18034,6 +19359,24 @@
 			)
 		)
 		(property "Label" "PU"
+			(at 67.31 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "DNP"
+			(at 67.31 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TAC5212EVM" "n/a"
 			(at 67.31 151.13 0)
 			(effects
 				(font
@@ -18164,7 +19507,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "project_fp:C_0805_2012Metric"
+		(property "Footprint" "project_fp:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 35.56 86.36 0)
 			(effects
 				(font
@@ -18182,7 +19525,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP, CERM, 10 μF, 16 V,+/- 10%, X7R, 0805"
+			(at 35.56 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "C0805"
+			(at 35.56 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TAC5212EVM" "EMK212BB7106KG-T"
 			(at 35.56 86.36 0)
 			(effects
 				(font
@@ -18206,7 +19567,7 @@
 			)
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "C1001")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -18219,7 +19580,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "e8504821-d847-4246-a641-2021084b7a41")
 		(property "Reference" "G7"
@@ -18256,7 +19617,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
+		(property "Description" "Small Via to be incorporated into design."
+			(at 186.69 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "DNP"
+			(at 186.69 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TAC5212EVM" "n/a"
 			(at 186.69 171.45 0)
 			(effects
 				(font
@@ -18361,7 +19740,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47NF CAP CER 100V X7R 0805"
+		(property "Value" "0.047uF"
 			(at 205.994 131.826 0)
 			(effects
 				(font
@@ -18370,7 +19749,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "project_fp:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 223.52 124.46 0)
 			(effects
 				(font
@@ -18388,7 +19767,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP, CERM, 0.047 uF, 50 V, +/- 10%, X7R, 0603"
 			(at 223.52 124.46 0)
 			(effects
 				(font
@@ -18397,11 +19776,20 @@
 				(hide yes)
 			)
 		)
-		(property "Package / Case" "C0805"
+		(property "Package / Case" "C0603"
 			(at 223.52 124.46 0)
 			(effects
 				(font
 					(size 0.8 0.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "TAC5212EVM" "C1608X7R1H473K080AA"
+			(at 223.52 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -18421,7 +19809,7 @@
 			)
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "C1018")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -18434,7 +19822,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "e94db00c-b1b5-4b6c-b398-95a6b8fb7dd4")
 		(property "Reference" "G3"
@@ -18471,7 +19859,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
+		(property "Description" "Small Via to be incorporated into design."
+			(at 186.69 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "DNP"
+			(at 186.69 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TAC5212EVM" "n/a"
 			(at 186.69 132.08 0)
 			(effects
 				(font
@@ -18602,7 +20008,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "High Performance Stereo Audio Codec"
+			(at 110.49 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "4X4"
+			(at 110.49 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TAC5212EVM" "TAC5212"
 			(at 110.49 114.3 0)
 			(effects
 				(font
@@ -18851,15 +20275,15 @@
 	)
 	(symbol
 		(lib_id "proejct_lib:Jumper_NO_Small-Device")
-		(at 35.56 153.67 0)
+		(at 35.56 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "efa3ede6-0a22-4bb6-8f66-bfc66ed7b433")
 		(property "Reference" "ADD1003"
-			(at 35.56 148.971 0)
+			(at 35.56 155.321 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -18867,7 +20291,7 @@
 			)
 		)
 		(property "Value" "0x52 | 0xA4"
-			(at 35.56 151.2824 0)
+			(at 35.56 157.6324 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -18875,7 +20299,7 @@
 			)
 		)
 		(property "Footprint" "project_fp:SolderJumper-2_Open_Pad0.5x1.0mm_ADDR"
-			(at 35.56 153.67 0)
+			(at 35.56 160.02 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -18884,7 +20308,7 @@
 			)
 		)
 		(property "Datasheet" "NO COMPONENT"
-			(at 35.56 153.67 0)
+			(at 35.56 160.02 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -18892,8 +20316,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 35.56 153.67 0)
+		(property "Description" "Jumper, open"
+			(at 35.56 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18902,7 +20326,25 @@
 			)
 		)
 		(property "Label" "52       A4"
-			(at 35.56 153.67 0)
+			(at 35.56 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "DNP"
+			(at 35.56 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TAC5212EVM" "n/a"
+			(at 35.56 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18938,7 +20380,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "f13eb2cb-fd0e-4cde-a205-2e4a51425ab2")
 		(property "Reference" "G11"
@@ -18975,7 +20417,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
+		(property "Description" "Small Via to be incorporated into design."
+			(at 185.42 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "DNP"
+			(at 185.42 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TAC5212EVM" "n/a"
 			(at 185.42 81.28 0)
 			(effects
 				(font
@@ -19063,13 +20523,108 @@
 		)
 	)
 	(symbol
+		(lib_id "proejct_lib:Jumper_NO_Small-Device")
+		(at 35.56 149.86 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(uuid "f2c278e5-d497-4696-b88a-5c2f38edcb39")
+		(property "Reference" "ADD1"
+			(at 35.56 145.161 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Value" "jumper"
+			(at 35.56 147.4724 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" "project_fp:SolderJumper-2_Open_Pad0.5x1.0mm_ADDR"
+			(at 35.56 149.86 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "NO COMPONENT"
+			(at 35.56 149.86 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, open"
+			(at 35.56 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Label" ""
+			(at 35.56 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "DNP"
+			(at 35.56 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TAC5212EVM" "n/a"
+			(at 35.56 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d6b2cf65-ee6b-4e76-929d-1b6cc7919880")
+		)
+		(pin "2"
+			(uuid "7b39925a-9d0f-4b3f-864e-d7482a1884b7")
+		)
+		(instances
+			(project "tac5212_audio_board_single_ended"
+				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
+					(reference "ADD1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "proejct_lib:Jumper_2_Bridged")
 		(at 125.73 281.94 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "f5e169a2-e60c-4f21-82f1-3c4691e3fb77")
 		(property "Reference" "E1"
 			(at 131.064 280.924 0)
@@ -19106,7 +20661,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Jumper, 2-pole, closed/bridged"
+		(property "Description" "Jumper, open"
 			(at 125.73 281.94 0)
 			(effects
 				(font
@@ -19116,6 +20671,24 @@
 			)
 		)
 		(property "Label" "E"
+			(at 125.73 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "DNP"
+			(at 125.73 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TAC5212EVM" "n/a"
 			(at 125.73 281.94 0)
 			(effects
 				(font
@@ -19146,7 +20719,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "f7ddfa20-9d8a-4e95-8ea1-91dc8231e9ac")
 		(property "Reference" "DOUT1"
 			(at 214.884 280.67 0)
@@ -19182,7 +20755,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Jumper to be sliced to disconnect."
 			(at 214.63 279.4 0)
 			(effects
 				(font
@@ -19192,6 +20765,24 @@
 			)
 		)
 		(property "Label" "DOUT"
+			(at 214.63 279.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "DNP"
+			(at 214.63 279.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TAC5212EVM" "n/a"
 			(at 214.63 279.4 0)
 			(effects
 				(font
@@ -19222,7 +20813,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "f8505495-35fe-4bd7-9735-5708e4e46385")
 		(property "Reference" "G10"
@@ -19259,7 +20850,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
+		(property "Description" "Small Via to be incorporated into design."
+			(at 187.96 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "DNP"
+			(at 187.96 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TAC5212EVM" "n/a"
 			(at 187.96 224.79 0)
 			(effects
 				(font
@@ -19298,7 +20907,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100ohm"
+		(property "Value" "100"
 			(at 223.139 99.822 0)
 			(effects
 				(font
@@ -19308,7 +20917,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "project_fp:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "project_fp:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 217.805 107.315 90)
 			(effects
 				(font
@@ -19326,7 +20935,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES, 100, 1%, 0.1 W, 0603"
 			(at 215.9 105.41 0)
 			(effects
 				(font
@@ -19335,11 +20944,20 @@
 				(hide yes)
 			)
 		)
-		(property "Package / Case" "R0805"
+		(property "Package / Case" "R0603"
 			(at 215.9 101.6 90)
 			(effects
 				(font
 					(size 0.8 0.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "TAC5212EVM" "RC0603FR-07100RL"
+			(at 215.9 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -19359,7 +20977,7 @@
 			)
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "R1018")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -19372,7 +20990,7 @@
 		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "fbaffd3e-450b-449c-86a6-cca6ba0a3653")
 		(property "Reference" "SDA1001"
 			(at 47.498 276.606 0)
@@ -19409,7 +21027,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Jumper, 2-pole, closed/bridged"
+		(property "Description" "Jumper, open"
 			(at 46.99 271.78 0)
 			(effects
 				(font
@@ -19419,6 +21037,24 @@
 			)
 		)
 		(property "Label" "SD"
+			(at 46.99 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "DNP"
+			(at 46.99 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TAC5212EVM" "n/a"
 			(at 46.99 271.78 0)
 			(effects
 				(font
@@ -19527,7 +21163,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "ffa9a5b3-62d2-4d21-ab9a-06a66f35380e")
 		(property "Reference" "G5"
@@ -19564,7 +21200,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
+		(property "Description" "Small Via to be incorporated into design."
+			(at 186.69 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "DNP"
+			(at 186.69 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TAC5212EVM" "n/a"
 			(at 186.69 101.6 0)
 			(effects
 				(font

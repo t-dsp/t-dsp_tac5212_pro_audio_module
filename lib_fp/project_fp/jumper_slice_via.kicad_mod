@@ -28,7 +28,7 @@
 			)
 		)
 	)
-	(property "Footprint" "project_fp:jumper_slice"
+	(property "Footprint" "jumper_slice_via"
 		(at -0.5 -5.1 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -175,27 +175,15 @@
 	(attr through_hole)
 	(net_tie_pad_groups "1, 2")
 	(fp_rect
-		(start -0.075 -0.2)
-		(end 0.475 0.2)
+		(start -0.35 -0.25)
+		(end 0.5 0.25)
 		(stroke
 			(width 0)
 			(type solid)
 		)
 		(fill solid)
-		(layer "F.Cu")
-		(uuid "3230936a-fac4-4ad5-860f-6d36ffd06cb9")
-	)
-	(fp_poly
-		(pts
-			(xy 0.744 0.244) (xy -0.844 0.244) (xy -0.844 -0.244) (xy 0.744 -0.244)
-		)
-		(stroke
-			(width 0.01)
-			(type solid)
-		)
-		(fill solid)
 		(layer "F.Mask")
-		(uuid "81bbff5d-fd1b-4e6c-9e19-c622efbd6813")
+		(uuid "fd4f0c46-a123-42f1-aca4-aea220640e96")
 	)
 	(fp_text user "${Reference}"
 		(at 0.7 0 0)
@@ -216,6 +204,12 @@
 		(size 0.5 0.5)
 		(layers "F.Cu" "F.Mask")
 		(uuid "c23540d1-2d3a-4944-a951-1290feadb9ef")
+	)
+	(pad "2" smd rect
+		(at 0.175 0)
+		(size 0.75 0.45)
+		(layers "F.Cu" "F.Mask")
+		(uuid "52149f53-e14b-4988-857d-f8965b1315af")
 	)
 	(pad "2" thru_hole rect
 		(at 0.5 0)

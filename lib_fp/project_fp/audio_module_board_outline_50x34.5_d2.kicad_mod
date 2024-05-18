@@ -1,4 +1,4 @@
-(footprint "audio_module_board_outline_50x34.5_d1"
+(footprint "audio_module_board_outline_50x34.5_d2"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -26,7 +26,7 @@
 			)
 		)
 	)
-	(property "Footprint" "audio_module_board_outline_50x34.5_d1"
+	(property "Footprint" "audio_module_board_outline_50x34.5_d2"
 		(at 18 14 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -480,8 +480,8 @@
 		(uuid "3f97eb02-16ea-4aad-b481-19d61f5cece9")
 	)
 	(fp_rect
-		(start 0 -26.46)
-		(end 42 0)
+		(start -1.05 -27.985)
+		(end 43.375 2.2)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -944,18 +944,6 @@
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "8479e74c-d173-4a7b-ad91-46d32739f539")
-		(effects
-			(font
-				(size 0.8 0.8)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "G"
-		(at 41.475 -11.925 90)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "91205b44-d325-45e9-be89-49b40f682dae")
 		(effects
 			(font
 				(size 0.8 0.8)

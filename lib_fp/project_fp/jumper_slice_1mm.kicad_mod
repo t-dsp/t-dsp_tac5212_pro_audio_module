@@ -27,7 +27,7 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "jumper_slice_1mm"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -129,7 +129,7 @@
 			)
 		)
 	)
-	(attr through_hole exclude_from_bom)
+	(attr smd)
 	(net_tie_pad_groups "1, 2")
 	(fp_poly
 		(pts

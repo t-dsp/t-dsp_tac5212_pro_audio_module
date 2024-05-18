@@ -4,7 +4,6 @@
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(descr "WQFN, 24 Pin (http://www.ti.com/lit/ds/symlink/lm26480.pdf#page=39), generated with kicad-footprint-generator ipc_noLead_generator.py")
-	(tags "WQFN NoLead")
 	(property "Reference" "REF**"
 		(at 0 -3.32 0)
 		(layer "F.SilkS")
@@ -66,7 +65,7 @@
 		)
 	)
 	(zone_connect 2)
-	(attr smd)
+	(attr through_hole)
 	(pad "1" thru_hole circle
 		(at 0 0)
 		(size 0.5 0.5)

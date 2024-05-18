@@ -28,7 +28,7 @@
 			)
 		)
 	)
-	(property "Footprint" "project_fp:SolderJumper-2_Open_Pad0.5x1.0mm"
+	(property "Footprint" "SolderJumper-2_Open_Pad0.5x1.0mm_ADDR"
 		(at 0.7774 -1.6 180)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -125,7 +125,6 @@
 			)
 		)
 	)
-	(attr exclude_from_pos_files exclude_from_bom)
 	(fp_line
 		(start -1.25 -0.6)
 		(end 1.25 -0.6)

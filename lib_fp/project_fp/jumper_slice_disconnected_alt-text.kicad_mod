@@ -25,7 +25,7 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "jumper_slice_disconnected_alt-text"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -61,18 +61,17 @@
 			)
 		)
 	)
-	(attr through_hole)
-	(fp_poly
-		(pts
-			(xy 0.254 0.254) (xy -0.254 0.254) (xy -0.254 -0.254) (xy 0.254 -0.254)
-		)
+	(attr smd)
+	(fp_rect
+		(start -0.246 -0.254)
+		(end 0.246 0.254)
 		(stroke
-			(width 0.01)
+			(width 0)
 			(type solid)
 		)
 		(fill solid)
 		(layer "F.Mask")
-		(uuid "9e248a22-28d6-4f1a-a72a-b27114683dfc")
+		(uuid "6c20427e-f835-41c5-aeca-013c792ef903")
 	)
 	(fp_text user "${Label}"
 		(at -0.8 0 180)

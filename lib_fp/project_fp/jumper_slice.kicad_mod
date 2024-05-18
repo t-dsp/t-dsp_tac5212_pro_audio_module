@@ -27,7 +27,7 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "jumper_slice"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -64,7 +64,7 @@
 		)
 	)
 	(property "Digikey" "-"
-		(at 0 0 0)
+		(at -0.075 -0.6 0)
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "24bd1ad1-4373-4c4e-8e33-06847d580159")
@@ -75,7 +75,7 @@
 		)
 	)
 	(property "Manufacturer" "-"
-		(at 0 0 0)
+		(at -0.1 -0.6 0)
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "f88ca4e0-49a9-4232-b7c4-b0349e9c93c6")
@@ -119,7 +119,7 @@
 		)
 	)
 	(property "mouser" "-"
-		(at 0 0 0)
+		(at -0.075 -0.6 0)
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "dd64759d-d37c-4311-989d-b8a6a70377a2")
@@ -129,31 +129,29 @@
 			)
 		)
 	)
-	(attr through_hole exclude_from_bom)
+	(attr smd exclude_from_bom)
 	(net_tie_pad_groups "1, 2")
-	(fp_poly
-		(pts
-			(xy -0.275 -0.2) (xy 0.275 -0.2) (xy 0.275 0.2) (xy -0.275 0.2)
-		)
+	(fp_rect
+		(start -0.279 -0.229)
+		(end 0.296 0.229)
 		(stroke
 			(width 0)
 			(type solid)
 		)
 		(fill solid)
 		(layer "F.Cu")
-		(uuid "f195412f-a2a8-440a-afc2-ad70a9e96fb7")
+		(uuid "4ea7c9c3-9d0c-422c-a82a-4b2c16f996a6")
 	)
-	(fp_poly
-		(pts
-			(xy 0.254 0.254) (xy -0.254 0.254) (xy -0.254 -0.254) (xy 0.254 -0.254)
-		)
+	(fp_rect
+		(start -0.254 -0.254)
+		(end 0.246 0.254)
 		(stroke
-			(width 0.01)
+			(width 0)
 			(type solid)
 		)
 		(fill solid)
 		(layer "F.Mask")
-		(uuid "dbdbd19c-6858-4643-a04a-87772fa69bd2")
+		(uuid "d4a28cbb-3bae-4323-9b07-46b199c529eb")
 	)
 	(fp_text user "${Label}"
 		(at 0.8 0 0)

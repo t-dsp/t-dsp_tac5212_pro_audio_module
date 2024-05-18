@@ -5640,6 +5640,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 372.11) (xy 104.14 372.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b587e91-6e15-4d0d-abf0-ee031d0a2c05")
+	)
+	(wire
+		(pts
 			(xy 218.44 168.91) (xy 222.25 168.91)
 		)
 		(stroke
@@ -5967,16 +5977,6 @@
 			(type default)
 		)
 		(uuid "732d9932-3176-4c01-9a9a-31a28ff43fe5")
-	)
-	(wire
-		(pts
-			(xy 90.17 367.03) (xy 90.17 365.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7709fa91-192d-4007-bbba-01b484b2ba48")
 	)
 	(wire
 		(pts
@@ -6760,6 +6760,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 372.11) (xy 93.98 372.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d248e1cd-6123-4416-9f2d-10dcc76b8221")
+	)
+	(wire
+		(pts
 			(xy 49.53 294.64) (xy 66.04 294.64)
 		)
 		(stroke
@@ -7007,6 +7017,16 @@
 			(type default)
 		)
 		(uuid "f65c63d9-1484-4916-8846-c4caca0ae40c")
+	)
+	(wire
+		(pts
+			(xy 90.17 372.11) (xy 90.17 365.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f67e2c85-61fc-4b75-a1dc-4f7d4d9371a9")
 	)
 	(wire
 		(pts
@@ -14615,6 +14635,74 @@
 		)
 	)
 	(symbol
+		(lib_id "proejct_lib:Earth")
+		(at 110.49 372.11 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "89b083ad-74a6-41e2-bbd8-736f3c62913e")
+		(property "Reference" "#PWR0108"
+			(at 110.49 378.46 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 110.49 375.92 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 372.11 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 372.11 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 110.49 372.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ed56f150-07d3-40d0-bc25-bc2d46b7e787")
+		)
+		(instances
+			(project "tac5212_audio_board_single_ended"
+				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
+					(reference "#PWR0108")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "Jumper_NO_Small-Device_1")
 		(lib_id "proejct_lib:Jumper_NO_Small-Device_1")
 		(at 35.56 177.8 0)
@@ -15365,7 +15453,7 @@
 	)
 	(symbol
 		(lib_id "proejct_lib:Jumper_2_Bridged")
-		(at 125.73 287.02 0)
+		(at 125.73 287.02 180)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
@@ -15373,7 +15461,7 @@
 		(dnp yes)
 		(uuid "94eb7cb5-f04a-4400-a349-326c33ddde95")
 		(property "Reference" "E2"
-			(at 131.064 283.464 0)
+			(at 120.396 290.576 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15381,7 +15469,7 @@
 			)
 		)
 		(property "Value" "jumper"
-			(at 119.38 283.21 0)
+			(at 132.08 290.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17807,72 +17895,6 @@
 		)
 	)
 	(symbol
-		(lib_id "proejct_lib:GNDD")
-		(at 90.17 367.03 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cc7b5a65-e9ff-4248-a4cf-72c427efa6ca")
-		(property "Reference" "#PWR013"
-			(at 90.17 373.38 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDD"
-			(at 90.17 371.094 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 90.17 367.03 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 90.17 367.03 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 90.17 367.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9d5a9bbc-668f-4168-91d0-4b7373aac98d")
-		)
-		(instances
-			(project "tac5212_audio_board_single_ended"
-				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "proejct_lib:Jumper_NO_Small-Device")
 		(at 241.3 118.11 0)
 		(unit 1)
@@ -18897,6 +18919,101 @@
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
 					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "proejct_lib:Jumper_2_Bridged")
+		(at 99.06 372.11 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "de145286-1413-46eb-879a-b20b0c110c32")
+		(property "Reference" "G108"
+			(at 104.394 371.094 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "jumper"
+			(at 92.71 370.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "project_fp:jumper_slice"
+			(at 99.06 372.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 99.06 372.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, open"
+			(at 99.06 372.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Label" "G"
+			(at 99.06 372.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "DNP"
+			(at 99.06 372.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TAC5212EVM" "n/a"
+			(at 99.06 372.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dd58da3f-1f94-45b1-98e6-450a18261983")
+		)
+		(pin "2"
+			(uuid "7e549744-d2ff-4913-b531-2597d0de2f82")
+		)
+		(instances
+			(project "tac5212_audio_board_single_ended"
+				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
+					(reference "G108")
 					(unit 1)
 				)
 			)
@@ -20619,7 +20736,7 @@
 	)
 	(symbol
 		(lib_id "proejct_lib:Jumper_2_Bridged")
-		(at 125.73 281.94 0)
+		(at 125.73 281.94 180)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
@@ -20627,7 +20744,7 @@
 		(dnp yes)
 		(uuid "f5e169a2-e60c-4f21-82f1-3c4691e3fb77")
 		(property "Reference" "E1"
-			(at 131.064 280.924 0)
+			(at 120.396 282.956 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20635,7 +20752,7 @@
 			)
 		)
 		(property "Value" "jumper"
-			(at 119.38 280.67 0)
+			(at 132.08 283.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -4709,7 +4709,7 @@
 		(uuid "3f4ae9ac-08e6-4d2c-bd16-a7bc93995c87")
 	)
 	(junction
-		(at 68.58 365.76)
+		(at 59.69 365.76)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "441d6599-e0cb-465a-995a-7ee7620f9f63")
@@ -4775,7 +4775,7 @@
 		(uuid "6ce1ff30-5a87-404f-98d6-4e1da6aa5c0b")
 	)
 	(junction
-		(at 68.58 355.6)
+		(at 59.69 355.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6e954a5f-34c2-4da9-8648-7585989e8ce3")
@@ -4865,7 +4865,7 @@
 		(uuid "a1b52acb-68c0-4c65-8523-abb4067ce38c")
 	)
 	(junction
-		(at 54.61 355.6)
+		(at 45.72 355.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a28488c5-5d97-4df8-8898-a7495ff9e192")
@@ -4937,6 +4937,12 @@
 		(uuid "cb80e5b8-7581-4f40-b2a3-4f54073c1879")
 	)
 	(junction
+		(at 63.5 374.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d0c2b6a2-ec2a-44b1-9c41-44a84291d0aa")
+	)
+	(junction
 		(at 48.26 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5003,12 +5009,6 @@
 		(uuid "ed37ce91-99b6-4679-b082-e0c112103906")
 	)
 	(junction
-		(at 78.74 355.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ee6cddd5-11ce-4aa6-8275-9d6a974cc1dc")
-	)
-	(junction
 		(at 224.79 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5029,10 +5029,6 @@
 	(no_connect
 		(at 115.57 223.52)
 		(uuid "27f20dda-b8e4-44e4-becf-ed0c47e6dc97")
-	)
-	(no_connect
-		(at 66.04 223.52)
-		(uuid "c2f2843a-efa7-4f15-b763-0cadd05c363f")
 	)
 	(no_connect
 		(at 66.04 228.6)
@@ -5167,6 +5163,16 @@
 			(type default)
 		)
 		(uuid "0d7726d6-065b-4802-a3ae-7603b36c826e")
+	)
+	(wire
+		(pts
+			(xy 63.5 374.65) (xy 67.31 374.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d95b6e4-2389-4b87-8730-d03d4a1652d8")
 	)
 	(wire
 		(pts
@@ -5570,7 +5576,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 355.6) (xy 54.61 355.6)
+			(xy 59.69 355.6) (xy 45.72 355.6)
 		)
 		(stroke
 			(width 0)
@@ -5667,6 +5673,16 @@
 			(type default)
 		)
 		(uuid "4bb93365-b336-4c6b-99b5-aa72586fb293")
+	)
+	(wire
+		(pts
+			(xy 80.01 374.65) (xy 80.01 358.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4dc86d47-ca45-48b2-b157-94c6019d217f")
 	)
 	(wire
 		(pts
@@ -5940,16 +5956,6 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 355.6) (xy 68.58 355.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "713bf426-6faf-4442-a764-26cbe8ec7535")
-	)
-	(wire
-		(pts
 			(xy 58.42 107.95) (xy 82.55 107.95)
 		)
 		(stroke
@@ -5990,7 +5996,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 360.68) (xy 54.61 365.76)
+			(xy 45.72 360.68) (xy 45.72 365.76)
 		)
 		(stroke
 			(width 0)
@@ -6280,7 +6286,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 360.68) (xy 68.58 365.76)
+			(xy 59.69 360.68) (xy 59.69 365.76)
 		)
 		(stroke
 			(width 0)
@@ -6440,6 +6446,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 358.14) (xy 82.55 358.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8f64035-c508-4c17-a97b-026c0505a7b4")
+	)
+	(wire
+		(pts
 			(xy 22.86 149.86) (xy 22.86 160.02)
 		)
 		(stroke
@@ -6467,6 +6483,16 @@
 			(type default)
 		)
 		(uuid "ab7bc5d2-26c3-436e-888c-b7c8c87e1148")
+	)
+	(wire
+		(pts
+			(xy 48.26 374.65) (xy 63.5 374.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab897df5-22bc-4782-92de-978c3f3227f1")
 	)
 	(wire
 		(pts
@@ -6580,7 +6606,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 365.76) (xy 68.58 365.76)
+			(xy 45.72 365.76) (xy 59.69 365.76)
 		)
 		(stroke
 			(width 0)
@@ -6600,7 +6626,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 365.76) (xy 90.17 365.76)
+			(xy 59.69 365.76) (xy 90.17 365.76)
 		)
 		(stroke
 			(width 0)
@@ -6770,6 +6796,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 374.65) (xy 80.01 374.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2aec07a-40b7-40ef-9072-638f012b2bb9")
+	)
+	(wire
+		(pts
 			(xy 49.53 294.64) (xy 66.04 294.64)
 		)
 		(stroke
@@ -6840,7 +6876,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 355.6) (xy 54.61 355.6)
+			(xy 36.83 355.6) (xy 45.72 355.6)
 		)
 		(stroke
 			(width 0)
@@ -6920,7 +6956,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 355.6) (xy 78.74 355.6)
+			(xy 59.69 355.6) (xy 82.55 355.6)
 		)
 		(stroke
 			(width 0)
@@ -6957,16 +6993,6 @@
 			(type default)
 		)
 		(uuid "edcb6475-8399-4580-a799-3898f9ab4895")
-	)
-	(wire
-		(pts
-			(xy 78.74 358.14) (xy 78.74 355.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee16b9b9-e890-48d5-969f-6730588b1988")
 	)
 	(wire
 		(pts
@@ -7078,16 +7104,6 @@
 		)
 		(uuid "fe667212-3919-4ad5-9787-42f53fa8d71e")
 	)
-	(wire
-		(pts
-			(xy 82.55 358.14) (xy 78.74 358.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe8f5419-de98-41f4-9f45-40ee09367f8d")
-	)
 	(text "AUDIO FILTERS"
 		(exclude_from_sim no)
 		(at 184.912 67.818 0)
@@ -7173,7 +7189,7 @@
 	)
 	(global_label "5V"
 		(shape input)
-		(at 45.72 355.6 180)
+		(at 36.83 355.6 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7183,7 +7199,7 @@
 		)
 		(uuid "02ecca3e-9984-4829-9796-0acea9ed4827")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 41.0088 355.5206 0)
+			(at 32.1188 355.5206 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7272,6 +7288,28 @@
 		(uuid "100bc035-357f-4b7e-a350-b9a6d4688985")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 168.415 283.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "EN_HELD_HIGH"
+		(shape input)
+		(at 48.26 374.65 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify right)
+		)
+		(uuid "1265fd0b-69cb-4c37-a391-a2829f72f194")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 36.5611 374.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8023,6 +8061,28 @@
 			(effects
 				(font
 					(size 1.524 1.524)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "EN_HELD_HIGH"
+		(shape input)
+		(at 66.04 223.52 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify right)
+		)
+		(uuid "745ad68f-e895-459d-b806-37a72271fc54")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 54.3411 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(justify right)
 				(hide yes)
@@ -9129,7 +9189,7 @@
 			)
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "C21")
+					(reference "C122")
 					(unit 1)
 				)
 			)
@@ -9144,7 +9204,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "02bb5231-65b4-485d-96e9-4d3602216ea8")
-		(property "Reference" "#T#PWR011"
+		(property "Reference" "#T#PWR0108"
 			(at 189.23 86.36 0)
 			(effects
 				(font
@@ -9195,7 +9255,7 @@
 		(instances
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "#T#PWR011")
+					(reference "#T#PWR0108")
 					(unit 1)
 				)
 			)
@@ -9211,7 +9271,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "02c2136c-2069-412a-84ce-6d59986e427f")
-		(property "Reference" "G9"
+		(property "Reference" "G115"
 			(at 188.2774 199.39 0)
 			(effects
 				(font
@@ -9278,7 +9338,7 @@
 		(instances
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "G9")
+					(reference "G115")
 					(unit 1)
 				)
 			)
@@ -9369,7 +9429,7 @@
 			)
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "R101")
+					(reference "R112")
 					(unit 1)
 				)
 			)
@@ -9384,7 +9444,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "068586b6-1410-4173-892d-37c578ac3e2f")
-		(property "Reference" "G1"
+		(property "Reference" "G117"
 			(at 131.064 291.084 0)
 			(effects
 				(font
@@ -9464,7 +9524,92 @@
 		(instances
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "G1")
+					(reference "G117")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "proejct_lib:R_Small")
+		(at 69.85 374.65 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0747b3c6-3fef-4d49-991d-3168fadec2a5")
+		(property "Reference" "R127"
+			(at 65.532 374.142 90)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Value" "0 Ohm"
+			(at 74.676 373.888 90)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 69.85 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 69.85 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES SMD 0 OHM JUMPER 1/10W 0402"
+			(at 69.85 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "R0402"
+			(at 69.85 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TAC5212EVM" "ERJ-2GE0R00X "
+			(at 69.85 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2e960bce-f7e8-49e4-8db1-a0c42dd6d467")
+		)
+		(pin "2"
+			(uuid "c8b0e0c4-9528-4e02-81c7-723a16e5acd6")
+		)
+		(instances
+			(project "tac5212_audio_board_single_ended"
+				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
+					(reference "R127")
 					(unit 1)
 				)
 			)
@@ -9479,7 +9624,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "08dbf94f-c680-4433-b89a-eaf7914142b1")
-		(property "Reference" "T*C3"
+		(property "Reference" "T*C110"
 			(at 107.7468 356.9716 0)
 			(effects
 				(font
@@ -9551,7 +9696,7 @@
 		(instances
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "T*C3")
+					(reference "T*C110")
 					(unit 1)
 				)
 			)
@@ -9645,7 +9790,7 @@
 			)
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "C17")
+					(reference "C119")
 					(unit 1)
 				)
 			)
@@ -9739,7 +9884,7 @@
 			)
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "R20")
+					(reference "R116")
 					(unit 1)
 				)
 			)
@@ -9754,7 +9899,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0c8878c1-fd48-41b8-8158-ae61803abb30")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR0127"
 			(at 123.19 252.73 0)
 			(effects
 				(font
@@ -9805,7 +9950,7 @@
 		(instances
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "#PWR09")
+					(reference "#PWR0127")
 					(unit 1)
 				)
 			)
@@ -9822,7 +9967,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0d339f5f-53b9-4357-9350-88d0590f483b")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR0117"
 			(at 154.94 168.91 0)
 			(effects
 				(font
@@ -9873,7 +10018,7 @@
 		(instances
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "#PWR05")
+					(reference "#PWR0117")
 					(unit 1)
 				)
 			)
@@ -9947,7 +10092,7 @@
 			)
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "#PWR036")
+					(reference "#PWR0118")
 					(unit 1)
 				)
 			)
@@ -9962,7 +10107,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "0d82802a-4fd5-4ce1-a812-e993e4c48ed6")
-		(property "Reference" "INM1"
+		(property "Reference" "INM109"
 			(at 244.094 193.04 0)
 			(effects
 				(font
@@ -9996,7 +10141,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Via with slice option to bypass audio filter. "
+		(property "Description" "Via with slice option to bypass audio filter."
 			(at 243.84 191.77 0)
 			(effects
 				(font
@@ -10041,7 +10186,7 @@
 		(instances
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "INM1")
+					(reference "INM109")
 					(unit 1)
 				)
 			)
@@ -10134,7 +10279,7 @@
 			)
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "C2")
+					(reference "C118")
 					(unit 1)
 				)
 			)
@@ -10229,7 +10374,7 @@
 			)
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "C1009")
+					(reference "C125")
 					(unit 1)
 				)
 			)
@@ -10303,7 +10448,7 @@
 			)
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "#PWR043")
+					(reference "#PWR0119")
 					(unit 1)
 				)
 			)
@@ -10318,7 +10463,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "10ef3281-600e-4164-b7db-61dd39673f5f")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR0136"
 			(at 49.53 300.99 0)
 			(effects
 				(font
@@ -10369,7 +10514,7 @@
 		(instances
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "#PWR017")
+					(reference "#PWR0136")
 					(unit 1)
 				)
 			)
@@ -10385,7 +10530,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "112d8ef9-7215-4f16-b274-e723037985f7")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR0134"
 			(at 185.42 297.18 0)
 			(effects
 				(font
@@ -10435,7 +10580,7 @@
 		(instances
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "#PWR01")
+					(reference "#PWR0134")
 					(unit 1)
 				)
 			)
@@ -10508,7 +10653,7 @@
 			)
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "#PWR029")
+					(reference "#PWR0108")
 					(unit 1)
 				)
 			)
@@ -10602,7 +10747,7 @@
 			)
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "C19")
+					(reference "C114")
 					(unit 1)
 				)
 			)
@@ -10617,7 +10762,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1792e624-bf86-4447-9b59-761502973174")
-		(property "Reference" "U1"
+		(property "Reference" "U108"
 			(at 201.93 279.781 0)
 			(effects
 				(font
@@ -10696,7 +10841,7 @@
 		(instances
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "U1")
+					(reference "U108")
 					(unit 1)
 				)
 			)
@@ -10712,7 +10857,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "185310e6-54d0-405b-8ef4-ecfe754daf4f")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR0139"
 			(at 190.5 358.14 0)
 			(effects
 				(font
@@ -10762,7 +10907,7 @@
 		(instances
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "#PWR015")
+					(reference "#PWR0139")
 					(unit 1)
 				)
 			)
@@ -10778,7 +10923,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "1dc06f07-cdb8-4beb-9e2f-ab26b8e65bba")
-		(property "Reference" "G4"
+		(property "Reference" "G110"
 			(at 187.0074 110.49 0)
 			(effects
 				(font
@@ -10845,7 +10990,7 @@
 		(instances
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "G4")
+					(reference "G110")
 					(unit 1)
 				)
 			)
@@ -10861,7 +11006,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "27c0aa3b-9387-47ab-98db-21289c330d5a")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR0130"
 			(at 189.23 281.94 0)
 			(effects
 				(font
@@ -10911,7 +11056,7 @@
 		(instances
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "#PWR02")
+					(reference "#PWR0130")
 					(unit 1)
 				)
 			)
@@ -10927,7 +11072,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "306b4ae1-fe26-4e8b-91b0-50451de12723")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR0109"
 			(at 33.02 105.41 0)
 			(effects
 				(font
@@ -10977,7 +11122,7 @@
 		(instances
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "#PWR014")
+					(reference "#PWR0109")
 					(unit 1)
 				)
 			)
@@ -10992,7 +11137,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "3231bc24-1064-43bb-8477-d16427a71b7b")
-		(property "Reference" "board_outline1"
+		(property "Reference" "board_outline108"
 			(at 91.44 217.17 0)
 			(effects
 				(font
@@ -11212,7 +11357,7 @@
 		(instances
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "board_outline1")
+					(reference "board_outline108")
 					(unit 1)
 				)
 			)
@@ -11227,7 +11372,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "347c3975-05e9-43f9-9192-a7155bed6c0e")
-		(property "Reference" "OP1"
+		(property "Reference" "OP108"
 			(at 241.554 88.9 0)
 			(effects
 				(font
@@ -11261,7 +11406,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Via with slice option to bypass audio filter. "
+		(property "Description" "Via with slice option to bypass audio filter."
 			(at 241.3 87.63 0)
 			(effects
 				(font
@@ -11306,7 +11451,7 @@
 		(instances
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "OP1")
+					(reference "OP108")
 					(unit 1)
 				)
 			)
@@ -11380,7 +11525,7 @@
 			)
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "#PWR041")
+					(reference "#PWR0124")
 					(unit 1)
 				)
 			)
@@ -11474,7 +11619,7 @@
 			)
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "C10")
+					(reference "C115")
 					(unit 1)
 				)
 			)
@@ -11489,7 +11634,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3960899a-3c41-4fde-9385-d1319229285b")
-		(property "Reference" "D7"
+		(property "Reference" "D116"
 			(at 213.36 350.8374 90)
 			(effects
 				(font
@@ -11561,7 +11706,7 @@
 		(instances
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "D7")
+					(reference "D116")
 					(unit 1)
 				)
 			)
@@ -11655,7 +11800,7 @@
 			)
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "C18")
+					(reference "C110")
 					(unit 1)
 				)
 			)
@@ -11747,7 +11892,7 @@
 			)
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "FB1001")
+					(reference "FB108")
 					(unit 1)
 				)
 			)
@@ -11763,7 +11908,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4245e671-2c3f-49aa-bd5b-ce52ac93ed0d")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR0120"
 			(at 22.86 185.42 0)
 			(effects
 				(font
@@ -11813,7 +11958,7 @@
 		(instances
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "#PWR019")
+					(reference "#PWR0120")
 					(unit 1)
 				)
 			)
@@ -11828,7 +11973,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "43e4781f-629d-4e96-937a-ca9341f6d277")
-		(property "Reference" "OM2"
+		(property "Reference" "OM109"
 			(at 241.554 135.89 0)
 			(effects
 				(font
@@ -11862,7 +12007,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Via with slice option to bypass audio filter. "
+		(property "Description" "Via with slice option to bypass audio filter."
 			(at 241.3 134.62 0)
 			(effects
 				(font
@@ -11907,7 +12052,7 @@
 		(instances
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "OM2")
+					(reference "OM109")
 					(unit 1)
 				)
 			)
@@ -11922,7 +12067,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4468f9ea-2f70-450c-a137-0c2ef641415f")
-		(property "Reference" "#T#PWR02"
+		(property "Reference" "#T#PWR0117"
 			(at 232.41 152.4 0)
 			(effects
 				(font
@@ -11973,7 +12118,7 @@
 		(instances
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "#T#PWR02")
+					(reference "#T#PWR0117")
 					(unit 1)
 				)
 			)
@@ -12066,7 +12211,7 @@
 			)
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "R19")
+					(reference "R111")
 					(unit 1)
 				)
 			)
@@ -12139,7 +12284,7 @@
 			)
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "#PWR032")
+					(reference "#PWR0114")
 					(unit 1)
 				)
 			)
@@ -12154,7 +12299,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "4be506fc-d95a-4519-9ad4-8c6f78f8335e")
-		(property "Reference" "MCLK1"
+		(property "Reference" "MCLK108"
 			(at 47.752 124.968 0)
 			(effects
 				(font
@@ -12234,7 +12379,7 @@
 		(instances
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "MCLK1")
+					(reference "MCLK108")
 					(unit 1)
 				)
 			)
@@ -12325,7 +12470,7 @@
 			)
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "R102")
+					(reference "R113")
 					(unit 1)
 				)
 			)
@@ -12417,7 +12562,7 @@
 			)
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "FB1002")
+					(reference "FB109")
 					(unit 1)
 				)
 			)
@@ -12432,7 +12577,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "525f2c30-b4a3-4bf8-85a2-f332f6d4f714")
-		(property "Reference" "#T#PWR03"
+		(property "Reference" "#T#PWR0110"
 			(at 190.5 106.68 0)
 			(effects
 				(font
@@ -12483,7 +12628,7 @@
 		(instances
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "#T#PWR03")
+					(reference "#T#PWR0110")
 					(unit 1)
 				)
 			)
@@ -12500,7 +12645,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5325f3a8-1fdd-4648-9961-98be6ba814d9")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR0128"
 			(at 121.92 273.05 0)
 			(effects
 				(font
@@ -12551,7 +12696,7 @@
 		(instances
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "#PWR07")
+					(reference "#PWR0128")
 					(unit 1)
 				)
 			)
@@ -12646,7 +12791,7 @@
 			)
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "D1003")
+					(reference "D114")
 					(unit 1)
 				)
 			)
@@ -12661,7 +12806,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "59d9d0d7-e8ad-4718-b601-364aeaf28410")
-		(property "Reference" "OM1"
+		(property "Reference" "OM108"
 			(at 241.554 102.87 0)
 			(effects
 				(font
@@ -12695,7 +12840,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Via with slice option to bypass audio filter. "
+		(property "Description" "Via with slice option to bypass audio filter."
 			(at 241.3 101.6 0)
 			(effects
 				(font
@@ -12740,7 +12885,7 @@
 		(instances
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "OM1")
+					(reference "OM108")
 					(unit 1)
 				)
 			)
@@ -12831,7 +12976,7 @@
 			)
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "R106")
+					(reference "R118")
 					(unit 1)
 				)
 			)
@@ -12922,7 +13067,7 @@
 			)
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "R100")
+					(reference "R110")
 					(unit 1)
 				)
 			)
@@ -12996,7 +13141,7 @@
 			)
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "#PWR038")
+					(reference "#PWR0123")
 					(unit 1)
 				)
 			)
@@ -13013,7 +13158,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "71f4c329-f0da-4a52-a1d6-10d087d36d62")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR0131"
 			(at 135.89 288.29 0)
 			(effects
 				(font
@@ -13064,7 +13209,7 @@
 		(instances
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "#PWR03")
+					(reference "#PWR0131")
 					(unit 1)
 				)
 			)
@@ -13158,7 +13303,7 @@
 			)
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "C1012")
+					(reference "C124")
 					(unit 1)
 				)
 			)
@@ -13250,7 +13395,7 @@
 			)
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "R42")
+					(reference "R122")
 					(unit 1)
 				)
 			)
@@ -13323,7 +13468,7 @@
 			)
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "#PWR034")
+					(reference "#PWR0113")
 					(unit 1)
 				)
 			)
@@ -13338,7 +13483,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7bd5a80e-076d-4e7d-bd85-11e6e29294c2")
-		(property "Reference" "R5"
+		(property "Reference" "R126"
 			(at 199.4916 347.472 0)
 			(effects
 				(font
@@ -13410,7 +13555,7 @@
 		(instances
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "R5")
+					(reference "R126")
 					(unit 1)
 				)
 			)
@@ -13418,15 +13563,15 @@
 	)
 	(symbol
 		(lib_id "proejct_lib:C_Small")
-		(at 54.61 358.14 0)
+		(at 45.72 358.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "7c99ebb8-899c-4337-b4b9-04c6a002a9a6")
-		(property "Reference" "T*C1"
-			(at 56.9468 356.9716 0)
+		(property "Reference" "T*C108"
+			(at 48.0568 356.9716 0)
 			(effects
 				(font
 					(size 1 1)
@@ -13435,7 +13580,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 56.9468 359.283 0)
+			(at 48.0568 359.283 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -13444,7 +13589,7 @@
 			)
 		)
 		(property "Footprint" "project_fp:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 54.61 358.14 0)
+			(at 45.72 358.14 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -13453,7 +13598,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 54.61 358.14 0)
+			(at 45.72 358.14 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -13462,7 +13607,7 @@
 			)
 		)
 		(property "Description" "CAP, CERM, 10 μF, 16 V,+/- 10%, X7R, 0805"
-			(at 54.61 358.14 0)
+			(at 45.72 358.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13471,7 +13616,7 @@
 			)
 		)
 		(property "Package / Case" "C0805"
-			(at 54.61 358.14 0)
+			(at 45.72 358.14 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -13480,7 +13625,7 @@
 			)
 		)
 		(property "TAC5212EVM" "EMK212BB7106KG-T"
-			(at 54.61 358.14 0)
+			(at 45.72 358.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13497,7 +13642,7 @@
 		(instances
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "T*C1")
+					(reference "T*C108")
 					(unit 1)
 				)
 			)
@@ -13590,7 +13735,7 @@
 			)
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "D19")
+					(reference "D110")
 					(unit 1)
 				)
 			)
@@ -13605,7 +13750,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "7d45ced2-df90-4452-8d0f-c41a668e0b44")
-		(property "Reference" "INP1"
+		(property "Reference" "INP109"
 			(at 244.094 209.55 0)
 			(effects
 				(font
@@ -13639,7 +13784,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Via with slice option to bypass audio filter. "
+		(property "Description" "Via with slice option to bypass audio filter."
 			(at 243.84 208.28 0)
 			(effects
 				(font
@@ -13684,7 +13829,7 @@
 		(instances
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "INP1")
+					(reference "INP109")
 					(unit 1)
 				)
 			)
@@ -13699,7 +13844,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "808eabcc-6b3b-4308-afe6-a43cf5256f0a")
-		(property "Reference" "#T#PWR06"
+		(property "Reference" "#T#PWR0118"
 			(at 190.5 154.94 0)
 			(effects
 				(font
@@ -13750,7 +13895,7 @@
 		(instances
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "#T#PWR06")
+					(reference "#T#PWR0118")
 					(unit 1)
 				)
 			)
@@ -13765,7 +13910,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "80a13349-d8c0-4e62-889a-42d7dd342091")
-		(property "Reference" "C1"
+		(property "Reference" "C128"
 			(at 191.5668 271.8816 0)
 			(effects
 				(font
@@ -13837,7 +13982,7 @@
 		(instances
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "C1")
+					(reference "C128")
 					(unit 1)
 				)
 			)
@@ -13929,7 +14074,7 @@
 			)
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "FB1004")
+					(reference "FB111")
 					(unit 1)
 				)
 			)
@@ -14023,7 +14168,7 @@
 			)
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "R108")
+					(reference "R120")
 					(unit 1)
 				)
 			)
@@ -14038,7 +14183,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "83213711-8e51-4d8c-9242-b542feb57926")
-		(property "Reference" "R1"
+		(property "Reference" "R125"
 			(at 196.85 283.972 90)
 			(effects
 				(font
@@ -14072,7 +14217,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 49.9 OHM 1% 1/8W 0402 "
+		(property "Description" "RES 49.9 OHM 1% 1/8W 0402"
 			(at 198.12 284.48 0)
 			(effects
 				(font
@@ -14108,7 +14253,7 @@
 		(instances
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "R1")
+					(reference "R125")
 					(unit 1)
 				)
 			)
@@ -14182,7 +14327,7 @@
 			)
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "#PWR042")
+					(reference "#PWR0126")
 					(unit 1)
 				)
 			)
@@ -14277,7 +14422,7 @@
 			)
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "C1011")
+					(reference "C127")
 					(unit 1)
 				)
 			)
@@ -14292,7 +14437,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "86461545-efbc-4fe3-bdd6-65b7f7562556")
-		(property "Reference" "INM2"
+		(property "Reference" "INM108"
 			(at 245.364 158.75 0)
 			(effects
 				(font
@@ -14326,7 +14471,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Via with slice option to bypass audio filter. "
+		(property "Description" "Via with slice option to bypass audio filter."
 			(at 245.11 157.48 0)
 			(effects
 				(font
@@ -14371,7 +14516,7 @@
 		(instances
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "INM2")
+					(reference "INM108")
 					(unit 1)
 				)
 			)
@@ -14465,7 +14610,7 @@
 			)
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "D18")
+					(reference "D109")
 					(unit 1)
 				)
 			)
@@ -14556,7 +14701,7 @@
 			)
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "R41")
+					(reference "R123")
 					(unit 1)
 				)
 			)
@@ -14628,7 +14773,7 @@
 			)
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "#T#PWR017")
+					(reference "#T#PWR0111")
 					(unit 1)
 				)
 			)
@@ -14645,7 +14790,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "89b083ad-74a6-41e2-bbd8-736f3c62913e")
-		(property "Reference" "#PWR0108"
+		(property "Reference" "#PWR0140"
 			(at 110.49 378.46 0)
 			(effects
 				(font
@@ -14696,7 +14841,7 @@
 		(instances
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "#PWR0108")
+					(reference "#PWR0140")
 					(unit 1)
 				)
 			)
@@ -14797,7 +14942,7 @@
 			)
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "ADD1002")
+					(reference "ADD112")
 					(unit 1)
 				)
 			)
@@ -14898,7 +15043,7 @@
 			)
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "ADD1001")
+					(reference "ADD108")
 					(unit 1)
 				)
 			)
@@ -14998,7 +15143,7 @@
 			)
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "ADD1004")
+					(reference "ADD111")
 					(unit 1)
 				)
 			)
@@ -15070,7 +15215,7 @@
 			)
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "#T#PWR019")
+					(reference "#T#PWR0109")
 					(unit 1)
 				)
 			)
@@ -15171,7 +15316,7 @@
 			)
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "SCL1001")
+					(reference "SCL108")
 					(unit 1)
 				)
 			)
@@ -15193,7 +15338,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "90e72c1b-1b63-436a-a402-e66c09b02004")
-		(property "Reference" "G6"
+		(property "Reference" "G112"
 			(at 187.0074 143.51 0)
 			(effects
 				(font
@@ -15260,7 +15405,7 @@
 		(instances
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "G6")
+					(reference "G112")
 					(unit 1)
 				)
 			)
@@ -15354,7 +15499,7 @@
 			)
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "C12")
+					(reference "C111")
 					(unit 1)
 				)
 			)
@@ -15445,7 +15590,7 @@
 			)
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "R103")
+					(reference "R114")
 					(unit 1)
 				)
 			)
@@ -15460,7 +15605,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "94eb7cb5-f04a-4400-a349-326c33ddde95")
-		(property "Reference" "E2"
+		(property "Reference" "E109"
 			(at 120.396 290.576 0)
 			(effects
 				(font
@@ -15540,7 +15685,7 @@
 		(instances
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "E2")
+					(reference "E109")
 					(unit 1)
 				)
 			)
@@ -15555,7 +15700,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9523962e-911d-4cb2-8a60-1df792d651e7")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR0137"
 			(at 135.89 303.53 0)
 			(effects
 				(font
@@ -15606,7 +15751,7 @@
 		(instances
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "#PWR010")
+					(reference "#PWR0137")
 					(unit 1)
 				)
 			)
@@ -15621,7 +15766,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "957c179b-2b80-4da5-a155-2e6cbecf719e")
-		(property "Reference" "#T#PWR09"
+		(property "Reference" "#T#PWR0121"
 			(at 191.77 210.82 0)
 			(effects
 				(font
@@ -15672,7 +15817,7 @@
 		(instances
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "#T#PWR09")
+					(reference "#T#PWR0121")
 					(unit 1)
 				)
 			)
@@ -15687,7 +15832,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "968542d2-45fe-4b42-b86a-fe526ae3391f")
-		(property "Reference" "#T#PWR05"
+		(property "Reference" "#T#PWR0115"
 			(at 190.5 137.16 0)
 			(effects
 				(font
@@ -15738,7 +15883,7 @@
 		(instances
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "#T#PWR05")
+					(reference "#T#PWR0115")
 					(unit 1)
 				)
 			)
@@ -15754,7 +15899,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "99b7c2f9-98fc-45ce-bf4b-8bd89319465a")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR0138"
 			(at 660.4 314.96 0)
 			(effects
 				(font
@@ -15805,7 +15950,7 @@
 		(instances
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "#PWR023")
+					(reference "#PWR0138")
 					(unit 1)
 				)
 			)
@@ -15877,7 +16022,7 @@
 			)
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "#T#PWR018")
+					(reference "#T#PWR0113")
 					(unit 1)
 				)
 			)
@@ -15971,7 +16116,7 @@
 			)
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "C25")
+					(reference "C123")
 					(unit 1)
 				)
 			)
@@ -16044,7 +16189,7 @@
 			)
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "#T#PWR020")
+					(reference "#T#PWR0116")
 					(unit 1)
 				)
 			)
@@ -16117,7 +16262,7 @@
 			)
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "#PWR047")
+					(reference "#PWR0112")
 					(unit 1)
 				)
 			)
@@ -16211,7 +16356,7 @@
 			)
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "C15")
+					(reference "C109")
 					(unit 1)
 				)
 			)
@@ -16304,7 +16449,7 @@
 			)
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "R109")
+					(reference "R121")
 					(unit 1)
 				)
 			)
@@ -16397,7 +16542,7 @@
 			)
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "D1005")
+					(reference "D112")
 					(unit 1)
 				)
 			)
@@ -16488,7 +16633,7 @@
 			)
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "R107")
+					(reference "R119")
 					(unit 1)
 				)
 			)
@@ -16503,7 +16648,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ae02e0f1-986a-4a89-9914-54126dfbb858")
-		(property "Reference" "#T#PWR04"
+		(property "Reference" "#T#PWR0112"
 			(at 190.5 121.92 0)
 			(effects
 				(font
@@ -16554,7 +16699,7 @@
 		(instances
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "#T#PWR04")
+					(reference "#T#PWR0112")
 					(unit 1)
 				)
 			)
@@ -16569,7 +16714,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aec4ae85-1d94-4a7a-a38f-80fb8f7e4fea")
-		(property "Reference" "#T#PWR010"
+		(property "Reference" "#T#PWR0122"
 			(at 191.77 229.87 0)
 			(effects
 				(font
@@ -16620,7 +16765,7 @@
 		(instances
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "#T#PWR010")
+					(reference "#T#PWR0122")
 					(unit 1)
 				)
 			)
@@ -16635,7 +16780,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "af0ee138-b265-443c-9a41-d35cf2c2c8c2")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR0129"
 			(at 58.42 280.67 0)
 			(effects
 				(font
@@ -16686,7 +16831,7 @@
 		(instances
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "#PWR011")
+					(reference "#PWR0129")
 					(unit 1)
 				)
 			)
@@ -16780,7 +16925,7 @@
 			)
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "C23")
+					(reference "C117")
 					(unit 1)
 				)
 			)
@@ -16874,7 +17019,7 @@
 			)
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "C11")
+					(reference "C116")
 					(unit 1)
 				)
 			)
@@ -16965,7 +17110,7 @@
 			)
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "R105")
+					(reference "R117")
 					(unit 1)
 				)
 			)
@@ -17056,7 +17201,7 @@
 			)
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "R104")
+					(reference "R115")
 					(unit 1)
 				)
 			)
@@ -17147,7 +17292,7 @@
 			)
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "R40")
+					(reference "R124")
 					(unit 1)
 				)
 			)
@@ -17162,7 +17307,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bb2bd791-e95f-41b6-bc5b-b7a4db142fe9")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR0135"
 			(at 135.89 298.45 0)
 			(effects
 				(font
@@ -17213,7 +17358,7 @@
 		(instances
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "#PWR06")
+					(reference "#PWR0135")
 					(unit 1)
 				)
 			)
@@ -17228,7 +17373,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "bf37fb8e-5015-407b-87fe-e7b5faafd973")
-		(property "Reference" "INP2"
+		(property "Reference" "INP108"
 			(at 244.094 175.26 0)
 			(effects
 				(font
@@ -17262,7 +17407,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Via with slice option to bypass audio filter. "
+		(property "Description" "Via with slice option to bypass audio filter."
 			(at 243.84 173.99 0)
 			(effects
 				(font
@@ -17307,7 +17452,7 @@
 		(instances
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "INP2")
+					(reference "INP108")
 					(unit 1)
 				)
 			)
@@ -17401,7 +17546,7 @@
 			)
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "C14")
+					(reference "C112")
 					(unit 1)
 				)
 			)
@@ -17474,7 +17619,7 @@
 			)
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "#PWR045")
+					(reference "#PWR0110")
 					(unit 1)
 				)
 			)
@@ -17490,7 +17635,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c03abb0d-c1f1-4782-800c-fa8baac58fc5")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR0115"
 			(at 22.86 147.32 0)
 			(effects
 				(font
@@ -17540,7 +17685,7 @@
 		(instances
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "#PWR016")
+					(reference "#PWR0115")
 					(unit 1)
 				)
 			)
@@ -17635,7 +17780,7 @@
 			)
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "C1010")
+					(reference "C126")
 					(unit 1)
 				)
 			)
@@ -17727,7 +17872,7 @@
 			)
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "FB1003")
+					(reference "FB110")
 					(unit 1)
 				)
 			)
@@ -17744,7 +17889,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c4d853d6-e49d-4454-acf4-d785dce1d654")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR0133"
 			(at 135.89 293.37 0)
 			(effects
 				(font
@@ -17795,7 +17940,7 @@
 		(instances
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "#PWR08")
+					(reference "#PWR0133")
 					(unit 1)
 				)
 			)
@@ -17888,7 +18033,73 @@
 			)
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "C22")
+					(reference "C113")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "proejct_lib:GNDD")
+		(at 63.5 379.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cadf8dee-77e0-4c03-8fa7-b0359967effa")
+		(property "Reference" "#PWR0141"
+			(at 63.5 386.08 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 63.5 384.302 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 379.73 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 379.73 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 63.5 379.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2cd2065f-c5fd-42f3-b4a9-221826eb5053")
+		)
+		(instances
+			(project "tac5212_audio_board_single_ended"
+				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
+					(reference "#PWR0141")
 					(unit 1)
 				)
 			)
@@ -17903,7 +18114,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "ce895be6-b4ee-4e53-a50d-d6e245b04b15")
-		(property "Reference" "OP2"
+		(property "Reference" "OP109"
 			(at 241.554 119.38 0)
 			(effects
 				(font
@@ -17937,7 +18148,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Via with slice option to bypass audio filter. "
+		(property "Description" "Via with slice option to bypass audio filter."
 			(at 241.3 118.11 0)
 			(effects
 				(font
@@ -17982,7 +18193,7 @@
 		(instances
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "OP2")
+					(reference "OP109")
 					(unit 1)
 				)
 			)
@@ -17997,7 +18208,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "ce9e8631-bcbf-4890-9c94-c53b49356a29")
-		(property "Reference" "G2"
+		(property "Reference" "G118"
 			(at 131.064 296.164 0)
 			(effects
 				(font
@@ -18077,7 +18288,7 @@
 		(instances
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "G2")
+					(reference "G118")
 					(unit 1)
 				)
 			)
@@ -18085,15 +18296,15 @@
 	)
 	(symbol
 		(lib_id "proejct_lib:C_Small")
-		(at 68.58 358.14 0)
+		(at 59.69 358.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "d2ed790a-27c6-4771-88b9-6a93eaf99f59")
-		(property "Reference" "T*C2"
-			(at 70.9168 356.9716 0)
+		(property "Reference" "T*C109"
+			(at 62.0268 356.9716 0)
 			(effects
 				(font
 					(size 1 1)
@@ -18102,7 +18313,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 70.9168 359.283 0)
+			(at 62.0268 359.283 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -18111,7 +18322,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 68.58 358.14 0)
+			(at 59.69 358.14 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -18120,7 +18331,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 68.58 358.14 0)
+			(at 59.69 358.14 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -18129,7 +18340,7 @@
 			)
 		)
 		(property "Description" "CAP, CERM, 1 uF, 35 V, +/- 10%, X7R, 0603"
-			(at 68.58 358.14 0)
+			(at 59.69 358.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18138,7 +18349,7 @@
 			)
 		)
 		(property "Package / Case" "C0603"
-			(at 68.58 358.14 0)
+			(at 59.69 358.14 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -18147,7 +18358,7 @@
 			)
 		)
 		(property "TAC5212EVM" "C1608X7R1V105K080AC"
-			(at 68.58 358.14 0)
+			(at 59.69 358.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18164,7 +18375,7 @@
 		(instances
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "T*C2")
+					(reference "T*C109")
 					(unit 1)
 				)
 			)
@@ -18179,7 +18390,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "d367cfba-26e9-491e-9e4e-8e3f63954153")
-		(property "Reference" "5V1"
+		(property "Reference" "5V108"
 			(at 57.15 220.853 0)
 			(effects
 				(font
@@ -18258,7 +18469,7 @@
 		(instances
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "5V1")
+					(reference "5V108")
 					(unit 1)
 				)
 			)
@@ -18273,7 +18484,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "d518a76d-5df6-4e5c-ae14-fe8c7b1bdf42")
-		(property "Reference" "3V3"
+		(property "Reference" "3V108"
 			(at 116.84 350.393 0)
 			(effects
 				(font
@@ -18352,7 +18563,7 @@
 		(instances
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "3V3")
+					(reference "3V108")
 					(unit 1)
 				)
 			)
@@ -18367,7 +18578,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "d58f1f68-66f2-4e1e-a6aa-126d05d6f4d3")
-		(property "Reference" "GND1"
+		(property "Reference" "GND108"
 			(at 149.86 156.718 0)
 			(effects
 				(font
@@ -18446,7 +18657,7 @@
 		(instances
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "GND1")
+					(reference "GND108")
 					(unit 1)
 				)
 			)
@@ -18539,7 +18750,7 @@
 			)
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "R17")
+					(reference "R108")
 					(unit 1)
 				)
 			)
@@ -18634,7 +18845,7 @@
 			)
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "D1004")
+					(reference "D115")
 					(unit 1)
 				)
 			)
@@ -18728,7 +18939,7 @@
 			)
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "D20")
+					(reference "D111")
 					(unit 1)
 				)
 			)
@@ -18744,7 +18955,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dd059499-dea7-4ab4-816d-cb440703fe76")
-		(property "Reference" "U2"
+		(property "Reference" "U109"
 			(at 90.17 349.25 0)
 			(effects
 				(font
@@ -18824,7 +19035,7 @@
 		(instances
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "U2")
+					(reference "U109")
 					(unit 1)
 				)
 			)
@@ -18918,7 +19129,7 @@
 			)
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "C20")
+					(reference "C120")
 					(unit 1)
 				)
 			)
@@ -18933,7 +19144,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "de145286-1413-46eb-879a-b20b0c110c32")
-		(property "Reference" "G108"
+		(property "Reference" "G119"
 			(at 104.394 371.094 0)
 			(effects
 				(font
@@ -19013,7 +19224,7 @@
 		(instances
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "G108")
+					(reference "G119")
 					(unit 1)
 				)
 			)
@@ -19028,7 +19239,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "de36644b-de69-494a-97b0-3006f9fe8e40")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR0116"
 			(at 144.78 168.91 0)
 			(effects
 				(font
@@ -19079,7 +19290,7 @@
 		(instances
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "#PWR04")
+					(reference "#PWR0116")
 					(unit 1)
 				)
 			)
@@ -19174,7 +19385,7 @@
 			)
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "D1002")
+					(reference "D113")
 					(unit 1)
 				)
 			)
@@ -19267,7 +19478,7 @@
 			)
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "D17")
+					(reference "D108")
 					(unit 1)
 				)
 			)
@@ -19283,7 +19494,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "e06702df-1f64-4ce6-823a-77fce2e74341")
-		(property "Reference" "G8"
+		(property "Reference" "G114"
 			(at 187.0074 182.88 0)
 			(effects
 				(font
@@ -19350,7 +19561,7 @@
 		(instances
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "G8")
+					(reference "G114")
 					(unit 1)
 				)
 			)
@@ -19365,7 +19576,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e45994d3-4b2a-4278-99ee-b9e92424728b")
-		(property "Reference" "#T#PWR07"
+		(property "Reference" "#T#PWR0120"
 			(at 190.5 194.31 0)
 			(effects
 				(font
@@ -19416,7 +19627,7 @@
 		(instances
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "#T#PWR07")
+					(reference "#T#PWR0120")
 					(unit 1)
 				)
 			)
@@ -19517,7 +19728,7 @@
 			)
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "PU_EN1001")
+					(reference "PU_EN108")
 					(unit 1)
 				)
 			)
@@ -19591,7 +19802,7 @@
 			)
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "#PWR037")
+					(reference "#PWR0121")
 					(unit 1)
 				)
 			)
@@ -19684,7 +19895,7 @@
 			)
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "C13")
+					(reference "C108")
 					(unit 1)
 				)
 			)
@@ -19700,7 +19911,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "e8504821-d847-4246-a641-2021084b7a41")
-		(property "Reference" "G7"
+		(property "Reference" "G113"
 			(at 187.0074 165.1 0)
 			(effects
 				(font
@@ -19767,7 +19978,7 @@
 		(instances
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "G7")
+					(reference "G113")
 					(unit 1)
 				)
 			)
@@ -19782,7 +19993,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e8565ae1-c745-440c-bfff-88b7fc4bb80a")
-		(property "Reference" "#T#PWR01"
+		(property "Reference" "#T#PWR0114"
 			(at 233.68 135.89 0)
 			(effects
 				(font
@@ -19833,7 +20044,7 @@
 		(instances
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "#T#PWR01")
+					(reference "#T#PWR0114")
 					(unit 1)
 				)
 			)
@@ -19926,7 +20137,7 @@
 			)
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "C24")
+					(reference "C121")
 					(unit 1)
 				)
 			)
@@ -19942,7 +20153,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "e94db00c-b1b5-4b6c-b398-95a6b8fb7dd4")
-		(property "Reference" "G3"
+		(property "Reference" "G111"
 			(at 187.0074 125.73 0)
 			(effects
 				(font
@@ -20009,7 +20220,7 @@
 		(instances
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "G3")
+					(reference "G111")
 					(unit 1)
 				)
 			)
@@ -20024,7 +20235,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ebdc00e8-4350-4808-b0de-87a122fc64f6")
-		(property "Reference" "#T#PWR08"
+		(property "Reference" "#T#PWR0119"
 			(at 190.5 176.53 0)
 			(effects
 				(font
@@ -20075,7 +20286,7 @@
 		(instances
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "#T#PWR08")
+					(reference "#T#PWR0119")
 					(unit 1)
 				)
 			)
@@ -20236,7 +20447,7 @@
 			)
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "J1002")
+					(reference "J108")
 					(unit 1)
 				)
 			)
@@ -20310,7 +20521,7 @@
 			)
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "#PWR039")
+					(reference "#PWR0125")
 					(unit 1)
 				)
 			)
@@ -20384,7 +20595,7 @@
 			)
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "#PWR040")
+					(reference "#PWR0122")
 					(unit 1)
 				)
 			)
@@ -20484,7 +20695,7 @@
 			)
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "ADD1003")
+					(reference "ADD110")
 					(unit 1)
 				)
 			)
@@ -20500,7 +20711,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "f13eb2cb-fd0e-4cde-a205-2e4a51425ab2")
-		(property "Reference" "G11"
+		(property "Reference" "G108"
 			(at 185.7374 74.93 0)
 			(effects
 				(font
@@ -20567,7 +20778,7 @@
 		(instances
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "G11")
+					(reference "G108")
 					(unit 1)
 				)
 			)
@@ -20583,7 +20794,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f1908f28-8188-4676-a906-6e0036ab1eb3")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR0111"
 			(at 33.02 115.57 0)
 			(effects
 				(font
@@ -20633,7 +20844,7 @@
 		(instances
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "#PWR012")
+					(reference "#PWR0111")
 					(unit 1)
 				)
 			)
@@ -20649,7 +20860,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "f2c278e5-d497-4696-b88a-5c2f38edcb39")
-		(property "Reference" "ADD1"
+		(property "Reference" "ADD109"
 			(at 35.56 145.161 0)
 			(effects
 				(font
@@ -20728,7 +20939,7 @@
 		(instances
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "ADD1")
+					(reference "ADD109")
 					(unit 1)
 				)
 			)
@@ -20743,7 +20954,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "f5e169a2-e60c-4f21-82f1-3c4691e3fb77")
-		(property "Reference" "E1"
+		(property "Reference" "E108"
 			(at 120.396 282.956 0)
 			(effects
 				(font
@@ -20823,7 +21034,7 @@
 		(instances
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "E1")
+					(reference "E108")
 					(unit 1)
 				)
 			)
@@ -20838,7 +21049,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "f7ddfa20-9d8a-4e95-8ea1-91dc8231e9ac")
-		(property "Reference" "DOUT1"
+		(property "Reference" "DOUT108"
 			(at 214.884 280.67 0)
 			(effects
 				(font
@@ -20917,7 +21128,7 @@
 		(instances
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "DOUT1")
+					(reference "DOUT108")
 					(unit 1)
 				)
 			)
@@ -20933,7 +21144,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "f8505495-35fe-4bd7-9735-5708e4e46385")
-		(property "Reference" "G10"
+		(property "Reference" "G116"
 			(at 188.2774 218.44 0)
 			(effects
 				(font
@@ -21000,7 +21211,7 @@
 		(instances
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "G10")
+					(reference "G116")
 					(unit 1)
 				)
 			)
@@ -21094,7 +21305,7 @@
 			)
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "R18")
+					(reference "R109")
 					(unit 1)
 				)
 			)
@@ -21195,13 +21406,100 @@
 			)
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "SDA1001")
+					(reference "SDA108")
 					(unit 1)
 				)
 			)
 			(project "pcm5242_audio_board"
 				(path "/e7aa576d-8903-4167-b9d6-4adc3ce8e184"
 					(reference "SDA1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "proejct_lib:C_Small")
+		(at 63.5 377.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fbf57619-c9e8-4a83-8124-4b0ead632a7e")
+		(property "Reference" "C129"
+			(at 65.8368 376.0216 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 65.8368 378.333 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 63.5 377.19 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 377.19 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP, CERM, 1 uF, 35 V, +/- 10%, X7R, 0603"
+			(at 63.5 377.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "C0603"
+			(at 63.5 377.19 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "TAC5212EVM" "C1608X7R1V105K080AC"
+			(at 63.5 377.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "df16858a-82d3-4257-b19b-b8ad813b5df5")
+		)
+		(pin "2"
+			(uuid "27ece6c5-a7a3-4ca7-bf2f-2fa6b4960547")
+		)
+		(instances
+			(project "tac5212_audio_board_single_ended"
+				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
+					(reference "C129")
 					(unit 1)
 				)
 			)
@@ -21216,7 +21514,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fe0b6807-938f-4901-9678-18379169b3dc")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR0132"
 			(at 49.53 293.37 0)
 			(effects
 				(font
@@ -21267,7 +21565,7 @@
 		(instances
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "#PWR018")
+					(reference "#PWR0132")
 					(unit 1)
 				)
 			)
@@ -21283,7 +21581,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "ffa9a5b3-62d2-4d21-ab9a-06a66f35380e")
-		(property "Reference" "G5"
+		(property "Reference" "G109"
 			(at 187.0074 95.25 0)
 			(effects
 				(font
@@ -21350,7 +21648,7 @@
 		(instances
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "G5")
+					(reference "G109")
 					(unit 1)
 				)
 			)

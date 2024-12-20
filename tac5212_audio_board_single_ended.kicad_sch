@@ -3819,7 +3819,7 @@
 				)
 			)
 		)
-		(symbol "proejct_lib:TAC5212"
+		(symbol "proejct_lib:TAC5212-Q1"
 			(pin_names
 				(offset 1.016)
 			)
@@ -3834,7 +3834,7 @@
 					)
 				)
 			)
-			(property "Value" "TAC5212"
+			(property "Value" "TAC5212-Q1"
 				(at 1.27 2.54 0)
 				(effects
 					(font
@@ -3842,7 +3842,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "project_fp:TAC5212-Q1-WQFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3887,7 +3887,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "TAC5212_1_1"
+			(symbol "TAC5212-Q1_1_1"
 				(rectangle
 					(start -24.13 16.51)
 					(end 27.94 -50.8)
@@ -4205,6 +4205,24 @@
 						)
 					)
 				)
+				(pin input line
+					(at 0 -53.34 0)
+					(length 2.54)
+					(name "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin passive line
 					(at 31.75 -48.26 180)
 					(length 3.81)
@@ -4223,6 +4241,78 @@
 						)
 					)
 				)
+				(pin input line
+					(at 0 -55.88 0)
+					(length 2.54)
+					(name "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -58.42 0)
+					(length 2.54)
+					(name "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -60.96 0)
+					(length 2.54)
+					(name "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -63.5 0)
+					(length 2.54)
+					(name "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin passive line
 					(at -27.94 -24.13 0)
 					(length 3.81)
@@ -4234,6 +4324,78 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -66.04 0)
+					(length 2.54)
+					(name "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -68.58 0)
+					(length 2.54)
+					(name "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -71.12 0)
+					(length 2.54)
+					(name "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -73.66 0)
+					(length 2.54)
+					(name "33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "33"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -20293,7 +20455,7 @@
 		)
 	)
 	(symbol
-		(lib_id "proejct_lib:TAC5212")
+		(lib_id "proejct_lib:TAC5212-Q1")
 		(at 110.49 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20318,7 +20480,7 @@
 				)
 			)
 		)
-		(property "Footprint" "project_fp:TAC5212IRGER-24-1EP_4x4mm"
+		(property "Footprint" "project_fp:TAC5212-Q1-WQFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm"
 			(at 110.49 114.3 0)
 			(effects
 				(font
@@ -20336,7 +20498,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "High Performance Stereo Audio Codec"
+		(property "Description" "Generic connector, double row, 02x14, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 110.49 114.3 0)
 			(effects
 				(font
@@ -20437,6 +20599,33 @@
 		)
 		(pin "9"
 			(uuid "91460563-0a4c-434c-ad08-a0853d008ba8")
+		)
+		(pin "27"
+			(uuid "edd91657-2f66-4091-8cd8-573285705ffd")
+		)
+		(pin "31"
+			(uuid "2d6b0cf8-fc81-4006-a37e-ba71be19877a")
+		)
+		(pin "33"
+			(uuid "0744c33e-de37-4635-a228-ee7be806e956")
+		)
+		(pin "32"
+			(uuid "a6991cc0-8bdc-4889-8583-22f728539cb4")
+		)
+		(pin "30"
+			(uuid "8536df73-7553-441b-a3bc-32c9f0e1cf7b")
+		)
+		(pin "25"
+			(uuid "e34af368-39c2-4785-ac1f-0d4991076d88")
+		)
+		(pin "26"
+			(uuid "243a0a01-765e-442a-8c0b-25279ab9ae1f")
+		)
+		(pin "29"
+			(uuid "491cfaa6-4938-495a-b562-68a8307a7435")
+		)
+		(pin "28"
+			(uuid "e009a5e9-4a80-4638-b093-fb912f522a61")
 		)
 		(instances
 			(project "tac5212_audio_board"

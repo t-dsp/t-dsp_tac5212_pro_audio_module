@@ -14144,7 +14144,7 @@
 				(hide yes)
 			)
 		)
-		(property "TAC5212EVM" "RC0402FR-07100KL"
+		(property "TAC5212EVM" "RC0402FR-072K21L"
 			(at 71.12 153.67 0)
 			(effects
 				(font
@@ -16425,7 +16425,7 @@
 				(hide yes)
 			)
 		)
-		(property "TAC5212EVM" "RC0402FR-07100KL"
+		(property "TAC5212EVM" "RC0402FR-072K21L"
 			(at 80.01 153.67 0)
 			(effects
 				(font

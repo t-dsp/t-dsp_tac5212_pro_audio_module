@@ -1,0 +1,222 @@
+(footprint "jumper_slice_via"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "net tie")
+	(tags "net tie")
+	(property "Reference" "SCL1001"
+		(at 0.6 1.8 0)
+		(layer "F.SilkS")
+		(uuid "a35bdcc9-e193-4f2e-b5fa-2de196d32b44")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.18)
+			)
+		)
+	)
+	(property "Value" "jumper"
+		(at 0.5 -2.5 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e6c7e4ea-88bc-459f-981b-121085b823e0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "jumper_slice_via"
+		(at -0.5 -5.1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0ba1d8f8-82ff-4a7a-b4f7-86c9c332e2d3")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7b49bcb3-e244-4a47-bfc0-db9e6aefb0ec")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Jumper, 2-pole, closed/bridged"
+		(at -0.5 -5.1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "760be13e-a8bb-407c-b78c-8bdc175e1862")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Digikey" "-"
+		(at -1.05 -2 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b7d02b27-5eb7-42db-843c-1955bde421bd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "-"
+		(at -0.82 -2.17 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "289871ad-bc71-48e8-a92f-1576a3ca7aa4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "~jumper"
+		(at 0.1 -5.1 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "aee84f16-8eac-40f3-a7ad-092612564e3f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Package / Case" "jumper"
+		(at 0.1 -5.1 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "acb72dfc-68bb-4a70-95f0-9f5ab4b6af91")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "exclude_from_bom" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8d29a91d-ca7e-46a1-8c94-a67cb638a642")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "mouser" "-"
+		(at 0.55 -1.98 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "30f5bd0c-b35d-4ae5-b9ae-8eca19cdf993")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PCBWAY_2020-06-09" "NO COMPONENT"
+		(at -0.5 -5.1 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "06db3b45-f1bb-4a4f-979b-7e1f22367840")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PCBWAY_2020-08-27" "NO COMPONENT"
+		(at -0.5 -5.1 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "11c41212-a3bc-4583-8377-6df29ef86d0f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PCBWAY_2020_04_18" "NO COMPONENT"
+		(at -0.5 -5.1 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "90649697-1625-4325-840d-b4ea47ca8467")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(net_tie_pad_groups "1, 2")
+	(fp_rect
+		(start -0.35 -0.25)
+		(end 0.5 0.25)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Mask")
+		(uuid "fd4f0c46-a123-42f1-aca4-aea220640e96")
+	)
+	(fp_text user "${Reference}"
+		(at 0.7 0 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "28119266-03f9-4148-b663-cce885f08b03")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.6 0)
+		(size 0.5 0.5)
+		(layers "F.Cu" "F.Mask")
+		(uuid "c23540d1-2d3a-4944-a951-1290feadb9ef")
+	)
+	(pad "2" smd rect
+		(at 0.175 0)
+		(size 0.75 0.45)
+		(layers "F.Cu" "F.Mask")
+		(uuid "52149f53-e14b-4988-857d-f8965b1315af")
+	)
+	(pad "2" thru_hole rect
+		(at 0.5 0)
+		(size 0.5 0.5)
+		(drill 0.2)
+		(layers "*.Cu")
+		(remove_unused_layers no)
+		(uuid "689cd560-7d7a-4f98-98c9-a79b64bde207")
+	)
+)

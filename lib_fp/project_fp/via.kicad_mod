@@ -1,0 +1,90 @@
+(footprint "via"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "WQFN, 24 Pin (http://www.ti.com/lit/ds/symlink/lm26480.pdf#page=39), generated with kicad-footprint-generator ipc_noLead_generator.py")
+	(property "Reference" "REF**"
+		(at 0 -3.32 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "5d8795c0-1778-4aa7-bd12-e4a0cd45dbd1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Val**"
+		(at -0.03 -1.87 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "df61347a-618a-4cf8-a38f-7f27d8e8ba42")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "project_fp:TAC5212IRGER-24-1EP_4x4mm"
+		(at -0.08 -3.06 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ec881e01-9755-4b50-87a0-5e7d8fac7723")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9e4a010c-bd58-416e-abdd-d69434ffb161")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "63c2b7ed-3226-446f-87c1-4bfbecc2780b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(zone_connect 2)
+	(attr through_hole)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 0.5 0.5)
+		(drill 0.2)
+		(layers "*.Cu" "Dwgs.User")
+		(remove_unused_layers no)
+		(solder_mask_margin -1)
+		(clearance -1)
+		(uuid "74a52199-a087-4cf9-abfe-bcf93379b9f5")
+	)
+	(model "${KICAD6_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/WQFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

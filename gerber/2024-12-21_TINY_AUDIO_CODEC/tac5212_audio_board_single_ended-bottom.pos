@@ -1,0 +1,54 @@
+### Footprint positions - created on 2024-12-21T10:34:18-0500 ###
+### Printed by KiCad version 8.0.7
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val                         Package                                                PosX       PosY       Rot  Side
+3V108     jumper                      jumper_slice_1mm                                    39.4000     3.2000   90.0000  bottom
+C110      47uF                        CP_EIA-3528-21_Kemet-B_Pad1.50x2.35mm_HandSolder    10.5000     7.7000   90.0000  bottom
+C113      0.047uF                     C_0603_1608Metric_Pad1.08x0.95mm_HandSolder         10.9000    14.6000   90.0000  bottom
+C114      47uF                        CP_EIA-3528-21_Kemet-B_Pad1.50x2.35mm_HandSolder     6.2000     7.7000   90.0000  bottom
+C117      0.047uF                     C_0603_1608Metric_Pad1.08x0.95mm_HandSolder          6.6000    14.6000   90.0000  bottom
+C120      47uF                        CP_EIA-3528-21_Kemet-B_Pad1.50x2.35mm_HandSolder    14.8000     7.7000   90.0000  bottom
+C121      0.047uF                     C_0603_1608Metric_Pad1.08x0.95mm_HandSolder         15.2000    14.6000   90.0000  bottom
+C122      47uF                        CP_EIA-3528-21_Kemet-B_Pad1.50x2.35mm_HandSolder    19.9250     6.8000    0.0000  bottom
+C123      0.047uF                     C_0603_1608Metric_Pad1.08x0.95mm_HandSolder         19.1000    14.6000   90.0000  bottom
+C124      10UF                        C_0603_1608Metric_Pad1.08x0.95mm_HandSolder         36.0000    11.2000  -90.0000  bottom
+C125      10UF                        C_0603_1608Metric_Pad1.08x0.95mm_HandSolder         33.4000    11.1000  -90.0000  bottom
+C126      10UF                        C_0603_1608Metric_Pad1.08x0.95mm_HandSolder         29.8000    11.2000  -90.0000  bottom
+C127      10UF                        C_0603_1608Metric_Pad1.08x0.95mm_HandSolder         27.1000    11.2000  -90.0000  bottom
+C129      1uF                         C_0603_1608Metric_Pad1.08x0.95mm_HandSolder         25.7000     5.8000  -90.0000  bottom
+D108      TPD1E1B04_-_0402_size       D_0402_1005Metric_Pad0.77x0.64mm_HandSolder         10.1000    17.5000    0.0000  bottom
+D109      TPD1E1B04_-_0402_size       D_0402_1005Metric_Pad0.77x0.64mm_HandSolder          5.8000    17.5000    0.0000  bottom
+D110      TPD1E1B04_-_0402_size       D_0402_1005Metric_Pad0.77x0.64mm_HandSolder         14.4000    17.5000    0.0000  bottom
+D111      TPD1E1B04_-_0402_size       D_0402_1005Metric_Pad0.77x0.64mm_HandSolder         18.1000    17.5000    0.0000  bottom
+D112      TPD1E1B04_-_0402_size       D_0402_1005Metric_Pad0.77x0.64mm_HandSolder         36.8000    17.5175  180.0000  bottom
+D113      TPD1E1B04_-_0402_size       D_0402_1005Metric_Pad0.77x0.64mm_HandSolder         33.2000    17.5650  180.0000  bottom
+D114      TPD1E1B04_-_0402_size       D_0402_1005Metric_Pad0.77x0.64mm_HandSolder         29.6000    17.5650  180.0000  bottom
+D115      TPD1E1B04_-_0402_size       D_0402_1005Metric_Pad0.77x0.64mm_HandSolder         26.0000    17.7000  180.0000  bottom
+FB108     BLM21A601S_-_BLM21AG601SH1  C_0805_2012Metric_Pad1.18x1.45mm_HandSolder         36.7000    14.8275  -90.0000  bottom
+FB109     BLM21A601S_-_BLM21AG601SH1  C_0805_2012Metric_Pad1.18x1.45mm_HandSolder         33.1000    14.8650  -90.0000  bottom
+FB110     BLM21A601S_-_BLM21AG601SH1  C_0805_2012Metric_Pad1.18x1.45mm_HandSolder         29.5000    14.9375  -90.0000  bottom
+FB111     BLM21A601S_-_BLM21AG601SH1  C_0805_2012Metric_Pad1.18x1.45mm_HandSolder         25.9000    15.1000  -90.0000  bottom
+G119      jumper                      jumper_slice                                        35.3000     7.5000   90.0000  bottom
+GND108    BRIDGE                      jumper_slice                                        22.4000    16.2000   90.0000  bottom
+INM108    Jump_Filter                 jumper_slice_via                                    38.2000    15.6175  -90.0000  bottom
+INM109    Jump_Filter                 jumper_slice_via                                    31.0000    15.7375  -90.0000  bottom
+INP108    Jump_Filter                 jumper_slice_via                                    34.6000    15.6650  -90.0000  bottom
+INP109    Jump_Filter                 jumper_slice_via                                    27.4000    15.6750  -90.0000  bottom
+MCLK108   jumper                      jumper_slice_disconnected                            4.8000    22.9000    0.0000  bottom
+OM108     Jump_Filter                 jumper_slice_via_alt_text                            4.9000    15.6000   90.0000  bottom
+OM109     Jump_Filter                 jumper_slice_via                                    17.4000    15.9000  -90.0000  bottom
+OP108     Jump_Filter                 jumper_slice_via                                     9.2000    15.6000  -90.0000  bottom
+OP109     Jump_Filter                 jumper_slice_via                                    13.5000    15.6750  -90.0000  bottom
+R108      100                         R_0603_1608Metric_Pad1.05x0.95mm_HandSolder         10.9000    11.5000    0.0000  bottom
+R109      100                         R_0603_1608Metric_Pad1.05x0.95mm_HandSolder          6.6000    11.5000  180.0000  bottom
+R111      100                         R_0603_1608Metric_Pad1.05x0.95mm_HandSolder         15.2000    11.5000    0.0000  bottom
+R116      100                         R_0603_1608Metric_Pad1.05x0.95mm_HandSolder         18.7000    10.6000  -90.0000  bottom
+R127      0_Ohm                       R_0402_1005Metric_Pad0.72x0.64mm_HandSolder         32.6000     6.9000    0.0000  bottom
+SCL108    jumper                      jumper_slice                                         4.8000    21.6000    0.0000  bottom
+SDA108    jumper                      jumper_slice                                         4.8000    20.2000    0.0000  bottom
+T*C108    10uF                        C_0805_2012Metric_Pad1.18x1.45mm_HandSolder         35.3343     4.1625   90.0000  bottom
+T*C109    1uF                         C_0603_1608Metric_Pad1.08x0.95mm_HandSolder         33.2343     4.1625   90.0000  bottom
+T*C110    10uF                        C_0805_2012Metric_Pad1.18x1.45mm_HandSolder         27.6343     4.1625   90.0000  bottom
+U109      3.3v_LDO_-_TLV74133PDBVR    SOT-23-5                                            30.4118     4.1850  -90.0000  bottom
+## End

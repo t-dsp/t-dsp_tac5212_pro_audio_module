@@ -1,0 +1,53 @@
+### Footprint positions - created on 2024-12-23T17:36:48-0500 ###
+### Printed by KiCad version 8.0.7
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref             Val                                          Package                                                  PosX       PosY       Rot  Side
+5V108             jumper                                       jumper_slice_1mm                                       6.1000     1.3000  180.0000  top
+ADD108            0x50_|_0xA0                                  SolderJumper-2_Open_Pad0.5x1.0mm_ADDR                 30.2000    11.6500   90.0000  top
+ADD110            0x52_|_0xA4                                  SolderJumper-2_Open_Pad0.5x1.0mm_ADDR                 33.4000    11.6500   90.0000  top
+ADD111            0x53_|_0xA6                                  SolderJumper-2_Open_Pad0.5x1.0mm_ADDR                 35.0000    11.6500   90.0000  top
+ADD112            0x51_|_0xA2                                  SolderJumper-2_Open_Pad0.5x1.0mm_ADDR                 31.8000    11.6500   90.0000  top
+C108              10uF                                         C_0805_2012Metric_Pad1.18x1.45mm_HandSolder           15.2000    12.7000  -135.0000  top
+C109              0.1uF                                        C_0402_1005Metric                                     18.8000    13.4000  135.0000  top
+C111              10uF                                         C_0805_2012Metric_Pad1.18x1.45mm_HandSolder           20.9808     4.2000  180.0000  top
+C112              0.1uF                                        C_0402_1005Metric                                     21.6000     6.2000   45.0000  top
+C115              10uF                                         C_0805_2012Metric_Pad1.18x1.45mm_HandSolder           14.6000     8.9000  135.0000  top
+C116              0.1uF                                        C_0402_1005Metric                                     17.7985    10.3679  -135.0000  top
+C118              1uF                                          C_0603_1608Metric_Pad1.08x0.95mm_HandSolder           27.5000    13.8000    0.0000  top
+C119              1uF                                          C_0603_1608Metric_Pad1.08x0.95mm_HandSolder           16.4000    11.2000   45.0000  top
+C128              1uF                                          C_0603_1608Metric_Pad1.08x0.95mm_HandSolder           10.0000     4.6000    0.0000  top
+D116              RED_LED                                      R_0805_2012Metric_Pad1.20x1.40mm_HandSolder           33.4000     5.5000  -90.0000  top
+DOUT108           Jump_DOUT1                                   jumper_slice_disconnected_alt-text                    12.5000     7.2000  135.0000  top
+E108              jumper                                       jumper_slice                                          12.9000    22.9000   90.0000  top
+E109              jumper                                       jumper_slice                                          35.3000    22.9000   90.0000  top
+G108              VIA                                          via                                                   29.0000     8.1000    0.0000  top
+G109              VIA                                          via                                                   12.4000     5.4000    0.0000  top
+G110              VIA                                          via                                                   30.3000     8.6000    0.0000  top
+G111              VIA                                          via                                                    5.5000     4.2000    0.0000  top
+G112              VIA                                          via                                                   31.6000     8.6000    0.0000  top
+G113              VIA                                          via                                                   15.8000     4.2000    0.0000  top
+G114              VIA                                          via                                                   36.7000     8.9000    0.0000  top
+G115              VIA                                          via                                                   16.4000     3.3000    0.0000  top
+G116              VIA                                          via                                                   39.1000    12.4000    0.0000  top
+G117              jumper                                       jumper_slice                                          12.7000     0.6000   90.0000  top
+G118              jumper                                       jumper_slice                                          35.4000     0.0000   90.0000  top
+R110              0_Ohm                                        R_0402_1005Metric_Pad0.72x0.64mm_HandSolder           27.1978     9.8005  135.0000  top
+R112              0_Ohm                                        R_0402_1005Metric_Pad0.72x0.64mm_HandSolder           26.4553     9.0581  135.0000  top
+R113              0_Ohm                                        R_0402_1005Metric_Pad0.72x0.64mm_HandSolder           25.7146     8.3173  135.0000  top
+R114              0_Ohm                                        R_0402_1005Metric_Pad0.72x0.64mm_HandSolder           24.9350     7.5378  135.0000  top
+R115              0_Ohm                                        R_0402_1005Metric_Pad0.72x0.64mm_HandSolder           19.0678     8.3138   45.0000  top
+R117              0_Ohm                                        R_0402_1005Metric_Pad0.72x0.64mm_HandSolder           19.7396     7.6420   45.0000  top
+R118              0_Ohm                                        R_0402_1005Metric_Pad0.72x0.64mm_HandSolder           20.4113     6.9703   45.0000  top
+R119              0_Ohm                                        R_0402_1005Metric_Pad0.72x0.64mm_HandSolder           18.3961     8.9855   45.0000  top
+R120              2.21k_ohm                                    R_0402_1005Metric                                     23.9808     6.5000  135.0000  top
+R121              2.21k_ohm                                    R_0402_1005Metric                                     23.1778     5.7310  -45.0000  top
+R122              22.0k                                        R_0402_1005Metric                                     32.6000     9.7000  180.0000  top
+R123              4.7k                                         R_0402_1005Metric                                     34.8000     9.7000    0.0000  top
+R124              4.7k                                         R_0402_1005Metric                                     30.1000     9.7000  180.0000  top
+R125              49.9_ohm                                     R_0402_1005Metric_Pad0.72x0.64mm_HandSolder            8.3000    10.0000    0.0000  top
+R126              2.21k_ohm                                    R_0402_1005Metric                                     35.4000     5.7000  -90.0000  top
+TAC5212           TAC5212                                      VQFN-24-1EP_4x4mm_P0.5mm_EP2.45x2.45mm_ThermalVias    22.4000    11.6000   45.0000  top
+U108              Single_Buffer_-_74LVC1G125GV,125_-_SOT-23-5  SOT-23-5                                               9.2000     7.5000  180.0000  top
+board_outline108  board                                        audio_module_board_outline_50x34.5_d1                 -1.9675    -1.8050    0.0000  top
+## End

@@ -37,6 +37,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -49,6 +50,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -61,6 +63,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -72,8 +75,6 @@
 		(drill 0.2)
 		(layers "*.Cu" "Dwgs.User")
 		(remove_unused_layers no)
-		(solder_mask_margin -1)
-		(clearance -1)
 		(uuid "74a52199-a087-4cf9-abfe-bcf93379b9f5")
 	)
 	(model "${KICAD6_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/WQFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm.wrl"

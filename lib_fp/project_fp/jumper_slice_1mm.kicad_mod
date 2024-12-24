@@ -36,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -48,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +62,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -71,6 +74,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -82,6 +86,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -93,6 +98,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -104,6 +110,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -115,6 +122,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -126,6 +134,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -153,6 +162,17 @@
 		(fill none)
 		(layer "F.SilkS")
 		(uuid "a120e7c2-0b8f-4927-9a06-ca033bf7c8fd")
+	)
+	(fp_rect
+		(start -1.06 -0.5)
+		(end 1.05 0.5)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Mask")
+		(uuid "eece575e-e9a7-4076-a11c-07518d688826")
 	)
 	(fp_text user "${Label}"
 		(at 1.05 -0.01 0)

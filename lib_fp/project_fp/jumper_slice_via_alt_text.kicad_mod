@@ -37,6 +37,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -49,6 +50,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -61,6 +63,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -175,8 +178,8 @@
 	(attr through_hole)
 	(net_tie_pad_groups "1, 2")
 	(fp_rect
-		(start -0.35 -0.2375)
-		(end 0.525 0.2375)
+		(start -0.35 -0.25)
+		(end 0.525 0.25)
 		(stroke
 			(width 0)
 			(type solid)
@@ -206,8 +209,8 @@
 		(uuid "c23540d1-2d3a-4944-a951-1290feadb9ef")
 	)
 	(pad "2" smd rect
-		(at 0.1875 0)
-		(size 0.675 0.475)
+		(at 0.25 0)
+		(size 0.5 0.5)
 		(layers "F.Cu" "F.Mask")
 		(uuid "e09eb614-be8c-4949-8612-2ea84c812a8c")
 	)

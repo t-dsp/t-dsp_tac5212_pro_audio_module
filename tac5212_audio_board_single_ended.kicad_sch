@@ -5015,12 +5015,6 @@
 		(uuid "c48e6166-3ef2-47ef-ba62-fe512570e7ee")
 	)
 	(junction
-		(at 115.57 228.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c9a340ef-0f06-42e5-9ef1-e7754de7371a")
-	)
-	(junction
 		(at 223.52 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5115,6 +5109,10 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fa43de81-ea40-4d0a-a8a6-e9a32a7e75a8")
+	)
+	(no_connect
+		(at 115.57 226.06)
+		(uuid "02748526-dfee-47c1-8d35-842de494be82")
 	)
 	(no_connect
 		(at 115.57 223.52)
@@ -6273,16 +6271,6 @@
 			(type default)
 		)
 		(uuid "8795be40-5d3b-4d5b-807f-42bffb741468")
-	)
-	(wire
-		(pts
-			(xy 115.57 228.6) (xy 115.57 226.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88f846b9-850c-4159-b83f-3683c1a55419")
 	)
 	(wire
 		(pts
@@ -8249,6 +8237,28 @@
 			(effects
 				(font
 					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3v from original digital audio board"
+		(shape input)
+		(at 119.38 226.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left)
+		)
+		(uuid "7bce2301-f205-41f6-864c-7e8a429433c4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 146.1489 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(justify left)
 				(hide yes)

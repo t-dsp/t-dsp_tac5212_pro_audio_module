@@ -4423,6 +4423,729 @@
 				)
 			)
 		)
+		(symbol "proejct_lib:TAC5212-Q1-WQFN-32"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TAC5212"
+				(at 1.905 21.59 0)
+				(effects
+					(font
+						(size 0.8 0.8)
+					)
+				)
+			)
+			(property "Value" "TAC5212-Q1-WQFN-32"
+				(at 1.905 19.05 0)
+				(effects
+					(font
+						(size 0.8 0.8)
+					)
+				)
+			)
+			(property "Footprint" "Package_DFN_QFN:Texas_RSN_WQFN-32-1EP_4x4mm_P0.4mm_EP2.8x2.8mm_ThermalVias"
+				(at 0 30.48 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, double row, 02x14, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 1.27 28.194 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Package / Case" "4X4"
+				(at 4.318 12.192 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "TAC5212EVM" "TAC5212"
+				(at -0.762 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "REPLACE FOR NEXT BUILD" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_2x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TAC5212-Q1-WQFN-32_1_0"
+				(pin passive line
+					(at -25.4 -59.69 0)
+					(length 2.54)
+					(name "VBATIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -25.4 -62.23 0)
+					(length 2.54)
+					(name "BSTVDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -25.4 -64.77 0)
+					(length 2.54)
+					(name "BSTSW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -25.4 -67.31 0)
+					(length 2.54)
+					(name "BSTVSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -25.4 -69.85 0)
+					(length 2.54)
+					(name "BSTOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TAC5212-Q1-WQFN-32_1_1"
+				(rectangle
+					(start -24.13 16.51)
+					(end 27.94 -50.8)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 31.75 -45.72 180)
+					(length 3.81)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 31.75 -38.1 180)
+					(length 3.81)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -27.94 -43.18 0)
+					(length 3.81)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -27.94 -10.16 0)
+					(length 3.81)
+					(name "GPO1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -27.94 -5.08 0)
+					(length 3.81)
+					(name "MICBIAS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 31.75 -33.02 180)
+					(length 3.81)
+					(name "IN1P"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 31.75 -29.21 180)
+					(length 3.81)
+					(name "IN1M"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -27.94 8.89 0)
+					(length 3.81)
+					(name "DREG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 31.75 -21.59 180)
+					(length 3.81)
+					(name "IN2P"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 31.75 -17.78 180)
+					(length 3.81)
+					(name "IN2M"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -27.94 -48.26 0)
+					(length 3.81)
+					(name "ADDR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -27.94 -15.24 0)
+					(length 3.81)
+					(name "GPIO1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -27.94 -12.7 0)
+					(length 3.81)
+					(name "GPIO2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -27.94 -7.62 0)
+					(length 3.81)
+					(name "GPI1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 31.75 -43.18 180)
+					(length 3.81)
+					(name "AVSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 31.75 10.16 180)
+					(length 3.81)
+					(name "OUT1M"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 31.75 13.97 180)
+					(length 3.81)
+					(name "OUT1P"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 31.75 -1.27 180)
+					(length 3.81)
+					(name "OUT2P"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -27.94 -31.75 0)
+					(length 3.81)
+					(name "BCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 31.75 -5.08 180)
+					(length 3.81)
+					(name "OUT2M"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -27.94 13.97 0)
+					(length 3.81)
+					(name "AVDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -27.94 6.35 0)
+					(length 3.81)
+					(name "VREF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 31.75 -48.26 180)
+					(length 3.81)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -27.94 -24.13 0)
+					(length 3.81)
+					(name "FSYNC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -27.94 -26.67 0)
+					(length 3.81)
+					(name "DOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -27.94 -29.21 0)
+					(length 3.81)
+					(name "DIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -27.94 11.43 0)
+					(length 3.81)
+					(name "IOVDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 31.75 -40.64 180)
+					(length 3.81)
+					(name "IOVSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -27.94 -45.72 0)
+					(length 3.81)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "proejct_lib:TLV70012_SOT23-5"
 			(pin_names
 				(offset 0.254)
@@ -4703,6 +5426,12 @@
 		)
 	)
 	(junction
+		(at 82.55 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "009ff88a-1457-4d3c-ac77-551cad08e996")
+	)
+	(junction
 		(at 101.6 355.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4751,10 +5480,22 @@
 		(uuid "1ce96398-fa4a-4908-996f-38020f39a521")
 	)
 	(junction
+		(at 82.55 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "284c4608-48a9-454c-8458-315ad3516664")
+	)
+	(junction
 		(at 220.98 195.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "286876a1-8a41-4642-b12b-d035b55dcbdb")
+	)
+	(junction
+		(at 82.55 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2aa5f390-cd01-4e99-988e-715eb57f1c29")
 	)
 	(junction
 		(at 45.72 104.14)
@@ -4811,6 +5552,18 @@
 		(uuid "4b47d84b-54ac-4cd4-94dd-9451d1af7c9e")
 	)
 	(junction
+		(at 82.55 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "53054926-9d83-4b31-9516-ec41e179a375")
+	)
+	(junction
+		(at 82.55 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "58c196d3-e03c-4284-8c15-c091412363cf")
+	)
+	(junction
 		(at 220.98 177.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4829,6 +5582,12 @@
 		(uuid "5ddb100c-86fb-4fe3-9209-5d7f99b6aabc")
 	)
 	(junction
+		(at 82.55 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "60083c66-18e4-46f4-b4ca-eeb8d5df8e6f")
+	)
+	(junction
 		(at 62.23 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4845,6 +5604,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "681c52b9-ffb3-4638-af37-2b91e2d7593c")
+	)
+	(junction
+		(at 82.55 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6a845ac4-8b23-48ee-93b7-97064f662189")
 	)
 	(junction
 		(at 41.91 154.94)
@@ -4949,6 +5714,12 @@
 		(uuid "a28488c5-5d97-4df8-8898-a7495ff9e192")
 	)
 	(junction
+		(at 82.55 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a78bdc90-2d77-4184-8b21-5a2a5cbb93bb")
+	)
+	(junction
 		(at 115.57 233.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4961,6 +5732,12 @@
 		(uuid "ab70a8b5-9dbe-4dab-8078-f14a7f78aaa7")
 	)
 	(junction
+		(at 82.55 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ab90e124-bcdb-435b-87c4-00721b06a251")
+	)
+	(junction
 		(at 115.57 261.62)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4971,6 +5748,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ae94ca50-fc6b-4034-8743-621306f1c95d")
+	)
+	(junction
+		(at 82.55 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b0c3d8ad-5213-4032-ad43-352f24a1ab88")
 	)
 	(junction
 		(at 35.56 83.82)
@@ -5009,16 +5792,22 @@
 		(uuid "bdb016c2-4e08-4fee-b6f1-1e261de3d3f0")
 	)
 	(junction
+		(at 142.24 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c36d9c04-c2f3-4d62-bc52-7f1bbb65dc14")
+	)
+	(junction
+		(at 82.55 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c3a7718f-f14b-4e5d-9d2e-01428937b6b6")
+	)
+	(junction
 		(at 71.12 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c48e6166-3ef2-47ef-ba62-fe512570e7ee")
-	)
-	(junction
-		(at 115.57 228.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c9a340ef-0f06-42e5-9ef1-e7754de7371a")
 	)
 	(junction
 		(at 223.52 105.41)
@@ -5027,10 +5816,34 @@
 		(uuid "cb80e5b8-7581-4f40-b2a3-4f54073c1879")
 	)
 	(junction
+		(at 82.55 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cb899c78-defa-4a80-9f34-eb0cbb53987b")
+	)
+	(junction
+		(at 82.55 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cede8fb9-e10f-421d-9d4c-03e2c1963a65")
+	)
+	(junction
 		(at 63.5 374.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d0c2b6a2-ec2a-44b1-9c41-44a84291d0aa")
+	)
+	(junction
+		(at 82.55 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d1cb6856-8e4f-4329-88e7-0eafe77bbc2f")
+	)
+	(junction
+		(at 82.55 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d765d2fc-8815-4896-be7d-bf45c63755a3")
 	)
 	(junction
 		(at 48.26 93.98)
@@ -5055,6 +5868,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e547cc63-2448-4f8a-be0f-7aa91f0c8585")
+	)
+	(junction
+		(at 82.55 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e61f1ca9-85d1-4953-845b-49bf74596736")
 	)
 	(junction
 		(at 90.17 365.76)
@@ -5117,8 +5936,32 @@
 		(uuid "fa43de81-ea40-4d0a-a8a6-e9a32a7e75a8")
 	)
 	(no_connect
+		(at 115.57 226.06)
+		(uuid "02748526-dfee-47c1-8d35-842de494be82")
+	)
+	(no_connect
+		(at 85.09 176.53)
+		(uuid "0c983ad1-c84c-4cc0-9f31-748530deee0d")
+	)
+	(no_connect
 		(at 115.57 223.52)
 		(uuid "27f20dda-b8e4-44e4-becf-ed0c47e6dc97")
+	)
+	(no_connect
+		(at 85.09 179.07)
+		(uuid "36274756-aad8-40ac-85e4-f2da6b13c520")
+	)
+	(no_connect
+		(at 85.09 184.15)
+		(uuid "5bf3404e-1ed6-47ad-8692-841543397408")
+	)
+	(no_connect
+		(at 85.09 181.61)
+		(uuid "97db7e8e-6e88-4f1d-b6bd-7b5c6037a798")
+	)
+	(no_connect
+		(at 85.09 173.99)
+		(uuid "c88673b2-ad1a-480c-8f50-d9b7a25a836c")
 	)
 	(no_connect
 		(at 66.04 228.6)
@@ -6273,16 +7116,6 @@
 			(type default)
 		)
 		(uuid "8795be40-5d3b-4d5b-807f-42bffb741468")
-	)
-	(wire
-		(pts
-			(xy 115.57 228.6) (xy 115.57 226.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88f846b9-850c-4159-b83f-3683c1a55419")
 	)
 	(wire
 		(pts
@@ -8255,6 +9088,28 @@
 			)
 		)
 	)
+	(global_label "3v from original digital audio board"
+		(shape input)
+		(at 119.38 226.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left)
+		)
+		(uuid "7bce2301-f205-41f6-864c-7e8a429433c4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 146.1489 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "OUT1M"
 		(shape input)
 		(at 243.84 101.6 0)
@@ -9274,6 +10129,15 @@
 				(hide yes)
 			)
 		)
+		(property "REPLACE FOR NEXT BUILD" ""
+			(at 203.2 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9e9d31b2-5d83-4309-b2c9-b2e47adada46")
 		)
@@ -9432,6 +10296,15 @@
 				(hide yes)
 			)
 		)
+		(property "REPLACE FOR NEXT BUILD" ""
+			(at 187.96 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ef31e80c-d9d7-4a1a-801b-927f3a7e3d75")
 		)
@@ -9506,6 +10379,15 @@
 			)
 		)
 		(property "TAC5212EVM" "ERJ-2GE0R00X "
+			(at 73.66 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REPLACE FOR NEXT BUILD" ""
 			(at 73.66 124.46 0)
 			(effects
 				(font
@@ -9615,6 +10497,15 @@
 				(hide yes)
 			)
 		)
+		(property "REPLACE FOR NEXT BUILD" ""
+			(at 125.73 292.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f7b7f2e4-fb89-410a-bf55-215ab3b942e4")
 		)
@@ -9692,6 +10583,15 @@
 			)
 		)
 		(property "TAC5212EVM" "ERJ-2GE0R00X "
+			(at 69.85 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REPLACE FOR NEXT BUILD" ""
 			(at 69.85 374.65 0)
 			(effects
 				(font
@@ -9779,6 +10679,15 @@
 			)
 		)
 		(property "TAC5212EVM" "EMK212BB7106KG-T"
+			(at 105.41 358.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REPLACE FOR NEXT BUILD" ""
 			(at 105.41 358.14 0)
 			(effects
 				(font
@@ -9875,6 +10784,15 @@
 				(hide yes)
 			)
 		)
+		(property "REPLACE FOR NEXT BUILD" ""
+			(at 36.83 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dd1c3c91-36b6-4bb9-965e-0dc4f7b95790")
 		)
@@ -9961,6 +10879,15 @@
 			)
 		)
 		(property "TAC5212EVM" "RC0603FR-07100RL"
+			(at 214.63 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REPLACE FOR NEXT BUILD" ""
 			(at 214.63 138.43 0)
 			(effects
 				(font
@@ -10277,6 +11204,15 @@
 				(hide yes)
 			)
 		)
+		(property "REPLACE FOR NEXT BUILD" ""
+			(at 243.84 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a8b192be-8475-4150-8515-ab8c885f58f9")
 		)
@@ -10356,6 +11292,15 @@
 			)
 		)
 		(property "TAC5212EVM" "C1608X7R1V105K080AC"
+			(at 66.04 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REPLACE FOR NEXT BUILD" ""
 			(at 66.04 114.3 0)
 			(effects
 				(font
@@ -10451,6 +11396,15 @@
 			)
 		)
 		(property "TAC5212EVM" "C1608X5R1C106M080AB"
+			(at 198.12 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REPLACE FOR NEXT BUILD" ""
 			(at 198.12 177.8 0)
 			(effects
 				(font
@@ -10832,6 +11786,15 @@
 				(hide yes)
 			)
 		)
+		(property "REPLACE FOR NEXT BUILD" ""
+			(at 201.93 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ca711e16-d7c9-4af4-91bc-c6bb2b68b8da")
 		)
@@ -10915,6 +11878,15 @@
 			)
 		)
 		(property "TAC5212EVM" "74LVC1G125GV,125 "
+			(at 185.42 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REPLACE FOR NEXT BUILD" ""
 			(at 185.42 284.48 0)
 			(effects
 				(font
@@ -11076,6 +12048,15 @@
 			)
 		)
 		(property "TAC5212EVM" "n/a"
+			(at 186.69 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REPLACE FOR NEXT BUILD" ""
 			(at 186.69 116.84 0)
 			(effects
 				(font
@@ -11290,6 +12271,15 @@
 			)
 		)
 		(property "TAC5212EVM" "n/a"
+			(at 90.17 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REPLACE FOR NEXT BUILD" ""
 			(at 90.17 264.16 0)
 			(effects
 				(font
@@ -11542,6 +12532,15 @@
 				(hide yes)
 			)
 		)
+		(property "REPLACE FOR NEXT BUILD" ""
+			(at 241.3 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "12593246-6374-4ba2-b102-5d5b4200958d")
 		)
@@ -11704,6 +12703,15 @@
 				(hide yes)
 			)
 		)
+		(property "REPLACE FOR NEXT BUILD" ""
+			(at 33.02 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3e54b361-1c06-40de-af86-1ba944d005b3")
 		)
@@ -11789,6 +12797,15 @@
 			)
 		)
 		(property "TAC5212EVM" "LTST-C170KRKT "
+			(at 209.55 350.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REPLACE FOR NEXT BUILD" ""
 			(at 209.55 350.52 0)
 			(effects
 				(font
@@ -11885,6 +12902,15 @@
 				(hide yes)
 			)
 		)
+		(property "REPLACE FOR NEXT BUILD" ""
+			(at 201.93 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7eeaf455-0cec-4ecf-981a-8446ac0d85e0")
 		)
@@ -11969,6 +12995,15 @@
 			)
 		)
 		(property "TAC5212EVM" "BLM21A601S - BLM21AG601SH1"
+			(at 229.87 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REPLACE FOR NEXT BUILD" ""
 			(at 229.87 161.29 0)
 			(effects
 				(font
@@ -12143,6 +13178,15 @@
 				(hide yes)
 			)
 		)
+		(property "REPLACE FOR NEXT BUILD" ""
+			(at 241.3 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "84b3b610-8635-42f8-8767-3755429ca348")
 		)
@@ -12288,6 +13332,15 @@
 			)
 		)
 		(property "TAC5212EVM" "RC0603FR-07100RL"
+			(at 214.63 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REPLACE FOR NEXT BUILD" ""
 			(at 214.63 121.92 0)
 			(effects
 				(font
@@ -12470,6 +13523,15 @@
 				(hide yes)
 			)
 		)
+		(property "REPLACE FOR NEXT BUILD" ""
+			(at 46.99 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d887b685-8631-454a-a6bc-72bab394bb84")
 		)
@@ -12547,6 +13609,15 @@
 			)
 		)
 		(property "TAC5212EVM" "ERJ-2GE0R00X "
+			(at 73.66 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REPLACE FOR NEXT BUILD" ""
 			(at 73.66 127 0)
 			(effects
 				(font
@@ -12647,6 +13718,15 @@
 				(hide yes)
 			)
 		)
+		(property "REPLACE FOR NEXT BUILD" ""
+			(at 229.87 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2e63f66f-c13a-4b8c-9f40-36a304fb7f44")
 		)
@@ -12663,6 +13743,197 @@
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
 					(reference "FB109")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "proejct_lib:TAC5212-Q1-WQFN-32")
+		(at 110.49 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5221ab20-2776-4d69-8bea-f645cdcbebb1")
+		(property "Reference" "TAC108-Q1"
+			(at 112.395 93.98 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Value" "TAC5212-Q1"
+			(at 112.395 96.52 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:Texas_RHB0032E_VQFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm_ThermalVias"
+			(at 110.49 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x14, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 110.49 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "4X4"
+			(at 110.49 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TAC5212EVM" "TAC5212"
+			(at 110.49 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REPLACE FOR NEXT BUILD" ""
+			(at 110.49 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8da53f97-4886-43cf-a03e-e0a1d657851e")
+		)
+		(pin "10"
+			(uuid "f53474eb-9cf6-47a4-b28f-0acc09da908a")
+		)
+		(pin "11"
+			(uuid "998e0a7e-2836-4efd-9f20-1251d84a20fa")
+		)
+		(pin "27"
+			(uuid "ec902d35-833b-4fc0-82a9-1f2509dcc463")
+		)
+		(pin "13"
+			(uuid "4a5f9476-7f43-4335-85de-05d8028a80f2")
+		)
+		(pin "14"
+			(uuid "ee2abcb2-558c-4869-b78f-d2aea8b8c31d")
+		)
+		(pin "12"
+			(uuid "6eff3e46-63d6-4fa9-a7bc-761d3ee2732f")
+		)
+		(pin "19"
+			(uuid "bc0062f4-e46e-427f-b84c-19d951f8cdc1")
+		)
+		(pin "17"
+			(uuid "96d12b21-0f54-493f-9615-7993c76537cf")
+		)
+		(pin "18"
+			(uuid "546975ef-5994-4aef-a7f4-57a14478d53d")
+		)
+		(pin "31"
+			(uuid "ea7ca32d-b76d-4e23-80fc-5c8520665e2b")
+		)
+		(pin "2"
+			(uuid "28784c45-9781-45a8-add1-a7d9da542ff1")
+		)
+		(pin "26"
+			(uuid "cf2d3dfb-4a24-4097-8ec0-0c6cbf793424")
+		)
+		(pin "29"
+			(uuid "b5ebac8d-c484-4f40-80ce-9f7c4b6e9b37")
+		)
+		(pin "30"
+			(uuid "559501aa-07ba-4b17-906b-d52aa4b5f4f5")
+		)
+		(pin "23"
+			(uuid "76e314fd-f46b-45ab-a7e1-be2ddb8c6570")
+		)
+		(pin "24"
+			(uuid "94037506-b108-4c17-a4ff-66f75cc309c1")
+		)
+		(pin "25"
+			(uuid "1b490c8f-7fcf-494c-8d8a-4c720400ec05")
+		)
+		(pin "3"
+			(uuid "fc7469eb-86ab-4c69-9171-5eeef93d1c95")
+		)
+		(pin "4"
+			(uuid "f0091e00-f905-4602-90e4-5c897cbdb534")
+		)
+		(pin "5"
+			(uuid "d6badfb7-d9d5-40ee-acd6-204ea1064a0b")
+		)
+		(pin "6"
+			(uuid "1024744c-b2a2-4bd5-91fd-ea8c1f876b16")
+		)
+		(pin "7"
+			(uuid "db19df0e-647c-496d-bbf8-55af408f6831")
+		)
+		(pin "8"
+			(uuid "68ee8652-46ec-44da-83a4-dac928426dda")
+		)
+		(pin "9"
+			(uuid "af745ddf-0fcc-439b-99c1-64dc7ce7ffee")
+		)
+		(pin "28"
+			(uuid "2993a0c6-a21e-47aa-bc6a-bc2c1f2c75c5")
+		)
+		(pin "32"
+			(uuid "70f841f0-2838-4b6f-a584-782f974a5b2f")
+		)
+		(pin "33"
+			(uuid "8db776eb-f484-435c-9379-e42c95a850da")
+		)
+		(pin "22"
+			(uuid "c990bd50-dc13-4609-ab6c-3a5e02101c5d")
+		)
+		(pin "20"
+			(uuid "930e180c-a4ae-4fd2-872b-93ac6c1d7f35")
+		)
+		(pin ""
+			(uuid "92b822e3-9bfd-4759-847c-2415f34ba8d4")
+		)
+		(pin "21"
+			(uuid "b0dc4265-5481-467a-8815-7ec763b06344")
+		)
+		(pin "15"
+			(uuid "61280e3c-b0a2-4806-85b3-fcd8ba61fd5c")
+		)
+		(pin "16"
+			(uuid "fc528496-4ce4-4b6b-bec4-6b4388bd8b1e")
+		)
+		(instances
+			(project "tac5212_audio_board_single_ended"
+				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
+					(reference "TAC108-Q1")
 					(unit 1)
 				)
 			)
@@ -12876,6 +14147,15 @@
 				(hide yes)
 			)
 		)
+		(property "REPLACE FOR NEXT BUILD" ""
+			(at 220.98 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "84cb54f6-16bd-4a52-94dc-ecfc4b322d64")
 		)
@@ -12976,6 +14256,15 @@
 				(hide yes)
 			)
 		)
+		(property "REPLACE FOR NEXT BUILD" ""
+			(at 241.3 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "469a6a0e-aeaf-487a-b211-a51789ab2741")
 		)
@@ -13053,6 +14342,15 @@
 			)
 		)
 		(property "TAC5212EVM" "ERJ-2GE0R00X "
+			(at 73.66 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REPLACE FOR NEXT BUILD" ""
 			(at 73.66 143.51 0)
 			(effects
 				(font
@@ -13144,6 +14442,15 @@
 			)
 		)
 		(property "TAC5212EVM" "ERJ-2GE0R00X "
+			(at 73.66 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REPLACE FOR NEXT BUILD" ""
 			(at 73.66 121.92 0)
 			(effects
 				(font
@@ -13388,6 +14695,15 @@
 				(hide yes)
 			)
 		)
+		(property "REPLACE FOR NEXT BUILD" ""
+			(at 199.39 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b148f4b4-8e93-44ce-a718-f268e2c6b3b5")
 		)
@@ -13452,7 +14768,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES, 22.0 k, 0.1%, 0.1 W, 0603"
+		(property "Description" "MISMATCH FOOTPRINT  RES, 22.0 k, 0.1%, 0.1 W, 0603"
 			(at 26.67 146.05 0)
 			(effects
 				(font
@@ -13471,6 +14787,15 @@
 			)
 		)
 		(property "TAC5212EVM" "RG1608P-223-B-T5"
+			(at 26.67 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REPLACE FOR NEXT BUILD" ""
 			(at 26.67 146.05 0)
 			(effects
 				(font
@@ -13645,6 +14970,15 @@
 				(hide yes)
 			)
 		)
+		(property "REPLACE FOR NEXT BUILD" "RC0402FR-072K21L"
+			(at 200.66 349.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ea5502a8-5b2c-43b0-895a-da0d03c6b579")
 		)
@@ -13732,6 +15066,15 @@
 				(hide yes)
 			)
 		)
+		(property "REPLACE FOR NEXT BUILD" ""
+			(at 45.72 358.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "140a5d59-5300-4fac-abb3-d8738408a94a")
 		)
@@ -13811,6 +15154,15 @@
 			)
 		)
 		(property "TAC5212EVM" "TPD1E10B06DPYR"
+			(at 233.68 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REPLACE FOR NEXT BUILD" ""
 			(at 233.68 125.73 0)
 			(effects
 				(font
@@ -13911,6 +15263,15 @@
 			)
 		)
 		(property "TAC5212EVM" "n/a"
+			(at 243.84 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REPLACE FOR NEXT BUILD" ""
 			(at 243.84 208.28 0)
 			(effects
 				(font
@@ -14072,6 +15433,15 @@
 				(hide yes)
 			)
 		)
+		(property "REPLACE FOR NEXT BUILD" ""
+			(at 189.23 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e89d97ec-cb72-4610-ab2a-60ccfcd4ac48")
 		)
@@ -14150,6 +15520,15 @@
 			)
 		)
 		(property "TAC5212EVM" "BLM21A601S - BLM21AG601SH1"
+			(at 231.14 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REPLACE FOR NEXT BUILD" ""
 			(at 231.14 212.09 0)
 			(effects
 				(font
@@ -14252,6 +15631,15 @@
 				(hide yes)
 			)
 		)
+		(property "REPLACE FOR NEXT BUILD" ""
+			(at 71.12 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d51b06bc-23db-421e-bce5-f0b37d435033")
 		)
@@ -14335,6 +15723,15 @@
 			)
 		)
 		(property "TAC5212EVM" "RC0402FR-7W49R9L"
+			(at 198.12 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REPLACE FOR NEXT BUILD" ""
 			(at 198.12 284.48 0)
 			(effects
 				(font
@@ -14506,6 +15903,15 @@
 				(hide yes)
 			)
 		)
+		(property "REPLACE FOR NEXT BUILD" ""
+			(at 198.12 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5b3f225e-89a8-4119-b806-6af0f7590f36")
 		)
@@ -14606,6 +16012,15 @@
 				(hide yes)
 			)
 		)
+		(property "REPLACE FOR NEXT BUILD" ""
+			(at 245.11 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "86ffd18f-9499-49bd-98ac-f0d2f7e9147a")
 		)
@@ -14694,6 +16109,15 @@
 				(hide yes)
 			)
 		)
+		(property "REPLACE FOR NEXT BUILD" ""
+			(at 233.68 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8b9de1d9-f4b7-4cd9-869c-49710f782670")
 		)
@@ -14758,7 +16182,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES, 4.7 k, 5%, 0.1 W, AEC-Q200 Grade 0, 0603"
+		(property "Description" "MISMATCH FOOTPRINT -RES, 4.7 k, 5%, 0.1 W, AEC-Q200 Grade 0, 0603"
 			(at 26.67 154.94 0)
 			(effects
 				(font
@@ -14777,6 +16201,15 @@
 			)
 		)
 		(property "TAC5212EVM" "ERJ-3GEYJ472V"
+			(at 26.67 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REPLACE FOR NEXT BUILD" ""
 			(at 26.67 154.94 0)
 			(effects
 				(font
@@ -15026,6 +16459,15 @@
 				(hide yes)
 			)
 		)
+		(property "REPLACE FOR NEXT BUILD" ""
+			(at 35.56 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d3205528-2a7c-4375-b579-d0926a93b9be")
 		)
@@ -15127,6 +16569,15 @@
 				(hide yes)
 			)
 		)
+		(property "REPLACE FOR NEXT BUILD" ""
+			(at 35.56 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "04c018bb-87a9-4693-a761-893151a752db")
 		)
@@ -15219,6 +16670,15 @@
 			)
 		)
 		(property "TAC5212EVM" "n/a"
+			(at 35.56 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REPLACE FOR NEXT BUILD" ""
 			(at 35.56 154.94 0)
 			(effects
 				(font
@@ -15400,6 +16860,15 @@
 				(hide yes)
 			)
 		)
+		(property "REPLACE FOR NEXT BUILD" ""
+			(at 38.1 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c553ab42-3ae4-4258-ad79-e9e9621148f3")
 		)
@@ -15498,6 +16967,15 @@
 				(hide yes)
 			)
 		)
+		(property "REPLACE FOR NEXT BUILD" ""
+			(at 186.69 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "98ce6273-00ee-4743-9a51-1dc35e58ecce")
 		)
@@ -15575,6 +17053,15 @@
 			)
 		)
 		(property "TAC5212EVM" "EMK212BB7106KG-T"
+			(at 33.02 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REPLACE FOR NEXT BUILD" ""
 			(at 33.02 96.52 0)
 			(effects
 				(font
@@ -15666,6 +17153,15 @@
 			)
 		)
 		(property "TAC5212EVM" "ERJ-2GE0R00X "
+			(at 73.66 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REPLACE FOR NEXT BUILD" ""
 			(at 73.66 129.54 0)
 			(effects
 				(font
@@ -15767,6 +17263,15 @@
 			)
 		)
 		(property "TAC5212EVM" "n/a"
+			(at 125.73 287.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REPLACE FOR NEXT BUILD" ""
 			(at 125.73 287.02 0)
 			(effects
 				(font
@@ -16200,6 +17705,15 @@
 				(hide yes)
 			)
 		)
+		(property "REPLACE FOR NEXT BUILD" ""
+			(at 226.06 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e785a1db-12f8-4966-8e6e-91ccd9003e7a")
 		)
@@ -16440,6 +17954,15 @@
 				(hide yes)
 			)
 		)
+		(property "REPLACE FOR NEXT BUILD" ""
+			(at 49.53 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "736eea03-538a-4329-a6ac-e2bbcade55ed")
 		)
@@ -16525,6 +18048,15 @@
 			)
 		)
 		(property "TAC5212EVM" "RC0402FR-072K21L"
+			(at 80.01 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REPLACE FOR NEXT BUILD" ""
 			(at 80.01 153.67 0)
 			(effects
 				(font
@@ -16626,6 +18158,15 @@
 				(hide yes)
 			)
 		)
+		(property "REPLACE FOR NEXT BUILD" ""
+			(at 218.44 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7ab36f81-829a-4509-b827-f92e0a37e1a7")
 		)
@@ -16709,6 +18250,15 @@
 			)
 		)
 		(property "TAC5212EVM" "ERJ-2GE0R00X "
+			(at 73.66 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REPLACE FOR NEXT BUILD" ""
 			(at 73.66 146.05 0)
 			(effects
 				(font
@@ -17009,6 +18559,15 @@
 				(hide yes)
 			)
 		)
+		(property "REPLACE FOR NEXT BUILD" ""
+			(at 223.52 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "088cf022-f6d5-46b9-b0d2-f4169676243a")
 		)
@@ -17103,6 +18662,15 @@
 				(hide yes)
 			)
 		)
+		(property "REPLACE FOR NEXT BUILD" ""
+			(at 45.72 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fdfd7147-d0e4-4f4d-8883-a2f2c6776c53")
 		)
@@ -17141,8 +18709,8 @@
 				)
 			)
 		)
-		(property "Value" "0 Ohm"
-			(at 78.232 140.208 90)
+		(property "Value" "49.9 ohm"
+			(at 79.502 140.208 90)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -17185,7 +18753,16 @@
 				(hide yes)
 			)
 		)
-		(property "TAC5212EVM" "ERJ-2GE0R00X "
+		(property "TAC5212EVM" ""
+			(at 73.66 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REPLACE FOR NEXT BUILD" ""
 			(at 73.66 140.97 0)
 			(effects
 				(font
@@ -17285,6 +18862,15 @@
 				(hide yes)
 			)
 		)
+		(property "REPLACE FOR NEXT BUILD" ""
+			(at 73.66 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d13c75f7-c355-4a95-a885-f6b38f1a4048")
 		)
@@ -17349,7 +18935,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES, 4.7 k, 5%, 0.1 W, AEC-Q200 Grade 0, 0603"
+		(property "Description" "MISMATCH FOOTPRINT -RES, 4.7 k, 5%, 0.1 W, AEC-Q200 Grade 0, 0603"
 			(at 26.67 177.8 0)
 			(effects
 				(font
@@ -17368,6 +18954,15 @@
 			)
 		)
 		(property "TAC5212EVM" "ERJ-3GEYJ472V"
+			(at 26.67 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REPLACE FOR NEXT BUILD" ""
 			(at 26.67 177.8 0)
 			(effects
 				(font
@@ -17542,6 +19137,15 @@
 				(hide yes)
 			)
 		)
+		(property "REPLACE FOR NEXT BUILD" ""
+			(at 243.84 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "64ad8b60-8e54-4550-88bc-ecc3f904682f")
 		)
@@ -17622,6 +19226,15 @@
 			)
 		)
 		(property "TAC5212EVM" "GRM155R71C104KA88J"
+			(at 48.26 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REPLACE FOR NEXT BUILD" ""
 			(at 48.26 96.52 0)
 			(effects
 				(font
@@ -17798,6 +19411,15 @@
 				(hide yes)
 			)
 		)
+		(property "REPLACE FOR NEXT BUILD" ""
+			(at 198.12 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8a9c454e-64ee-4aad-9f93-8cb2ef011bb5")
 		)
@@ -17882,6 +19504,15 @@
 			)
 		)
 		(property "TAC5212EVM" "BLM21A601S - BLM21AG601SH1"
+			(at 229.87 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REPLACE FOR NEXT BUILD" ""
 			(at 229.87 195.58 0)
 			(effects
 				(font
@@ -18043,6 +19674,15 @@
 			)
 		)
 		(property "TAC5212EVM" "C1608X7R1H473K080AA"
+			(at 224.79 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REPLACE FOR NEXT BUILD" ""
 			(at 224.79 96.52 0)
 			(effects
 				(font
@@ -18217,6 +19857,15 @@
 				(hide yes)
 			)
 		)
+		(property "REPLACE FOR NEXT BUILD" ""
+			(at 241.3 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "933eba6a-9176-49f1-877f-75ec79dde61f")
 		)
@@ -18312,6 +19961,15 @@
 				(hide yes)
 			)
 		)
+		(property "REPLACE FOR NEXT BUILD" ""
+			(at 125.73 297.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1fa06181-9181-44ea-86b2-5d3e72926d5d")
 		)
@@ -18391,6 +20049,15 @@
 			)
 		)
 		(property "TAC5212EVM" "C1608X7R1V105K080AC"
+			(at 59.69 358.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REPLACE FOR NEXT BUILD" ""
 			(at 59.69 358.14 0)
 			(effects
 				(font
@@ -18493,6 +20160,15 @@
 				(hide yes)
 			)
 		)
+		(property "REPLACE FOR NEXT BUILD" ""
+			(at 57.15 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4f4762a6-6c72-49f6-ac7a-807b01e0ca35")
 		)
@@ -18579,6 +20255,15 @@
 			)
 		)
 		(property "TAC5212EVM" "n/a"
+			(at 116.84 355.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REPLACE FOR NEXT BUILD" ""
 			(at 116.84 355.6 0)
 			(effects
 				(font
@@ -18681,6 +20366,15 @@
 				(hide yes)
 			)
 		)
+		(property "REPLACE FOR NEXT BUILD" ""
+			(at 149.86 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c1359738-183f-4242-89c5-62f84b7a4014")
 		)
@@ -18761,6 +20455,15 @@
 		)
 		(property "TAC5212EVM" "RC0603FR-07100RL"
 			(at 214.63 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REPLACE FOR NEXT BUILD" ""
+			(at 214.63 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18863,6 +20566,15 @@
 				(hide yes)
 			)
 		)
+		(property "REPLACE FOR NEXT BUILD" ""
+			(at 220.98 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "92422478-b15e-4ba7-a192-f58098fe6cd9")
 		)
@@ -18957,6 +20669,15 @@
 				(hide yes)
 			)
 		)
+		(property "REPLACE FOR NEXT BUILD" ""
+			(at 232.41 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fc74e84d-ac1a-44e1-87ae-7a7bbb623121")
 		)
@@ -19042,6 +20763,15 @@
 			)
 		)
 		(property "TAC5212EVM" "TLV74133PDBVR"
+			(at 90.17 358.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REPLACE FOR NEXT BUILD" ""
 			(at 90.17 358.14 0)
 			(effects
 				(font
@@ -19147,6 +20877,15 @@
 				(hide yes)
 			)
 		)
+		(property "REPLACE FOR NEXT BUILD" ""
+			(at 203.2 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c22883ff-9848-4086-896a-b8fd10989c56")
 		)
@@ -19240,6 +20979,15 @@
 			)
 		)
 		(property "TAC5212EVM" "n/a"
+			(at 99.06 372.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REPLACE FOR NEXT BUILD" ""
 			(at 99.06 372.11 0)
 			(effects
 				(font
@@ -19403,6 +21151,15 @@
 				(hide yes)
 			)
 		)
+		(property "REPLACE FOR NEXT BUILD" ""
+			(at 220.98 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "41db8959-8524-4fc1-b813-164820d0b37a")
 		)
@@ -19496,6 +21253,15 @@
 				(hide yes)
 			)
 		)
+		(property "REPLACE FOR NEXT BUILD" ""
+			(at 232.41 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "826d193f-4b49-400e-ad88-6b64ae773d04")
 		)
@@ -19580,6 +21346,15 @@
 			)
 		)
 		(property "TAC5212EVM" "n/a"
+			(at 186.69 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REPLACE FOR NEXT BUILD" ""
 			(at 186.69 189.23 0)
 			(effects
 				(font
@@ -19738,6 +21513,15 @@
 			)
 		)
 		(property "TAC5212EVM" "n/a"
+			(at 67.31 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REPLACE FOR NEXT BUILD" ""
 			(at 67.31 151.13 0)
 			(effects
 				(font
@@ -19913,6 +21697,15 @@
 				(hide yes)
 			)
 		)
+		(property "REPLACE FOR NEXT BUILD" ""
+			(at 35.56 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7b3dc322-17e7-4294-abb0-c38781d78f38")
 		)
@@ -19997,6 +21790,15 @@
 			)
 		)
 		(property "TAC5212EVM" "n/a"
+			(at 186.69 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REPLACE FOR NEXT BUILD" ""
 			(at 186.69 171.45 0)
 			(effects
 				(font
@@ -20155,6 +21957,15 @@
 				(hide yes)
 			)
 		)
+		(property "REPLACE FOR NEXT BUILD" ""
+			(at 223.52 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b95ccb4d-25b2-473a-98be-fab8e0bf4d54")
 		)
@@ -20247,6 +22058,15 @@
 				(hide yes)
 			)
 		)
+		(property "REPLACE FOR NEXT BUILD" ""
+			(at 186.69 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "73fd5328-de73-4382-be20-d3a590d08f62")
 		)
@@ -20331,8 +22151,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "ec219fb4-6577-4da0-82b6-5187992ee125")
 		(property "Reference" "J1002"
@@ -20388,6 +22208,15 @@
 			)
 		)
 		(property "TAC5212EVM" "TAC5212"
+			(at 110.49 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REPLACE FOR NEXT BUILD" ""
 			(at 110.49 114.3 0)
 			(effects
 				(font
@@ -20725,6 +22554,15 @@
 				(hide yes)
 			)
 		)
+		(property "REPLACE FOR NEXT BUILD" ""
+			(at 35.56 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "26a4db91-85f8-422f-9f6a-b4d1f38f94be")
 		)
@@ -20809,6 +22647,15 @@
 			)
 		)
 		(property "TAC5212EVM" "n/a"
+			(at 185.42 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REPLACE FOR NEXT BUILD" ""
 			(at 185.42 81.28 0)
 			(effects
 				(font
@@ -20975,6 +22822,15 @@
 				(hide yes)
 			)
 		)
+		(property "REPLACE FOR NEXT BUILD" ""
+			(at 125.73 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "115bebc2-a003-431b-b5eb-0b518d6ba69d")
 		)
@@ -21069,6 +22925,15 @@
 				(hide yes)
 			)
 		)
+		(property "REPLACE FOR NEXT BUILD" ""
+			(at 214.63 279.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "26625ae4-6577-4175-b3ad-577b7ceb7694")
 		)
@@ -21155,6 +23020,15 @@
 				(hide yes)
 			)
 		)
+		(property "REPLACE FOR NEXT BUILD" ""
+			(at 187.96 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a22695d4-1beb-49ec-aeec-1a29d7e5e653")
 		)
@@ -21232,6 +23106,15 @@
 			)
 		)
 		(property "TAC5212EVM" "RC0603FR-07100RL"
+			(at 215.9 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REPLACE FOR NEXT BUILD" ""
 			(at 215.9 105.41 0)
 			(effects
 				(font
@@ -21341,6 +23224,15 @@
 				(hide yes)
 			)
 		)
+		(property "REPLACE FOR NEXT BUILD" ""
+			(at 46.99 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fceee194-54a3-4dea-a0ba-bccad58ff13b")
 		)
@@ -21432,6 +23324,15 @@
 			)
 		)
 		(property "TAC5212EVM" "C1608X7R1V105K080AC"
+			(at 63.5 377.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REPLACE FOR NEXT BUILD" ""
 			(at 63.5 377.19 0)
 			(effects
 				(font
@@ -21584,6 +23485,15 @@
 			)
 		)
 		(property "TAC5212EVM" "n/a"
+			(at 186.69 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REPLACE FOR NEXT BUILD" ""
 			(at 186.69 101.6 0)
 			(effects
 				(font

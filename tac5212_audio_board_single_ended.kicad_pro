@@ -185,6 +185,8 @@
       "track_widths": [
         0.0,
         0.0,
+        0.1,
+        0.2,
         0.25,
         0.5,
         0.75,
@@ -220,6 +222,10 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.5,
+          "drill": 0.25
         }
       ],
       "zones_allow_external_fillets": false,
@@ -767,7 +773,7 @@
       "idf": "",
       "netlist": "",
       "plot": "gerber/2024-12-23_T-DSP_TAC5212_V0.5.12/",
-      "pos_files": "gerber/2024-12-23_T-DSP_TAC5212_V0.5.12/",
+      "pos_files": "gerber/2024-12-23_T-DSP_TAC5212_V0.5.12c/",
       "specctra_dsn": "",
       "step": "tlv320aic3105_audio_board50.step",
       "svg": "",
@@ -777,7 +783,7 @@
   },
   "schematic": {
     "annotate_start_num": 107,
-    "bom_export_filename": "D:\\github\\kicad\\tac5212_audio_board_single_ended\\bom\\tac5212_audio_board_BOM.csv",
+    "bom_export_filename": "gerber\\2024-12-23_T-DSP_TAC5212_V0.5.12b\\tac5212_audio_board_single_ended.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -927,13 +933,19 @@
           "group_by": false,
           "label": "Package / Case",
           "name": "Package / Case",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "DNP",
           "name": "${DNP}",
-          "show": true
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "REPLACE FOR NEXT BUILD",
+          "name": "REPLACE FOR NEXT BUILD",
+          "show": false
         }
       ],
       "filter_string": "",

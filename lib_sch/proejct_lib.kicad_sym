@@ -9832,7 +9832,7 @@
 			)
 		)
 		(property "Value" "TAC5212"
-			(at 1.27 2.54 0)
+			(at -0.508 2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9840,7 +9840,7 @@
 			)
 		)
 		(property "Footprint" "project_fp:VQFN-24-1EP_4x4mm_P0.5mm_EP2.45x2.45mm_ThermalVias"
-			(at 0 0 0)
+			(at -3.81 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9858,7 +9858,7 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x14, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 0 0 0)
+			(at -3.81 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9886,8 +9886,8 @@
 		)
 		(symbol "TAC5212_1_1"
 			(rectangle
-				(start -24.13 16.51)
-				(end 27.94 -50.8)
+				(start -13.97 16.51)
+				(end 13.97 -50.8)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -9897,7 +9897,7 @@
 				)
 			)
 			(pin passive line
-				(at -27.94 8.89 0)
+				(at -17.78 8.89 0)
 				(length 3.81)
 				(name "DREG"
 					(effects
@@ -9915,7 +9915,7 @@
 				)
 			)
 			(pin passive line
-				(at -27.94 -12.7 0)
+				(at -17.78 -12.7 0)
 				(length 3.81)
 				(name "GPIO2"
 					(effects
@@ -9933,7 +9933,7 @@
 				)
 			)
 			(pin passive line
-				(at -27.94 -10.16 0)
+				(at -17.78 -10.16 0)
 				(length 3.81)
 				(name "GPO1"
 					(effects
@@ -9951,7 +9951,7 @@
 				)
 			)
 			(pin passive line
-				(at -27.94 -7.62 0)
+				(at -17.78 -7.62 0)
 				(length 3.81)
 				(name "GPI1"
 					(effects
@@ -9969,7 +9969,7 @@
 				)
 			)
 			(pin passive line
-				(at -27.94 -48.26 0)
+				(at -17.78 -48.26 0)
 				(length 3.81)
 				(name "ADDR"
 					(effects
@@ -9987,7 +9987,7 @@
 				)
 			)
 			(pin passive line
-				(at -27.94 -5.08 0)
+				(at -17.78 -5.08 0)
 				(length 3.81)
 				(name "MICBIAS"
 					(effects
@@ -10005,7 +10005,7 @@
 				)
 			)
 			(pin passive line
-				(at 31.75 -33.02 180)
+				(at 17.78 -33.02 180)
 				(length 3.81)
 				(name "IN1P"
 					(effects
@@ -10023,7 +10023,7 @@
 				)
 			)
 			(pin passive line
-				(at 31.75 -29.21 180)
+				(at 17.78 -29.21 180)
 				(length 3.81)
 				(name "IN1M"
 					(effects
@@ -10041,7 +10041,7 @@
 				)
 			)
 			(pin passive line
-				(at 31.75 -21.59 180)
+				(at 17.78 -21.59 180)
 				(length 3.81)
 				(name "IN2P"
 					(effects
@@ -10059,7 +10059,7 @@
 				)
 			)
 			(pin passive line
-				(at 31.75 -17.78 180)
+				(at 17.78 -17.78 180)
 				(length 3.81)
 				(name "IN2M"
 					(effects
@@ -10077,7 +10077,7 @@
 				)
 			)
 			(pin passive line
-				(at 31.75 10.16 180)
+				(at 17.78 10.16 180)
 				(length 3.81)
 				(name "OUT1M"
 					(effects
@@ -10095,7 +10095,7 @@
 				)
 			)
 			(pin passive line
-				(at -27.94 -31.75 0)
+				(at -17.78 -31.75 0)
 				(length 3.81)
 				(name "BCLK"
 					(effects
@@ -10113,7 +10113,7 @@
 				)
 			)
 			(pin passive line
-				(at 31.75 13.97 180)
+				(at 17.78 13.97 180)
 				(length 3.81)
 				(name "OUT1P"
 					(effects
@@ -10131,7 +10131,7 @@
 				)
 			)
 			(pin passive line
-				(at 31.75 -1.27 180)
+				(at 17.78 -1.27 180)
 				(length 3.81)
 				(name "OUT2P"
 					(effects
@@ -10149,7 +10149,7 @@
 				)
 			)
 			(pin passive line
-				(at 31.75 -5.08 180)
+				(at 17.78 -5.08 180)
 				(length 3.81)
 				(name "OUT2M"
 					(effects
@@ -10167,7 +10167,7 @@
 				)
 			)
 			(pin passive line
-				(at -27.94 13.97 0)
+				(at -17.78 13.97 0)
 				(length 3.81)
 				(name "AVDD"
 					(effects
@@ -10185,7 +10185,7 @@
 				)
 			)
 			(pin passive line
-				(at -27.94 6.35 0)
+				(at -17.78 6.35 0)
 				(length 3.81)
 				(name "VREF"
 					(effects
@@ -10203,7 +10203,7 @@
 				)
 			)
 			(pin passive line
-				(at 31.75 -48.26 180)
+				(at 17.78 -48.26 180)
 				(length 3.81)
 				(name "VSS"
 					(effects
@@ -10221,7 +10221,7 @@
 				)
 			)
 			(pin passive line
-				(at -27.94 -24.13 0)
+				(at -17.78 -24.13 0)
 				(length 3.81)
 				(name "FSYNC"
 					(effects
@@ -10239,7 +10239,7 @@
 				)
 			)
 			(pin passive line
-				(at -27.94 -26.67 0)
+				(at -17.78 -26.67 0)
 				(length 3.81)
 				(name "DOUT"
 					(effects
@@ -10257,7 +10257,7 @@
 				)
 			)
 			(pin passive line
-				(at -27.94 -29.21 0)
+				(at -17.78 -29.21 0)
 				(length 3.81)
 				(name "DIN"
 					(effects
@@ -10275,7 +10275,7 @@
 				)
 			)
 			(pin passive line
-				(at -27.94 11.43 0)
+				(at -17.78 11.43 0)
 				(length 3.81)
 				(name "IOVDD"
 					(effects
@@ -10293,7 +10293,7 @@
 				)
 			)
 			(pin passive line
-				(at -27.94 -45.72 0)
+				(at -17.78 -45.72 0)
 				(length 3.81)
 				(name "SCL"
 					(effects
@@ -10311,7 +10311,7 @@
 				)
 			)
 			(pin passive line
-				(at -27.94 -43.18 0)
+				(at -17.78 -43.18 0)
 				(length 3.81)
 				(name "SDA"
 					(effects
@@ -10329,7 +10329,7 @@
 				)
 			)
 			(pin passive line
-				(at -27.94 -15.24 0)
+				(at -17.78 -15.24 0)
 				(length 3.81)
 				(name "GPIO1"
 					(effects
@@ -10347,7 +10347,7 @@
 				)
 			)
 			(pin passive line
-				(at 31.75 -38.1 180)
+				(at 17.78 -38.1 180)
 				(length 3.81)
 				(name "VSS"
 					(effects
@@ -10365,7 +10365,7 @@
 				)
 			)
 			(pin passive line
-				(at 31.75 -40.64 180)
+				(at 17.78 -40.64 180)
 				(length 3.81)
 				(name "VSS"
 					(effects
@@ -10383,7 +10383,7 @@
 				)
 			)
 			(pin passive line
-				(at 31.75 -43.18 180)
+				(at 17.78 -43.18 180)
 				(length 3.81)
 				(name "VSS"
 					(effects
@@ -10401,7 +10401,7 @@
 				)
 			)
 			(pin passive line
-				(at 31.75 -45.72 180)
+				(at 17.78 -45.72 180)
 				(length 3.81)
 				(name "VSS"
 					(effects

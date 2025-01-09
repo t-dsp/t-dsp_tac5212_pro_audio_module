@@ -7543,6 +7543,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 368.3) (xy 63.5 369.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a38efde1-cc13-465c-9fb7-7323db7e175b")
+	)
+	(wire
+		(pts
 			(xy 41.91 154.94) (xy 38.1 154.94)
 		)
 		(stroke
@@ -9400,7 +9410,7 @@
 	)
 	(global_label "3.3v_IDE"
 		(shape input)
-		(at 63.5 369.57 0)
+		(at 73.66 368.3 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9410,7 +9420,7 @@
 		)
 		(uuid "854b67d5-2438-4760-bde0-17b762b8aab6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 71.1774 369.57 0)
+			(at 81.3374 368.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14661,6 +14671,110 @@
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
 					(reference "OM1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "proejct_lib:Jumper_2_Bridged")
+		(at 68.58 368.3 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "645d347a-cf94-402f-a921-80e836a82b3a")
+		(property "Reference" "SCL109"
+			(at 68.58 364.998 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "jumper"
+			(at 68.58 365.4044 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "project_fp:jumper_slice"
+			(at 68.58 368.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 68.58 368.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, open"
+			(at 68.58 368.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Label" "SC"
+			(at 68.58 368.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "DNP"
+			(at 68.58 368.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TAC5212EVM" "n/a"
+			(at 68.58 368.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REPLACE FOR NEXT BUILD" ""
+			(at 68.58 368.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4657bb1b-98a3-4d59-92af-0f47a272c505")
+		)
+		(pin "2"
+			(uuid "9008953e-59fc-46c2-8058-2a794d2f506e")
+		)
+		(instances
+			(project "tac5212_audio_board_single_ended"
+				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
+					(reference "SCL109")
 					(unit 1)
 				)
 			)

@@ -665,9 +665,9 @@
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.25,
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
+        "track_width": 0.2,
+        "via_diameter": 0.45,
+        "via_drill": 0.2,
         "wire_width": 6
       },
       {
@@ -743,11 +743,13 @@
       "version": 3
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "5V_THIN": ".1"
+    },
     "netclass_patterns": [
       {
-        "netclass": ".75",
-        "pattern": "5V"
+        "netclass": ".1",
+        "pattern": "5V_THIN"
       },
       {
         "netclass": ".75",
@@ -768,6 +770,10 @@
       {
         "netclass": ".75",
         "pattern": "3V3_A"
+      },
+      {
+        "netclass": ".75",
+        "pattern": "5V"
       }
     ]
   },

@@ -185,6 +185,7 @@
       "track_widths": [
         0.0,
         0.0,
+        0.2,
         0.25,
         0.5,
         0.75,
@@ -220,6 +221,10 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.45,
+          "drill": 0.2
         }
       ],
       "zones_allow_external_fillets": false,
@@ -768,8 +773,8 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "gerber/2024-12-23_T-DSP_TAC5212_V0.5.12/",
-      "pos_files": "gerber/2024-12-23_T-DSP_TAC5212_V0.5.12c/",
+      "plot": "gerber/2025-04-21_T-DSP-TAC5212Q1_V0.9/",
+      "pos_files": "gerber/2025-04-21_T-DSP-TAC5212Q1_V0.9/",
       "specctra_dsn": "",
       "step": "tlv320aic3105_audio_board50.step",
       "svg": "",

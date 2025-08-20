@@ -1,0 +1,22 @@
+{
+    "layout": {
+        "hspace": "2mm",
+        "vspace": "2mm",
+        "rows": "2",
+        "cols": "2",
+		"rotation": "90deg"
+    },
+    "framing": {
+        "type": "frame",
+		"mintotalheight": "70.46mm",
+		"mintotalwidth": "70.46mm"
+    },
+    "tabs": {
+        "type": "annotation"
+    },
+    "cuts": {
+        "type": "mousebites",
+        "offset": "0.25mm",
+        "prolong": "0.5mm"
+    }
+}

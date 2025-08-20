@@ -164,7 +164,7 @@
 			)
 		)
 	)
-	(attr smd dnp)
+	(attr smd dnp allow_soldermask_bridges)
 	(net_tie_pad_groups "1, 2")
 	(fp_rect
 		(start -0.279 -0.229)

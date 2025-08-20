@@ -201,8 +201,8 @@
 			)
 		)
 	)
-	(attr through_hole exclude_from_bom dnp)
-	(net_tie_pad_groups "1,2")
+	(attr through_hole exclude_from_bom dnp allow_soldermask_bridges)
+	(net_tie_pad_groups "1,2" "2,2")
 	(fp_rect
 		(start -0.35 -0.25)
 		(end 0.5 0.25)

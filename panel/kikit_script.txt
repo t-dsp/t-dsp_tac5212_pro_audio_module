@@ -1,0 +1,8 @@
+Kikit Commands
+
+2 Panel JLCPCB PCBA (jlc_pcba)
+kikit panelize --config jlc_pcba.json tac5212_audio_board_single_ended.kicad_pcb jlc_pcba.kicad_pcb
+
+
+
+

@@ -9,7 +9,7 @@
 		(at 0 -1.2 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "35901106-3ea9-4161-a54e-d07bf7cf163e")
+		(uuid "3f2073b0-4b9d-4542-a046-d4a5d7e86728")
 		(effects
 			(font
 				(size 1 1)
@@ -21,7 +21,7 @@
 		(at -0.3 -1.05 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "8fa832bc-4fae-4d10-8227-72ca1632ec5b")
+		(uuid "2a2ebd32-bf09-40c3-af55-9dd165d2203f")
 		(effects
 			(font
 				(size 1 1)
@@ -34,7 +34,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "f23a4e7d-dfa9-4f88-b660-5dbfbeea511e")
+		(uuid "7b557002-a9de-4ae0-9153-2cb160deb14f")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -47,7 +47,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "358827bf-485b-4522-a1db-dc1c61721791")
+		(uuid "ccfbacf4-6bd2-4065-a9ed-36245a3bddef")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -67,19 +67,19 @@
 		)
 		(fill yes)
 		(layer "F.Cu")
-		(uuid "9324fbe3-c11b-4118-ac2c-2347ba02404e")
+		(uuid "3e75716a-b215-40ce-bed7-4ef33c8d9fc4")
 	)
 	(pad "1" smd circle
-		(at -0.225 0 180)
+		(at -0.225 0)
 		(size 0.2 0.2)
 		(layers "F.Cu")
-		(uuid "5203d516-b229-41eb-83b7-c0b0d09d484b")
+		(uuid "4a2e235b-49c7-40f2-a7a4-4b2f866cf8f3")
 	)
 	(pad "2" smd circle
-		(at 0.225 0 180)
+		(at 0.225 0)
 		(size 0.2 0.2)
 		(layers "F.Cu")
-		(uuid "01c441d0-15d8-482a-9727-791de3de1051")
+		(uuid "23a36ca5-f701-420f-92d0-d3b8c62fc296")
 	)
 	(embedded_fonts no)
 )

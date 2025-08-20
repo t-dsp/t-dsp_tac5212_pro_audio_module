@@ -6,7 +6,7 @@
 	(property "Reference" "REF**"
 		(at 0.5 1 0)
 		(layer "F.SilkS")
-		(uuid "ad6b115b-75ec-4166-a7b7-2886569e6eae")
+		(uuid "a688cc13-c2ee-4212-b934-86a3737d464e")
 		(effects
 			(font
 				(size 0.8 0.8)
@@ -17,7 +17,7 @@
 	(property "Value" "Jump DOUT1"
 		(at 0.499999 -2.5 0)
 		(layer "F.Fab")
-		(uuid "6711f1b2-1393-4e22-8990-d8005086bc03")
+		(uuid "ac0a1df6-30f0-4ac4-930b-c8fbc0305834")
 		(effects
 			(font
 				(size 1 1)
@@ -25,12 +25,12 @@
 			)
 		)
 	)
-	(property "Datasheet" "NO COMPONENT"
+	(property "Datasheet" "~"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "26ad65e2-42f1-473c-9195-9fe582d3930f")
+		(uuid "9ee8dcb0-bd81-45fe-bd32-1991659a7859")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38,12 +38,12 @@
 			)
 		)
 	)
-	(property "Description" "Jumper to be sliced to disconnect."
+	(property "Description" "Net tie, 2 pins"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "51b97877-8fba-43e9-9e0b-f436ae364d6a")
+		(uuid "d2a4ac77-31f6-4c5e-a4d9-d622d5cbee92")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -56,7 +56,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "998f394b-286a-4f71-b533-7112ec0720a3")
+		(uuid "fd4b2a5c-14a6-4a74-9351-a5a4bd11b3d5")
 		(effects
 			(font
 				(size 1 1)
@@ -69,7 +69,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "6880bf77-a3f3-4c0d-9062-7bc87f90ca61")
+		(uuid "e952661a-cbad-4ac3-8d5e-8919a6784966")
 		(effects
 			(font
 				(size 1 1)
@@ -82,7 +82,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "75889cf8-20a3-4c54-8482-d0a3a20e60a0")
+		(uuid "2f87d94e-e447-4e1e-9288-fce9a55abe71")
 		(effects
 			(font
 				(size 1 1)
@@ -95,7 +95,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "f59fb447-0753-47ef-91ed-9271a9024b06")
+		(uuid "b0b0640c-01dd-417c-ba14-0fcdd1f9bdda")
 		(effects
 			(font
 				(size 1 1)
@@ -106,7 +106,7 @@
 	(property "net_tie_pad_groups" "1 2"
 		(at 0 0 0)
 		(layer "F.SilkS")
-		(uuid "0a443dbe-16e5-48f8-9a09-23c82a0f71cc")
+		(uuid "70f73e07-d452-4f8a-ab7f-af691452025c")
 		(effects
 			(font
 				(size 1 1)
@@ -126,13 +126,13 @@
 		)
 		(fill yes)
 		(layer "F.Mask")
-		(uuid "16309c90-2d13-4ffa-bcc0-29269681ea0c")
+		(uuid "bc57aad2-f27a-4b5f-aec6-4d4776b9c6bd")
 	)
 	(fp_text user "${Label}"
 		(at -0.799999 0 180)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "7e667ca6-c468-45d3-bfe7-e4ce5b4d3db2")
+		(uuid "628aafe2-54ac-46f6-b66d-f01ae14042ab")
 		(effects
 			(font
 				(size 0.8 0.8)
@@ -146,13 +146,13 @@
 		(at -0.499999 0 180)
 		(size 0.508 0.508)
 		(layers "F.Cu" "F.Mask")
-		(uuid "bd752315-f6d6-4889-910e-21552e4c6036")
+		(uuid "1202052b-57cb-494a-8d81-5a8980341aec")
 	)
 	(pad "2" smd rect
 		(at 0.499999 0 180)
 		(size 0.508 0.508)
 		(layers "F.Cu" "F.Mask")
-		(uuid "0784698c-3f2b-4c23-b3a0-1e3a85de4290")
+		(uuid "12ce7e72-1206-477d-9425-e58f4a3cac7d")
 	)
 	(embedded_fonts no)
 )

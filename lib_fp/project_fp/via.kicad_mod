@@ -8,7 +8,7 @@
 		(at 0 -3.32 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "4c77c0a7-c2f2-42bd-a58b-a76f588e1b1d")
+		(uuid "b0f6268a-8751-4a53-ac55-8d17f9c70c24")
 		(effects
 			(font
 				(size 1 1)
@@ -20,7 +20,7 @@
 		(at -0.03 -1.87 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "08fc974b-3fb8-4def-aedd-ccbb30b7f2f6")
+		(uuid "2901e004-5b70-43ca-9a1c-0e9cbbd3383e")
 		(effects
 			(font
 				(size 1 1)
@@ -33,7 +33,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "c13d7cbd-6bf3-44e7-a2a7-808fb7caa8de")
+		(uuid "4f38569f-577f-46cb-b594-a9752f79f116")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46,7 +46,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "1ce5dc41-0f69-4b89-9706-6bfd8e1ce088")
+		(uuid "2bf69784-286a-4488-9e6b-088d2cefcf7e")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -59,7 +59,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "1a44f047-263b-4ec1-b184-a847fef79a08")
+		(uuid "cf16ba56-87cf-4642-9723-7212a4b447ea")
 		(effects
 			(font
 				(size 1 1)
@@ -72,7 +72,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "1df34380-3e4d-46a6-932b-844196b5f521")
+		(uuid "b0e8a764-c0d3-4215-b37f-696bdcb8aa61")
 		(effects
 			(font
 				(size 1 1)
@@ -85,7 +85,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "296acf1c-5a14-4b6f-a8ff-1bac92bcb7a8")
+		(uuid "10e5e2ed-76b8-433a-b75e-0b95638fe854")
 		(effects
 			(font
 				(size 1 1)
@@ -101,7 +101,7 @@
 		(drill 0.2)
 		(layers "*.Cu" "Dwgs.User")
 		(remove_unused_layers no)
-		(uuid "8cfd5028-a63f-4e2e-b6fc-5e2b79226cfb")
+		(uuid "22602131-ffdc-4175-a582-12e6216bea37")
 	)
 	(embedded_fonts no)
 	(model "${KICAD6_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/WQFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm.wrl"

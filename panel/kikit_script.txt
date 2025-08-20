@@ -6,3 +6,5 @@ kikit panelize --config jlc_pcba.json tac5212_audio_board_single_ended.kicad_pcb
 
 
 
+kikit panelize -p panel/jlc_pcba.json tac5212_audio_board_single_ended.kicad_pcb panel/jlc_pcba/jlc_pcba.kicad_pcb
+kikit fab jlcpcb panel/jlc_pcba/jlc_pcba.kicad_pcb panel/jlc_pcba/gerbers

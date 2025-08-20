@@ -1,19 +1,11 @@
 {
-  "layout": {
-    "rows": 2,
-    "cols": 2,
-    "hspace": "2mm",
-    "vspace": "2mm"
-  },
-  "framing": {
-    "type": "frame",
-    "width": "5mm",
-    "space": "2mm"
-  },
-  "cuts": {
-    "type": "mousebites",
-    "drill": "0.5mm",
-    "spacing": "1mm",
-    "offset": "0.25mm"
-  }
+    "layout": {
+        "hspace": "2mm",
+        "vspace": "2mm",
+        "rows": "2",
+        "cols": "2"
+    },
+    "framing": {
+        "type": "frame"
+    }
 }

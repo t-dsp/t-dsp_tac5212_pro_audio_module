@@ -4150,13 +4150,13 @@
 	(footprint "kikit:Tab"
 		(layer "F.Cu")
 		(uuid "11ecb5c7-e3cf-4166-9ae6-67ffb9e07752")
-		(at 84.8 103.5)
+		(at 84.8325 103.945)
 		(descr "A symbol representing annotation for tab placement")
 		(property "Reference" "T108"
 			(at -0.25 -2 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "462d0dfc-f6dc-44ac-80ae-70d86e0fc17a")
+			(uuid "a0ca0164-d943-427f-bf38-901149b19402")
 			(effects
 				(font
 					(size 1 1)
@@ -4167,7 +4167,7 @@
 		(property "Value" "Tab"
 			(at -3 -1 0)
 			(layer "Dwgs.User")
-			(uuid "c22ae2fe-a529-4285-8cee-529ba5006a6a")
+			(uuid "924f9799-7c65-48d3-b3b2-8a2d93f1f777")
 			(effects
 				(font
 					(size 1.2 1.2)
@@ -4179,7 +4179,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a13d3ac2-97fd-408a-bed9-07e70dd72789")
+			(uuid "775768a4-f9b3-4a67-86d3-8265c3f6758e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4191,7 +4191,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "929f2052-749f-4389-a516-d60431e915cb")
+			(uuid "8fe595ca-4151-4ec1-862d-07072656ef1d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5026,7 +5026,7 @@
 	(footprint "kikit:Tab"
 		(layer "F.Cu")
 		(uuid "1c85659a-b12c-47c0-b287-cbf19dfed9f7")
-		(at 126.85 107.6 180)
+		(at 126.8325 103.945 180)
 		(descr "A symbol representing annotation for tab placement")
 		(property "Reference" "T110"
 			(at -0.25 -2 0)
@@ -5943,7 +5943,7 @@
 	(footprint "kikit:Tab"
 		(layer "F.Cu")
 		(uuid "548cf756-7026-42af-bd6d-2d8138ed2c11")
-		(at 84.8 116.7)
+		(at 84.8325 118.405)
 		(descr "A symbol representing annotation for tab placement")
 		(property "Reference" "T109"
 			(at -0.25 -2 0)
@@ -11267,7 +11267,7 @@
 	(footprint "kikit:Tab"
 		(layer "F.Cu")
 		(uuid "c42475c6-1c08-4e8f-ae63-01cfaf975e0b")
-		(at 126.85 119.65 180)
+		(at 126.8325 118.405 180)
 		(descr "A symbol representing annotation for tab placement")
 		(property "Reference" "T111"
 			(at -0.25 -2 0)

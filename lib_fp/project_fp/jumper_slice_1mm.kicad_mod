@@ -164,11 +164,11 @@
 			)
 		)
 	)
-	(attr smd dnp)
+	(attr smd dnp allow_soldermask_bridges)
 	(net_tie_pad_groups "1,2")
 	(fp_poly
 		(pts
-			(xy -0.275 -0.2) (xy 0.275 -0.2) (xy 0.275 0.2) (xy -0.275 0.2)
+			(xy -0.125 -0.2) (xy 0.125 -0.2) (xy 0.125 0.2) (xy -0.125 0.2)
 		)
 		(stroke
 			(width 0)
@@ -215,14 +215,14 @@
 		)
 	)
 	(pad "1" smd rect
-		(at -0.552 0 180)
-		(size 1.004 1)
+		(at -0.577 0 180)
+		(size 0.954 1)
 		(layers "F.Cu")
 		(uuid "087fbfd7-0659-4142-8ef8-92f677aebef4")
 	)
 	(pad "2" smd rect
-		(at 0.549987 -0.000001 180)
-		(size 0.999974 0.999998)
+		(at 0.574987 -0.000001 180)
+		(size 0.954 1)
 		(layers "F.Cu")
 		(uuid "80627236-b293-4bae-aaed-8e86d3e1000b")
 	)

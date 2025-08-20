@@ -1,5 +1,5 @@
-Drill report for jlc_pcba.kicad_pcb
-Created on 2025-08-20T18:38:41-0400
+Drill report for jlcpcb_4x4.kicad_pcb
+Created on 2025-08-20T19:39:29-0400
 
 Copper Layer Stackup:
     =============================================================
@@ -9,7 +9,7 @@ Copper Layer Stackup:
     L4 :  B.Cu                      back
 
 
-Drill file 'jlc_pcba-PTH.drl' contains
+Drill file 'jlcpcb_4x4-PTH.drl' contains
     plated through holes:
     =============================================================
     T1  0.200mm  0.0079"  (144 holes)
@@ -21,8 +21,9 @@ Drill file 'jlc_pcba-PTH.drl' contains
     Total plated holes count 448
 
 
-Drill file 'jlc_pcba-NPTH.drl' contains
+Drill file 'jlcpcb_4x4-NPTH.drl' contains
     unplated through holes:
     =============================================================
+    T1  0.500mm  0.0197"  (88 holes)
 
-    Total unplated holes count 0
+    Total unplated holes count 88

@@ -3,8 +3,25 @@ Kikit Commands
 2 Panel JLCPCB PCBA (jlc_pcba)
 kikit panelize --config jlc_pcba.json tac5212_audio_board_single_ended.kicad_pcb jlc_pcba.kicad_pcb
 
+====================================================
+1x1 jlcpcb
+====================================================
+kikit fab jlcpcb tac5212_audio_board_single_ended.kicad_pcb panel/jlcpcb/gerbers
+
+
+====================================================
+4x4 jlcpcb panel
+====================================================
+
+kikit panelize -p panel/jlcpcb_4x4.json tac5212_audio_board_single_ended.kicad_pcb panel/jlcpcb_4x4/jlcpcb_4x4.kicad_pcb
+kikit fab jlcpcb panel/jlcpcb_4x4/jlcpcb_4x4.kicad_pcb panel/jlcpcb_4x4/gerbers
 
 
 
-kikit panelize -p panel/jlc_pcba.json tac5212_audio_board_single_ended.kicad_pcb panel/jlc_pcba/jlc_pcba.kicad_pcb
-kikit fab jlcpcb panel/jlc_pcba/jlc_pcba.kicad_pcb panel/jlc_pcba/gerbers
+====================================================
+4x4 jlcpcb panel 2
+====================================================
+
+
+kikit panelize^
+    "C:\github\kicad\tac5212_audio_board_single_ended\tac5212_audio_board_single_ended.kicad_pcb" "C:\github\kicad\tac5212_audio_board_single_ended\panel\jlcpcb_4x4\jlcpcb_4x4.kicad_pcb"

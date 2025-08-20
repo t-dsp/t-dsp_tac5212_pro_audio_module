@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "project_fp")(type "KiCad")(uri "${KIPRJMOD}/lib_fp/project_fp")(options "")(descr ""))
   (lib (name "teensy")(type "KiCad")(uri "D:/github/kicad/teensy.pretty")(options "")(descr ""))
+  (lib (name "kikit")(type "KiCad")(uri "${KIPRJMOD}/lib_fp/kikit.pretty")(options "")(descr ""))
 )

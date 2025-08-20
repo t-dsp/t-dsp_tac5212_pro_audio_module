@@ -11091,6 +11091,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 323.85 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9e9d31b2-5d83-4309-b2c9-b2e47adada46")
 		)
@@ -11258,6 +11267,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 308.61 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ef31e80c-d9d7-4a1a-801b-927f3a7e3d75")
 		)
@@ -11342,6 +11360,15 @@
 		)
 		(property "REPLACE FOR NEXT BUILD" ""
 			(at 73.66 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 73.66 124.46 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11459,6 +11486,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 125.73 292.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f7b7f2e4-fb89-410a-bf55-215ab3b942e4")
 		)
@@ -11555,6 +11591,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 105.41 358.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "78949fa6-a280-4913-84a9-19c542a1fa54")
 		)
@@ -11617,6 +11662,15 @@
 			)
 		)
 		(property "Description" "KiKit tab annotations"
+			(at 217.17 377.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 217.17 377.19 0)
 			(effects
 				(font
@@ -11708,6 +11762,15 @@
 			)
 		)
 		(property "REPLACE FOR NEXT BUILD" ""
+			(at 36.83 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 36.83 116.84 0)
 			(effects
 				(font
@@ -11812,6 +11875,15 @@
 		)
 		(property "REPLACE FOR NEXT BUILD" ""
 			(at 335.28 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 335.28 142.24 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12136,6 +12208,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 364.49 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a8b192be-8475-4150-8515-ab8c885f58f9")
 		)
@@ -12224,6 +12305,15 @@
 			)
 		)
 		(property "REPLACE FOR NEXT BUILD" ""
+			(at 66.04 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 66.04 114.3 0)
 			(effects
 				(font
@@ -12329,6 +12419,15 @@
 		)
 		(property "REPLACE FOR NEXT BUILD" ""
 			(at 318.77 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 318.77 181.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12718,6 +12817,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 322.58 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ca711e16-d7c9-4af4-91bc-c6bb2b68b8da")
 		)
@@ -12810,6 +12918,15 @@
 			)
 		)
 		(property "REPLACE FOR NEXT BUILD" ""
+			(at 185.42 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 185.42 284.48 0)
 			(effects
 				(font
@@ -12988,6 +13105,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 307.34 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "278b677b-f295-464a-a3d1-db00ffc5919a")
 		)
@@ -13047,6 +13173,15 @@
 			)
 		)
 		(property "Description" "KiKit tab annotations"
+			(at 261.62 377.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 261.62 377.19 0)
 			(effects
 				(font
@@ -13277,6 +13412,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 129.54 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e1f80771-371d-41a5-8a39-71972e499431")
 		)
@@ -13363,6 +13507,15 @@
 			)
 		)
 		(property "REPLACE FOR NEXT BUILD" ""
+			(at 90.17 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 90.17 264.16 0)
 			(effects
 				(font
@@ -13624,6 +13777,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 361.95 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "12593246-6374-4ba2-b102-5d5b4200958d")
 		)
@@ -13795,6 +13957,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 33.02 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3e54b361-1c06-40de-af86-1ba944d005b3")
 		)
@@ -13890,6 +14061,15 @@
 		)
 		(property "REPLACE FOR NEXT BUILD" ""
 			(at 209.55 350.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 209.55 350.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13994,6 +14174,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 322.58 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7eeaf455-0cec-4ecf-981a-8446ac0d85e0")
 		)
@@ -14062,6 +14251,15 @@
 			)
 		)
 		(property "Description" "KiKit tab annotations"
+			(at 237.49 378.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 237.49 378.46 0)
 			(effects
 				(font
@@ -14152,6 +14350,15 @@
 		)
 		(property "REPLACE FOR NEXT BUILD" ""
 			(at 350.52 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 350.52 165.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14334,6 +14541,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 361.95 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "84b3b610-8635-42f8-8767-3755429ca348")
 		)
@@ -14489,6 +14705,15 @@
 		)
 		(property "REPLACE FOR NEXT BUILD" ""
 			(at 335.28 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 335.28 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14671,6 +14896,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 36.83 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "769592c3-6931-4eea-8268-3ceb3a14734d")
 		)
@@ -14775,6 +15009,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 46.99 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d887b685-8631-454a-a6bc-72bab394bb84")
 		)
@@ -14862,6 +15105,15 @@
 		)
 		(property "REPLACE FOR NEXT BUILD" ""
 			(at 73.66 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 73.66 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14970,6 +15222,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 350.52 181.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2e63f66f-c13a-4b8c-9f40-36a304fb7f44")
 		)
@@ -15063,6 +15324,15 @@
 			)
 		)
 		(property "REPLACE FOR NEXT BUILD" ""
+			(at 118.11 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 118.11 114.3 0)
 			(effects
 				(font
@@ -15396,6 +15666,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 341.63 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "84cb54f6-16bd-4a52-94dc-ecfc4b322d64")
 		)
@@ -15505,6 +15784,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 361.95 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "469a6a0e-aeaf-487a-b211-a51789ab2741")
 		)
@@ -15567,6 +15855,15 @@
 			)
 		)
 		(property "Description" "KiKit tab annotations"
+			(at 285.75 377.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 285.75 377.19 0)
 			(effects
 				(font
@@ -15673,6 +15970,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 68.58 336.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4657bb1b-98a3-4d59-92af-0f47a272c505")
 		)
@@ -15760,6 +16066,15 @@
 		)
 		(property "REPLACE FOR NEXT BUILD" ""
 			(at 73.66 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 73.66 161.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15926,6 +16241,15 @@
 		)
 		(property "REPLACE FOR NEXT BUILD" ""
 			(at 73.66 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 73.66 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16178,6 +16502,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 320.04 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b148f4b4-8e93-44ce-a718-f268e2c6b3b5")
 		)
@@ -16271,6 +16604,15 @@
 		)
 		(property "REPLACE FOR NEXT BUILD" ""
 			(at 26.67 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 26.67 163.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16453,6 +16795,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 200.66 349.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ea5502a8-5b2c-43b0-895a-da0d03c6b579")
 		)
@@ -16541,6 +16892,15 @@
 			)
 		)
 		(property "REPLACE FOR NEXT BUILD" ""
+			(at 33.02 358.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 33.02 358.14 0)
 			(effects
 				(font
@@ -16638,6 +16998,15 @@
 		)
 		(property "REPLACE FOR NEXT BUILD" ""
 			(at 354.33 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 354.33 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16746,6 +17115,15 @@
 			)
 		)
 		(property "REPLACE FOR NEXT BUILD" ""
+			(at 364.49 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 364.49 212.09 0)
 			(effects
 				(font
@@ -16916,6 +17294,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 189.23 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e89d97ec-cb72-4610-ab2a-60ccfcd4ac48")
 		)
@@ -17004,6 +17391,15 @@
 		)
 		(property "REPLACE FOR NEXT BUILD" ""
 			(at 351.79 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 351.79 215.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17114,6 +17510,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 71.12 171.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d51b06bc-23db-421e-bce5-f0b37d435033")
 		)
@@ -17207,6 +17612,15 @@
 		)
 		(property "REPLACE FOR NEXT BUILD" ""
 			(at 198.12 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 198.12 284.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17386,6 +17800,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 318.77 215.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5b3f225e-89a8-4119-b806-6af0f7590f36")
 		)
@@ -17495,6 +17918,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 365.76 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "86ffd18f-9499-49bd-98ac-f0d2f7e9147a")
 		)
@@ -17585,6 +18017,15 @@
 		)
 		(property "REPLACE FOR NEXT BUILD" ""
 			(at 354.33 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 354.33 113.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17685,6 +18126,15 @@
 		)
 		(property "REPLACE FOR NEXT BUILD" ""
 			(at 26.67 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 26.67 172.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17942,6 +18392,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 35.56 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d3205528-2a7c-4375-b579-d0926a93b9be")
 		)
@@ -18008,6 +18467,15 @@
 			)
 		)
 		(property "Description" "Net tie, 2 pins"
+			(at 30.48 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 30.48 83.82 0)
 			(effects
 				(font
@@ -18120,6 +18588,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 35.56 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "04c018bb-87a9-4693-a761-893151a752db")
 		)
@@ -18221,6 +18698,15 @@
 			)
 		)
 		(property "REPLACE FOR NEXT BUILD" ""
+			(at 35.56 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 35.56 172.72 0)
 			(effects
 				(font
@@ -18411,6 +18897,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 38.1 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c553ab42-3ae4-4258-ad79-e9e9621148f3")
 		)
@@ -18518,6 +19013,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 307.34 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "98ce6273-00ee-4743-9a51-1dc35e58ecce")
 		)
@@ -18604,6 +19108,15 @@
 			)
 		)
 		(property "REPLACE FOR NEXT BUILD" ""
+			(at 33.02 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 33.02 96.52 0)
 			(effects
 				(font
@@ -18715,6 +19228,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 63.5 340.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9d030744-5027-4758-ba13-83e0837d4c45")
 		)
@@ -18802,6 +19324,15 @@
 		)
 		(property "REPLACE FOR NEXT BUILD" ""
 			(at 73.66 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 73.66 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18911,6 +19442,15 @@
 			)
 		)
 		(property "REPLACE FOR NEXT BUILD" ""
+			(at 125.73 287.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 125.73 287.02 0)
 			(effects
 				(font
@@ -19353,6 +19893,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 346.71 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e785a1db-12f8-4966-8e6e-91ccd9003e7a")
 		)
@@ -19602,6 +20151,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 49.53 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "736eea03-538a-4329-a6ac-e2bbcade55ed")
 		)
@@ -19697,6 +20255,15 @@
 		)
 		(property "REPLACE FOR NEXT BUILD" ""
 			(at 80.01 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 80.01 171.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19806,6 +20373,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 339.09 168.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7ab36f81-829a-4509-b827-f92e0a37e1a7")
 		)
@@ -19899,6 +20475,15 @@
 		)
 		(property "REPLACE FOR NEXT BUILD" ""
 			(at 73.66 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 73.66 163.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20207,6 +20792,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 344.17 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "088cf022-f6d5-46b9-b0d2-f4169676243a")
 		)
@@ -20302,6 +20896,15 @@
 			)
 		)
 		(property "REPLACE FOR NEXT BUILD" ""
+			(at 45.72 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 45.72 106.68 0)
 			(effects
 				(font
@@ -20410,6 +21013,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 73.66 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b0877041-94de-4007-a2c4-4d93b38c0798")
 		)
@@ -20510,6 +21122,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 73.66 156.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d13c75f7-c355-4a95-a885-f6b38f1a4048")
 		)
@@ -20603,6 +21224,15 @@
 		)
 		(property "REPLACE FOR NEXT BUILD" ""
 			(at 26.67 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 26.67 195.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20785,6 +21415,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 364.49 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "64ad8b60-8e54-4550-88bc-ecc3f904682f")
 		)
@@ -20874,6 +21513,15 @@
 			)
 		)
 		(property "REPLACE FOR NEXT BUILD" ""
+			(at 48.26 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 48.26 96.52 0)
 			(effects
 				(font
@@ -21059,6 +21707,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 318.77 199.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8a9c454e-64ee-4aad-9f93-8cb2ef011bb5")
 		)
@@ -21153,6 +21810,15 @@
 		)
 		(property "REPLACE FOR NEXT BUILD" ""
 			(at 350.52 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 350.52 199.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21322,6 +21988,15 @@
 			)
 		)
 		(property "REPLACE FOR NEXT BUILD" ""
+			(at 345.44 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 345.44 100.33 0)
 			(effects
 				(font
@@ -21505,6 +22180,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 361.95 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "933eba6a-9176-49f1-877f-75ec79dde61f")
 		)
@@ -21609,6 +22293,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 125.73 297.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1fa06181-9181-44ea-86b2-5d3e72926d5d")
 		)
@@ -21697,6 +22390,15 @@
 			)
 		)
 		(property "REPLACE FOR NEXT BUILD" ""
+			(at 46.99 358.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 46.99 358.14 0)
 			(effects
 				(font
@@ -21874,6 +22576,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 57.15 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4f4762a6-6c72-49f6-ac7a-807b01e0ca35")
 		)
@@ -21969,6 +22680,15 @@
 			)
 		)
 		(property "REPLACE FOR NEXT BUILD" ""
+			(at 116.84 355.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 116.84 355.6 0)
 			(effects
 				(font
@@ -22080,6 +22800,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 166.37 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c1359738-183f-4242-89c5-62f84b7a4014")
 		)
@@ -22169,6 +22898,15 @@
 		)
 		(property "REPLACE FOR NEXT BUILD" ""
 			(at 335.28 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 335.28 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22280,6 +23018,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 341.63 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "92422478-b15e-4ba7-a192-f58098fe6cd9")
 		)
@@ -22383,6 +23130,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 353.06 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fc74e84d-ac1a-44e1-87ae-7a7bbb623121")
 		)
@@ -22477,6 +23233,15 @@
 			)
 		)
 		(property "REPLACE FOR NEXT BUILD" ""
+			(at 90.17 358.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 90.17 358.14 0)
 			(effects
 				(font
@@ -22591,6 +23356,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 323.85 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c22883ff-9848-4086-896a-b8fd10989c56")
 		)
@@ -22693,6 +23467,15 @@
 			)
 		)
 		(property "REPLACE FOR NEXT BUILD" ""
+			(at 90.17 377.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 90.17 377.19 0)
 			(effects
 				(font
@@ -22865,6 +23648,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 341.63 186.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "41db8959-8524-4fc1-b813-164820d0b37a")
 		)
@@ -22967,6 +23759,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 353.06 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "826d193f-4b49-400e-ad88-6b64ae773d04")
 		)
@@ -23060,6 +23861,15 @@
 			)
 		)
 		(property "REPLACE FOR NEXT BUILD" ""
+			(at 307.34 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 307.34 193.04 0)
 			(effects
 				(font
@@ -23227,6 +24037,15 @@
 			)
 		)
 		(property "REPLACE FOR NEXT BUILD" ""
+			(at 67.31 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 67.31 168.91 0)
 			(effects
 				(font
@@ -23411,6 +24230,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 35.56 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7b3dc322-17e7-4294-abb0-c38781d78f38")
 		)
@@ -23504,6 +24332,15 @@
 			)
 		)
 		(property "REPLACE FOR NEXT BUILD" ""
+			(at 307.34 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 307.34 175.26 0)
 			(effects
 				(font
@@ -23671,6 +24508,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 344.17 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b95ccb4d-25b2-473a-98be-fab8e0bf4d54")
 		)
@@ -23772,6 +24618,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 307.34 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "73fd5328-de73-4382-be20-d3a590d08f62")
 		)
@@ -23829,6 +24684,15 @@
 			)
 		)
 		(property "Description" "Net tie, 2 pins"
+			(at 26.67 355.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 26.67 355.6 0)
 			(effects
 				(font
@@ -23990,6 +24854,15 @@
 			)
 		)
 		(property "REPLACE FOR NEXT BUILD" ""
+			(at 116.84 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 116.84 114.3 0)
 			(effects
 				(font
@@ -24336,6 +25209,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 35.56 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "26a4db91-85f8-422f-9f6a-b4d1f38f94be")
 		)
@@ -24429,6 +25311,15 @@
 			)
 		)
 		(property "REPLACE FOR NEXT BUILD" ""
+			(at 306.07 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 306.07 85.09 0)
 			(effects
 				(font
@@ -24604,6 +25495,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 125.73 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "115bebc2-a003-431b-b5eb-0b518d6ba69d")
 		)
@@ -24707,6 +25607,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 214.63 279.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "26625ae4-6577-4175-b3ad-577b7ceb7694")
 		)
@@ -24802,6 +25711,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 308.61 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a22695d4-1beb-49ec-aeec-1a29d7e5e653")
 		)
@@ -24889,6 +25807,15 @@
 		)
 		(property "REPLACE FOR NEXT BUILD" ""
 			(at 336.55 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 336.55 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25006,6 +25933,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 46.99 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fceee194-54a3-4dea-a0ba-bccad58ff13b")
 		)
@@ -25106,6 +26042,15 @@
 			)
 		)
 		(property "REPLACE FOR NEXT BUILD" ""
+			(at 63.5 345.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 63.5 345.44 0)
 			(effects
 				(font
@@ -25267,6 +26212,15 @@
 			)
 		)
 		(property "REPLACE FOR NEXT BUILD" ""
+			(at 307.34 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 307.34 105.41 0)
 			(effects
 				(font

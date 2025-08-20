@@ -14,7 +14,12 @@ kikit fab jlcpcb tac5212_audio_board_single_ended.kicad_pcb panel/jlcpcb/gerbers
 ====================================================
 
 kikit panelize -p panel/jlcpcb_4x4.json tac5212_audio_board_single_ended.kicad_pcb panel/jlcpcb_4x4/jlcpcb_4x4.kicad_pcb
-kikit fab jlcpcb panel/jlcpcb_4x4/jlcpcb_4x4.kicad_pcb panel/jlcpcb_4x4/gerbers
+
+
+kikit fab jlcpcb panel/jlcpcb_4x4/jlcpcb_4x4.kicad_pcb panel/jlcpcb_4x4/gerbers ^
+--assembly ^
+--schematic tac5212_audio_board_single_ended.kicad_sch
+
 
 
 

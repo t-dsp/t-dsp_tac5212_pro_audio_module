@@ -1,14 +1,14 @@
 (footprint "via"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "WQFN, 24 Pin (http://www.ti.com/lit/ds/symlink/lm26480.pdf#page=39), generated with kicad-footprint-generator ipc_noLead_generator.py")
 	(property "Reference" "REF**"
 		(at 0 -3.32 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "5d8795c0-1778-4aa7-bd12-e4a0cd45dbd1")
+		(uuid "4c77c0a7-c2f2-42bd-a58b-a76f588e1b1d")
 		(effects
 			(font
 				(size 1 1)
@@ -16,11 +16,11 @@
 			)
 		)
 	)
-	(property "Value" "Val**"
+	(property "Value" "VIA"
 		(at -0.03 -1.87 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "df61347a-618a-4cf8-a38f-7f27d8e8ba42")
+		(uuid "08fc974b-3fb8-4def-aedd-ccbb30b7f2f6")
 		(effects
 			(font
 				(size 1 1)
@@ -28,12 +28,12 @@
 			)
 		)
 	)
-	(property "Footprint" "project_fp:TAC5212IRGER-24-1EP_4x4mm"
-		(at -0.08 -3.06 0)
+	(property "Datasheet" "~"
+		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "ec881e01-9755-4b50-87a0-5e7d8fac7723")
+		(uuid "c13d7cbd-6bf3-44e7-a2a7-808fb7caa8de")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -41,12 +41,12 @@
 			)
 		)
 	)
-	(property "Datasheet" ""
+	(property "Description" "Small Via to be incorporated into design."
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "9e4a010c-bd58-416e-abdd-d69434ffb161")
+		(uuid "1ce5dc41-0f69-4b89-9706-6bfd8e1ce088")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -54,29 +54,56 @@
 			)
 		)
 	)
-	(property "Description" ""
+	(property "Package / Case" "DNP"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "63c2b7ed-3226-446f-87c1-4bfbecc2780b")
+		(uuid "1a44f047-263b-4ec1-b184-a847fef79a08")
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "TAC5212EVM" "n/a"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1df34380-3e4d-46a6-932b-844196b5f521")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "REPLACE FOR NEXT BUILD" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "296acf1c-5a14-4b6f-a8ff-1bac92bcb7a8")
+		(effects
+			(font
+				(size 1 1)
 				(thickness 0.15)
 			)
 		)
 	)
 	(zone_connect 2)
-	(attr through_hole)
+	(attr through_hole exclude_from_bom dnp)
 	(pad "1" thru_hole circle
 		(at 0 0)
 		(size 0.5 0.5)
 		(drill 0.2)
 		(layers "*.Cu" "Dwgs.User")
 		(remove_unused_layers no)
-		(uuid "74a52199-a087-4cf9-abfe-bcf93379b9f5")
+		(uuid "8cfd5028-a63f-4e2e-b6fc-5e2b79226cfb")
 	)
+	(embedded_fonts no)
 	(model "${KICAD6_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/WQFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm.wrl"
 		(offset
 			(xyz 0 0 0)

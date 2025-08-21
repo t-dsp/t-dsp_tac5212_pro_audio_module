@@ -3301,9 +3301,6 @@
 			(embedded_fonts no)
 		)
 		(symbol "proejct_lib:LED"
-			(pin_numbers
-				(hide yes)
-			)
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -14032,7 +14029,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Red 0805 LED 2v"
+		(property "Description" "Light emitting diode"
 			(at 209.55 350.52 0)
 			(effects
 				(font

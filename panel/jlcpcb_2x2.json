@@ -1,0 +1,37 @@
+{
+    "layout": {
+        "vspace": "2mm",
+		"hspace": "1mm",
+        "rows": "2",
+        "cols": "2",
+		"rotation": "90deg"
+    },
+    "framing": {
+        "type": "frame",
+		"mintotalheight": "70.46mm",
+		"mintotalwidth": "70.46mm",
+		"cuts": "v"
+    },
+    "tabs": {
+        "type": "annotation"
+    },
+    "cuts": {
+        "type": "mousebites",
+        "offset": "-0.25mm",
+        "prolong": "0.5mm"
+    },
+	"fiducials": {
+        "type": "3fid",
+        "hoffset": "-15mm",
+        "voffset": "-4mm",
+        "opening": "2mm"
+    },
+    "text": {
+        "type": "simple",
+        "hoffset": "-15mm",
+        "voffset": "-4mm",
+        "hjustify": "right",
+        "text": "jlcpcb_4x4_T-DSP_TAC5212",
+        "anchor": "br"
+    }
+}

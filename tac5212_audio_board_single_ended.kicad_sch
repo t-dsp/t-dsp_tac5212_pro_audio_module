@@ -668,250 +668,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "proejct_lib:74LVC1G125GV,125"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U1"
-				(at 16.51 4.699 0)
-				(effects
-					(font
-						(size 1 1)
-					)
-				)
-			)
-			(property "Value" "Single Buffer - 74LVC1G125GV,125 - SOT-23-5"
-				(at -2.032 -13.081 0)
-				(effects
-					(font
-						(size 0.8 0.8)
-					)
-				)
-			)
-			(property "Footprint" "project_fp:SOT-23-5"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 0.8 0.8)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74lvc1g14.pdf"
-				(at -0.381 9.525 0)
-				(effects
-					(font
-						(size 0.8 0.8)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "TI / Nexperia"
-				(at -0.508 6.731 0)
-				(effects
-					(font
-						(size 0.8 0.8)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "74LVC1G125GV,125"
-				(at -14.732 7.112 0)
-				(effects
-					(font
-						(size 0.8 0.8)
-					)
-					(hide yes)
-				)
-			)
-			(property "Package / Case" "SC70-5"
-				(at -0.889 6.731 0)
-				(effects
-					(font
-						(size 0.8 0.8)
-					)
-					(hide yes)
-				)
-			)
-			(property "mouser" "771-74LVC1G125GV"
-				(at -14.732 7.112 0)
-				(effects
-					(font
-						(size 0.8 0.8)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Inverter Schmitt Trigger"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT?23*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "74LVC1G125GV,125_0_1"
-				(polyline
-					(pts
-						(xy -2.54 3.81) (xy -2.54 -3.81) (xy 5.08 0) (xy -2.54 3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 0.508) (xy -1.524 1.524) (xy -1.016 1.524) (xy -1.016 0.508) (xy -2.032 0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 1.524) (xy -0.508 1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 5.715 0)
-					(radius 0.635)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "74LVC1G125GV,125_1_1"
-				(pin input line
-					(at -5.08 1.27 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -5.08 -1.27 0)
-					(length 2.54)
-					(name "OE"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name "VCC"
-						(effects
-							(font
-								(size 0.508 0.508)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 0.508 0.508)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 6.35 0 180)
-					(length 1.27)
-					(name "Y"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "proejct_lib:C_Polarized_Small"
 			(pin_numbers
 				(hide yes)
@@ -3759,6 +3515,215 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "proejct_lib:SN74LVC1G66DBVR"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U1"
+				(at 16.51 4.699 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(property "Value" "Single Buffer - 74LVC1G125GV,125 - SOT-23-5"
+				(at -2.032 -13.081 0)
+				(effects
+					(font
+						(size 0.8 0.8)
+					)
+				)
+			)
+			(property "Footprint" "project_fp:SOT-23-5"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 0.8 0.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74lvc1g14.pdf"
+				(at -0.381 9.525 0)
+				(effects
+					(font
+						(size 0.8 0.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "TI / Nexperia"
+				(at -0.508 6.731 0)
+				(effects
+					(font
+						(size 0.8 0.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "74LVC1G125GV,125"
+				(at -14.732 7.112 0)
+				(effects
+					(font
+						(size 0.8 0.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Package / Case" "SC70-5"
+				(at -0.889 6.731 0)
+				(effects
+					(font
+						(size 0.8 0.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "mouser" "771-74LVC1G125GV"
+				(at -14.732 7.112 0)
+				(effects
+					(font
+						(size 0.8 0.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Inverter Schmitt Trigger"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SN74LVC1G66DBVR_0_1"
+				(polyline
+					(pts
+						(xy -2.54 3.81) (xy -2.54 -3.81) (xy 5.08 0) (xy -2.54 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "SN74LVC1G66DBVR_1_1"
+				(pin input line
+					(at -5.08 1.27 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 0.7366 0.7366)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 -1.27 0)
+					(length 2.54)
+					(name "OE^"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 6.35 0 180)
+					(length 1.27)
+					(name "B"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "proejct_lib:SP0502BAJT_2"
 			(pin_names
 				(hide yes)
@@ -5622,6 +5587,19 @@
 		)
 		(uuid "2eb16d67-2568-470b-8cbd-2ef35443bea9")
 	)
+	(text "REPLACE WITH ANALOG BUFFER SUCH AS SN74LVC1G66 SO THERE IS NO\nCONTENTION BETWEEN THE SUB-MODULES!"
+		(exclude_from_sim no)
+		(at 197.358 264.922 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 7 0 1)
+			)
+		)
+		(uuid "52f9d3b6-9d87-48d2-b0a1-716701c4f06c")
+	)
 	(text "DATA OUTPUT BUFFER"
 		(exclude_from_sim no)
 		(at 162.306 259.842 0)
@@ -6024,12 +6002,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "99771fd6-961a-46f6-8c94-3b6c6b8f2a3c")
-	)
-	(junction
-		(at 185.42 289.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9b35d23d-9374-44fe-b56a-259ead07f5f9")
 	)
 	(junction
 		(at 33.02 355.6)
@@ -7341,16 +7313,6 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 285.75) (xy 180.34 289.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "599f2e5d-f0bd-4563-b0c3-a943b1db63bd")
-	)
-	(wire
-		(pts
 			(xy 34.29 226.06) (xy 36.83 226.06)
 		)
 		(stroke
@@ -8551,16 +8513,6 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 289.56) (xy 185.42 289.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c959ff27-3882-468a-812a-798be64a2172")
-	)
-	(wire
-		(pts
 			(xy 134.62 100.33) (xy 149.86 100.33)
 		)
 		(stroke
@@ -9613,6 +9565,28 @@
 			(effects
 				(font
 					(size 1.524 1.524)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IOVDD"
+		(shape input)
+		(at 180.34 285.75 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify right)
+		)
+		(uuid "5a88c4e5-58b6-4b11-a39b-a719a70607e4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 174.3559 285.75 0)
+			(effects
+				(font
+					(size 1 1)
 				)
 				(justify right)
 				(hide yes)
@@ -12845,7 +12819,7 @@
 		)
 	)
 	(symbol
-		(lib_id "proejct_lib:74LVC1G125GV,125")
+		(lib_id "proejct_lib:SN74LVC1G66DBVR")
 		(at 185.42 284.48 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12854,14 +12828,14 @@
 		(dnp no)
 		(uuid "1792e624-bf86-4447-9b59-761502973174")
 		(property "Reference" "U108"
-			(at 201.93 279.781 0)
+			(at 197.612 281.686 0)
 			(effects
 				(font
 					(size 1 1)
 				)
 			)
 		)
-		(property "Value" "Single Buffer - 74LVC1G125GV,125 - SOT-23-5"
+		(property "Value" "Single Buffer with Tri-state Passthru - SN74LVC1G66DCK - SOT-23-5"
 			(at 183.388 297.561 0)
 			(effects
 				(font
@@ -12878,7 +12852,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74lvc1g14.pdf"
+		(property "Datasheet" "SN74LVC1G66DCK"
 			(at 185.039 274.955 0)
 			(effects
 				(font
@@ -12887,43 +12861,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Buffer, Non-Inverting 1 Element 1 Bit per Element 3-State Output SC-74A"
-			(at 185.42 284.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package / Case" "SOT-23-5"
-			(at 184.531 277.749 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(hide yes)
-			)
-		)
-		(property "TAC5212EVM" "74LVC1G125GV,125 "
-			(at 185.42 284.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "REPLACE FOR NEXT BUILD" ""
-			(at 185.42 284.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C12518"
+		(property "Description" "Buffer, Non-Inverting 1 Element 1 Bit per Element Analog Pass Through Tri-State"
 			(at 185.42 284.48 0)
 			(effects
 				(font
@@ -17554,7 +17492,7 @@
 				)
 			)
 		)
-		(property "Value" "49.9 ohm"
+		(property "Value" "27 ohm"
 			(at 197.739 284.988 90)
 			(effects
 				(font
@@ -17580,47 +17518,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 49.9 OHM 1% 1/8W 0402"
+		(property "Description" "RES 27 ohm 1% 1/8W 0402"
 			(at 198.12 284.48 0)
 			(effects
 				(font
 					(size 0.8 0.8)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package / Case" "R0805"
-			(at 198.12 284.48 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(hide yes)
-			)
-		)
-		(property "TAC5212EVM" "RC0402FR-7W49R9L"
-			(at 198.12 284.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "REPLACE FOR NEXT BUILD" ""
-			(at 198.12 284.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C851850"
-			(at 198.12 284.48 90)
-			(effects
-				(font
-					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -20948,7 +20850,7 @@
 				)
 			)
 		)
-		(property "Value" "49.9 ohm"
+		(property "Value" "27 ohm"
 			(at 79.502 157.988 90)
 			(effects
 				(font
@@ -20974,44 +20876,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 0 OHM JUMPER 1/10W 0402"
+		(property "Description" "RES SMD 27 ohm 1/10W 0402"
 			(at 73.66 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package / Case" "R0402"
-			(at 73.66 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TAC5212EVM" "RC0402FR-7W49R9L"
-			(at 73.66 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "REPLACE FOR NEXT BUILD" ""
-			(at 73.66 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C851850"
-			(at 73.66 158.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)

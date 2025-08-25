@@ -6,6 +6,7 @@
 	(property "Reference" "REF**"
 		(at 0.5 1 0)
 		(layer "F.SilkS")
+		(hide yes)
 		(uuid "a688cc13-c2ee-4212-b934-86a3737d464e")
 		(effects
 			(font
@@ -106,6 +107,7 @@
 	(property "net_tie_pad_groups" "1 2"
 		(at 0 0 0)
 		(layer "F.SilkS")
+		(hide yes)
 		(uuid "70f73e07-d452-4f8a-ab7f-af691452025c")
 		(effects
 			(font
@@ -114,7 +116,7 @@
 			)
 		)
 	)
-	(attr smd exclude_from_bom dnp)
+	(attr smd exclude_from_bom dnp allow_soldermask_bridges)
 	(net_tie_pad_groups "1,2")
 	(fp_poly
 		(pts
@@ -129,7 +131,7 @@
 		(uuid "bc57aad2-f27a-4b5f-aec6-4d4776b9c6bd")
 	)
 	(fp_text user "${Label}"
-		(at -0.799999 0 180)
+		(at 0 0.85 180)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "628aafe2-54ac-46f6-b66d-f01ae14042ab")
@@ -139,7 +141,6 @@
 				(thickness 0.15)
 				(bold yes)
 			)
-			(justify left)
 		)
 	)
 	(pad "1" smd rect

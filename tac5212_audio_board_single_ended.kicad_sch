@@ -21797,7 +21797,7 @@
 			)
 		)
 		(property "Value" "0.047uF"
-			(at 326.39 102.87 0)
+			(at 337.82 103.124 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -22706,7 +22706,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 325.755 92.075 90)
+			(at 334.518 92.71 90)
 			(effects
 				(font
 					(size 0.8 0.8)

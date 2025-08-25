@@ -6301,7 +6301,7 @@
 				)
 			)
 		)
-		(property "Value" "Single Buffer - 74LVC1G125GV,125 - SOT-23-5"
+		(property "Value" "Single Buffer with Tri-state Passthru - SN74LVC1G66DCK - SOT-23-5"
 			(at 0 2.4 0)
 			(layer "F.Fab")
 			(uuid "0d57dabb-c8a4-44cd-98b2-0ad3a61fb45e")
@@ -6312,7 +6312,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74lvc1g14.pdf"
+		(property "Datasheet" "SN74LVC1G66DCK"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6325,7 +6325,7 @@
 				)
 			)
 		)
-		(property "Description" "Buffer, Non-Inverting 1 Element 1 Bit per Element 3-State Output SC-74A"
+		(property "Description" "Buffer, Non-Inverting 1 Element 1 Bit per Element Analog Pass Through Tri-State"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10414,6 +10414,19 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 0 0 135)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "656307f6-4da8-4a53-94cf-e7b86cc93e83")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Net*Tie*")
 		(path "/f7ddfa20-9d8a-4e95-8ea1-91dc8231e9ac")
 		(sheetname "/")
@@ -12693,7 +12706,7 @@
 				)
 			)
 		)
-		(property "Value" "49.9 ohm"
+		(property "Value" "27 ohm"
 			(at 0 1.17 45)
 			(layer "F.Fab")
 			(uuid "5c774ae1-a8f2-45c0-8882-d5da494e0b91")
@@ -12717,7 +12730,7 @@
 				)
 			)
 		)
-		(property "Description" "RES SMD 0 OHM JUMPER 1/10W 0402"
+		(property "Description" "RES SMD 27 ohm 1/10W 0402"
 			(at 0 0 225)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13835,7 +13848,7 @@
 				)
 			)
 		)
-		(property "Value" "49.9 ohm"
+		(property "Value" "27 ohm"
 			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "f71985f7-eb7a-4160-9b27-c6148a268048")
@@ -13859,7 +13872,7 @@
 				)
 			)
 		)
-		(property "Description" "RES 49.9 OHM 1% 1/8W 0402"
+		(property "Description" "RES 27 ohm 1% 1/8W 0402"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")

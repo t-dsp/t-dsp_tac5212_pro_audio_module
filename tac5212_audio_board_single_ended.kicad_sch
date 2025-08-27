@@ -5674,10 +5674,22 @@
 		(uuid "024b59a1-2a12-4ed3-8bbc-b57b81428f9e")
 	)
 	(junction
+		(at 412.75 219.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "07d7a09b-428d-4a6e-8a38-86987f7b21d6")
+	)
+	(junction
 		(at 461.01 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0af4f9eb-603e-4186-be20-37b20c73a869")
+	)
+	(junction
+		(at 412.75 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0bef432b-dea0-404c-b52e-ca03aee8232a")
 	)
 	(junction
 		(at 217.17 284.48)
@@ -5728,10 +5740,28 @@
 		(uuid "1f0a81a4-e135-45e4-aa31-51b08f4d3de1")
 	)
 	(junction
+		(at 444.5 374.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2051b254-f1bc-4a3b-9e2a-45a532dda870")
+	)
+	(junction
+		(at 435.61 293.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "24c78a95-3bd2-41f2-9943-90bea947b905")
+	)
+	(junction
 		(at 149.86 170.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "28629c86-ee65-48ee-b29c-3bf7682d5270")
+	)
+	(junction
+		(at 443.23 415.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2cb97ab8-138c-4a8f-9c61-427e3d893480")
 	)
 	(junction
 		(at 45.72 104.14)
@@ -5900,6 +5930,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "58dd9c93-beed-4665-b6ad-14d4835a906f")
+	)
+	(junction
+		(at 443.23 327.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "59f06083-0530-4ed0-8560-39e2cdbe9e48")
 	)
 	(junction
 		(at 115.57 259.08)
@@ -6214,6 +6250,18 @@
 		(uuid "c525470c-dac6-47be-a7e0-6d1e5bb82ef3")
 	)
 	(junction
+		(at 412.75 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c8775fde-b300-4160-a864-9ae5d5a24e49")
+	)
+	(junction
+		(at 414.02 184.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ce45a734-f166-48ff-a5b9-96e7feff7940")
+	)
+	(junction
 		(at 518.16 184.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6465,7 +6513,7 @@
 	)
 	(wire
 		(pts
-			(xy 424.18 219.71) (xy 426.72 219.71)
+			(xy 392.43 219.71) (xy 412.75 219.71)
 		)
 		(stroke
 			(width 0)
@@ -6482,6 +6530,16 @@
 			(type default)
 		)
 		(uuid "0662a6cf-bc63-44c1-8b93-81288e5cdf85")
+	)
+	(wire
+		(pts
+			(xy 443.23 415.29) (xy 439.42 415.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0854dd62-748a-460f-b4be-7236ab44afb0")
 	)
 	(wire
 		(pts
@@ -6565,6 +6623,16 @@
 	)
 	(wire
 		(pts
+			(xy 551.18 226.06) (xy 551.18 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c8b8fe2-d44b-49bf-8a0f-02d29bac178b")
+	)
+	(wire
+		(pts
 			(xy 86.36 107.95) (xy 99.06 107.95)
 		)
 		(stroke
@@ -6612,6 +6680,16 @@
 			(type default)
 		)
 		(uuid "109940cb-6f6d-4f27-bc26-3efdede43cfb")
+	)
+	(wire
+		(pts
+			(xy 443.23 327.66) (xy 439.42 327.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11316e6b-f999-4471-bced-e92890f57226")
 	)
 	(wire
 		(pts
@@ -6745,6 +6823,16 @@
 	)
 	(wire
 		(pts
+			(xy 444.5 374.65) (xy 439.42 374.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1af8ee6c-9c13-43a2-bf83-97851ac870ca")
+	)
+	(wire
+		(pts
 			(xy 447.04 160.02) (xy 447.04 149.86)
 		)
 		(stroke
@@ -6845,6 +6933,26 @@
 	)
 	(wire
 		(pts
+			(xy 374.65 215.9) (xy 372.11 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21fb6cb2-929c-4e04-b3d0-a6fd538686bb")
+	)
+	(wire
+		(pts
+			(xy 414.02 184.15) (xy 430.53 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22ab41dd-d9ff-4c64-a601-2eea97fa0303")
+	)
+	(wire
+		(pts
 			(xy 447.04 149.86) (xy 461.01 149.86)
 		)
 		(stroke
@@ -6862,6 +6970,16 @@
 			(type default)
 		)
 		(uuid "237d27eb-7712-42c0-9d38-70ef5a5916c6")
+	)
+	(wire
+		(pts
+			(xy 412.75 118.11) (xy 426.72 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2408f49b-9514-4a8d-9fa2-704c740999b5")
 	)
 	(wire
 		(pts
@@ -7175,6 +7293,16 @@
 	)
 	(wire
 		(pts
+			(xy 414.02 180.34) (xy 414.02 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "346097db-3c09-4b83-bb75-70f702cb308c")
+	)
+	(wire
+		(pts
 			(xy 86.36 177.8) (xy 99.06 177.8)
 		)
 		(stroke
@@ -7185,7 +7313,7 @@
 	)
 	(wire
 		(pts
-			(xy 462.28 293.37) (xy 431.8 293.37)
+			(xy 462.28 293.37) (xy 435.61 293.37)
 		)
 		(stroke
 			(width 0)
@@ -7245,7 +7373,7 @@
 	)
 	(wire
 		(pts
-			(xy 463.55 327.66) (xy 439.42 327.66)
+			(xy 463.55 327.66) (xy 443.23 327.66)
 		)
 		(stroke
 			(width 0)
@@ -7475,7 +7603,7 @@
 	)
 	(wire
 		(pts
-			(xy 468.63 415.29) (xy 439.42 415.29)
+			(xy 468.63 415.29) (xy 443.23 415.29)
 		)
 		(stroke
 			(width 0)
@@ -7485,7 +7613,7 @@
 	)
 	(wire
 		(pts
-			(xy 427.99 184.15) (xy 430.53 184.15)
+			(xy 392.43 184.15) (xy 414.02 184.15)
 		)
 		(stroke
 			(width 0)
@@ -7502,6 +7630,16 @@
 			(type default)
 		)
 		(uuid "477fa06b-5e9e-49bb-b7d4-b6e545a39ee5")
+	)
+	(wire
+		(pts
+			(xy 551.18 101.6) (xy 554.99 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4858dd74-5555-4e95-a83d-fc7d66e089fa")
 	)
 	(wire
 		(pts
@@ -7545,6 +7683,16 @@
 	)
 	(wire
 		(pts
+			(xy 412.75 219.71) (xy 426.72 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b7f37b8-f8bc-4cd3-8fe8-6613017de375")
+	)
+	(wire
+		(pts
 			(xy 510.54 149.86) (xy 508 149.86)
 		)
 		(stroke
@@ -7565,7 +7713,7 @@
 	)
 	(wire
 		(pts
-			(xy 425.45 149.86) (xy 427.99 149.86)
+			(xy 393.7 149.86) (xy 412.75 149.86)
 		)
 		(stroke
 			(width 0)
@@ -7665,7 +7813,7 @@
 	)
 	(wire
 		(pts
-			(xy 464.82 374.65) (xy 439.42 374.65)
+			(xy 464.82 374.65) (xy 444.5 374.65)
 		)
 		(stroke
 			(width 0)
@@ -7905,6 +8053,16 @@
 	)
 	(wire
 		(pts
+			(xy 374.65 91.44) (xy 378.46 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a91ecf6-19fc-47cd-ae7f-b94b8d881823")
+	)
+	(wire
+		(pts
 			(xy 490.22 118.11) (xy 497.84 118.11)
 		)
 		(stroke
@@ -8115,6 +8273,16 @@
 	)
 	(wire
 		(pts
+			(xy 551.18 226.06) (xy 548.64 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7db196d9-31b9-4719-8a14-5432f7ab4d09")
+	)
+	(wire
+		(pts
 			(xy 60.96 119.38) (xy 62.23 119.38)
 		)
 		(stroke
@@ -8122,6 +8290,16 @@
 			(type default)
 		)
 		(uuid "7dc7d631-4184-4029-a4ef-8b8e304f6b6f")
+	)
+	(wire
+		(pts
+			(xy 412.75 149.86) (xy 427.99 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e34ae26-0f30-4577-a414-3ce410832063")
 	)
 	(wire
 		(pts
@@ -8175,7 +8353,7 @@
 	)
 	(wire
 		(pts
-			(xy 424.18 118.11) (xy 426.72 118.11)
+			(xy 393.7 118.11) (xy 412.75 118.11)
 		)
 		(stroke
 			(width 0)
@@ -9065,6 +9243,16 @@
 	)
 	(wire
 		(pts
+			(xy 374.65 215.9) (xy 374.65 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c966994e-3b38-4e19-a9b4-32b768f7b888")
+	)
+	(wire
+		(pts
 			(xy 134.62 100.33) (xy 149.86 100.33)
 		)
 		(stroke
@@ -9405,6 +9593,16 @@
 	)
 	(wire
 		(pts
+			(xy 435.61 293.37) (xy 431.8 293.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4ba3a10-78f5-487f-97a5-34bf0c0633b9")
+	)
+	(wire
+		(pts
 			(xy 29.21 355.6) (xy 33.02 355.6)
 		)
 		(stroke
@@ -9548,28 +9746,6 @@
 		(uuid "0d23d2c5-bd36-48f5-94e4-5a29dfcdfcc7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 430.5406 327.66 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "OUT1P"
-		(shape input)
-		(at 424.18 219.71 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 0.889 0.889)
-			)
-			(justify right)
-		)
-		(uuid "0e6df0e7-e965-4654-8cca-963c19b7d262")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 413.2686 219.71 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -9727,6 +9903,28 @@
 			(effects
 				(font
 					(size 1 1)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "OUT1P"
+		(shape input)
+		(at 393.7 118.11 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify right)
+		)
+		(uuid "1a3e56d2-ce6e-4bfc-92a6-366a9299224b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 387.3349 118.11 0)
+			(effects
+				(font
+					(size 1.524 1.524)
 				)
 				(justify right)
 				(hide yes)
@@ -10019,28 +10217,6 @@
 			)
 		)
 	)
-	(global_label "OUT1P"
-		(shape input)
-		(at 425.45 149.86 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 0.889 0.889)
-			)
-			(justify right)
-		)
-		(uuid "4eff6f65-4ecf-4478-9cf4-ad17040cdf84")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 414.5386 149.86 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "5212_BCLK1"
 		(shape input)
 		(at 60.96 163.83 180)
@@ -10147,6 +10323,28 @@
 					(size 1.524 1.524)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "OUT1P+"
+		(shape input)
+		(at 521.97 118.11 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left)
+		)
+		(uuid "5e271787-fa8b-4978-8fc0-c36368b72445")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 529.4358 118.11 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -10274,28 +10472,6 @@
 		(uuid "6f07dc65-0419-4fca-9683-1c18b4e78431")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 60.3882 264.16 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "OUT1P"
-		(shape input)
-		(at 424.18 118.11 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 0.889 0.889)
-			)
-			(justify right)
-		)
-		(uuid "70661619-69a6-45dd-81cd-81ea1124ff65")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 413.2686 118.11 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -10433,28 +10609,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "OUT1P"
-		(shape input)
-		(at 427.99 184.15 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 0.889 0.889)
-			)
-			(justify right)
-		)
-		(uuid "8362abce-a8fe-4c3d-b962-fa4841602406")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 417.0786 184.15 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -10717,6 +10871,28 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "OUT2M"
+		(shape input)
+		(at 392.43 219.71 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify right)
+		)
+		(uuid "a2e03e26-8080-483b-95c6-27e546c46b8f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 385.9379 219.71 0)
+			(effects
+				(font
+					(size 1.524 1.524)
 				)
 				(justify right)
 				(hide yes)
@@ -11009,6 +11185,28 @@
 			)
 		)
 	)
+	(global_label "OUT1M"
+		(shape input)
+		(at 393.7 149.86 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify right)
+		)
+		(uuid "d1c21c88-ec8d-4436-ba2c-018d0a7ef975")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 387.2079 149.86 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "IN2M"
 		(shape input)
 		(at 161.29 132.08 0)
@@ -11165,7 +11363,7 @@
 	)
 	(global_label "OUT1M+"
 		(shape input)
-		(at 521.97 118.11 0)
+		(at 523.24 149.86 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11175,7 +11373,7 @@
 		)
 		(uuid "e982495c-bc19-43dc-a61c-e0f2a350f803")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 529.5628 118.11 0)
+			(at 530.8328 149.86 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -11295,6 +11493,28 @@
 			)
 		)
 	)
+	(global_label "OUT2P"
+		(shape input)
+		(at 392.43 184.15 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify right)
+		)
+		(uuid "fa7baf51-c4b1-49e2-9ea1-f36ad9a10f9e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 386.0649 184.15 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "3.3V_LDO"
 		(shape input)
 		(at 121.92 369.57 0)
@@ -11357,28 +11577,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "OUT1P+"
-		(shape input)
-		(at 523.24 149.86 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 0.889 0.889)
-			)
-			(justify left)
-		)
-		(uuid "fef8bcdc-04d0-4fb9-9f9d-86a26b41754d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 529.9584 149.86 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -13464,7 +13662,7 @@
 	)
 	(symbol
 		(lib_id "proejct_lib:Earth")
-		(at 411.48 152.4 0)
+		(at 372.11 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13472,7 +13670,7 @@
 		(dnp no)
 		(uuid "24f1fa6e-f794-4564-83ff-045285ecd9a4")
 		(property "Reference" "#T#PWR0124"
-			(at 411.48 158.75 0)
+			(at 372.11 120.65 0)
 			(effects
 				(font
 					(size 1 1)
@@ -13481,7 +13679,7 @@
 			)
 		)
 		(property "Value" "Earth"
-			(at 411.48 156.21 0)
+			(at 372.11 118.11 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -13490,7 +13688,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 411.48 152.4 0)
+			(at 372.11 114.3 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -13499,7 +13697,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 411.48 152.4 0)
+			(at 372.11 114.3 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -13508,7 +13706,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 411.48 152.4 0)
+			(at 372.11 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13685,6 +13883,135 @@
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
 					(reference "R133")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "proejct_lib:via")
+		(at 412.75 176.53 270)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(uuid "3052dad8-d5b4-4fbe-8fe6-36e2501f7921")
+		(property "Reference" "OUTP2"
+			(at 416.56 175.5773 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "VIA"
+			(at 416.56 178.1173 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "project_fp:via"
+			(at 412.75 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 412.75 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Small Via to be incorporated into design."
+			(at 412.75 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "DNP"
+			(at 412.75 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TAC5212EVM" "n/a"
+			(at 412.75 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REPLACE FOR NEXT BUILD" ""
+			(at 412.75 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 412.75 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 412.75 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 412.75 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 412.75 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "051a98df-e041-40b8-9f20-1c0dd50383c5")
+		)
+		(instances
+			(project "tac5212_audio_board_single_ended"
+				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
+					(reference "OUTP2")
 					(unit 1)
 				)
 			)
@@ -14342,6 +14669,136 @@
 		)
 	)
 	(symbol
+		(lib_id "proejct_lib:via")
+		(at 436.88 289.56 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(uuid "37f83cac-ada2-4a0c-8822-1c4781a4f96d")
+		(property "Reference" "INM2"
+			(at 433.07 288.6073 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "VIA"
+			(at 433.07 291.1473 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "project_fp:via"
+			(at 436.88 289.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 436.88 289.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Small Via to be incorporated into design."
+			(at 436.88 289.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "DNP"
+			(at 436.88 289.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TAC5212EVM" "n/a"
+			(at 436.88 289.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REPLACE FOR NEXT BUILD" ""
+			(at 436.88 289.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 436.88 289.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 436.88 289.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 436.88 289.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 436.88 289.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8b8c1b11-abaf-4bf3-bf17-16d9bc466c76")
+		)
+		(instances
+			(project "tac5212_audio_board_single_ended"
+				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
+					(reference "INM2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "proejct_lib:C_Small")
 		(at 33.02 106.68 0)
 		(unit 1)
@@ -14765,7 +15222,7 @@
 	)
 	(symbol
 		(lib_id "proejct_lib:Earth")
-		(at 410.21 115.57 0)
+		(at 378.46 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14773,7 +15230,7 @@
 		(dnp no)
 		(uuid "3e072610-f38a-44c0-8a0a-5f5524b22bd1")
 		(property "Reference" "#T#PWR0123"
-			(at 410.21 121.92 0)
+			(at 378.46 97.79 0)
 			(effects
 				(font
 					(size 1 1)
@@ -14782,7 +15239,7 @@
 			)
 		)
 		(property "Value" "Earth"
-			(at 410.21 119.38 0)
+			(at 378.46 95.25 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -14791,7 +15248,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 410.21 115.57 0)
+			(at 378.46 91.44 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -14800,7 +15257,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 410.21 115.57 0)
+			(at 378.46 91.44 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -14809,7 +15266,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 410.21 115.57 0)
+			(at 378.46 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14831,7 +15288,7 @@
 	)
 	(symbol
 		(lib_id "proejct_lib:Earth")
-		(at 417.83 255.27 0)
+		(at 374.65 217.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14839,7 +15296,7 @@
 		(dnp no)
 		(uuid "3e19c201-6790-4632-b570-0bc59f03a98b")
 		(property "Reference" "#T#PWR0131"
-			(at 417.83 261.62 0)
+			(at 374.65 223.52 0)
 			(effects
 				(font
 					(size 1 1)
@@ -14848,7 +15305,7 @@
 			)
 		)
 		(property "Value" "Earth"
-			(at 417.83 259.08 0)
+			(at 374.65 220.98 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -14857,7 +15314,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 417.83 255.27 0)
+			(at 374.65 217.17 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -14866,7 +15323,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 417.83 255.27 0)
+			(at 374.65 217.17 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -14875,7 +15332,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 417.83 255.27 0)
+			(at 374.65 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14897,7 +15354,7 @@
 	)
 	(symbol
 		(lib_id "proejct_lib:via")
-		(at 414.02 256.54 0)
+		(at 368.3 217.17 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -14906,7 +15363,7 @@
 		(fields_autoplaced yes)
 		(uuid "3f70b7b1-49e4-4400-bbb6-39a1fe601bc3")
 		(property "Reference" "G112"
-			(at 414.3374 250.19 0)
+			(at 368.6174 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14914,7 +15371,7 @@
 			)
 		)
 		(property "Value" "VIA"
-			(at 414.3374 252.73 0)
+			(at 368.6174 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14922,7 +15379,7 @@
 			)
 		)
 		(property "Footprint" "project_fp:via"
-			(at 414.02 256.54 0)
+			(at 368.3 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14931,7 +15388,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 414.02 256.54 0)
+			(at 368.3 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14940,7 +15397,7 @@
 			)
 		)
 		(property "Description" "Small Via to be incorporated into design."
-			(at 414.02 256.54 0)
+			(at 368.3 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14949,7 +15406,7 @@
 			)
 		)
 		(property "Package / Case" "DNP"
-			(at 414.02 256.54 0)
+			(at 368.3 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14958,7 +15415,7 @@
 			)
 		)
 		(property "TAC5212EVM" "n/a"
-			(at 414.02 256.54 0)
+			(at 368.3 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14967,7 +15424,7 @@
 			)
 		)
 		(property "REPLACE FOR NEXT BUILD" ""
-			(at 414.02 256.54 0)
+			(at 368.3 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14976,7 +15433,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 414.02 256.54 0)
+			(at 368.3 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14985,7 +15442,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 414.02 256.54 0)
+			(at 368.3 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14994,7 +15451,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 414.02 256.54 0)
+			(at 368.3 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15003,7 +15460,7 @@
 			)
 		)
 		(property "mouser" ""
-			(at 414.02 256.54 0)
+			(at 368.3 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15216,6 +15673,136 @@
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
 					(reference "#PWR0120")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "proejct_lib:via")
+		(at 411.48 114.3 270)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "471229de-2658-4f69-8d75-01b47b240819")
+		(property "Reference" "OUTP1"
+			(at 415.29 113.3473 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "VIA"
+			(at 415.29 115.8873 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "project_fp:via"
+			(at 411.48 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 411.48 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Small Via to be incorporated into design."
+			(at 411.48 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "DNP"
+			(at 411.48 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TAC5212EVM" "n/a"
+			(at 411.48 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REPLACE FOR NEXT BUILD" ""
+			(at 411.48 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 411.48 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 411.48 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 411.48 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 411.48 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e1e968bd-eb75-4be6-b833-c5cc6f4bfb7a")
+		)
+		(instances
+			(project "tac5212_audio_board_single_ended"
+				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
+					(reference "OUTP1")
 					(unit 1)
 				)
 			)
@@ -16231,7 +16818,7 @@
 	)
 	(symbol
 		(lib_id "proejct_lib:via")
-		(at 407.67 153.67 0)
+		(at 368.3 115.57 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -16239,7 +16826,7 @@
 		(dnp yes)
 		(uuid "53e732db-64ca-4cba-b717-0e878c7a9984")
 		(property "Reference" "G109"
-			(at 406.146 149.86 0)
+			(at 366.776 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16247,7 +16834,7 @@
 			)
 		)
 		(property "Value" "VIA"
-			(at 402.844 152.654 0)
+			(at 363.474 114.554 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16255,7 +16842,7 @@
 			)
 		)
 		(property "Footprint" "project_fp:via"
-			(at 407.67 153.67 0)
+			(at 368.3 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16264,7 +16851,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 407.67 153.67 0)
+			(at 368.3 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16273,7 +16860,7 @@
 			)
 		)
 		(property "Description" "Small Via to be incorporated into design."
-			(at 407.67 153.67 0)
+			(at 368.3 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16282,7 +16869,7 @@
 			)
 		)
 		(property "Package / Case" "DNP"
-			(at 407.67 153.67 0)
+			(at 368.3 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16291,7 +16878,7 @@
 			)
 		)
 		(property "TAC5212EVM" "n/a"
-			(at 407.67 153.67 0)
+			(at 368.3 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16300,7 +16887,7 @@
 			)
 		)
 		(property "REPLACE FOR NEXT BUILD" ""
-			(at 407.67 153.67 0)
+			(at 368.3 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16309,7 +16896,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 407.67 153.67 0)
+			(at 368.3 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16318,7 +16905,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 407.67 153.67 0)
+			(at 368.3 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16327,7 +16914,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 407.67 153.67 0)
+			(at 368.3 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16336,7 +16923,7 @@
 			)
 		)
 		(property "mouser" ""
-			(at 407.67 153.67 0)
+			(at 368.3 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16424,6 +17011,264 @@
 		)
 	)
 	(symbol
+		(lib_id "proejct_lib:via")
+		(at 444.5 323.85 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(uuid "56a3f904-81fc-47ce-b20a-2db77591418d")
+		(property "Reference" "INP2"
+			(at 440.69 322.8973 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "VIA"
+			(at 440.69 325.4373 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "project_fp:via"
+			(at 444.5 323.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 444.5 323.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Small Via to be incorporated into design."
+			(at 444.5 323.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "DNP"
+			(at 444.5 323.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TAC5212EVM" "n/a"
+			(at 444.5 323.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REPLACE FOR NEXT BUILD" ""
+			(at 444.5 323.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 444.5 323.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 444.5 323.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 444.5 323.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 444.5 323.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e5aa8242-f754-47f6-83c0-c6bf45b00fcd")
+		)
+		(instances
+			(project "tac5212_audio_board_single_ended"
+				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
+					(reference "INP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "proejct_lib:via")
+		(at 544.83 227.33 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "5d34eb12-d1f8-41f2-9659-7541ee2aabf7")
+		(property "Reference" "G123"
+			(at 545.1474 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SMD ROUTING PAD"
+			(at 545.1474 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "project_fp:SMD_ROUTING_PAD"
+			(at 544.83 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 544.83 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Small Via to be incorporated into design."
+			(at 544.83 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "DNP"
+			(at 544.83 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TAC5212EVM" "n/a"
+			(at 544.83 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REPLACE FOR NEXT BUILD" ""
+			(at 544.83 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 544.83 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 544.83 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 544.83 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 544.83 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a2d2c8cd-86d9-4932-9bd7-b0250ca0ffe5")
+		)
+		(instances
+			(project "tac5212_audio_board_single_ended"
+				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
+					(reference "G123")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "kikit:Tab")
 		(at 285.75 377.19 0)
 		(unit 1)
@@ -16491,6 +17336,136 @@
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
 					(reference "T111")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "proejct_lib:via")
+		(at 445.77 370.84 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(uuid "5fc04685-6393-4dfe-bd97-51dc23e6b378")
+		(property "Reference" "INM1"
+			(at 441.96 369.8873 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "VIA"
+			(at 441.96 372.4273 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "project_fp:via"
+			(at 445.77 370.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 445.77 370.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Small Via to be incorporated into design."
+			(at 445.77 370.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "DNP"
+			(at 445.77 370.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TAC5212EVM" "n/a"
+			(at 445.77 370.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REPLACE FOR NEXT BUILD" ""
+			(at 445.77 370.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 445.77 370.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 445.77 370.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 445.77 370.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 445.77 370.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3ec00019-fdc6-4045-925c-4bcd9e8ed633")
+		)
+		(instances
+			(project "tac5212_audio_board_single_ended"
+				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
+					(reference "INM1")
 					(unit 1)
 				)
 			)
@@ -16984,6 +17959,134 @@
 		)
 	)
 	(symbol
+		(lib_id "proejct_lib:via")
+		(at 544.83 193.04 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "67bdd244-786f-4664-a9a5-0fe954d47f61")
+		(property "Reference" "G122"
+			(at 545.1474 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VIA"
+			(at 545.1474 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "project_fp:via"
+			(at 544.83 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 544.83 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Small Via to be incorporated into design."
+			(at 544.83 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "DNP"
+			(at 544.83 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TAC5212EVM" "n/a"
+			(at 544.83 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REPLACE FOR NEXT BUILD" ""
+			(at 544.83 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 544.83 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 544.83 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 544.83 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 544.83 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5cf965df-431d-4d1d-8975-180560154121")
+		)
+		(instances
+			(project "tac5212_audio_board_single_ended"
+				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
+					(reference "G122")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "proejct_lib:GNDD")
 		(at 129.54 231.14 0)
 		(unit 1)
@@ -17110,6 +18213,72 @@
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
 					(reference "#T#PWR0134")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "proejct_lib:Earth")
+		(at 548.64 191.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6ec551b6-cb7d-455c-8a47-71b583256e47")
+		(property "Reference" "#T#PWR0110"
+			(at 548.64 198.12 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 548.64 195.58 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 548.64 191.77 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 548.64 191.77 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 548.64 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3e15b7bd-95b8-4c44-89a9-88070b69b114")
+		)
+		(instances
+			(project "tac5212_audio_board_single_ended"
+				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
+					(reference "#T#PWR0110")
 					(unit 1)
 				)
 			)
@@ -18751,7 +19920,7 @@
 	)
 	(symbol
 		(lib_id "proejct_lib:via")
-		(at 410.21 220.98 0)
+		(at 368.3 182.88 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -18760,7 +19929,7 @@
 		(fields_autoplaced yes)
 		(uuid "8619da12-96e1-4fab-a3ea-5df130c7951a")
 		(property "Reference" "G111"
-			(at 410.5274 214.63 0)
+			(at 368.6174 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18768,7 +19937,7 @@
 			)
 		)
 		(property "Value" "VIA"
-			(at 410.5274 217.17 0)
+			(at 368.6174 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18776,7 +19945,7 @@
 			)
 		)
 		(property "Footprint" "project_fp:via"
-			(at 410.21 220.98 0)
+			(at 368.3 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18785,7 +19954,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 410.21 220.98 0)
+			(at 368.3 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18794,7 +19963,7 @@
 			)
 		)
 		(property "Description" "Small Via to be incorporated into design."
-			(at 410.21 220.98 0)
+			(at 368.3 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18803,7 +19972,7 @@
 			)
 		)
 		(property "Package / Case" "DNP"
-			(at 410.21 220.98 0)
+			(at 368.3 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18812,7 +19981,7 @@
 			)
 		)
 		(property "TAC5212EVM" "n/a"
-			(at 410.21 220.98 0)
+			(at 368.3 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18821,7 +19990,7 @@
 			)
 		)
 		(property "REPLACE FOR NEXT BUILD" ""
-			(at 410.21 220.98 0)
+			(at 368.3 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18830,7 +19999,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 410.21 220.98 0)
+			(at 368.3 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18839,7 +20008,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 410.21 220.98 0)
+			(at 368.3 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18848,7 +20017,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 410.21 220.98 0)
+			(at 368.3 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18857,7 +20026,7 @@
 			)
 		)
 		(property "mouser" ""
-			(at 410.21 220.98 0)
+			(at 368.3 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20084,7 +21253,7 @@
 	)
 	(symbol
 		(lib_id "proejct_lib:Earth")
-		(at 414.02 219.71 0)
+		(at 372.11 181.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20092,7 +21261,7 @@
 		(dnp no)
 		(uuid "8e13db78-8db5-4ad1-a422-1e0c633f5ea0")
 		(property "Reference" "#T#PWR0128"
-			(at 414.02 226.06 0)
+			(at 372.11 187.96 0)
 			(effects
 				(font
 					(size 1 1)
@@ -20101,7 +21270,7 @@
 			)
 		)
 		(property "Value" "Earth"
-			(at 414.02 223.52 0)
+			(at 372.11 185.42 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -20110,7 +21279,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 414.02 219.71 0)
+			(at 372.11 181.61 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -20119,7 +21288,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 414.02 219.71 0)
+			(at 372.11 181.61 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -20128,7 +21297,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 414.02 219.71 0)
+			(at 372.11 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20380,6 +21549,72 @@
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
 					(reference "C111")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "proejct_lib:Earth")
+		(at 548.64 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "910859f2-c5e3-4d6c-9a95-f26be93002ef")
+		(property "Reference" "#T#PWR0109"
+			(at 548.64 163.83 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 548.64 161.29 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 548.64 157.48 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 548.64 157.48 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 548.64 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e2146dec-e363-4e4e-b1f3-098ded3bf9f2")
+		)
+		(instances
+			(project "tac5212_audio_board_single_ended"
+				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
+					(reference "#T#PWR0109")
 					(unit 1)
 				)
 			)
@@ -22016,7 +23251,7 @@
 	)
 	(symbol
 		(lib_id "proejct_lib:Earth")
-		(at 414.02 185.42 0)
+		(at 372.11 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22024,7 +23259,7 @@
 		(dnp no)
 		(uuid "b33ad9a9-2630-48c0-a248-7d952e6d5f59")
 		(property "Reference" "#T#PWR0127"
-			(at 414.02 191.77 0)
+			(at 372.11 153.67 0)
 			(effects
 				(font
 					(size 1 1)
@@ -22033,7 +23268,7 @@
 			)
 		)
 		(property "Value" "Earth"
-			(at 414.02 189.23 0)
+			(at 372.11 151.13 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -22042,7 +23277,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 414.02 185.42 0)
+			(at 372.11 147.32 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -22051,7 +23286,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 414.02 185.42 0)
+			(at 372.11 147.32 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -22060,7 +23295,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 414.02 185.42 0)
+			(at 372.11 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23311,7 +24546,7 @@
 	)
 	(symbol
 		(lib_id "proejct_lib:via")
-		(at 406.4 116.84 0)
+		(at 370.84 92.71 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -23320,7 +24555,7 @@
 		(fields_autoplaced yes)
 		(uuid "c5080e8a-2579-443b-b75f-b373501e7371")
 		(property "Reference" "G108"
-			(at 406.7174 110.49 0)
+			(at 371.1574 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23328,7 +24563,7 @@
 			)
 		)
 		(property "Value" "VIA"
-			(at 406.7174 113.03 0)
+			(at 371.1574 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23336,7 +24571,7 @@
 			)
 		)
 		(property "Footprint" "project_fp:via"
-			(at 406.4 116.84 0)
+			(at 370.84 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23345,7 +24580,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 406.4 116.84 0)
+			(at 370.84 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23354,7 +24589,7 @@
 			)
 		)
 		(property "Description" "Small Via to be incorporated into design."
-			(at 406.4 116.84 0)
+			(at 370.84 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23363,7 +24598,7 @@
 			)
 		)
 		(property "Package / Case" "DNP"
-			(at 406.4 116.84 0)
+			(at 370.84 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23372,7 +24607,7 @@
 			)
 		)
 		(property "TAC5212EVM" "n/a"
-			(at 406.4 116.84 0)
+			(at 370.84 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23381,7 +24616,7 @@
 			)
 		)
 		(property "REPLACE FOR NEXT BUILD" ""
-			(at 406.4 116.84 0)
+			(at 370.84 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23390,7 +24625,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 406.4 116.84 0)
+			(at 370.84 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23399,7 +24634,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 406.4 116.84 0)
+			(at 370.84 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23408,7 +24643,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 406.4 116.84 0)
+			(at 370.84 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23417,7 +24652,7 @@
 			)
 		)
 		(property "mouser" ""
-			(at 406.4 116.84 0)
+			(at 370.84 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23432,6 +24667,391 @@
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
 					(reference "G108")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "proejct_lib:via")
+		(at 411.48 215.9 270)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "c78c0f31-d98c-480b-8afa-342567c088e2")
+		(property "Reference" "OUTM2"
+			(at 415.29 214.9473 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "VIA"
+			(at 415.29 217.4873 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "project_fp:via"
+			(at 411.48 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 411.48 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Small Via to be incorporated into design."
+			(at 411.48 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "DNP"
+			(at 411.48 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TAC5212EVM" "n/a"
+			(at 411.48 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REPLACE FOR NEXT BUILD" ""
+			(at 411.48 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 411.48 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 411.48 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 411.48 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 411.48 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "75cc1fb2-df70-48b6-b4b1-e80b600352da")
+		)
+		(instances
+			(project "tac5212_audio_board_single_ended"
+				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
+					(reference "OUTM2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "proejct_lib:via")
+		(at 547.37 102.87 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "c78e8c2a-de3d-4d2f-9a2d-bc8681406460")
+		(property "Reference" "G124"
+			(at 547.6874 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VIA"
+			(at 547.6874 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "project_fp:via"
+			(at 547.37 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 547.37 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Small Via to be incorporated into design."
+			(at 547.37 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "DNP"
+			(at 547.37 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TAC5212EVM" "n/a"
+			(at 547.37 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REPLACE FOR NEXT BUILD" ""
+			(at 547.37 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 547.37 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 547.37 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 547.37 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 547.37 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d078dc33-3dc4-4204-a816-fbe433e1ca07")
+		)
+		(instances
+			(project "tac5212_audio_board_single_ended"
+				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
+					(reference "G124")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "proejct_lib:via")
+		(at 544.83 125.73 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(uuid "c8d6bdc2-4bf7-4c8f-8ea8-8db3e54346bd")
+		(property "Reference" "G120"
+			(at 543.306 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VIA"
+			(at 540.004 124.714 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "project_fp:via"
+			(at 544.83 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 544.83 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Small Via to be incorporated into design."
+			(at 544.83 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "DNP"
+			(at 544.83 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TAC5212EVM" "n/a"
+			(at 544.83 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REPLACE FOR NEXT BUILD" ""
+			(at 544.83 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 544.83 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 544.83 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 544.83 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 544.83 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "205f6d92-a97d-4030-9de8-1a46f899414f")
+		)
+		(instances
+			(project "tac5212_audio_board_single_ended"
+				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
+					(reference "G120")
 					(unit 1)
 				)
 			)
@@ -24640,6 +26260,264 @@
 		)
 	)
 	(symbol
+		(lib_id "proejct_lib:via")
+		(at 544.83 158.75 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "d727b78a-db55-4762-8972-1560bd56fd2b")
+		(property "Reference" "G121"
+			(at 545.1474 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VIA"
+			(at 545.1474 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "project_fp:via"
+			(at 544.83 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 544.83 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Small Via to be incorporated into design."
+			(at 544.83 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "DNP"
+			(at 544.83 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TAC5212EVM" "n/a"
+			(at 544.83 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REPLACE FOR NEXT BUILD" ""
+			(at 544.83 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 544.83 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 544.83 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 544.83 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 544.83 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7f2bda0e-31be-4f30-b565-4d7e99da6e2d")
+		)
+		(instances
+			(project "tac5212_audio_board_single_ended"
+				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
+					(reference "G121")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "proejct_lib:via")
+		(at 411.48 146.05 270)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "d7f5fb32-5f86-4731-90b1-5f5be55665e5")
+		(property "Reference" "OUTM1"
+			(at 415.29 145.0973 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "VIA"
+			(at 415.29 147.6373 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "project_fp:via"
+			(at 411.48 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 411.48 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Small Via to be incorporated into design."
+			(at 411.48 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "DNP"
+			(at 411.48 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TAC5212EVM" "n/a"
+			(at 411.48 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REPLACE FOR NEXT BUILD" ""
+			(at 411.48 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 411.48 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 411.48 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 411.48 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 411.48 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b54e4583-fca4-4cc4-a337-24084242db7a")
+		)
+		(instances
+			(project "tac5212_audio_board_single_ended"
+				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
+					(reference "OUTM1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "proejct_lib:TLV70012_SOT23-5")
 		(at 90.17 358.14 0)
 		(unit 1)
@@ -25059,6 +26937,136 @@
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
 					(reference "#PWR0116")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "proejct_lib:via")
+		(at 444.5 411.48 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(uuid "deb4de3c-f935-4720-9ef7-7ba57ded7360")
+		(property "Reference" "INP1"
+			(at 440.69 410.5273 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "VIA"
+			(at 440.69 413.0673 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "project_fp:via"
+			(at 444.5 411.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 444.5 411.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Small Via to be incorporated into design."
+			(at 444.5 411.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "DNP"
+			(at 444.5 411.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TAC5212EVM" "n/a"
+			(at 444.5 411.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REPLACE FOR NEXT BUILD" ""
+			(at 444.5 411.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 444.5 411.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 444.5 411.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 444.5 411.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 444.5 411.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "09d11e2d-df12-4072-ac65-d19b97608d18")
+		)
+		(instances
+			(project "tac5212_audio_board_single_ended"
+				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
+					(reference "INP1")
 					(unit 1)
 				)
 			)
@@ -25953,6 +27961,72 @@
 		)
 	)
 	(symbol
+		(lib_id "proejct_lib:Earth")
+		(at 551.18 227.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ef6ff3c5-6dd9-4d47-8c45-a3d68bd9e66f")
+		(property "Reference" "#T#PWR0111"
+			(at 551.18 233.68 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 551.18 231.14 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 551.18 227.33 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 551.18 227.33 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 551.18 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9953e3d3-1801-40a5-8b6a-1cd1eeeac708")
+		)
+		(instances
+			(project "tac5212_audio_board_single_ended"
+				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
+					(reference "#T#PWR0111")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:NetTie_2")
 		(at 35.56 163.83 0)
 		(unit 1)
@@ -26497,7 +28571,7 @@
 	)
 	(symbol
 		(lib_id "proejct_lib:via")
-		(at 410.21 186.69 0)
+		(at 368.3 148.59 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -26506,7 +28580,7 @@
 		(fields_autoplaced yes)
 		(uuid "f80cd497-ba01-44c4-92ce-938d78649324")
 		(property "Reference" "G110"
-			(at 410.5274 180.34 0)
+			(at 368.6174 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26514,7 +28588,7 @@
 			)
 		)
 		(property "Value" "VIA"
-			(at 410.5274 182.88 0)
+			(at 368.6174 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26522,7 +28596,7 @@
 			)
 		)
 		(property "Footprint" "project_fp:via"
-			(at 410.21 186.69 0)
+			(at 368.3 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26531,7 +28605,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 410.21 186.69 0)
+			(at 368.3 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26540,7 +28614,7 @@
 			)
 		)
 		(property "Description" "Small Via to be incorporated into design."
-			(at 410.21 186.69 0)
+			(at 368.3 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26549,7 +28623,7 @@
 			)
 		)
 		(property "Package / Case" "DNP"
-			(at 410.21 186.69 0)
+			(at 368.3 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26558,7 +28632,7 @@
 			)
 		)
 		(property "TAC5212EVM" "n/a"
-			(at 410.21 186.69 0)
+			(at 368.3 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26567,7 +28641,7 @@
 			)
 		)
 		(property "REPLACE FOR NEXT BUILD" ""
-			(at 410.21 186.69 0)
+			(at 368.3 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26576,7 +28650,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 410.21 186.69 0)
+			(at 368.3 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26585,7 +28659,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 410.21 186.69 0)
+			(at 368.3 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26594,7 +28668,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 410.21 186.69 0)
+			(at 368.3 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26603,7 +28677,7 @@
 			)
 		)
 		(property "mouser" ""
-			(at 410.21 186.69 0)
+			(at 368.3 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27010,6 +29084,72 @@
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
 					(reference "#PWR0132")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "proejct_lib:Earth")
+		(at 548.64 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fee40cb6-bea5-4c93-8560-bbdb3c74ed39")
+		(property "Reference" "#T#PWR0108"
+			(at 548.64 130.81 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 548.64 128.27 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 548.64 124.46 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 548.64 124.46 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 548.64 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d8ca049f-b8f3-426e-9715-a5064bd4b2ec")
+		)
+		(instances
+			(project "tac5212_audio_board_single_ended"
+				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
+					(reference "#T#PWR0108")
 					(unit 1)
 				)
 			)

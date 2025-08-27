@@ -1,4 +1,4 @@
-(footprint "via"
+(footprint "SMD_ROUTING_PAD"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -128,12 +128,10 @@
 		(layer "B.SilkS")
 		(uuid "d2831222-96f6-459f-9bdb-dfa64babefc0")
 	)
-	(pad "1" thru_hole circle
+	(pad "1" smd circle
 		(at 0 0)
-		(size 0.5 0.5)
-		(drill 0.25)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
+		(size 0.25 0.25)
+		(layers "F.Cu")
 		(solder_mask_margin -1)
 		(zone_connect 2)
 		(uuid "419120bb-031d-4c5a-86ae-69651e7fc697")

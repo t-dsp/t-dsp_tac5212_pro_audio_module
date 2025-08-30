@@ -870,7 +870,7 @@
           "show": true
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Value",
           "name": "Value",
           "show": true
@@ -897,6 +897,18 @@
           "group_by": false,
           "label": "Package / Case",
           "name": "Package / Case",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "LCSC",
+          "name": "LCSC",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "LCSC NOTES",
+          "name": "LCSC NOTES",
           "show": true
         },
         {
@@ -931,12 +943,6 @@
         },
         {
           "group_by": false,
-          "label": "LCSC",
-          "name": "LCSC",
-          "show": true
-        },
-        {
-          "group_by": false,
           "label": "Manufacturer",
           "name": "Manufacturer",
           "show": false
@@ -956,10 +962,10 @@
       ],
       "filter_string": "",
       "group_symbols": true,
-      "include_excluded_from_bom": true,
+      "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "Value"
     },
     "connection_grid_size": 50.0,
     "drawing": {

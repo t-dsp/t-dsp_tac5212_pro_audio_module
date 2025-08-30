@@ -93,6 +93,7 @@
 			)
 		)
 	)
+	(solder_mask_margin -1)
 	(zone_connect 2)
 	(attr through_hole exclude_from_bom dnp)
 	(fp_circle
@@ -132,11 +133,169 @@
 		(at 0 0)
 		(size 0.5 0.5)
 		(drill 0.25)
-		(layers "*.Cu" "*.Mask")
+		(layers "*.Cu")
 		(remove_unused_layers no)
 		(solder_mask_margin -1)
 		(zone_connect 2)
 		(uuid "419120bb-031d-4c5a-86ae-69651e7fc697")
+		(padstack
+			(mode custom)
+			(layer "In1.Cu"
+				(shape circle)
+				(size 0.5 0.5)
+				(zone_connect 2)
+			)
+			(layer "In2.Cu"
+				(shape circle)
+				(size 0.5 0.5)
+				(zone_connect 2)
+			)
+			(layer "In3.Cu"
+				(shape circle)
+				(size 0.5 0.5)
+				(zone_connect 2)
+			)
+			(layer "In4.Cu"
+				(shape circle)
+				(size 0.5 0.5)
+				(zone_connect 2)
+			)
+			(layer "In5.Cu"
+				(shape circle)
+				(size 0.5 0.5)
+				(zone_connect 2)
+			)
+			(layer "In6.Cu"
+				(shape circle)
+				(size 0.5 0.5)
+				(zone_connect 2)
+			)
+			(layer "In7.Cu"
+				(shape circle)
+				(size 0.5 0.5)
+				(zone_connect 2)
+			)
+			(layer "In8.Cu"
+				(shape circle)
+				(size 0.5 0.5)
+				(zone_connect 2)
+			)
+			(layer "In9.Cu"
+				(shape circle)
+				(size 0.5 0.5)
+				(zone_connect 2)
+			)
+			(layer "In10.Cu"
+				(shape circle)
+				(size 0.5 0.5)
+				(zone_connect 2)
+			)
+			(layer "In11.Cu"
+				(shape circle)
+				(size 0.5 0.5)
+				(zone_connect 2)
+			)
+			(layer "In12.Cu"
+				(shape circle)
+				(size 0.5 0.5)
+				(zone_connect 2)
+			)
+			(layer "In13.Cu"
+				(shape circle)
+				(size 0.5 0.5)
+				(zone_connect 2)
+			)
+			(layer "In14.Cu"
+				(shape circle)
+				(size 0.5 0.5)
+				(zone_connect 2)
+			)
+			(layer "In15.Cu"
+				(shape circle)
+				(size 0.5 0.5)
+				(zone_connect 2)
+			)
+			(layer "In16.Cu"
+				(shape circle)
+				(size 0.5 0.5)
+				(zone_connect 2)
+			)
+			(layer "In17.Cu"
+				(shape circle)
+				(size 0.5 0.5)
+				(zone_connect 2)
+			)
+			(layer "In18.Cu"
+				(shape circle)
+				(size 0.5 0.5)
+				(zone_connect 2)
+			)
+			(layer "In19.Cu"
+				(shape circle)
+				(size 0.5 0.5)
+				(zone_connect 2)
+			)
+			(layer "In20.Cu"
+				(shape circle)
+				(size 0.5 0.5)
+				(zone_connect 2)
+			)
+			(layer "In21.Cu"
+				(shape circle)
+				(size 0.5 0.5)
+				(zone_connect 2)
+			)
+			(layer "In22.Cu"
+				(shape circle)
+				(size 0.5 0.5)
+				(zone_connect 2)
+			)
+			(layer "In23.Cu"
+				(shape circle)
+				(size 0.5 0.5)
+				(zone_connect 2)
+			)
+			(layer "In24.Cu"
+				(shape circle)
+				(size 0.5 0.5)
+				(zone_connect 2)
+			)
+			(layer "In25.Cu"
+				(shape circle)
+				(size 0.5 0.5)
+				(zone_connect 2)
+			)
+			(layer "In26.Cu"
+				(shape circle)
+				(size 0.5 0.5)
+				(zone_connect 2)
+			)
+			(layer "In27.Cu"
+				(shape circle)
+				(size 0.5 0.5)
+				(zone_connect 2)
+			)
+			(layer "In28.Cu"
+				(shape circle)
+				(size 0.5 0.5)
+				(zone_connect 2)
+			)
+			(layer "In29.Cu"
+				(shape circle)
+				(size 0.5 0.5)
+				(zone_connect 2)
+			)
+			(layer "In30.Cu"
+				(shape circle)
+				(size 0.5 0.5)
+				(zone_connect 2)
+			)
+			(layer "B.Cu"
+				(shape circle)
+				(size 0.5 0.5)
+				(zone_connect 2)
+			)
+		)
 	)
 	(embedded_fonts no)
 	(model "${KICAD6_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/WQFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm.wrl"

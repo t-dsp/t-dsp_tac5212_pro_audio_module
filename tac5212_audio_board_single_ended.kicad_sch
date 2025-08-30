@@ -11698,7 +11698,7 @@
 				)
 			)
 		)
-		(property "Footprint" "project_fp:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder_alt_location"
+		(property "Footprint" "project_fp:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 520.7 295.148 90)
 			(effects
 				(font
@@ -14563,7 +14563,7 @@
 				)
 			)
 		)
-		(property "Footprint" "project_fp:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder_alt_location"
+		(property "Footprint" "project_fp:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 513.08 376.428 90)
 			(effects
 				(font
@@ -14937,7 +14937,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "project_fp:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder_alt_location"
+		(property "Footprint" "project_fp:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 516.89 417.068 90)
 			(effects
 				(font
@@ -15378,7 +15378,7 @@
 				)
 			)
 		)
-		(property "Footprint" "project_fp:via"
+		(property "Footprint" "project_fp:SMD_ROUTING_PAD"
 			(at 368.3 217.17 0)
 			(effects
 				(font
@@ -16841,7 +16841,7 @@
 				)
 			)
 		)
-		(property "Footprint" "project_fp:via"
+		(property "Footprint" "project_fp:SMD_ROUTING_PAD"
 			(at 368.3 115.57 0)
 			(effects
 				(font
@@ -17477,7 +17477,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board yes)
+		(on_board no)
 		(dnp yes)
 		(uuid "645d347a-cf94-402f-a921-80e836a82b3a")
 		(property "Reference" "SCL109"
@@ -19944,7 +19944,7 @@
 				)
 			)
 		)
-		(property "Footprint" "project_fp:via"
+		(property "Footprint" "project_fp:SMD_ROUTING_PAD"
 			(at 368.3 182.88 0)
 			(effects
 				(font
@@ -21627,8 +21627,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(uuid "920023af-9ff6-442a-bd53-dc2d425821b6")
 		(property "Reference" "R128"
 			(at 61.722 343.408 90)
@@ -23709,7 +23709,7 @@
 				)
 			)
 		)
-		(property "Footprint" "project_fp:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder_alt_location"
+		(property "Footprint" "project_fp:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 515.62 329.438 90)
 			(effects
 				(font
@@ -24570,7 +24570,7 @@
 				)
 			)
 		)
-		(property "Footprint" "project_fp:via"
+		(property "Footprint" "project_fp:SMD_ROUTING_PAD"
 			(at 370.84 92.71 0)
 			(effects
 				(font
@@ -28595,7 +28595,7 @@
 				)
 			)
 		)
-		(property "Footprint" "project_fp:via"
+		(property "Footprint" "project_fp:SMD_ROUTING_PAD"
 			(at 368.3 148.59 0)
 			(effects
 				(font
@@ -28840,7 +28840,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF is this the right value?"
+		(property "Value" "0.1uF"
 			(at 65.8368 346.583 0)
 			(effects
 				(font
@@ -28849,7 +28849,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "project_fp:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "project_fp:C_0402_1005Metric"
 			(at 63.5 345.44 0)
 			(effects
 				(font
@@ -28867,7 +28867,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP, CERM, 1 uF, 35 V, +/- 10%, X7R, 0603"
+		(property "Description" "CAP, CERM, 0.1 uF, 16 V, +/- 10%, X7R, 0402"
 			(at 63.5 345.44 0)
 			(effects
 				(font
@@ -28876,7 +28876,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package / Case" "C0603"
+		(property "Package / Case" "C0402"
 			(at 63.5 345.44 0)
 			(effects
 				(font
@@ -28885,7 +28885,7 @@
 				(hide yes)
 			)
 		)
-		(property "TAC5212EVM" "C1608X7R1V105K080AC"
+		(property "TAC5212EVM" "GRM155R71C104KA88J"
 			(at 63.5 345.44 0)
 			(effects
 				(font

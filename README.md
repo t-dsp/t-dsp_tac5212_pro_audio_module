@@ -51,11 +51,13 @@ The module connects to your backplane via **2.54mm (0.1") header pins** (52 pins
 - **GPIO** (8 pins) -- additional I2C, general-purpose IO, and digital ground.
 - **Power** (8 pins) -- 5V, 3.3V, MIC_BIAS, and ground lines.
 
-![T-DSP TAC5212 Pro Audio Module Pinout](documentation/T-DSP-TAC5212-PRO-AUDIO-MODULE-PINOUT.jpg)
+![T-DSP TAC5212 Pro Audio Module Pinout](documentation/t-dsp-tac5212-pinout.jpg)
 
 ### Backplane Integration
 
 A KiCad footprint for the module is included in `/lib_fp/`, allowing you to import it directly into your own backplane PCB design. You handle the jacks, connectors, and mechanical layout on your backplane -- the module takes care of codec, filtering, and power regulation.
+
+![T-DSP TAC5212 Pro Audio Module Footprint](documentation/t-dsp-tac5212-footprint.png)
 
 **Example backplanes built with the T-DSP module:**
 
@@ -90,7 +92,7 @@ System designers only need to focus on analog signal routing. The buffered digit
 |-----------|----------|
 | `/3d_models/` | 3D models for PCB components and enclosure |
 | `/bom/` | [Interactive BOM](https://jayshoe.github.io/t-dsp_tac5212_pro_audio_module/bom/ibom.html) and bill of materials |
-| `/documentation/` | TAC5212 datasheets, [schematic PDF](documentation/T-DSP-TAC5212-PRO-AUDIO-MODULE-SCHEMATIC.pdf), and [footprint drawing](documentation/T-DSP-TAC5212-PRO-AUDIO-MODULE-FOOTPRINT.pdf) |
+| `/documentation/` | TAC5212 datasheets, [schematic PDF](documentation/t-dsp-tac5212-schematic.pdf), and [footprint drawing](documentation/t-dsp-tac5212-footprint.pdf) |
 | `/gerber/` | Manufacturing-ready Gerber output files |
 | `/lib_fp/` | Custom KiCad footprint libraries |
 | `/lib_sch/` | Custom KiCad schematic symbol libraries |

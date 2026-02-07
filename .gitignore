@@ -27,7 +27,6 @@ fp-info-cache
 # Exported BOM files
 *.xml
 *.csv
-~tac5212_audio_board_single_ended.kicad_pcb.lck
 *.lck
 *.pro
 

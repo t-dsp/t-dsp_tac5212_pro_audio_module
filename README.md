@@ -2,13 +2,16 @@
 
 **Part of the [T-DSP](https://t-dsp.com) open modular audio platform.**
 
-A compact (50mm x 34.5mm) stereo audio codec module built around the **Texas Instruments TAC5212** high-performance audio ADC.
+A compact (50mm x 34.5mm) stereo audio codec module built around the **Texas Instruments TAC5212** high-performance audio codec.
+
+![T-DSP TAC5212 Pro Audio Module - Top](documentation/t-dsp-tac5212-3d-top.png)
+![T-DSP TAC5212 Pro Audio Module - Bottom](documentation/t-dsp-tac5212-3d-bottom.png)
 
 ## About T-DSP
 
 T-DSP is an open modular audio platform designed for musicians, engineers, and developers who want powerful digital signal processing in a flexible, hackable format. Built around a high-performance Teensy microcontroller and a high-quality codec, T-DSP combines studio-quality audio with a growing library of open-source modules for mixing, synthesis, effects, and more.
 
-Whether you're building a custom digital mixer, crafting a unique instrument, or prototyping audio products, T-DSP gives you the tools to bring your ideas to life -- no proprietary systems, no licensing walls, just clean, creative freedom.
+Whether you're building a custom digital mixer, crafting a unique instrument, or prototyping audio products, T-DSP gives you the tools to bring your ideas to life.
 
 Join the community, contribute to the library, or grab a module and start patching. Learn more at [t-dsp.com](https://t-dsp.com).
 
@@ -75,7 +78,8 @@ System designers only need to focus on analog signal routing. The buffered digit
 | Directory | Contents |
 |-----------|----------|
 | `/3d_models/` | 3D models for PCB components and enclosure |
-| `/documentation/` | TAC5212 datasheets and evaluation module docs |
+| `/bom/` | [Interactive BOM](https://jayshoe.github.io/t-dsp_tac5212_pro_audio_module/bom/ibom.html) and bill of materials |
+| `/documentation/` | TAC5212 datasheets, [schematic PDF](documentation/T-DSP-TAC5212-PRO-AUDIO-MODULE-SCHEMATIC.pdf), and [footprint drawing](documentation/T-DSP-TAC5212-PRO-AUDIO-MODULE-FOOTPRINT.pdf) |
 | `/gerber/` | Manufacturing-ready Gerber output files |
 | `/lib_fp/` | Custom KiCad footprint libraries |
 | `/lib_sch/` | Custom KiCad schematic symbol libraries |

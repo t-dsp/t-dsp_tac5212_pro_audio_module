@@ -4,8 +4,10 @@
 
 A compact (50mm x 34.5mm) stereo audio codec module built around the **Texas Instruments TAC5212** high-performance audio codec.
 
-![T-DSP TAC5212 Pro Audio Module - Top](documentation/t-dsp-tac5212-3d-top.png)
-![T-DSP TAC5212 Pro Audio Module - Bottom](documentation/t-dsp-tac5212-3d-bottom.png)
+![T-DSP TAC5212 Pro Audio Module](documentation/t-dsp-tac5212-photo.png)
+
+![T-DSP TAC5212 Pro Audio Module - 3D Top](documentation/t-dsp-tac5212-3d-top.png)
+![T-DSP TAC5212 Pro Audio Module - 3D Bottom](documentation/t-dsp-tac5212-3d-bottom.png)
 
 ## About T-DSP
 
@@ -55,10 +57,12 @@ The module connects to your backplane via **2.54mm (0.1") header pins** (52 pins
 
 A KiCad footprint for the module is included in `/lib_fp/`, allowing you to import it directly into your own backplane PCB design. You handle the jacks, connectors, and mechanical layout on your backplane -- the module takes care of codec, filtering, and power regulation.
 
-**Example: T-DSP Digital Audio Backplane** *(coming soon)*
+**Example backplanes built with the T-DSP module:**
 
-![Backplane front](documentation/t-dsp-backplane-example-front.png)
-![Backplane back](documentation/t-dsp-backplane-example-back.png)
+![Backplane example - prototype](documentation/t-dsp-backplane-photo.png)
+
+![Backplane example - 3D front](documentation/t-dsp-backplane-example-front.png)
+![Backplane example - 3D back](documentation/t-dsp-backplane-example-back.png)
 
 ### Multi-Module Chaining
 
@@ -77,6 +81,8 @@ System designers only need to focus on analog signal routing. The buffered digit
 - Ferrite bead RF filtering on audio inputs
 - Solder jumpers for I2C address configuration
 - Power indicator LED
+
+![T-DSP rack prototype on the bench](documentation/t-dsp-bench-prototype.jpg)
 
 ## Project Files
 

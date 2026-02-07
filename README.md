@@ -100,6 +100,12 @@ The T-DSP platform has gone through several design iterations. The bench prototy
 | `/lib_sch/` | Custom KiCad schematic symbol libraries |
 | `/panel/` | Panelized board layouts for production |
 
+## Status
+
+This revision has not yet been built. The previous board was functional but had a few signal routing errors and needed a redesign of the analog output stage for low-impedance headphone drive. Those issues have been addressed in the current design.
+
+If you build one, we'd love to hear how it goes -- please open an issue or reach out with your findings.
+
 ## Contact
 
 For consulting, custom backplane design, or commercial licensing inquiries, reach out via [LinkedIn](https://linkedin.com/in/jayshoe).

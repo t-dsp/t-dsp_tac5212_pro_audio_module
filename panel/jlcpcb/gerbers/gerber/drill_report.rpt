@@ -1,0 +1,28 @@
+Drill report for tac5212_audio_board_single_ended.kicad_pcb
+Created on 2025-08-20T19:30:37-0400
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  In1.Cu                    in1
+    L3 :  In2.Cu                    in2
+    L4 :  B.Cu                      back
+
+
+Drill file 'tac5212_audio_board_single_ended-PTH.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.200mm  0.0079"  (36 holes)
+    T2  0.200mm  0.0079"  (22 holes)
+    T3  0.400mm  0.0157"  (2 holes)
+    T4  1.000mm  0.0394"  (48 holes)
+    T5  2.200mm  0.0866"  (4 holes)
+
+    Total plated holes count 112
+
+
+Drill file 'tac5212_audio_board_single_ended-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+
+    Total unplated holes count 0

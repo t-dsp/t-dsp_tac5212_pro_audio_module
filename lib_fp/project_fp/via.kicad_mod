@@ -1,14 +1,14 @@
 (footprint "via"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "WQFN, 24 Pin (http://www.ti.com/lit/ds/symlink/lm26480.pdf#page=39), generated with kicad-footprint-generator ipc_noLead_generator.py")
 	(property "Reference" "REF**"
 		(at 0 -3.32 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "5d8795c0-1778-4aa7-bd12-e4a0cd45dbd1")
+		(uuid "b0f6268a-8751-4a53-ac55-8d17f9c70c24")
 		(effects
 			(font
 				(size 1 1)
@@ -16,11 +16,11 @@
 			)
 		)
 	)
-	(property "Value" "Val**"
+	(property "Value" "VIA"
 		(at -0.03 -1.87 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "df61347a-618a-4cf8-a38f-7f27d8e8ba42")
+		(uuid "2901e004-5b70-43ca-9a1c-0e9cbbd3383e")
 		(effects
 			(font
 				(size 1 1)
@@ -28,25 +28,12 @@
 			)
 		)
 	)
-	(property "Footprint" "project_fp:TAC5212IRGER-24-1EP_4x4mm"
-		(at -0.08 -3.06 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "ec881e01-9755-4b50-87a0-5e7d8fac7723")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Datasheet" ""
+	(property "Datasheet" "~"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "9e4a010c-bd58-416e-abdd-d69434ffb161")
+		(uuid "4f38569f-577f-46cb-b594-a9752f79f116")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -54,12 +41,12 @@
 			)
 		)
 	)
-	(property "Description" ""
+	(property "Description" "Small Via to be incorporated into design."
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "63c2b7ed-3226-446f-87c1-4bfbecc2780b")
+		(uuid "2bf69784-286a-4488-9e6b-088d2cefcf7e")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -67,16 +54,250 @@
 			)
 		)
 	)
+	(property "Package / Case" "DNP"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cf16ba56-87cf-4642-9723-7212a4b447ea")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "TAC5212EVM" "n/a"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b0e8a764-c0d3-4215-b37f-696bdcb8aa61")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "REPLACE FOR NEXT BUILD" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "10e5e2ed-76b8-433a-b75e-0b95638fe854")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(solder_mask_margin -1)
 	(zone_connect 2)
-	(attr through_hole)
+	(attr through_hole exclude_from_bom dnp)
+	(fp_circle
+		(center 0 0)
+		(end 0.2 0.2)
+		(stroke
+			(width 0.001)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "4157bf11-d4ff-47b2-94d8-197f8059ee3e")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.2 0.2)
+		(stroke
+			(width 0.001)
+			(type solid)
+		)
+		(fill no)
+		(layer "B.SilkS")
+		(uuid "12aacc7a-c20e-446e-9447-34741d2b2e9b")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.2 0.2)
+		(stroke
+			(width 0.001)
+			(type solid)
+		)
+		(fill no)
+		(layer "B.SilkS")
+		(uuid "d2831222-96f6-459f-9bdb-dfa64babefc0")
+	)
 	(pad "1" thru_hole circle
 		(at 0 0)
 		(size 0.5 0.5)
-		(drill 0.2)
-		(layers "*.Cu" "Dwgs.User")
+		(drill 0.25)
+		(layers "*.Cu")
 		(remove_unused_layers no)
-		(uuid "74a52199-a087-4cf9-abfe-bcf93379b9f5")
+		(solder_mask_margin -1)
+		(zone_connect 2)
+		(uuid "419120bb-031d-4c5a-86ae-69651e7fc697")
+		(padstack
+			(mode custom)
+			(layer "In1.Cu"
+				(shape circle)
+				(size 0.5 0.5)
+				(zone_connect 2)
+			)
+			(layer "In2.Cu"
+				(shape circle)
+				(size 0.5 0.5)
+				(zone_connect 2)
+			)
+			(layer "In3.Cu"
+				(shape circle)
+				(size 0.5 0.5)
+				(zone_connect 2)
+			)
+			(layer "In4.Cu"
+				(shape circle)
+				(size 0.5 0.5)
+				(zone_connect 2)
+			)
+			(layer "In5.Cu"
+				(shape circle)
+				(size 0.5 0.5)
+				(zone_connect 2)
+			)
+			(layer "In6.Cu"
+				(shape circle)
+				(size 0.5 0.5)
+				(zone_connect 2)
+			)
+			(layer "In7.Cu"
+				(shape circle)
+				(size 0.5 0.5)
+				(zone_connect 2)
+			)
+			(layer "In8.Cu"
+				(shape circle)
+				(size 0.5 0.5)
+				(zone_connect 2)
+			)
+			(layer "In9.Cu"
+				(shape circle)
+				(size 0.5 0.5)
+				(zone_connect 2)
+			)
+			(layer "In10.Cu"
+				(shape circle)
+				(size 0.5 0.5)
+				(zone_connect 2)
+			)
+			(layer "In11.Cu"
+				(shape circle)
+				(size 0.5 0.5)
+				(zone_connect 2)
+			)
+			(layer "In12.Cu"
+				(shape circle)
+				(size 0.5 0.5)
+				(zone_connect 2)
+			)
+			(layer "In13.Cu"
+				(shape circle)
+				(size 0.5 0.5)
+				(zone_connect 2)
+			)
+			(layer "In14.Cu"
+				(shape circle)
+				(size 0.5 0.5)
+				(zone_connect 2)
+			)
+			(layer "In15.Cu"
+				(shape circle)
+				(size 0.5 0.5)
+				(zone_connect 2)
+			)
+			(layer "In16.Cu"
+				(shape circle)
+				(size 0.5 0.5)
+				(zone_connect 2)
+			)
+			(layer "In17.Cu"
+				(shape circle)
+				(size 0.5 0.5)
+				(zone_connect 2)
+			)
+			(layer "In18.Cu"
+				(shape circle)
+				(size 0.5 0.5)
+				(zone_connect 2)
+			)
+			(layer "In19.Cu"
+				(shape circle)
+				(size 0.5 0.5)
+				(zone_connect 2)
+			)
+			(layer "In20.Cu"
+				(shape circle)
+				(size 0.5 0.5)
+				(zone_connect 2)
+			)
+			(layer "In21.Cu"
+				(shape circle)
+				(size 0.5 0.5)
+				(zone_connect 2)
+			)
+			(layer "In22.Cu"
+				(shape circle)
+				(size 0.5 0.5)
+				(zone_connect 2)
+			)
+			(layer "In23.Cu"
+				(shape circle)
+				(size 0.5 0.5)
+				(zone_connect 2)
+			)
+			(layer "In24.Cu"
+				(shape circle)
+				(size 0.5 0.5)
+				(zone_connect 2)
+			)
+			(layer "In25.Cu"
+				(shape circle)
+				(size 0.5 0.5)
+				(zone_connect 2)
+			)
+			(layer "In26.Cu"
+				(shape circle)
+				(size 0.5 0.5)
+				(zone_connect 2)
+			)
+			(layer "In27.Cu"
+				(shape circle)
+				(size 0.5 0.5)
+				(zone_connect 2)
+			)
+			(layer "In28.Cu"
+				(shape circle)
+				(size 0.5 0.5)
+				(zone_connect 2)
+			)
+			(layer "In29.Cu"
+				(shape circle)
+				(size 0.5 0.5)
+				(zone_connect 2)
+			)
+			(layer "In30.Cu"
+				(shape circle)
+				(size 0.5 0.5)
+				(zone_connect 2)
+			)
+			(layer "B.Cu"
+				(shape circle)
+				(size 0.5 0.5)
+				(zone_connect 2)
+			)
+		)
 	)
+	(embedded_fonts no)
 	(model "${KICAD6_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/WQFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm.wrl"
 		(offset
 			(xyz 0 0 0)

@@ -1,0 +1,25 @@
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,9.0.4*
+G04 #@! TF.CreationDate,2025-08-20T19:30:37-04:00*
+G04 #@! TF.ProjectId,tac5212_audio_board_single_ended,74616335-3231-4325-9f61-7564696f5f62,rev?*
+G04 #@! TF.SameCoordinates,Original*
+G04 #@! TF.FileFunction,Profile,NP*
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 9.0.4) date 2025-08-20 19:30:37*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+G04 #@! TA.AperFunction,Profile*
+%ADD10C,0.050000*%
+G04 #@! TD*
+G04 APERTURE END LIST*
+G04 #@! TO.C,board_outline108*
+D10*
+X-1967500Y24655000D02*
+X40032500Y24655000D01*
+X40032500Y-1805000D01*
+X-1967500Y-1805000D01*
+X-1967500Y24655000D01*
+G04 #@! TD*
+M02*

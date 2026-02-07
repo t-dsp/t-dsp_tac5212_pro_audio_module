@@ -1,0 +1,151 @@
+(footprint "SMD_ROUTING_PAD"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "WQFN, 24 Pin (http://www.ti.com/lit/ds/symlink/lm26480.pdf#page=39), generated with kicad-footprint-generator ipc_noLead_generator.py")
+	(property "Reference" "REF**"
+		(at 0 -3.32 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "b0f6268a-8751-4a53-ac55-8d17f9c70c24")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "VIA"
+		(at -0.03 -1.87 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2901e004-5b70-43ca-9a1c-0e9cbbd3383e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "~"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4f38569f-577f-46cb-b594-a9752f79f116")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Small Via to be incorporated into design."
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2bf69784-286a-4488-9e6b-088d2cefcf7e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Package / Case" "DNP"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cf16ba56-87cf-4642-9723-7212a4b447ea")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "TAC5212EVM" "n/a"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b0e8a764-c0d3-4215-b37f-696bdcb8aa61")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "REPLACE FOR NEXT BUILD" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "10e5e2ed-76b8-433a-b75e-0b95638fe854")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(zone_connect 2)
+	(attr smd exclude_from_bom dnp)
+	(fp_circle
+		(center 0 0)
+		(end 0.2 0.2)
+		(stroke
+			(width 0.001)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "4157bf11-d4ff-47b2-94d8-197f8059ee3e")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.2 0.2)
+		(stroke
+			(width 0.001)
+			(type solid)
+		)
+		(fill no)
+		(layer "B.SilkS")
+		(uuid "12aacc7a-c20e-446e-9447-34741d2b2e9b")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.2 0.2)
+		(stroke
+			(width 0.001)
+			(type solid)
+		)
+		(fill no)
+		(layer "B.SilkS")
+		(uuid "d2831222-96f6-459f-9bdb-dfa64babefc0")
+	)
+	(pad "1" smd circle
+		(at 0 0)
+		(size 0.25 0.25)
+		(layers "F.Cu")
+		(solder_mask_margin -1)
+		(zone_connect 2)
+		(uuid "419120bb-031d-4c5a-86ae-69651e7fc697")
+	)
+	(embedded_fonts no)
+	(model "${KICAD6_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/WQFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

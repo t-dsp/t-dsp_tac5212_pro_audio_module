@@ -6,4 +6,5 @@
   (lib (name "project_lib_3105")(type "KiCad")(uri "${KIPRJMOD}/lib_sch/project_lib_3105.kicad_sym")(options "")(descr ""))
   (lib (name "project_lib_tac5212")(type "KiCad")(uri "${KIPRJMOD}/lib_sch/project_lib_tac5212.kicad_sym")(options "")(descr ""))
   (lib (name "proejct_lib")(type "KiCad")(uri "${KIPRJMOD}/lib_sch/proejct_lib.kicad_sym")(options "")(descr ""))
+  (lib (name "SN74LVC1G66DBVR")(type "KiCad")(uri "${KIPRJMOD}/lib_sch/SN74LVC1G66DBVR.kicad_sym")(options "")(descr ""))
 )

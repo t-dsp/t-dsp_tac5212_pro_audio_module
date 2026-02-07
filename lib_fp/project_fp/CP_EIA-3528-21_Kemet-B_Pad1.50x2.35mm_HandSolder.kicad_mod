@@ -1,14 +1,14 @@
 (footprint "CP_EIA-3528-21_Kemet-B_Pad1.50x2.35mm_HandSolder"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Tantalum Capacitor SMD Kemet-B (3528-21 Metric), IPC_7351 nominal, (Body size from: http://www.kemet.com/Lists/ProductCatalog/Attachments/253/KEM_TC101_STD.pdf), generated with kicad-footprint-generator")
 	(tags "capacitor tantalum")
 	(property "Reference" "REF**"
-		(at 0 -2.35 180)
+		(at 0 -2.35 0)
 		(layer "F.SilkS")
-		(uuid "d3fe554a-a5b8-4682-a20a-88806ee4cda2")
+		(uuid "f4361efc-3707-4b09-ae18-c1aec42fc4a9")
 		(effects
 			(font
 				(size 1 1)
@@ -16,10 +16,10 @@
 			)
 		)
 	)
-	(property "Value" "47UF CAP CER 6.3V X5R 1210 - 47uF Radial"
-		(at 0 2.35 180)
+	(property "Value" "47uF"
+		(at 0 2.35 0)
 		(layer "F.Fab")
-		(uuid "c57c7451-23dc-4c67-959a-92409c4e42e1")
+		(uuid "e62ed753-5a40-4b5f-8056-a9b6a2e77147")
 		(effects
 			(font
 				(size 1 1)
@@ -27,95 +27,63 @@
 			)
 		)
 	)
-	(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B_Pad1.50x2.35mm_HandSolder"
+	(property "Datasheet" "~"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "837bd32b-3e48-467a-92e7-08eaa3c473c5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "CAP, TA, 47 uF, 10 V, +/- 10%, 0.5 ohm, SMD"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9a7b0f92-8bdd-473e-9cbc-5e395e8d615c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Package / Case" "3528-21"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c087e96c-966a-4951-a989-23a19e601920")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "TAC5212EVM" "TPSB476K010R0500"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "54524e56-e716-47ee-8b9c-df26b2f9e904")
+		(uuid "e6280137-ed7a-46dd-8ca1-9cc3e37be686")
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1 1)
+				(thickness 0.15)
 			)
 		)
 	)
-	(property "Datasheet" ""
+	(property "REPLACE FOR NEXT BUILD" ""
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "647cb413-dedf-4680-9884-fae19174fe3d")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
-	(property "Description" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "13787380-6ba8-41e2-b26f-b73794484caa")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
-	(property "Digikey" ""
-		(at 0 0 -90)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "ecf155b4-6a8c-4c4f-bf8b-81dca925bb9c")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Manufacturer" "Wurth Elektronik"
-		(at 0 0 -90)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "88483a1e-2105-493f-944c-a55f574c38f4")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Manufacturer_Part_Number" "860020472006"
-		(at 0 0 -90)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "634ef989-6fc3-4814-99c3-4391e13954b3")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Package / Case" "through-5mm"
-		(at 0 0 -90)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "f19843b7-0746-46fc-a26a-504da47ad96c")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "mouser" "710-860020472006"
-		(at 0 0 -90)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "aaa84c35-d863-4902-b25d-a4b2923ee30a")
+		(uuid "b924fde0-91ec-4022-9d11-6d7c5338ab54")
 		(effects
 			(font
 				(size 1 1)
@@ -125,129 +93,129 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -2.635 -1.51)
+		(start 1.75 1.51)
 		(end -2.635 1.51)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "5c340e16-503a-493b-8222-612743abaf95")
+		(uuid "c57b412d-029f-4ff4-a716-1dc047ac2f5a")
 	)
 	(fp_line
 		(start -2.635 1.51)
-		(end 1.75 1.51)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "35740d11-cfe2-44ec-8231-029f4a99f63d")
-	)
-	(fp_line
-		(start 1.75 -1.51)
 		(end -2.635 -1.51)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "b2e335d6-4425-413a-9c43-042d3149d02c")
+		(uuid "8e3e903e-1976-4996-8c3d-e7124396ca8d")
 	)
 	(fp_line
-		(start -2.62 -1.65)
+		(start -2.635 -1.51)
+		(end 1.75 -1.51)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "86280dd0-baa9-4c34-ac00-64925f4e5fd8")
+	)
+	(fp_line
+		(start 2.62 1.65)
 		(end 2.62 -1.65)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "d6b0923d-4d3d-4739-b54c-34e06a9ec922")
+		(uuid "1e1d04fc-bc81-488e-b865-ca2748b6cb6a")
 	)
 	(fp_line
-		(start -2.62 1.65)
+		(start 2.62 -1.65)
 		(end -2.62 -1.65)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "2ffbe890-de92-4bbd-8ea7-ae3d1d665a68")
+		(uuid "536e34eb-7263-4f33-acc8-a607e50c2940")
 	)
 	(fp_line
-		(start 2.62 -1.65)
+		(start -2.62 1.65)
 		(end 2.62 1.65)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "1ede14f4-d1f6-4716-85d7-f3cbaba5e826")
+		(uuid "0967ede3-12e6-4288-8e61-a32035dc1c35")
 	)
 	(fp_line
-		(start 2.62 1.65)
+		(start -2.62 -1.65)
 		(end -2.62 1.65)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "340bf2b3-2a7a-45a9-84b6-0f5c0abba889")
+		(uuid "f4859801-7ef5-4f26-8db6-6987bedd31a6")
 	)
 	(fp_line
-		(start -1.75 -0.7)
+		(start 1.75 1.4)
 		(end -1.75 1.4)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "7ea03d9f-9dfe-4eac-9239-d6d97f684477")
+		(uuid "cc043a07-62e4-4ec8-807f-f3d448cfb4c3")
 	)
 	(fp_line
-		(start -1.75 1.4)
+		(start 1.75 -1.4)
 		(end 1.75 1.4)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "7c2e3b42-974b-4a4b-9951-835744562c8a")
+		(uuid "1fdc9337-a7b1-4127-8cb1-7015b0634c83")
 	)
 	(fp_line
 		(start -1.05 -1.4)
-		(end -1.75 -0.7)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "aa72061c-4296-4740-b279-4c7f49a9f5c4")
-	)
-	(fp_line
-		(start 1.75 -1.4)
-		(end -1.05 -1.4)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "ef02cbf6-53db-48bc-8940-2518b39f90c6")
-	)
-	(fp_line
-		(start 1.75 1.4)
 		(end 1.75 -1.4)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "58d54ebe-cc61-43f5-b863-c22858b7c16b")
+		(uuid "4903772b-b04c-4444-9842-fa97ce57b26c")
+	)
+	(fp_line
+		(start -1.75 1.4)
+		(end -1.75 -0.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2e27ef2d-f056-4f2e-8bf8-7f8f5d149037")
+	)
+	(fp_line
+		(start -1.75 -0.7)
+		(end -1.05 -1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b7599391-f37e-40e4-9054-5493d5a87cef")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 0 180)
+		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "6e8a2452-cc32-4e48-9f16-45aad207bb00")
+		(uuid "6a214962-5047-41da-8dbb-843ff45fefe5")
 		(effects
 			(font
 				(size 0.88 0.88)
@@ -258,17 +226,18 @@
 	(pad "1" smd roundrect
 		(at -1.625 0)
 		(size 1.5 2.35)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.166667)
-		(uuid "e8c64302-cfc3-4feb-9986-55c5bb6a7144")
+		(uuid "31d934fd-3a5e-40ad-8359-43eb23622b30")
 	)
 	(pad "2" smd roundrect
 		(at 1.625 0)
 		(size 1.5 2.35)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.166667)
-		(uuid "b616ec6d-95ff-4d73-a1e7-b37990be6654")
+		(uuid "c8f649c9-b8a6-4800-a4e9-6b161f345301")
 	)
+	(embedded_fonts no)
 	(model "${KICAD8_3DMODEL_DIR}/Capacitor_Tantalum_SMD.3dshapes/CP_EIA-3528-21_Kemet-B.wrl"
 		(offset
 			(xyz 0 0 0)

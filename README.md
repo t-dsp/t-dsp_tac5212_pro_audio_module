@@ -82,7 +82,7 @@ System designers only need to focus on analog signal routing. The buffered digit
 - Solder jumpers for I2C address configuration
 - Power indicator LED
 
-![T-DSP rack prototype on the bench](documentation/t-dsp-bench-prototype.jpg)
+![T-DSP platform prototype on the bench](documentation/t-dsp-bench-prototype.jpg)
 
 ## Project Files
 

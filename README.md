@@ -14,7 +14,7 @@ Join the community, contribute to the library, or grab a module and start patchi
 
 ## Overview
 
-This codec module provides stereo ADC and DAC conversion and is one of the core building blocks of the T-DSP platform. It connects to backplanes and other modules via a 20-pin ribbon connector carrying digital audio, control, and power lines, allowing flexible system configurations.
+This codec module provides stereo ADC and DAC conversion and is one of the core building blocks of the T-DSP platform. It is designed as a **chip-on-board module** -- a complete, self-contained audio codec that solders directly onto a user-designed backplane PCB, just like any other component. A KiCad footprint is provided so you can drop the module into your own backplane design, add whatever jacks and connectors your application needs, and build a custom audio device without dealing with codec layout or analog design.
 
 ## Audio Capabilities
 
@@ -39,16 +39,27 @@ This codec module provides stereo ADC and DAC conversion and is one of the core 
 
 ## Modular Architecture
 
-The board uses castellated edge pads (52 pins total) organized into functional groups:
+The module connects to your backplane via **2.54mm (0.1") header pins** (52 pins total), organized into functional groups. Headers can be male/female for a removable connection, or soldered permanently with straight pins:
 
-- **DSP IO** (20 pins) -- digital audio (I2S), I2C control, MCLK, and power. Available as a 20-pin ribbon header for easy backplane connection via standard ribbon cable.
+- **DSP IO** (20 pins) -- digital audio (I2S), I2C control, MCLK, and power. Also available as a 20-pin ribbon header for off-board connection via standard ribbon cable.
 - **Analog IO** (16 pins) -- stereo input and output pairs with analog ground references.
 - **GPIO** (8 pins) -- additional I2C, general-purpose IO, and digital ground.
 - **Power** (8 pins) -- 5V, 3.3V, MIC_BIAS, and ground lines.
 
 ![T-DSP TAC5212 Pro Audio Module Pinout](documentation/T-DSP-TAC5212-PRO-AUDIO-MODULE-PINOUT.jpg)
 
-Because the digital signals are buffered on each module, system designers only need to focus on analog signal routing. The digital bus can be daisy-chained module-to-module using simple ribbon cables or board traces, works reliably over longer distances, and supports many modules on a single backplane.
+### Backplane Integration
+
+A KiCad footprint for the module is included in `/lib_fp/`, allowing you to import it directly into your own backplane PCB design. You handle the jacks, connectors, and mechanical layout on your backplane -- the module takes care of codec, filtering, and power regulation.
+
+### Multi-Module Chaining
+
+Because the digital outputs are buffered on each module, multiple modules can run together on the same digital bus. You can daisy-chain modules in two ways:
+
+- **On the backplane** -- route the digital bus as board traces between multiple module footprints.
+- **Via ribbon cable** -- use a ribbon cable with multiple taps to connect up to 4 modules per chain.
+
+System designers only need to focus on analog signal routing. The buffered digital bus works reliably over longer distances and across many modules.
 
 ## On-Board Circuitry
 

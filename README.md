@@ -84,7 +84,9 @@ System designers only need to focus on analog signal routing. The buffered digit
 - Solder jumpers for I2C address configuration
 - Power indicator LED
 
-![T-DSP platform prototype on the bench](documentation/t-dsp-bench-prototype.jpg)
+The T-DSP platform has gone through several design iterations. The bench prototype below is from an earlier version of the project -- a different module architecture that helped shape the current design.
+
+![Earlier T-DSP prototype on the bench](documentation/t-dsp-bench-prototype.jpg)
 
 ## Project Files
 

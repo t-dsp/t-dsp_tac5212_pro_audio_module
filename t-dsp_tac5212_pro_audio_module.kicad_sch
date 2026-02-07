@@ -5611,7 +5611,7 @@
 		)
 		(uuid "7eb562c8-492c-4cf1-ac22-bfd89b85f4af")
 	)
-	(text "TAC5212 AUDIO BREAKOUT MODULE"
+	(text "T-DSP TAC5212 Pro Audio Module"
 		(exclude_from_sim no)
 		(at 39.37 37.084 0)
 		(effects

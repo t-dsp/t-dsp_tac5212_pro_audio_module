@@ -55,6 +55,11 @@ The module connects to your backplane via **2.54mm (0.1") header pins** (52 pins
 
 A KiCad footprint for the module is included in `/lib_fp/`, allowing you to import it directly into your own backplane PCB design. You handle the jacks, connectors, and mechanical layout on your backplane -- the module takes care of codec, filtering, and power regulation.
 
+**Example: T-DSP Digital Audio Backplane** *(coming soon)*
+
+![Backplane front](documentation/t-dsp-backplane-example-front.png)
+![Backplane back](documentation/t-dsp-backplane-example-back.png)
+
 ### Multi-Module Chaining
 
 Because the digital outputs are buffered on each module, multiple modules can run together on the same digital bus. You can daisy-chain modules in two ways:

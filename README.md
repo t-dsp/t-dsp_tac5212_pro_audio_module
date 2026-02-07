@@ -11,7 +11,7 @@ A compact (50mm x 34.5mm) stereo audio codec module built around the **Texas Ins
 
 ## About T-DSP
 
-T-DSP is an open modular audio platform designed for musicians, engineers, and developers who want powerful digital signal processing in a flexible, hackable format. Built around a high-performance Teensy microcontroller and a high-quality codec, T-DSP combines studio-quality audio with a growing library of open-source modules for mixing, synthesis, effects, and more.
+T-DSP is an open modular audio platform designed for musicians, engineers, and developers who want powerful digital signal processing in a flexible, hackable format. Built around the [Teensy](https://www.pjrc.com/teensy/) microcontroller and the [Teensy Audio Library](https://www.pjrc.com/teensy/td_libs_Audio.html), T-DSP combines studio-quality audio with a growing library of open-source modules for mixing, synthesis, effects, and more.
 
 Whether you're building a custom digital mixer, crafting a unique instrument, or prototyping audio products, T-DSP gives you the tools to bring your ideas to life.
 
@@ -41,6 +41,8 @@ This codec module provides stereo ADC and DAC conversion and is one of the core 
 - **I2S/PCM** audio data (DIN, DOUT, BCLK, LRCK, MCLK)
 - **I2C** control bus for codec register configuration
 - **GPIO** pins for additional control and sensing
+
+The T-DSP platform is developed with [Teensy](https://www.pjrc.com/teensy/) and the [Teensy Audio Library](https://www.pjrc.com/teensy/td_libs_Audio.html), but the module uses standard I2S and I2C interfaces and can work with any compatible microcontroller or DSP platform.
 
 ## Modular Architecture
 

@@ -96,7 +96,7 @@ The T-DSP platform has gone through several design iterations. The bench prototy
 |-----------|----------|
 | `/3d_models/` | 3D models for PCB components and enclosure |
 | `/bom/` | [Interactive BOM](https://jayshoe.github.io/t-dsp_tac5212_pro_audio_module/bom/ibom.html) and bill of materials |
-| `/documentation/` | TAC5212 datasheets, [schematic PDF](documentation/t-dsp-tac5212-schematic.pdf), and [footprint drawing](documentation/t-dsp-tac5212-footprint.pdf) |
+| `/documentation/` | TAC5212 datasheets, [schematic PDF](documentation/t-dsp-tac5212-schematic.pdf), and [footprint drawing](documentation/t-dsp-tac5212-footprint.pdf). View online: [schematic](https://kicanvas.org/?github=https://github.com/t-dsp/t-dsp_tac5212_pro_audio_module/blob/main/t-dsp_tac5212_pro_audio_module.kicad_sch) and [PCB layout](https://kicanvas.org/?github=https://github.com/t-dsp/t-dsp_tac5212_pro_audio_module/blob/main/t-dsp_tac5212_pro_audio_module.kicad_pcb) via KiCanvas |
 | `/gerber/` | Manufacturing-ready Gerber output files |
 | `/lib_fp/` | Custom KiCad footprint libraries |
 | `/lib_sch/` | Custom KiCad schematic symbol libraries |

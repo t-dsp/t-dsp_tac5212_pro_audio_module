@@ -25,10 +25,10 @@ This codec module provides stereo ADC and DAC conversion and is one of the core 
 
 ### Inputs (2 differential pairs)
 - Line-level (consumer -10dBV or professional +4dBu)
-- Instrument-level (guitar/bass)
+- Instrument-level (guitar/bass) with external preamp/buffer (preamp and buffer modules are on the T-DSP project roadmap)
 - Microphone (dynamic, with up to 12dB analog channel gain and additional digital gain)
 - Programmable input impedance (5k/10k/40k ohm), DC-coupled. Optional 100k ohm bias resistors on board.
-- Input voltage range: +/-5V max
+- 2 VRMS full-scale differential input
 
 ### Outputs (2 differential pairs)
 - Headphone drive (16-300 ohm, 62.5mW @ 16 ohm, ~31mW @ 32 ohm)

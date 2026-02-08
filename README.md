@@ -23,18 +23,18 @@ This codec module provides stereo ADC and DAC conversion and is one of the core 
 
 ## Audio Capabilities
 
-### Inputs (2 stereo channels)
+### Inputs (2 differential pairs)
 - Line-level (consumer -10dBV or professional +4dBu)
 - Instrument-level (guitar/bass)
-- Microphone (dynamic with up to 60dB internal gain)
-- 100k ohm input impedance, DC-coupled
+- Microphone (dynamic, with up to 12dB analog channel gain and additional digital gain)
+- Programmable input impedance (5k/10k/40k ohm), DC-coupled. Optional 100k ohm bias resistors on board.
 - Input voltage range: +/-5V max
 
-### Outputs (2 stereo channels)
-- Headphone drive (16-300 ohm, ~50mW @ 32 ohm)
+### Outputs (2 differential pairs)
+- Headphone drive (16-300 ohm, 62.5mW @ 16 ohm, ~31mW @ 32 ohm)
 - Consumer line out (-10dBV)
 - Professional balanced output (+4dBu)
-- 10 ohm output impedance, +/-3.3V output swing
+- 10 ohm output impedance, 2 VRMS differential output
 
 ## Digital Interface
 

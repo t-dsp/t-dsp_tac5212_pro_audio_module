@@ -5,6 +5,13 @@
 kibot:
   version: 1
 
+global:
+  # Write resolved text variables into the PCB's cache so ${REVISION} renders
+  # on silkscreen. Side effect: modifies the PCB file during build. In CI this
+  # is harmless (file is discarded). Locally, run: git checkout -- *.kicad_pcb
+  invalidate_pcb_text_cache: 'no'
+  update_pcb_text_cache: 'yes'
+
 preflight:
   set_text_variables:
     - name: REVISION

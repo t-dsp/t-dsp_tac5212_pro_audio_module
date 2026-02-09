@@ -1775,7 +1775,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SOT?23*"
+			(property "ki_fp_filters" "SOT?23* SC?70* SOT-353*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1951,7 +1951,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Connector*:*_2x??_*"
+			(property "ki_fp_filters" "VQFN*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2583,7 +2583,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Connector*:*_2x??_*"
+			(property "ki_fp_filters" "VQFN*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -29679,7 +29679,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "d367cfba-26e9-491e-9e4e-8e3f63954153")
-		(property "Reference" "5V108"
+		(property "Reference" "J5V108"
 			(at 50.546 223.52 0)
 			(effects
 				(font
@@ -29812,7 +29812,7 @@
 		(instances
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "5V108")
+					(reference "J5V108")
 					(unit 1)
 				)
 			)
@@ -29977,7 +29977,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "d518a76d-5df6-4e5c-ae14-fe8c7b1bdf42")
-		(property "Reference" "3V108"
+		(property "Reference" "J3V108"
 			(at 116.84 360.807 0)
 			(effects
 				(font
@@ -30110,7 +30110,7 @@
 		(instances
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
-					(reference "3V108")
+					(reference "J3V108")
 					(unit 1)
 				)
 			)

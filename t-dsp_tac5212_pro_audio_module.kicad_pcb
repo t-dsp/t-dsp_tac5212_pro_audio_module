@@ -219,7 +219,7 @@
 	(net 67 "Net-(TAC5212-DOUT)")
 	(net 68 "Net-(TAC5212-DIN)")
 	(net 69 "Net-(TAC5212-BCLK)")
-	(net 70 "Net-(5V108-Pad2)")
+	(net 70 "Net-(J5V108-Pad2)")
 	(footprint "project_fp:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "039a1c82-c1bf-4304-bca1-ee771257786d")
@@ -1964,7 +1964,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 70 "Net-(5V108-Pad2)")
+			(net 70 "Net-(J5V108-Pad2)")
 			(pinfunction "5V")
 			(pintype "passive")
 			(uuid "e8143e53-64a6-4cda-b4dd-6aeb884ca2cc")
@@ -6329,7 +6329,7 @@
 		(at 125 116.5 -90)
 		(descr "net tie")
 		(tags "net tie")
-		(property "Reference" "3V108"
+		(property "Reference" "J3V108"
 			(at 0.5 1 90)
 			(layer "F.SilkS")
 			(uuid "f48da036-0bdb-4c36-b0cb-bc15ee2fc15d")
@@ -6860,7 +6860,7 @@
 				)
 			)
 		)
-		(property ki_fp_filters "SOT?23*")
+		(property ki_fp_filters "SOT?23* SC?70* SOT-353*")
 		(path "/1792e624-bf86-4447-9b59-761502973174")
 		(sheetname "/")
 		(sheetfile "t-dsp_tac5212_pro_audio_module.kicad_sch")
@@ -9685,7 +9685,7 @@
 				)
 			)
 		)
-		(property ki_fp_filters "Connector*:*_2x??_*")
+		(property ki_fp_filters "VQFN*")
 		(path "/ec219fb4-6577-4da0-82b6-5187992ee125")
 		(sheetname "/")
 		(sheetfile "t-dsp_tac5212_pro_audio_module.kicad_sch")
@@ -11362,7 +11362,7 @@
 		(at 92.9 122.5 180)
 		(descr "net tie")
 		(tags "net tie")
-		(property "Reference" "5V108"
+		(property "Reference" "J5V108"
 			(at 0.5 1 180)
 			(layer "F.SilkS")
 			(uuid "71e19a38-ecdd-4728-9bdb-a717073edbfe")
@@ -11593,7 +11593,7 @@
 			(at 0.574987 -0.000001 180)
 			(size 0.954 1)
 			(layers "F.Cu")
-			(net 70 "Net-(5V108-Pad2)")
+			(net 70 "Net-(J5V108-Pad2)")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "180c417e-0bfc-477f-9884-99ac3bfe351e")

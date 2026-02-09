@@ -1023,7 +1023,7 @@
 					(hide yes)
 				)
 			)
-			(property "Package / Case" "1206(CHECKME)"
+			(property "Package / Case" "0805"
 				(at 0 0 0)
 				(effects
 					(font
@@ -16335,7 +16335,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package / Case" "1206(CHECKME)"
+		(property "Package / Case" "0805"
 			(at 139.7 529.59 0)
 			(effects
 				(font
@@ -20624,7 +20624,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "MISMATCH FOOTPRINT  RES, 22.0 k, 0.1%, 0.1 W, 0603"
+		(property "Description" "RES, 22.0 k, 0.1%, 0.1 W, 0402"
 			(at 91.44 168.91 0)
 			(effects
 				(font
@@ -21630,7 +21630,7 @@
 				(hide yes)
 			)
 		)
-		(property "TAC5212EVM" "RC0402FR-07100KL"
+		(property "TAC5212EVM" "RC0402FR-072K21L"
 			(at 130.81 528.32 0)
 			(effects
 				(font
@@ -21639,7 +21639,7 @@
 				(hide yes)
 			)
 		)
-		(property "REPLACE FOR NEXT BUILD" "RC0402FR-072K21L"
+		(property "REPLACE FOR NEXT BUILD" ""
 			(at 130.81 528.32 0)
 			(effects
 				(font
@@ -21648,7 +21648,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C60491"
+		(property "LCSC" "C138019"
 			(at 130.81 528.32 0)
 			(effects
 				(font
@@ -21666,7 +21666,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_MPN" "RC0402FR-07100KL"
+		(property "LCSC_MPN" "RC0402FR-072K21L"
 			(at -69.85 179.07 0)
 			(effects
 				(font
@@ -22699,7 +22699,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 27 ohm 1% 1/8W 0402"
+		(property "Description" "RES SMD 27 ohm 1/10W 0402"
 			(at 146.05 450.85 0)
 			(effects
 				(font
@@ -23002,7 +23002,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "MISMATCH FOOTPRINT -RES, 4.7 k, 5%, 0.1 W, AEC-Q200 Grade 0, 0603"
+		(property "Description" "RES, 4.7 k, 5%, 0.1 W, 0402"
 			(at 91.44 177.8 0)
 			(effects
 				(font
@@ -28311,7 +28311,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "MISMATCH FOOTPRINT -RES, 4.7 k, 5%, 0.1 W, AEC-Q200 Grade 0, 0603"
+		(property "Description" "RES, 4.7 k, 5%, 0.1 W, 0402"
 			(at 91.44 200.66 0)
 			(effects
 				(font

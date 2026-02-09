@@ -7431,7 +7431,7 @@
 				)
 			)
 		)
-		(property "TAC5212EVM" "RC0402FR-07100KL"
+		(property "TAC5212EVM" "RC0402FR-072K21L"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7444,7 +7444,7 @@
 				)
 			)
 		)
-		(property "REPLACE FOR NEXT BUILD" "RC0402FR-072K21L"
+		(property "REPLACE FOR NEXT BUILD" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7457,7 +7457,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C60491"
+		(property "LCSC" "C138019"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9233,7 +9233,7 @@
 				)
 			)
 		)
-		(property "Package / Case" "1206(CHECKME)"
+		(property "Package / Case" "0805"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11654,7 +11654,7 @@
 				)
 			)
 		)
-		(property "Package / Case" "C0603"
+		(property "Package / Case" "C0402"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11946,7 +11946,7 @@
 				)
 			)
 		)
-		(property "Description" "MISMATCH FOOTPRINT -RES, 4.7 k, 5%, 0.1 W, AEC-Q200 Grade 0, 0603"
+		(property "Description" "RES, 4.7 k, 5%, 0.1 W, 0402"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12729,7 +12729,7 @@
 				)
 			)
 		)
-		(property "Description" "MISMATCH FOOTPRINT -RES, 4.7 k, 5%, 0.1 W, AEC-Q200 Grade 0, 0603"
+		(property "Description" "RES, 4.7 k, 5%, 0.1 W, 0402"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14136,7 +14136,7 @@
 				)
 			)
 		)
-		(property "Description" "MISMATCH FOOTPRINT  RES, 22.0 k, 0.1%, 0.1 W, 0603"
+		(property "Description" "RES, 22.0 k, 0.1%, 0.1 W, 0402"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14829,7 +14829,7 @@
 				)
 			)
 		)
-		(property "Description" "RES 27 ohm 1% 1/8W 0402"
+		(property "Description" "RES SMD 27 ohm 1/10W 0402"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -22590,7 +22590,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Package / Case" "C0805"
+		(property "Package / Case" "C0603"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)

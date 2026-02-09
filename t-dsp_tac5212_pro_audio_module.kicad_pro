@@ -982,6 +982,18 @@
           "label": "Digikey",
           "name": "Digikey",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC_MPN",
+          "name": "LCSC_MPN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC_Manufacturer",
+          "name": "LCSC_Manufacturer",
+          "show": false
         }
       ],
       "filter_string": "",

@@ -132,7 +132,6 @@
 		(at 0 0)
 		(size 0.25 0.25)
 		(layers "F.Cu")
-		(solder_mask_margin -1)
 		(zone_connect 2)
 		(uuid "419120bb-031d-4c5a-86ae-69651e7fc697")
 	)

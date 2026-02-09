@@ -924,7 +924,7 @@
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Footprint",
           "name": "Footprint",
           "show": true
@@ -958,14 +958,38 @@
           "label": "Manufacturer_Part_Number",
           "name": "Manufacturer_Part_Number",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Part Number 2020-08-26",
+          "name": "Part Number 2020-08-26",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Part Number 2020-09-07",
+          "name": "Part Number 2020-09-07",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Part Number 2020-05-29",
+          "name": "Part Number 2020-05-29",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Digikey",
+          "name": "Digikey",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "include_excluded_from_bom": false,
+      "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Value"
+      "sort_field": "Reference"
     },
     "connection_grid_size": 50.0,
     "drawing": {

@@ -102,6 +102,18 @@ The T-DSP platform has gone through several design iterations. The bench prototy
 | `/lib_sch/` | Custom KiCad schematic symbol libraries |
 | `/panel/` | Panelized board layouts for production |
 
+## Building Manufacturing Files
+
+JLCPCB-ready manufacturing files (gerbers, drill, BOM, CPL) are generated automatically by [KiBot](https://github.com/INTI-CMNB/KiBot) via GitHub Actions on every push to `main`. Download them from the **Actions** tab or from **Releases**.
+
+To build locally, install [Docker](https://www.docker.com/) and run:
+
+```powershell
+docker run --rm -v "${PWD}:/workspace" -w /workspace ghcr.io/inti-cmnb/kicad9_auto:latest kibot -c .kibot.yaml -b t-dsp_tac5212_pro_audio_module.kicad_pcb -e t-dsp_tac5212_pro_audio_module.kicad_sch -d manufacturing
+```
+
+Output files appear in `manufacturing/JLCPCB/`.
+
 ## Related Projects
 
 Browse all T-DSP modules and backplanes on the [T-DSP GitHub organization](https://github.com/orgs/t-dsp/repositories).

@@ -8,6 +8,8 @@ on:
       - '*.kicad_sch'
       - '.kibot.yaml'
       - '.github/workflows/manufacturing.yml'
+    tags:
+      - 'v*'
   workflow_dispatch:
 
 jobs:

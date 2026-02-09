@@ -7,6 +7,9 @@
 		(legacy_teardrops no)
 	)
 	(paper "A4")
+	(title_block
+		(rev "${REVISION}")
+	)
 	(layers
 		(0 "F.Cu" signal)
 		(4 "In1.Cu" signal)
@@ -149,6 +152,8 @@
 			(outputdirectory "gerber/2025-08-20_T-DSP-TAC5212_V0.91/")
 		)
 	)
+	(property "DATE" "2026-02-09")
+	(property "REVISION" "v0.97")
 	(net 0 "")
 	(net 1 "GNDD")
 	(net 2 "5V")

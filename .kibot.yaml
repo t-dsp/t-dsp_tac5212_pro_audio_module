@@ -208,6 +208,7 @@ outputs:
     type: compress
     dir: t-dsp_tac5212_pro_audio_module
     options:
+      output: '%f-manufacturing_%r.%x'
       files:
         - from_output: JLCPCB_gerbers
           dest: /

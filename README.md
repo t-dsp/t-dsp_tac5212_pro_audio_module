@@ -109,6 +109,7 @@ The ZIP includes:
 - JLCPCB BOM (`*_bom_JLCPCB.csv`) with LCSC part numbers
 - Generic BOM (`*_bom_generic.csv`) with manufacturer part numbers
 - Pick and place / CPL file
+- Schematic PDF and PCB layout PDF
 - Interactive BOM (also deployed live: [view iBOM](https://t-dsp.github.io/t-dsp_tac5212_pro_audio_module/ibom.html))
 
 To build locally, install [Docker](https://www.docker.com/) and run:

@@ -145,6 +145,39 @@ outputs:
         hide_stats_info: true
         quote_all: true
 
+  - name: schematic_pdf
+    comment: Schematic PDF for reference
+    type: pdf_sch_print
+    dir: t-dsp_tac5212_pro_audio_module
+    options:
+      output: '%f_schematic.%x'
+
+  - name: pcb_pdf
+    comment: PCB layout PDF for reference
+    type: pcb_print
+    dir: t-dsp_tac5212_pro_audio_module
+    options:
+      output: '%f_pcb.%x'
+      pages:
+        - layers:
+            - layer: F.Cu
+            - layer: F.SilkS
+            - layer: Edge.Cuts
+          sheet: 'Front Copper'
+        - layers:
+            - layer: In1.Cu
+            - layer: Edge.Cuts
+          sheet: 'Inner 1'
+        - layers:
+            - layer: In2.Cu
+            - layer: Edge.Cuts
+          sheet: 'Inner 2'
+        - layers:
+            - layer: B.Cu
+            - layer: B.SilkS
+            - layer: Edge.Cuts
+          sheet: 'Back Copper'
+
   - name: interactive_bom
     comment: Interactive HTML BOM
     type: ibom
@@ -167,6 +200,10 @@ outputs:
         - from_output: JLCPCB_bom
           dest: /
         - from_output: generic_bom
+          dest: /
+        - from_output: schematic_pdf
+          dest: /
+        - from_output: pcb_pdf
           dest: /
         - from_output: interactive_bom
           dest: /

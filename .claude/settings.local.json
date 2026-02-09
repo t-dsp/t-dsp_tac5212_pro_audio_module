@@ -3,7 +3,17 @@
     "allow": [
       "Bash(dir:*)",
       "WebFetch(domain:github.com)",
-      "Bash(python3:*)"
+      "Bash(python3:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git tag:*)",
+      "Bash(gh release view:*)",
+      "WebFetch(domain:wmsc.lcsc.com)",
+      "Bash(python scripts/verify_lcsc_bom.py:*)",
+      "Bash(python scripts/enrich_schematic_lcsc.py:*)",
+      "Bash(python -c:*)",
+      "Bash(git status:*)",
+      "Bash(git rm:*)"
     ]
   }
 }

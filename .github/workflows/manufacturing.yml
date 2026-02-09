@@ -1,4 +1,4 @@
-name: JLCPCB Manufacturing Files
+name: Manufacturing Files
 
 on:
   push:
@@ -33,6 +33,12 @@ jobs:
           path: manufacturing/JLCPCB/
           if-no-files-found: error
 
+      - uses: actions/upload-artifact@v4
+        with:
+          name: generic-bom
+          path: manufacturing/BOM/
+          if-no-files-found: error
+
   release:
     name: Attach to GitHub Release
     if: startsWith(github.ref, 'refs/tags/')
@@ -46,14 +52,22 @@ jobs:
           name: JLCPCB-manufacturing-files
           path: manufacturing/JLCPCB/
 
-      - name: Find ZIP file
-        id: find_zip
+      - uses: actions/download-artifact@v4
+        with:
+          name: generic-bom
+          path: manufacturing/BOM/
+
+      - name: Find release files
+        id: find_files
         run: |
           ZIP=$(ls manufacturing/JLCPCB/*.zip 2>/dev/null | head -1)
+          BOM=$(ls manufacturing/BOM/*.csv 2>/dev/null | head -1)
           echo "zip_path=$ZIP" >> "$GITHUB_OUTPUT"
-          echo "zip_name=$(basename $ZIP)" >> "$GITHUB_OUTPUT"
+          echo "bom_path=$BOM" >> "$GITHUB_OUTPUT"
 
-      - name: Upload release asset
+      - name: Upload release assets
         uses: softprops/action-gh-release@v2
         with:
-          files: ${{ steps.find_zip.outputs.zip_path }}
+          files: |
+            ${{ steps.find_files.outputs.zip_path }}
+            ${{ steps.find_files.outputs.bom_path }}

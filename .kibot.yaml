@@ -114,6 +114,41 @@ outputs:
         hide_stats_info: true
         quote_all: true
 
+  - name: generic_bom
+    comment: Full BoM for general use (PCBWay, etc.)
+    type: bom
+    dir: BOM
+    options:
+      output: '%f_bom.%x'
+      ref_separator: ','
+      columns:
+        - field: References
+          name: Designator
+        - field: Value
+          name: Value
+        - field: Footprint
+          name: Footprint
+        - field: Quantity Per PCB
+          name: Qty
+        - field: 'Manufacturer'
+          name: 'Manufacturer'
+        - field: 'Manufacturer_Part_Number'
+          name: 'MPN'
+        - field: 'Package / Case'
+          name: 'Package'
+        - field: 'LCSC'
+          name: 'LCSC'
+        - field: 'Digikey'
+          name: 'Digikey'
+        - field: 'mouser'
+          name: 'Mouser'
+        - field: 'Description'
+          name: 'Description'
+      csv:
+        hide_pcb_info: true
+        hide_stats_info: true
+        quote_all: true
+
   - name: JLCPCB
     comment: ZIP file for JLCPCB
     type: compress

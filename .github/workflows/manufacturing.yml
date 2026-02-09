@@ -47,6 +47,7 @@ jobs:
 
   deploy-pages:
     name: Deploy iBOM to GitHub Pages
+    if: github.ref == 'refs/heads/main'
     needs: generate
     runs-on: ubuntu-latest
     environment:

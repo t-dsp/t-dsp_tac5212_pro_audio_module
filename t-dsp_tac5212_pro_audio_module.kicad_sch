@@ -1059,6 +1059,24 @@
 					(hide yes)
 				)
 			)
+			(property "LCSC_Manufacturer" "LITEON"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC_MPN" "LTST-C170KRKT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "LCSC NOTES" ""
 				(at 0 0 90)
 				(effects
@@ -11889,6 +11907,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC_Manufacturer" "muRata"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_MPN" "BLM21AG601SH1D"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Manufacturer" ""
 			(at 520.7 293.37 90)
 			(effects
@@ -12274,6 +12310,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC_Manufacturer" "Kyocera AVX"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_MPN" "TPSB476K010R0500"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Manufacturer" ""
 			(at 500.38 118.11 90)
 			(effects
@@ -12435,6 +12489,24 @@
 		)
 		(property "LCSC" "C2182156"
 			(at 105.41 358.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_Manufacturer" "Taiyo Yuden"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_MPN" "EMK212BB7106KG-T"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12693,6 +12765,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC_Manufacturer" "TDK"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_MPN" "C1608X7R1V105K080AC"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "LCSC NOTES" ""
 			(at 36.83 116.84 0)
 			(effects
@@ -12915,6 +13005,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC_Manufacturer" "UNI-ROYAL"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_MPN" "0603WAF1003T5E"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package / Case" "R0603"
 			(at 497.84 330.2 0)
 			(effects
@@ -13124,6 +13232,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC_Manufacturer" "TDK"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_MPN" "C1608X7R1V105K080AC"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "LCSC NOTES" ""
 			(at 66.04 114.3 0)
 			(effects
@@ -13264,6 +13390,24 @@
 		)
 		(property "LCSC" "C22859"
 			(at 440.69 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_Manufacturer" "UNI-ROYAL"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_MPN" "0603WAF100JT5E"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13770,6 +13914,24 @@
 		)
 		(property "LCSC" "C113518"
 			(at 185.42 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_Manufacturer" "TI"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_MPN" "SN74LVC1G66DCKR"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14496,6 +14658,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC_Manufacturer" "UNI-ROYAL"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_MPN" "0603WAF0000T5E"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package / Case" "R0603"
 			(at 497.84 194.31 90)
 			(effects
@@ -14870,6 +15050,24 @@
 		)
 		(property "LCSC" "C2182156"
 			(at 129.54 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_Manufacturer" "Taiyo Yuden"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_MPN" "EMK212BB7106KG-T"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15456,6 +15654,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC_Manufacturer" "muRata"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_MPN" "BLM21AG601SH1D"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Manufacturer" ""
 			(at 513.08 374.65 90)
 			(effects
@@ -15791,6 +16007,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC_Manufacturer" "Taiyo Yuden"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_MPN" "EMK212BB7106KG-T"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "LCSC NOTES" ""
 			(at 33.02 106.68 0)
 			(effects
@@ -15931,6 +16165,24 @@
 		)
 		(property "LCSC" "C437406"
 			(at 516.89 415.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_Manufacturer" "muRata"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_MPN" "BLM21AG601SH1D"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16099,6 +16351,24 @@
 		)
 		(property "LCSC" "C94868"
 			(at 209.55 350.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_Manufacturer" "LITEON"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_MPN" "LTST-C170KRKT"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16652,6 +16922,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC_Manufacturer" "TI"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_MPN" "TPD1E10B06DPYR"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Manufacturer" ""
 			(at 516.89 121.92 90)
 			(effects
@@ -17125,6 +17413,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC_Manufacturer" "Samsung Electro-Mechanics"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_MPN" "CL21A476MQYNNNE"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "LCSC NOTES" ""
 			(at 36.83 228.6 0)
 			(effects
@@ -17415,6 +17721,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC_Manufacturer" "UNI-ROYAL"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_MPN" "0603WAF100JT5E"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package / Case" "R0603"
 			(at 440.69 219.71 90)
 			(effects
@@ -17558,6 +17882,24 @@
 		)
 		(property "LCSC" "C21189"
 			(at 494.03 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_Manufacturer" "UNI-ROYAL"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_MPN" "0603WAF0000T5E"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18105,6 +18447,24 @@
 		)
 		(property "LCSC" "C48260"
 			(at 518.16 223.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_Manufacturer" "TI"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_MPN" "TPD1E10B06DPYR"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19332,6 +19692,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC_Manufacturer" "TI"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_MPN" "TPD1E10B06DPYR"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Manufacturer" ""
 			(at 539.75 297.18 90)
 			(effects
@@ -19498,6 +19876,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC_Manufacturer" "PANASONIC"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_MPN" "ERJ2GE0R00X"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "LCSC NOTES" ""
 			(at 73.66 161.29 90)
 			(effects
@@ -19639,6 +20035,24 @@
 		)
 		(property "LCSC" "C284844"
 			(at 506.73 184.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_Manufacturer" "Kyocera AVX"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_MPN" "TPSB476K010R0500"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20242,6 +20656,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC_Manufacturer" "YAGEO"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_MPN" "RC0402FR-0722KL"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "LCSC NOTES" ""
 			(at 26.67 163.83 90)
 			(effects
@@ -20384,6 +20816,24 @@
 		)
 		(property "LCSC" "C48260"
 			(at 538.48 381 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_Manufacturer" "TI"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_MPN" "TPD1E10B06DPYR"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20552,6 +21002,24 @@
 		)
 		(property "LCSC" "C48260"
 			(at 516.89 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_Manufacturer" "TI"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_MPN" "TPD1E10B06DPYR"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20802,6 +21270,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC_Manufacturer" "TDK"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_MPN" "C1608X5R1C106M080AB"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Manufacturer" ""
 			(at 469.9 327.66 0)
 			(effects
@@ -20965,6 +21451,24 @@
 		)
 		(property "LCSC" "C48260"
 			(at 539.75 422.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_Manufacturer" "TI"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_MPN" "TPD1E10B06DPYR"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21140,6 +21644,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC_Manufacturer" "YAGEO"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_MPN" "RC0402FR-07100KL"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "LCSC NOTES" ""
 			(at 200.66 349.25 0)
 			(effects
@@ -21274,6 +21796,24 @@
 		)
 		(property "LCSC" "C2182156"
 			(at 33.02 358.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_Manufacturer" "Taiyo Yuden"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_MPN" "EMK212BB7106KG-T"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21638,6 +22178,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC_Manufacturer" "muRata"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_MPN" "GRM155R71C104KA88J"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "LCSC NOTES" ""
 			(at 189.23 273.05 0)
 			(effects
@@ -21839,6 +22397,24 @@
 		)
 		(property "LCSC" "C138019"
 			(at 71.12 171.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_Manufacturer" "YAGEO"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_MPN" "RC0402FR-072K21L"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22121,6 +22697,24 @@
 		)
 		(property "LCSC" "C25105"
 			(at 198.12 284.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_Manufacturer" "UNI-ROYAL"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_MPN" "0402WGF330JTCE"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22433,6 +23027,24 @@
 		)
 		(property "LCSC" "C278641"
 			(at 26.67 172.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_Manufacturer" "PANASONIC"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_MPN" "ERJ3GEYJ472V"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23241,6 +23853,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC_Manufacturer" "Kyocera AVX"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_MPN" "TPSB476K010R0500"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Manufacturer" ""
 			(at 508 219.71 90)
 			(effects
@@ -23402,6 +24032,24 @@
 		)
 		(property "LCSC" "C1870901"
 			(at 459.74 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_Manufacturer" "TDK"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_MPN" "C1608X7R1H473K080AA"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23794,6 +24442,24 @@
 		)
 		(property "LCSC" "C2167896"
 			(at 467.36 374.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_Manufacturer" "TDK"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_MPN" "C1608X5R1C106M080AB"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24197,6 +24863,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC_Manufacturer" "Taiyo Yuden"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_MPN" "EMK212BB7106KG-T"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "LCSC NOTES" ""
 			(at 33.02 96.52 0)
 			(effects
@@ -24411,6 +25095,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC_Manufacturer" "YAGEO"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_MPN" "RC0402FR-072K21L"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "LCSC NOTES" ""
 			(at 63.5 340.36 90)
 			(effects
@@ -24583,6 +25285,24 @@
 		)
 		(property "LCSC" "C48260"
 			(at 538.48 332.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_Manufacturer" "TI"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_MPN" "TPD1E10B06DPYR"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25184,6 +25904,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC_Manufacturer" "UNI-ROYAL"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_MPN" "0603WAF1003T5E"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package / Case" "R0603"
 			(at 500.38 381 0)
 			(effects
@@ -25393,6 +26131,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC_Manufacturer" "muRata"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_MPN" "GRM155R71C104KA88J"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "LCSC NOTES" ""
 			(at 49.53 86.36 0)
 			(effects
@@ -25533,6 +26289,24 @@
 		)
 		(property "LCSC" "C138019"
 			(at 80.01 171.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_Manufacturer" "YAGEO"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_MPN" "RC0402FR-072K21L"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25682,6 +26456,24 @@
 		)
 		(property "LCSC" "C2167896"
 			(at 471.17 415.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_Manufacturer" "TDK"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_MPN" "C1608X5R1C106M080AB"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25858,6 +26650,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC_Manufacturer" "TDK"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_MPN" "C1608X5R1C106M080AB"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Manufacturer" ""
 			(at 468.63 293.37 0)
 			(effects
@@ -26017,6 +26827,24 @@
 		)
 		(property "LCSC" "C242160"
 			(at 73.66 163.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_Manufacturer" "PANASONIC"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_MPN" "ERJ2GE0R00X"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26306,6 +27134,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC_Manufacturer" "muRata"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_MPN" "GRM155R71C104KA88J"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "LCSC NOTES" ""
 			(at 45.72 106.68 0)
 			(effects
@@ -26483,6 +27329,24 @@
 		)
 		(property "LCSC" "C25105"
 			(at 73.66 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_Manufacturer" "UNI-ROYAL"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_MPN" "0402WGF330JTCE"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26713,6 +27577,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC_Manufacturer" "Kyocera AVX"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_MPN" "TPSB476K010R0500"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Manufacturer" ""
 			(at 505.46 149.86 90)
 			(effects
@@ -26890,6 +27772,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC_Manufacturer" "UNI-ROYAL"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_MPN" "0603WAF1003T5E"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package / Case" "R0603"
 			(at 496.57 297.18 0)
 			(effects
@@ -27023,6 +27923,24 @@
 		)
 		(property "LCSC" "C437406"
 			(at 515.62 327.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_Manufacturer" "muRata"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_MPN" "BLM21AG601SH1D"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27189,6 +28107,24 @@
 		)
 		(property "LCSC" "C242160"
 			(at 73.66 156.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_Manufacturer" "PANASONIC"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_MPN" "ERJ2GE0R00X"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27407,6 +28343,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC_Manufacturer" "PANASONIC"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_MPN" "ERJ3GEYJ472V"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "LCSC NOTES" ""
 			(at 26.67 195.58 90)
 			(effects
@@ -27547,6 +28501,24 @@
 		)
 		(property "LCSC" "C1870901"
 			(at 461.01 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_Manufacturer" "TDK"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_MPN" "C1608X7R1H473K080AA"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27782,6 +28754,24 @@
 		)
 		(property "LCSC" "C106994"
 			(at 48.26 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_Manufacturer" "muRata"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_MPN" "GRM155R71C104KA88J"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28804,6 +29794,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC_Manufacturer" "UNI-ROYAL"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_MPN" "0603WAF1003T5E"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package / Case" "R0603"
 			(at 501.65 417.83 0)
 			(effects
@@ -29094,6 +30102,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC_Manufacturer" "UNI-ROYAL"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_MPN" "0603WAF100JT5E"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package / Case" "R0603"
 			(at 441.96 149.86 90)
 			(effects
@@ -29237,6 +30263,24 @@
 		)
 		(property "LCSC" "C1870901"
 			(at 459.74 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_Manufacturer" "TDK"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_MPN" "C1608X7R1H473K080AA"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29555,6 +30599,24 @@
 		)
 		(property "LCSC" "C2172920"
 			(at 46.99 358.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_Manufacturer" "TDK"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_MPN" "C1608X7R1V105K080AC"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29910,6 +30972,24 @@
 		)
 		(property "LCSC" "C21189"
 			(at 495.3 160.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_Manufacturer" "UNI-ROYAL"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_MPN" "0603WAF0000T5E"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30693,6 +31773,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC_Manufacturer" "TI"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_MPN" "TLV74133PDBVR"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "LCSC NOTES" ""
 			(at 90.17 358.14 0)
 			(effects
@@ -30836,6 +31934,24 @@
 		)
 		(property "LCSC" "C1870901"
 			(at 463.55 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_Manufacturer" "TDK"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_MPN" "C1608X7R1H473K080AA"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31392,6 +32508,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC_Manufacturer" "UNI-ROYAL"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_MPN" "0603WAF100JT5E"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package / Case" "R0603"
 			(at 444.5 184.15 90)
 			(effects
@@ -31535,6 +32669,24 @@
 		)
 		(property "LCSC" "C48260"
 			(at 518.16 187.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_Manufacturer" "TI"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_MPN" "TPD1E10B06DPYR"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31703,6 +32855,24 @@
 		)
 		(property "LCSC" "C21189"
 			(at 494.03 229.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_Manufacturer" "UNI-ROYAL"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_MPN" "0603WAF0000T5E"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32081,6 +33251,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC_Manufacturer" "Taiyo Yuden"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_MPN" "EMK212BB7106KG-T"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "LCSC NOTES" ""
 			(at 35.56 86.36 0)
 			(effects
@@ -32333,6 +33521,24 @@
 		)
 		(property "LCSC" "C44853694"
 			(at 116.84 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_Manufacturer" "TI"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_MPN" "TAC5212IRGER"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33603,6 +34809,24 @@
 		)
 		(property "LCSC" "C106994"
 			(at 63.5 345.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_Manufacturer" "muRata"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_MPN" "GRM155R71C104KA88J"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)

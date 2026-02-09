@@ -24,7 +24,7 @@ outputs:
   - name: JLCPCB_gerbers
     comment: Gerbers compatible with JLCPCB
     type: gerber
-    dir: JLCPCB
+    dir: t-dsp_tac5212_pro_audio_module
     options:
       exclude_edge_layer: true
       exclude_pads_from_silkscreen: true
@@ -58,7 +58,7 @@ outputs:
   - name: JLCPCB_drill
     comment: Drill files compatible with JLCPCB
     type: excellon
-    dir: JLCPCB
+    dir: t-dsp_tac5212_pro_audio_module
     options:
       pth_and_npth_single_file: false
       pth_id: '-PTH'
@@ -71,10 +71,10 @@ outputs:
   - name: JLCPCB_position
     comment: Pick and place file, JLCPCB style
     type: position
-    dir: JLCPCB
+    dir: t-dsp_tac5212_pro_audio_module
     options:
       variant: rotated
-      output: '%f_cpl_jlc.%x'
+      output: '%f_cpl.%x'
       format: CSV
       units: millimeters
       separate_files_for_front_and_back: false
@@ -96,9 +96,9 @@ outputs:
   - name: JLCPCB_bom
     comment: BoM for JLCPCB
     type: bom
-    dir: JLCPCB
+    dir: t-dsp_tac5212_pro_audio_module
     options:
-      output: '%f_bom_jlc.%x'
+      output: '%f_bom_JLCPCB.%x'
       exclude_filter: 'only_jlc_parts'
       ref_separator: ','
       columns:
@@ -117,9 +117,9 @@ outputs:
   - name: generic_bom
     comment: Full BoM for general use (PCBWay, etc.)
     type: bom
-    dir: BOM
+    dir: t-dsp_tac5212_pro_audio_module
     options:
-      output: '%f_bom.%x'
+      output: '%f_bom_generic.%x'
       ref_separator: ','
       columns:
         - field: References
@@ -130,29 +130,32 @@ outputs:
           name: Footprint
         - field: Quantity Per PCB
           name: Qty
-        - field: 'Manufacturer'
-          name: 'Manufacturer'
-        - field: 'Manufacturer_Part_Number'
-          name: 'MPN'
         - field: 'Package / Case'
-          name: 'Package'
+          name: Package
         - field: 'LCSC'
-          name: 'LCSC'
-        - field: 'Digikey'
-          name: 'Digikey'
-        - field: 'mouser'
-          name: 'Mouser'
+          name: LCSC
+        - field: 'LCSC_Manufacturer'
+          name: Manufacturer
+        - field: 'LCSC_MPN'
+          name: MPN
         - field: 'Description'
-          name: 'Description'
+          name: Description
       csv:
         hide_pcb_info: true
         hide_stats_info: true
         quote_all: true
 
-  - name: JLCPCB
-    comment: ZIP file for JLCPCB
+  - name: interactive_bom
+    comment: Interactive HTML BOM
+    type: ibom
+    dir: t-dsp_tac5212_pro_audio_module
+    options:
+      output: '%f_ibom.%x'
+
+  - name: manufacturing_zip
+    comment: ZIP file with all manufacturing files
     type: compress
-    dir: JLCPCB
+    dir: t-dsp_tac5212_pro_audio_module
     options:
       files:
         - from_output: JLCPCB_gerbers
@@ -162,4 +165,8 @@ outputs:
         - from_output: JLCPCB_position
           dest: /
         - from_output: JLCPCB_bom
+          dest: /
+        - from_output: generic_bom
+          dest: /
+        - from_output: interactive_bom
           dest: /

@@ -95,16 +95,21 @@ The T-DSP platform has gone through several design iterations. The bench prototy
 | Directory | Contents |
 |-----------|----------|
 | `/3d_models/` | 3D models for PCB components and enclosure |
-| `/bom/` | [Interactive BOM](https://jayshoe.github.io/t-dsp_tac5212_pro_audio_module/bom/ibom.html) and bill of materials |
 | `/documentation/` | TAC5212 datasheets, [schematic PDF](documentation/t-dsp-tac5212-schematic.pdf), [footprint drawing](documentation/t-dsp-tac5212-footprint.pdf), and [3D model (STL)](documentation/t-dsp_tac5212_pro_audio_module.stl). View online: [schematic](https://kicanvas.org/?github=https://github.com/t-dsp/t-dsp_tac5212_pro_audio_module/blob/main/t-dsp_tac5212_pro_audio_module.kicad_sch) and [PCB layout](https://kicanvas.org/?github=https://github.com/t-dsp/t-dsp_tac5212_pro_audio_module/blob/main/t-dsp_tac5212_pro_audio_module.kicad_pcb) via KiCanvas |
-| `/gerber/` | Manufacturing-ready Gerber output files |
 | `/lib_fp/` | Custom KiCad footprint libraries |
 | `/lib_sch/` | Custom KiCad schematic symbol libraries |
-| `/panel/` | Panelized board layouts for production |
+| `/scripts/` | LCSC enrichment and BOM verification scripts |
 
 ## Building Manufacturing Files
 
-JLCPCB-ready manufacturing files (gerbers, drill, BOM, CPL) are generated automatically by [KiBot](https://github.com/INTI-CMNB/KiBot) via GitHub Actions on every push to `main`. Download them from the **Actions** tab or from **Releases**.
+Manufacturing files (gerbers, drill, BOMs, CPL, interactive BOM) are generated automatically by [KiBot](https://github.com/INTI-CMNB/KiBot) via GitHub Actions on every push to `main`. Download the ZIP from the **Actions** tab or from **Releases**.
+
+The ZIP includes:
+- Gerbers and drill files for any PCB fabricator
+- JLCPCB BOM (`*_bom_JLCPCB.csv`) with LCSC part numbers
+- Generic BOM (`*_bom_generic.csv`) with manufacturer part numbers
+- Pick and place / CPL file
+- Interactive BOM (also deployed live: [view iBOM](https://t-dsp.github.io/t-dsp_tac5212_pro_audio_module/ibom.html))
 
 To build locally, install [Docker](https://www.docker.com/) and run:
 
@@ -112,7 +117,7 @@ To build locally, install [Docker](https://www.docker.com/) and run:
 docker run --rm -v "${PWD}:/workspace" -w /workspace ghcr.io/inti-cmnb/kicad9_auto:latest kibot -c .kibot.yaml -b t-dsp_tac5212_pro_audio_module.kicad_pcb -e t-dsp_tac5212_pro_audio_module.kicad_sch -d manufacturing
 ```
 
-Output files appear in `manufacturing/JLCPCB/`.
+Output files appear in `manufacturing/t-dsp_tac5212_pro_audio_module/`.
 
 ## Related Projects
 

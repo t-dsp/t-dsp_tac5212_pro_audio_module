@@ -22142,7 +22142,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package / Case" "C0603"
+		(property "Package / Case" "C0402"
 			(at 189.23 273.05 0)
 			(effects
 				(font
@@ -26614,7 +26614,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package / Case" "C0805"
+		(property "Package / Case" "C0603"
 			(at 468.63 293.37 0)
 			(effects
 				(font

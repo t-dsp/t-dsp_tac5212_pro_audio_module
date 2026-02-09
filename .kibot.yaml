@@ -34,7 +34,7 @@ outputs:
       force_plot_invisible_refs_vals: false
       tent_vias: true
       use_protel_extensions: true
-      create_gerber_job_file: false
+      create_gerber_job_file: true
       disable_aperture_macros: true
       gerber_precision: 4.6
       use_gerber_x2_attributes: false

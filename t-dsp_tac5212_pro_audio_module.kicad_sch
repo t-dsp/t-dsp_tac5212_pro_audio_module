@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "8cee3af6-3893-45a9-89a4-21657973eeff")
 	(paper "User" 635 635)
+	(title_block
+		(date "${DATE}")
+		(rev "${REVISION}")
+		(comment 1 "This work is licensed under CC BY-NC-SA 4.0")
+		(comment 2 "Copyright Jay Shoemaker")
+	)
 	(lib_symbols
 		(symbol "kikit:Tab"
 			(exclude_from_sim no)

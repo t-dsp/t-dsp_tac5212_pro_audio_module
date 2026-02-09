@@ -5,6 +5,13 @@
 kibot:
   version: 1
 
+preflight:
+  set_text_variables:
+    - name: REVISION
+      command: git describe --tags --always
+    - name: DATE
+      command: date +%Y-%m-%d
+
 filters:
   - name: only_jlc_parts
     comment: 'Only parts with LCSC code'
@@ -29,7 +36,7 @@ outputs:
       exclude_edge_layer: true
       exclude_pads_from_silkscreen: true
       plot_sheet_reference: false
-      plot_footprint_refs: true
+      plot_footprint_refs: false
       plot_footprint_values: false
       force_plot_invisible_refs_vals: false
       tent_vias: true
@@ -161,7 +168,9 @@ outputs:
       pages:
         - layers:
             - layer: F.Cu
+              plot_footprint_refs: false
             - layer: F.SilkS
+              plot_footprint_refs: false
             - layer: Edge.Cuts
           sheet: 'Front Copper'
         - layers:
@@ -174,7 +183,9 @@ outputs:
           sheet: 'Inner 2'
         - layers:
             - layer: B.Cu
+              plot_footprint_refs: false
             - layer: B.SilkS
+              plot_footprint_refs: false
             - layer: Edge.Cuts
           sheet: 'Back Copper'
 

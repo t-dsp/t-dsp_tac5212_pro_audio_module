@@ -36551,7 +36551,7 @@
 			)
 		)
 	)
-	(gr_text_box "T-DSP\nTAC5212 V0.91"
+	(gr_text_box "T-DSP\nTAC5212 ${REVISION}"
 		(start 95.2 101.4873)
 		(end 107.1 113.7127)
 		(margins 0.6 0.6 0.6 0.6)

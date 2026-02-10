@@ -3,7 +3,7 @@
   (tedit 0)
   (descr "USB A-type vertical receptacle, Tyco P/N 440260-2")
   (attr through_hole)
-  (fp_text reference "J13" (at 0.07366 3.54076 180) (layer "F.SilkS")
+  (fp_text reference "J13" (at 0.07366 3.54076 180) (layer "F.SilkS") hide
     (effects (font (size 1.524 1.524) (thickness 0.3048)))
     (tstamp 02d9f0df-2ebc-4820-b68a-0cecd05344cc)
   )

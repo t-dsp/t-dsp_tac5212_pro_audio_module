@@ -4,7 +4,7 @@
   (descr "Through hole straight pin header, 2x03, 2.00mm pitch, double rows")
   (tags "Through hole pin header THT 2x03 2.00mm double row")
   (attr through_hole)
-  (fp_text reference "REF**" (at 1 -2.06) (layer "F.SilkS")
+  (fp_text reference "REF**" (at 1 -2.06) (layer "F.SilkS") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp ef780080-ea3e-45f5-9314-6e46f5046245)
   )

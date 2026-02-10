@@ -1,7 +1,7 @@
 
 (module SOIC127P600X175-14N (layer F.Cu) (tedit 5E91E11B)
   (descr "")
-  (fp_text reference REF** (at -0.795 -5.187 0) (layer F.SilkS)
+  (fp_text reference REF** (at -0.795 -5.187 0) (layer F.SilkS) hide
     (effects (font (size 1.0 1.0) (thickness 0.015)))
   )
   (fp_text value SOIC127P600X175-14N (at 8.095 5.187 0) (layer F.Fab)

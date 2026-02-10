@@ -11,7 +11,7 @@
   (property "exclude_from_bom" "")
   (property "mouser" "-")
   (attr through_hole exclude_from_bom)
-  (fp_text reference "REF**" (at 1.25 29.5) (layer "F.SilkS")
+  (fp_text reference "REF**" (at 1.25 29.5) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp beaba32d-ac91-42a6-8705-76bb86bdd2e6)
   )

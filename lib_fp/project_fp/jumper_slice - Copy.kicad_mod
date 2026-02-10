@@ -4,7 +4,7 @@
   (descr "net tie")
   (tags "net tie")
   (attr through_hole)
-  (fp_text reference "REF**" (at 0.5 1) (layer "F.SilkS")
+  (fp_text reference "REF**" (at 0.5 1) (layer "F.SilkS") hide
     (effects (font (size 0.8 0.8) (thickness 0.18)))
     (tstamp 2d7d9a2a-53ca-49ee-ac24-79bba1eb20ae)
   )

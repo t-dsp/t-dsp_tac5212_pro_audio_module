@@ -1,7 +1,7 @@
 
 (module PLR135-T10_PLT133-T10W (layer F.Cu) (tedit 5E906600)
   (descr "")
-  (fp_text reference REF** (at -1.82784 -9.65001 0) (layer F.SilkS)
+  (fp_text reference REF** (at -1.82784 -9.65001 0) (layer F.SilkS) hide
     (effects (font (size 1.00155905512 1.00155905512) (thickness 0.015)))
   )
   (fp_text value PLR135-T10_PLT133-T10W (at 8.97486 6.368485 0) (layer F.Fab)

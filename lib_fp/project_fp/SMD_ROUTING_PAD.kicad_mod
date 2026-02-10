@@ -8,7 +8,7 @@
 		(at 0 -3.32 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "b0f6268a-8751-4a53-ac55-8d17f9c70c24")
+		(uuid "44d2dc0d-a274-4bd9-9232-904c00c0f94f")
 		(effects
 			(font
 				(size 1 1)
@@ -20,7 +20,7 @@
 		(at -0.03 -1.87 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "2901e004-5b70-43ca-9a1c-0e9cbbd3383e")
+		(uuid "f5ab9608-6ed1-4ced-aaf5-65a7baf6751b")
 		(effects
 			(font
 				(size 1 1)
@@ -29,11 +29,11 @@
 		)
 	)
 	(property "Datasheet" "~"
-		(at 0 0 0)
+		(at 0 0 180)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "4f38569f-577f-46cb-b594-a9752f79f116")
+		(uuid "19741a66-3a1a-4c52-ae17-3ec5e20621b6")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -42,11 +42,11 @@
 		)
 	)
 	(property "Description" "Small Via to be incorporated into design."
-		(at 0 0 0)
+		(at 0 0 180)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "2bf69784-286a-4488-9e6b-088d2cefcf7e")
+		(uuid "c18df4e3-e721-4b08-b565-72c3e53cbcea")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -55,11 +55,11 @@
 		)
 	)
 	(property "Package / Case" "DNP"
-		(at 0 0 0)
+		(at 0 0 180)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "cf16ba56-87cf-4642-9723-7212a4b447ea")
+		(uuid "ad863737-5d6c-4cf7-a360-046541e326d6")
 		(effects
 			(font
 				(size 1 1)
@@ -68,11 +68,11 @@
 		)
 	)
 	(property "TAC5212EVM" "n/a"
-		(at 0 0 0)
+		(at 0 0 180)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "b0e8a764-c0d3-4215-b37f-696bdcb8aa61")
+		(uuid "8b463847-db12-422c-bbe4-4e2e66f1ccb8")
 		(effects
 			(font
 				(size 1 1)
@@ -81,11 +81,115 @@
 		)
 	)
 	(property "REPLACE FOR NEXT BUILD" ""
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e548e0bd-03a6-4c3e-ac79-053fa9331c35")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" ""
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "10e5e2ed-76b8-433a-b75e-0b95638fe854")
+		(uuid "b1125a24-57c2-4158-8c00-794a473947f9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "db54091d-4da0-4a5e-b5b9-24370e344a93")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "964ea8f3-812a-4ea3-8143-da4056504751")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "mouser" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "75b50323-480d-41d9-9bb6-a7bf384a304f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC NOTES" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4451842c-44d3-4d87-a867-3d97950876a6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Part Number 2020-05-29" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8b2fccc0-915c-40c1-b16e-db73abd112d6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Part Number 2020-08-26" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "66ac57c4-7518-4588-9716-ee3ef781af99")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Part Number 2020-09-07" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "508ec28b-f194-4ecf-9fd2-76eef1cf9c7f")
 		(effects
 			(font
 				(size 1 1)
@@ -104,7 +208,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "4157bf11-d4ff-47b2-94d8-197f8059ee3e")
+		(uuid "37a40a2d-02b5-4cc3-a15d-fc2aca0dfbb8")
 	)
 	(fp_circle
 		(center 0 0)
@@ -115,7 +219,7 @@
 		)
 		(fill no)
 		(layer "B.SilkS")
-		(uuid "12aacc7a-c20e-446e-9447-34741d2b2e9b")
+		(uuid "0ec376fa-2fa3-4eb6-8f0a-f4c6681b0106")
 	)
 	(fp_circle
 		(center 0 0)
@@ -126,14 +230,14 @@
 		)
 		(fill no)
 		(layer "B.SilkS")
-		(uuid "d2831222-96f6-459f-9bdb-dfa64babefc0")
+		(uuid "a8734c6f-7346-47be-8831-ed5aaf06530c")
 	)
 	(pad "1" smd circle
-		(at 0 0)
+		(at 0 0 180)
 		(size 0.25 0.25)
 		(layers "F.Cu")
 		(zone_connect 2)
-		(uuid "419120bb-031d-4c5a-86ae-69651e7fc697")
+		(uuid "f6527b17-34d9-4543-b82c-a0c63eade37d")
 	)
 	(embedded_fonts no)
 	(model "${KICAD6_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/WQFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm.wrl"

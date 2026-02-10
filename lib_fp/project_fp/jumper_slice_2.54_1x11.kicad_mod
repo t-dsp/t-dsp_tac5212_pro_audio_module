@@ -6,7 +6,7 @@
   (property "Sheetfile" "tlv320aic3105_audio_board.kicad_sch")
   (property "Sheetname" "")
   (attr through_hole)
-  (fp_text reference "REF**" (at 1.75 7.347858 90) (layer "F.SilkS")
+  (fp_text reference "REF**" (at 1.75 7.347858 90) (layer "F.SilkS") hide
     (effects (font (size 0.8 0.8) (thickness 0.18)))
     (tstamp b990cbb3-f2dc-4cbc-8828-4624c7438bbe)
   )

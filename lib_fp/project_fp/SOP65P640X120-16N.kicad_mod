@@ -1,5 +1,5 @@
 (module SOP65P640X120-16N (layer F.Cu) (tedit 5EBBEF6B)
-  (fp_text reference REF** (at 0.2032 -3.5052) (layer F.SilkS)
+  (fp_text reference REF** (at 0.2032 -3.5052) (layer F.SilkS) hide
     (effects (font (size 0.8 0.8) (thickness 0.18)))
   )
   (fp_text value SOP65P640X120-16N (at 12.024 4.24527) (layer F.Fab)

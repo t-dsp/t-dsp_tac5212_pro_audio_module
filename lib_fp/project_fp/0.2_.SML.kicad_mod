@@ -2,7 +2,7 @@
   (layer "F.Cu")
   (tedit 0)
   (descr "0.2\" (5.08mm) spacing\n<p>\n<b> \n10pf - 180n</b>")
-  (fp_text reference "PC4" (at 0 0.47625) (layer "F.SilkS")
+  (fp_text reference "PC4" (at 0 0.47625) (layer "F.SilkS") hide
     (effects (font (size 0.942848 0.942848) (thickness 0.073152)) (justify left))
     (tstamp 322fb977-475d-4500-8365-b5718349bef8)
   )

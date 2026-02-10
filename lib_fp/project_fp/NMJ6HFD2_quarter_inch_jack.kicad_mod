@@ -3,7 +3,7 @@
   (property "Sheetfile" "io_board.kicad_sch")
   (property "Sheetname" "")
   (attr through_hole)
-  (fp_text reference "JACK1" (at 0 0) (layer "F.SilkS")
+  (fp_text reference "JACK1" (at 0 0) (layer "F.SilkS") hide
       (effects (font (size 0.787402 0.787402) (thickness 0.015)))
     (tstamp 580a312b-7917-491b-8deb-5799d311efc0)
   )

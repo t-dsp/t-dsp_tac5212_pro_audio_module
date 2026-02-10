@@ -3,7 +3,7 @@
   (descr "Combo I series, 3 pole XLR female receptacle with 6.35mm (1/4in) stereo jack without switching contact, horizontal PCB mount, https://www.neutrik.com/en/product/ncj6fi-h-0")
   (tags "neutrik jack combo i")
   (attr through_hole)
-  (fp_text reference "J3" (at -10.0076 6.227232 -270) (layer "F.SilkS")
+  (fp_text reference "J3" (at -10.0076 6.227232 -270) (layer "F.SilkS") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 00000000-0000-0000-0000-000000000000)
   )

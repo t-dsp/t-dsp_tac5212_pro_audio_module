@@ -11,7 +11,7 @@
   (property "Sheetname" "")
   (property "mouser" "-")
   (attr through_hole)
-  (fp_text reference "ESP_I2C0" (at 1.27 -2.33) (layer "F.SilkS")
+  (fp_text reference "ESP_I2C0" (at 1.27 -2.33) (layer "F.SilkS") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 4ee8f7b6-b14b-46ac-ba6d-96bdaeabc92f)
   )

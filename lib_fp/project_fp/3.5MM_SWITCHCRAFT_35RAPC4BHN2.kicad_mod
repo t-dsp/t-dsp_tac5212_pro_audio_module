@@ -1,7 +1,7 @@
 
 (module SWITCHCRAFT_35RAPC4BHN2 (layer F.Cu) (tedit 5E9226DF)
   (descr "")
-  (fp_text reference REF** (at -3.33784 -8.66834 0) (layer F.SilkS)
+  (fp_text reference REF** (at -3.33784 -8.66834 0) (layer F.SilkS) hide
     (effects (font (size 1.00385826772 1.00385826772) (thickness 0.015)))
   )
   (fp_text value SWITCHCRAFT_35RAPC4BHN2 (at 8.01723 9.13891 0) (layer F.Fab)

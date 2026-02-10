@@ -30,6 +30,22 @@ jobs:
           board: t-dsp_tac5212_pro_audio_module.kicad_pcb
           schema: t-dsp_tac5212_pro_audio_module.kicad_sch
           dir: manufacturing
+          targets: JLCPCB_gerbers JLCPCB_drill JLCPCB_position JLCPCB_bom generic_bom schematic_pdf pcb_pdf interactive_bom pcb_spec
+          verbose: 2
+
+      - name: Generate 3D renders
+        uses: docker://ghcr.io/inti-cmnb/kicad9_auto_full:latest
+        with:
+          args: kibot -c .kibot.yaml -b t-dsp_tac5212_pro_audio_module.kicad_pcb -e t-dsp_tac5212_pro_audio_module.kicad_sch -d manufacturing 3d_renders
+
+      - name: Generate manufacturing ZIP
+        uses: INTI-CMNB/KiBot@v2_k9
+        with:
+          config: .kibot.yaml
+          board: t-dsp_tac5212_pro_audio_module.kicad_pcb
+          schema: t-dsp_tac5212_pro_audio_module.kicad_sch
+          dir: manufacturing
+          targets: manufacturing_zip
           verbose: 2
 
       - uses: actions/upload-artifact@v4

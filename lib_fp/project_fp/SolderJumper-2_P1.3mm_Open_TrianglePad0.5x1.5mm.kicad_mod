@@ -9,7 +9,7 @@
   (property "Sheetname" "")
   (property "exclude_from_bom" "")
   (attr exclude_from_pos_files exclude_from_bom)
-  (fp_text reference "REF**" (at 2.2604 -17.6965) (layer "F.SilkS")
+  (fp_text reference "REF**" (at 2.2604 -17.6965) (layer "F.SilkS") hide
       (effects (font (size 0.8 0.8) (thickness 0.18)))
     (tstamp ef52ab1e-2e10-4fa9-b650-d4ca6e9d9088)
   )

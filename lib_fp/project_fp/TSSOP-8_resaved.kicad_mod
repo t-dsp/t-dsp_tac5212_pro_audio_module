@@ -4,7 +4,7 @@
   (property "Sheetfile" "E:/OneDrive/Documents/Work 3.0/Jukebox Jockey/Hardware Development/! NEW PROJECTS/IO_BOARDS/KiCAD/IO_USBA_USBB/IO_USBA_USBB_B1 - Copy/IO_USBA_USBB.sch")
   (property "Sheetname" "")
   (attr smd)
-  (fp_text reference "REF**" (at 0 -2.5273) (layer "F.SilkS")
+  (fp_text reference "REF**" (at 0 -2.5273) (layer "F.SilkS") hide
       (effects (font (size 0.8 0.8) (thickness 0.18)))
     (tstamp 4dcf295f-2e5b-442c-bdeb-48d2abbb7734)
   )

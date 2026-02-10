@@ -3,7 +3,7 @@
   (descr "net tie")
   (tags "net tie")
   (net_tie_pad_groups "1, 2, 3, 4")
-  (fp_text reference "REF**" (at 0.725 -2.025) (layer "F.SilkS")
+  (fp_text reference "REF**" (at 0.725 -2.025) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 9f449d09-37db-4679-b4e5-533258de06b2)
   )

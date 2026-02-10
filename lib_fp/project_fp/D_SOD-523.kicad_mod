@@ -9,7 +9,7 @@
   (property "Sheetfile" "tlv320adc6140_audio_board.kicad_sch")
   (property "Sheetname" "")
   (attr smd)
-  (fp_text reference "REF**" (at 0.1 -1.15) (layer "F.SilkS")
+  (fp_text reference "REF**" (at 0.1 -1.15) (layer "F.SilkS") hide
     (effects (font (size 0.8 0.8) (thickness 0.15)))
     (tstamp 4c0139e5-1582-43b5-b6d6-74527db7b66f)
   )

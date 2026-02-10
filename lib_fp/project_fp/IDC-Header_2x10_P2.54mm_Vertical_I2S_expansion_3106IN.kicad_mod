@@ -4,7 +4,7 @@
   (descr "Through hole IDC box header, 2x10, 2.54mm pitch, DIN 41651 / IEC 60603-13, double rows, https://docs.google.com/spreadsheets/d/16SsEcesNF15N3Lb4niX7dcUr-NY5_MFPQhobNuNppn4/edit#gid=0")
   (tags "Through hole vertical IDC box header THT 2x10 2.54mm double row")
   (attr through_hole)
-  (fp_text reference "REF**" (at 1.27 -6.1) (layer "F.SilkS")
+  (fp_text reference "REF**" (at 1.27 -6.1) (layer "F.SilkS") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp cfac1281-1a55-46c0-be18-b2dae6f6ea46)
   )

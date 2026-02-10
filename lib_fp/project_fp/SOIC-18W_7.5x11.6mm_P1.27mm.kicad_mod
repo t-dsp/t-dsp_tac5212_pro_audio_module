@@ -10,7 +10,7 @@
   (property "Sheetname" "")
   (property "mouser" "579-MCP23008T-E/SO")
   (attr smd)
-  (fp_text reference "REF**" (at 0 -6.72) (layer "F.SilkS")
+  (fp_text reference "REF**" (at 0 -6.72) (layer "F.SilkS") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp b19ed46c-9b40-4c83-b958-1982442b2a35)
   )

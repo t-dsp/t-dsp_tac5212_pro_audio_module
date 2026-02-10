@@ -9,7 +9,7 @@
   (property "Sheetname" "")
   (property "mouser" "-")
   (attr through_hole)
-  (fp_text reference "board_outline_100x150" (at 0 8.12 180) (layer "F.SilkS")
+  (fp_text reference "board_outline_100x150" (at 0 8.12 180) (layer "F.SilkS") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 3ed9fb28-4907-48dd-a5c3-36b16a3725a6)
   )

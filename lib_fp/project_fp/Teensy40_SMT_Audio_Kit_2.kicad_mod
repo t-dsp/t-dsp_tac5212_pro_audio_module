@@ -1,5 +1,5 @@
 (module Teensy40_SMT_Audio_Kit_2 (layer F.Cu) (tedit 5E95A138)
-  (fp_text reference U3 (at 31.76 13.312 90) (layer B.SilkS)
+  (fp_text reference U3 (at 31.76 13.312 90) (layer B.SilkS) hide
     (effects (font (size 0.8 0.8) (thickness 0.18)))
   )
   (fp_text value Teensy4.0 (at 17.653 26.3398) (layer F.Fab)

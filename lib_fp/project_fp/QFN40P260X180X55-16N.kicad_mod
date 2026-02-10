@@ -1,7 +1,7 @@
 
 (module QFN40P260X180X55-16N (layer F.Cu) (tedit 5EBBD52F)
   (descr "")
-  (fp_text reference REF** (at -0.1841175 -2.2045885 0) (layer F.SilkS)
+  (fp_text reference REF** (at -0.1841175 -2.2045885 0) (layer F.SilkS) hide
     (effects (font (size 0.320202362205 0.320202362205) (thickness 0.015)))
   )
   (fp_text value QFN40P260X180X55-16N (at 2.86839 2.2001685 0) (layer F.Fab)

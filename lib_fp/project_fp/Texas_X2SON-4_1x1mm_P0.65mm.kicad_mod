@@ -4,7 +4,7 @@
   (descr "X2SON 5 pin 1x1mm package (Reference Datasheet: http://www.ti.com/lit/ds/sbvs193d/sbvs193d.pdf Reference part: TPS383x) [StepUp generated footprint]")
   (tags "X2SON")
   (attr smd)
-  (fp_text reference "REF**" (at 0 -1.5) (layer "F.SilkS")
+  (fp_text reference "REF**" (at 0 -1.5) (layer "F.SilkS") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 0c5bf34b-b903-4982-a0d1-82fafcdcc86a)
   )

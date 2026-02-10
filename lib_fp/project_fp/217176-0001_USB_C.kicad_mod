@@ -1,5 +1,5 @@
 (module 217176-0001_MOL (layer F.Cu)
-  (fp_text reference REF** (at 0 0) (layer F.SilkS)
+  (fp_text reference REF** (at 0 0) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness .15)))
   )
   (fp_text value 217176-0001_MOL (at 0 -3.6933) (layer F.SilkS)

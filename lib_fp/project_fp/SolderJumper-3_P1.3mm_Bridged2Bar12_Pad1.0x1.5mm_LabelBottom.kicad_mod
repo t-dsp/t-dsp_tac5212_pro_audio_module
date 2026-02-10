@@ -4,7 +4,7 @@
   (descr "SMD Solder Jumper, 1x1.5mm Pads, 0.3mm gap, pads 1-2 Bridged2Bar with 2 copper strip, labeled with numbers")
   (tags "net tie solder jumper bridged")
   (attr exclude_from_pos_files exclude_from_bom)
-  (fp_text reference "REF**" (at 0 1.81985) (layer "F.SilkS")
+  (fp_text reference "REF**" (at 0 1.81985) (layer "F.SilkS") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp ff944fa1-7b77-41c2-8dee-6fa441187350)
   )

@@ -4,7 +4,7 @@
   (descr "TSSOP, 20 Pin (JEDEC MO-153 Var AC https://www.jedec.org/document_search?search_api_views_fulltext=MO-153), generated with kicad-footprint-generator ipc_gullwing_generator.py")
   (tags "TSSOP SO")
   (attr smd)
-  (fp_text reference "REF**" (at 0 -4.2) (layer "F.SilkS")
+  (fp_text reference "REF**" (at 0 -4.2) (layer "F.SilkS") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 26bc47a5-2ef9-4264-bccf-2d3ded71bddb)
   )

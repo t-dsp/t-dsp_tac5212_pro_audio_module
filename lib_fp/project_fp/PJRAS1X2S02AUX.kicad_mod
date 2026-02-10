@@ -2,7 +2,7 @@
   (layer "F.Cu")
   (tedit 5F9108BF)
   (attr through_hole)
-  (fp_text reference "RCA_IN1" (at 6.15 -8.75 90) (layer "F.SilkS")
+  (fp_text reference "RCA_IN1" (at 6.15 -8.75 90) (layer "F.SilkS") hide
     (effects (font (size 1 0.9) (thickness 0.05)))
     (tstamp 2520ae49-fc60-4e0a-8c3c-4f3299057571)
   )

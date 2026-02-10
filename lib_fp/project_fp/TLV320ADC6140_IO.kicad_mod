@@ -1,7 +1,7 @@
 (module TLV320ADC6140_IO (layer F.Cu) (tedit 5EB41C04)
   (descr "Through hole straight pin header, 2x08, 2.54mm pitch, double rows")
   (tags "Through hole pin header THT 2x08 2.54mm double row")
-  (fp_text reference IO1 (at 1.27 -2.33) (layer F.SilkS)
+  (fp_text reference IO1 (at 1.27 -2.33) (layer F.SilkS) hide
     (effects (font (size 0.8 0.8) (thickness 0.18)))
   )
   (fp_text value Conn_02x08_Odd_Even (at 1.27 20.11) (layer F.Fab)
@@ -87,7 +87,7 @@
   (pad 3 thru_hole oval (at 0 2.54) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
   (pad 2 thru_hole oval (at 2.54 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
   (pad 1 thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
-  (model ${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_2x08_P2.54mm_Vertical.wrl
+  (model ${KICAD9_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_2x08_P2.54mm_Vertical.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

@@ -1,5 +1,5 @@
 (module TSSOP16 (layer F.Cu) (tedit 5BCF36DD)
-  (fp_text reference U2 (at -0.03 -0.24) (layer F.Fab)
+  (fp_text reference U2 (at -0.03 -0.24) (layer F.Fab) hide
     (effects (font (size 0.5 0.5) (thickness 0.125)))
   )
   (fp_text value TSC2046E (at 0.04 0.58) (layer F.Fab)

@@ -2,7 +2,7 @@
   (layer "F.Cu")
   (tedit 0)
   (descr "<b>5mm diameter, 2mm lead spacing, 0.1\" pad spacing</b>")
-  (fp_text reference "PC7" (at -0.0635 -3.302) (layer "F.SilkS")
+  (fp_text reference "PC7" (at -0.0635 -3.302) (layer "F.SilkS") hide
     (effects (font (size 0.754278 0.754278) (thickness 0.058522)) (justify left))
     (tstamp 49efec16-70dc-42ac-874b-54ffd16d7ac4)
   )

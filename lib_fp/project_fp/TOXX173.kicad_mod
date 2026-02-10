@@ -1,7 +1,7 @@
 
 (module TOXX173 (layer F.Cu) (tedit 5E906F54)
   (descr "")
-  (fp_text reference REF** (at 0.635 -3.175 0) (layer F.SilkS)
+  (fp_text reference REF** (at 0.635 -3.175 0) (layer F.SilkS) hide
     (effects (font (size 1.0 1.0) (thickness 0.015)))
   )
   (fp_text value TOXX173 (at 1.905 3.175 0) (layer F.Fab)

@@ -8,6 +8,7 @@
 	(property "Reference" "FB109"
 		(at 0.1 -1.25 180)
 		(layer "F.SilkS")
+		(hide yes)
 		(uuid "d3a8bdbb-2657-4eaa-bfe0-ee27edf1e548")
 		(effects
 			(font

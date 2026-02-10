@@ -11,7 +11,7 @@
   (property "Sheetname" "")
   (property "mouser" "595-SN74LVC125ADRG3")
   (attr smd)
-  (fp_text reference "REF**" (at 0 -5.28) (layer "F.SilkS")
+  (fp_text reference "REF**" (at 0 -5.28) (layer "F.SilkS") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp e4264436-f78e-4ff2-872a-8c6ff40b3d21)
   )

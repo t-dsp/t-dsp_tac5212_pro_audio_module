@@ -870,7 +870,7 @@
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Value",
           "name": "Value",
           "show": true
@@ -1001,7 +1001,7 @@
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "Footprint"
     },
     "connection_grid_size": 50.0,
     "drawing": {
@@ -1059,5 +1059,8 @@
       "Root"
     ]
   ],
-  "text_variables": {}
+  "text_variables": {
+    "DATE": "2026-02-10",
+    "REVISION": "v0.97"
+  }
 }

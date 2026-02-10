@@ -2,7 +2,7 @@
   (layer "F.Cu")
   (tedit 5F74A8CE)
   (attr through_hole)
-  (fp_text reference "USBA_OUT1" (at -3.5357 -14.8494) (layer "F.SilkS")
+  (fp_text reference "USBA_OUT1" (at -3.5357 -14.8494) (layer "F.SilkS") hide
     (effects (font (size 0.8 0.8) (thickness 0.18)))
     (tstamp 3b0f9ff6-e0ce-4877-af09-c1c14e462694)
   )

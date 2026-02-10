@@ -1,5 +1,5 @@
 (module 23LC1024-I/ST (layer F.Cu)
-  (fp_text reference REF** (at 0 0) (layer F.SilkS)
+  (fp_text reference REF** (at 0 0) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness .15)))
   )
   (fp_text value TSSOP8_MC (at 0 0) (layer F.SilkS)

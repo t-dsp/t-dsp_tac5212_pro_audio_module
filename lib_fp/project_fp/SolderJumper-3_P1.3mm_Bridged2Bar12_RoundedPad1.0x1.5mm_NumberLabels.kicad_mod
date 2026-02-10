@@ -7,7 +7,7 @@
   (property "Sheetfile" "teensy41_digital_audio_board.kicad_sch")
   (property "Sheetname" "")
   (attr exclude_from_pos_files)
-  (fp_text reference "REF**" (at 0 -1.8) (layer "F.SilkS")
+  (fp_text reference "REF**" (at 0 -1.8) (layer "F.SilkS") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp f6b882cd-559f-45fd-ac1e-1c1aea526083)
   )

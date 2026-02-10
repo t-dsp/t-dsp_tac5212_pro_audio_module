@@ -12,7 +12,7 @@
   (property "Sheetname" "")
   (property "mouser" "")
   (attr through_hole)
-  (fp_text reference "C27" (at 0 -3.3) (layer "F.SilkS")
+  (fp_text reference "C27" (at 0 -3.3) (layer "F.SilkS") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp a486528b-f248-4060-a6af-1074b9771561)
   )

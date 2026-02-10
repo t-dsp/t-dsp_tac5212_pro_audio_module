@@ -1,7 +1,7 @@
 
 (module SON65P300X300X100-9N (layer F.Cu) (tedit 5EB003DA)
   (descr "")
-  (fp_text reference REF** (at 1.75485 -3.58601 0) (layer F.SilkS)
+  (fp_text reference REF** (at 1.75485 -3.58601 0) (layer F.SilkS) hide
     (effects (font (size 1.64211023622 1.64211023622) (thickness 0.015)))
   )
   (fp_text value SON65P300X300X100-9N (at 17.39996 3.40876 0) (layer F.Fab)

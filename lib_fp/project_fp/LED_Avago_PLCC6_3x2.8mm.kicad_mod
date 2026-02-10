@@ -4,7 +4,7 @@
   (descr "https://docs.broadcom.com/docs/AV02-3793EN")
   (tags "LED Avago PLCC-6 ASMT-YTB7-0AA02")
   (attr smd)
-  (fp_text reference "REF**" (at 0 -2.5) (layer "F.SilkS")
+  (fp_text reference "REF**" (at 0 -2.5) (layer "F.SilkS") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 85bfd7c2-8053-45a1-a048-a0b80591015b)
   )

@@ -7,7 +7,7 @@
   (property "Sheetfile" "teensy41_digital_audio_board.kicad_sch")
   (property "Sheetname" "")
   (attr through_hole)
-  (fp_text reference "REF**" (at 0 -2.33) (layer "F.SilkS")
+  (fp_text reference "REF**" (at 0 -2.33) (layer "F.SilkS") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 72ebab86-7d94-4e46-9c01-b2a8550072e9)
   )

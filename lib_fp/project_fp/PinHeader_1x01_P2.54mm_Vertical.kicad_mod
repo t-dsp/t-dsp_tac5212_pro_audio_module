@@ -8,6 +8,7 @@
 	(property "Reference" "REF**"
 		(at 0 -2.33 180)
 		(layer "F.SilkS")
+		(hide yes)
 		(uuid "88b292f7-a2ae-4079-9bfe-e6cb04cd3fd0")
 		(effects
 			(font
@@ -305,7 +306,7 @@
 		(remove_unused_layers no)
 		(uuid "f63f6b4f-b81a-41f6-8772-9e9041342616")
 	)
-	(model "${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x01_P2.54mm_Vertical.wrl"
+	(model "${KICAD9_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x01_P2.54mm_Vertical.wrl"
 		(hide yes)
 		(offset
 			(xyz 0 0 0)

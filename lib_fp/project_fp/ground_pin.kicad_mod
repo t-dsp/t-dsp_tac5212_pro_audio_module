@@ -8,7 +8,7 @@
   (property "Sheetname" "")
   (property "mouser" "")
   (attr through_hole)
-  (fp_text reference "GND2" (at 0 2.25) (layer "F.SilkS")
+  (fp_text reference "GND2" (at 0 2.25) (layer "F.SilkS") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp ea82aa81-ae2f-4243-951e-f9276bd9f660)
   )

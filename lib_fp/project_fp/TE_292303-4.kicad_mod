@@ -1,5 +1,5 @@
 (module TE_292303-4 (layer F.Cu) (tedit 5E90C09C)
-  (fp_text reference REF** (at -3.72587 -3.31132) (layer F.SilkS)
+  (fp_text reference REF** (at -3.72587 -3.31132) (layer F.SilkS) hide
     (effects (font (size 1.001307 1.001307) (thickness 0.015)))
   )
   (fp_text value TE_292303-4 (at 0.399145 14.032165) (layer F.Fab)

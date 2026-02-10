@@ -11,7 +11,7 @@
   (property "Sheetname" "")
   (property "mouser" "-")
   (attr through_hole)
-  (fp_text reference "IN3106" (at 1.27 -6.1) (layer "F.SilkS")
+  (fp_text reference "IN3106" (at 1.27 -6.1) (layer "F.SilkS") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 478c2dc8-ad19-4a6d-8629-975034557e2b)
   )

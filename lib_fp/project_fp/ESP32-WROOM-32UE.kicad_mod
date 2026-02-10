@@ -4,7 +4,7 @@
   (descr "ESP32-WROOM-32E and ESP32-WROOM-32UE: https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32e_esp32-wroom-32ue_datasheet_en.pdf")
   (tags "ESP32")
   (attr smd)
-  (fp_text reference "REF**" (at 0 -11.2) (layer "F.SilkS")
+  (fp_text reference "REF**" (at 0 -11.2) (layer "F.SilkS") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 18c61c95-8af1-4986-b67e-c7af9c15ab6b)
   )

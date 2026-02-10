@@ -1,5 +1,5 @@
 (module 23LC1024 (layer F.Cu) (tedit 5E94666D)
-  (fp_text reference %R (at 0 -2.57) (layer F.SilkS)
+  (fp_text reference %R (at 0 -2.57) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_text value %V (at 0.06 2.77) (layer F.Fab)

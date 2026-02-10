@@ -8,7 +8,8 @@
 	(property "Reference" "REF**"
 		(at 0.05 -0.775 0)
 		(layer "F.SilkS")
-		(uuid "aa0584e1-2730-4857-a096-c1a0d52d5645")
+		(hide yes)
+		(uuid "3e94a912-05c9-4a98-82b0-b41b16c7d0e8")
 		(effects
 			(font
 				(size 0.8 0.8)
@@ -19,7 +20,7 @@
 	(property "Value" "TPD1E1B04 - 0402 size"
 		(at 0 1.17 0)
 		(layer "F.Fab")
-		(uuid "f2b4fe73-7ac3-4f48-9f01-a5b74fea29b3")
+		(uuid "681abdcd-c4a4-4e3a-a69b-15a0993dec1a")
 		(effects
 			(font
 				(size 1 1)
@@ -28,11 +29,11 @@
 		)
 	)
 	(property "Datasheet" "http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf"
-		(at 0 0 180)
+		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "7e2ae949-fc33-4980-83cb-919c59843985")
+		(uuid "bf909aff-1bc2-47b7-975f-b286b49f72fe")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -41,11 +42,11 @@
 		)
 	)
 	(property "Description" "0402 Diode for Audio Systems 5v rating. (3.6v possible)"
-		(at 0 0 180)
+		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "368a0189-a90c-46bf-a84e-15116e14e02f")
+		(uuid "3ac54c82-56ec-414a-a4f6-249d5a9b6238")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -53,11 +54,11 @@
 			)
 		)
 	)
-	(property "Part Number 2020-05-29" "NO COMPONENT"
+	(property "Part Number 2020-05-29" ""
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "cdcbdf64-9602-466d-ae2d-3ed208afa0e1")
+		(uuid "5b3d0b9a-4cab-4647-a2ed-a2a744303446")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -65,11 +66,11 @@
 			)
 		)
 	)
-	(property "Part Number 2020-08-26" "NO COMPONENT"
+	(property "Part Number 2020-08-26" ""
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "84ea0ce5-a9c6-4cbc-bc56-0c3a5a95a688")
+		(uuid "7be1c197-25d6-498c-bee9-b8612c2f0ace")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -77,11 +78,11 @@
 			)
 		)
 	)
-	(property "Part Number 2020-09-07" "NO NEED TO PURCHASE OR MOUNT"
+	(property "Part Number 2020-09-07" ""
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "b3dcd4f7-b223-48d6-814f-d3bfd41b074f")
+		(uuid "a624a5df-12ae-4207-8d6d-5bfba9449892")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -90,11 +91,11 @@
 		)
 	)
 	(property "Package / Case" "D0402"
-		(at 0 0 0)
+		(at 0 0 180)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "3cabcc29-baec-4cc4-be85-2ec2d0da7fb8")
+		(uuid "582458b8-09dc-40bf-80f1-53b4318861c7")
 		(effects
 			(font
 				(size 1 1)
@@ -103,11 +104,11 @@
 		)
 	)
 	(property "TAC5212EVM" "TPD1E10B06DPYR"
-		(at 0 0 0)
+		(at 0 0 180)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "88ee6f8e-129a-4836-b2ae-1f91549e3f02")
+		(uuid "d2df4c31-62b8-4bc1-9158-e7d91648f9d9")
 		(effects
 			(font
 				(size 1 1)
@@ -116,11 +117,102 @@
 		)
 	)
 	(property "REPLACE FOR NEXT BUILD" ""
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fc7c2f3a-6476-4c15-8602-3fc343a39151")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" "C48260"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "e87d4388-7c0d-420d-88a0-2544e1d52998")
+		(uuid "8d7414b6-541c-43fc-b7c2-715d74e56676")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC_Manufacturer" "TI"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f3175604-f1a0-4e5f-b832-b0d636ec34ea")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC_MPN" "TPD1E10B06DPYR"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e7c1a485-77e7-47b1-b05a-f2602137cf27")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8913c908-fc8d-43d1-b5b6-95ab7807edeb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6d552667-6cc3-4ca1-89ec-75645a1f964a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "mouser" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "45f1ef56-0d0a-444a-bc48-c8e9189b91dc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC NOTES" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "44fdd77d-1118-4a0b-856f-7bcd8cc0b21e")
 		(effects
 			(font
 				(size 1 1)
@@ -138,7 +230,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "c1be4126-9ba5-419f-b0f2-c60837b51ca4")
+		(uuid "20947c4a-36c5-405c-b222-fb45d664a308")
 	)
 	(fp_line
 		(start 1.1 0.47)
@@ -148,7 +240,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "abcd40d3-57f2-463c-a257-b76e6b3c8da4")
+		(uuid "ac6129ea-2849-4b60-b11f-c6b7ae9977b2")
 	)
 	(fp_line
 		(start 1.1 -0.47)
@@ -158,7 +250,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "e71e9006-7793-46d8-9a0b-08c63d05ce01")
+		(uuid "81781998-7d95-483a-8cab-1c74f53fe76f")
 	)
 	(fp_line
 		(start -1.1 0.47)
@@ -168,7 +260,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "57d3ac94-23eb-442a-9c2c-6f7f8a4b1098")
+		(uuid "297f634e-59a5-44cc-a34d-7290529e5c78")
 	)
 	(fp_line
 		(start -1.1 -0.47)
@@ -178,7 +270,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "0d8c592e-7981-4d09-b8e6-a82cc6058566")
+		(uuid "b77eae5c-4a69-40ad-bf33-dfeaaab2e242")
 	)
 	(fp_line
 		(start 0.5 0.25)
@@ -188,7 +280,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "0b84d2a5-5c97-4a43-b985-ccab5e1aa50e")
+		(uuid "f8b4cb00-d996-4cc3-b0e9-eb9c1bc32bbb")
 	)
 	(fp_line
 		(start 0.5 -0.25)
@@ -198,7 +290,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "cc744ad3-222f-4f1c-a652-7405b0e179fd")
+		(uuid "e976d54a-a5e0-4152-a086-c41ec67c1af3")
 	)
 	(fp_line
 		(start -0.3 0.25)
@@ -208,7 +300,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "26786114-e9e7-4722-96c3-be38c98815da")
+		(uuid "56f49763-1e35-45f0-a8cc-f9e07b0793f0")
 	)
 	(fp_line
 		(start -0.4 0.25)
@@ -218,7 +310,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "df375e18-ca5e-41a4-a36f-c2ad0c0871b4")
+		(uuid "ef10125a-0ecb-4219-a7c9-acd9fff9bea3")
 	)
 	(fp_line
 		(start -0.5 0.25)
@@ -228,7 +320,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "58a1d679-bfa9-4367-9190-e079039257ba")
+		(uuid "63a956b4-dad7-4cf6-b4e9-d524fa49e1e8")
 	)
 	(fp_line
 		(start -0.5 -0.25)
@@ -238,12 +330,12 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "f535789b-379c-46dd-a6da-0d1925e731dd")
+		(uuid "e1e665de-7a99-488d-82a1-25c72838963b")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "414098b4-c2f8-40ff-9182-2451ee249fe4")
+		(uuid "9718d94e-ee96-4759-aa30-e4d199c502b4")
 		(effects
 			(font
 				(size 0.25 0.25)
@@ -252,21 +344,21 @@
 		)
 	)
 	(pad "1" smd roundrect
-		(at -0.5725 0 180)
+		(at -0.5725 0)
 		(size 0.765 0.64)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
-		(uuid "2e7526a0-0d54-4fd7-acf6-2a1573bf76db")
+		(uuid "98f14b32-7643-40fa-8846-b6d15b79eb43")
 	)
 	(pad "2" smd roundrect
-		(at 0.5725 0 180)
+		(at 0.5725 0)
 		(size 0.765 0.64)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
-		(uuid "1f95ff2e-5468-4c4c-b814-eafdda8e7280")
+		(uuid "c7d6be75-95ab-4b4e-9b3a-04395b65698e")
 	)
 	(embedded_fonts no)
-	(model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_0402_1005Metric.wrl"
+	(model "${KIPRJMOD}/3d_models/TPD1E10B06DPYR.STEP"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -274,7 +366,7 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -90 -0 -0)
 		)
 	)
 )

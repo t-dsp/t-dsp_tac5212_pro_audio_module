@@ -11,7 +11,7 @@
   (property "ki_keywords" "cap capacitor")
   (property "mouser" "710-860020472006")
   (attr smd)
-  (fp_text reference "REF**" (at 0 0 unlocked) (layer "F.SilkS")
+  (fp_text reference "REF**" (at 0 0 unlocked) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp d60c504f-5048-4013-9f9a-0d54ae8adf9f)
   )

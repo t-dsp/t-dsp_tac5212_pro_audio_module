@@ -11,7 +11,7 @@
   (property "Sheetfile" "teensy41_digital_audio_board.kicad_sch")
   (property "Sheetname" "")
   (attr smd)
-  (fp_text reference "REF**" (at 0 -1.55) (layer "F.SilkS")
+  (fp_text reference "REF**" (at 0 -1.55) (layer "F.SilkS") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp b2d5dadb-1bb2-4d31-a4a5-5d00e5145e24)
   )

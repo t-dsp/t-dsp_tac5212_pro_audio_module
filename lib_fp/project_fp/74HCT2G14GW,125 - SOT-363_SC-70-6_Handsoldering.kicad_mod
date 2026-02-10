@@ -4,7 +4,7 @@
   (descr "SOT-363, SC-70-6, Handsoldering")
   (tags "SOT-363 SC-70-6 Handsoldering")
   (attr smd)
-  (fp_text reference "REF**" (at 0 -2) (layer "F.SilkS")
+  (fp_text reference "REF**" (at 0 -2) (layer "F.SilkS") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 44743ebf-7ea6-4db2-a7d6-9c584148b67b)
   )

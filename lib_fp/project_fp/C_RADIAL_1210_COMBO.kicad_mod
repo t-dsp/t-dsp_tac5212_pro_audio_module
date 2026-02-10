@@ -9,7 +9,7 @@
   (property "Sheetfile" "tlv320adc6140_audio_board.kicad_sch")
   (property "Sheetname" "")
   (attr through_hole)
-  (fp_text reference "C105" (at 0 -3.15) (layer "F.SilkS")
+  (fp_text reference "C105" (at 0 -3.15) (layer "F.SilkS") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 458e1241-c0cf-4cc5-9bf4-ae829f909967)
   )

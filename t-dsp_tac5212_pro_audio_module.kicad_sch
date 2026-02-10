@@ -12612,7 +12612,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kikit:Tab"
+		(property "Footprint" "project_fp:Tab"
 			(at 107.95 595.63 0)
 			(effects
 				(font
@@ -13859,7 +13859,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
+		(property "Footprint" "project_fp:SOT-353_SC-70-5"
 			(at 133.35 457.2 0)
 			(effects
 				(font
@@ -14374,7 +14374,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kikit:Tab"
+		(property "Footprint" "project_fp:Tab"
 			(at 152.4 595.63 0)
 			(effects
 				(font
@@ -16474,7 +16474,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kikit:Tab"
+		(property "Footprint" "project_fp:Tab"
 			(at 128.27 596.9 0)
 			(effects
 				(font
@@ -17527,7 +17527,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
+		(property "Footprint" "project_fp:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm_Master_Clock"
 			(at 111.76 132.08 0)
 			(effects
 				(font
@@ -18176,7 +18176,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:Texas_RHB0032E_VQFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm_ThermalVias"
+		(property "Footprint" "project_fp:Texas_RHB0032E_VQFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm_ThermalVias"
 			(at 182.88 119.38 0)
 			(effects
 				(font
@@ -19225,7 +19225,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kikit:Tab"
+		(property "Footprint" "project_fp:Tab"
 			(at 176.53 595.63 0)
 			(effects
 				(font
@@ -23995,7 +23995,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "project_fp:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 429.26 170.18 0)
 			(effects
 				(font
@@ -25409,7 +25409,7 @@
 	)
 	(symbol
 		(lib_id "proejct_lib:NetTie_2")
-		(at 190.5 292.1 180)
+		(at 190.5 292.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -25417,7 +25417,7 @@
 		(dnp yes)
 		(uuid "94eb7cb5-f04a-4400-a349-326c33ddde95")
 		(property "Reference" "E109"
-			(at 185.166 295.656 0)
+			(at 195.834 288.544 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25425,7 +25425,7 @@
 			)
 		)
 		(property "Value" "jumper"
-			(at 196.85 295.91 0)
+			(at 184.15 288.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28464,7 +28464,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "project_fp:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 430.53 201.93 0)
 			(effects
 				(font
@@ -30226,7 +30226,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "project_fp:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 429.26 271.78 0)
 			(effects
 				(font
@@ -31226,7 +31226,7 @@
 	)
 	(symbol
 		(lib_id "proejct_lib:NetTie_2")
-		(at 231.14 189.23 180)
+		(at 231.14 189.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -31234,7 +31234,7 @@
 		(dnp yes)
 		(uuid "d58f1f68-66f2-4e1e-a6aa-126d05d6f4d3")
 		(property "Reference" "GND108"
-			(at 231.14 191.262 0)
+			(at 231.14 187.198 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31242,7 +31242,7 @@
 			)
 		)
 		(property "Value" "BRIDGE"
-			(at 231.14 187.198 0)
+			(at 231.14 191.262 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31276,7 +31276,7 @@
 				(hide yes)
 			)
 		)
-		(property "Label" "GND"
+		(property "Label" "G"
 			(at 231.14 189.23 0)
 			(effects
 				(font
@@ -31897,7 +31897,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "project_fp:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 433.07 236.22 0)
 			(effects
 				(font
@@ -32058,7 +32058,7 @@
 	)
 	(symbol
 		(lib_id "proejct_lib:NetTie_2")
-		(at 154.94 382.27 90)
+		(at 154.94 382.27 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -32066,7 +32066,7 @@
 		(dnp yes)
 		(uuid "de145286-1413-46eb-879a-b20b0c110c32")
 		(property "Reference" "G119"
-			(at 153.924 376.936 0)
+			(at 155.956 387.604 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32074,7 +32074,7 @@
 			)
 		)
 		(property "Value" "jumper"
-			(at 153.67 388.62 0)
+			(at 156.21 375.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32082,7 +32082,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "project_fp:jumper_slice_alt1"
+		(property "Footprint" "project_fp:jumper_slice"
 			(at 154.94 382.27 0)
 			(effects
 				(font

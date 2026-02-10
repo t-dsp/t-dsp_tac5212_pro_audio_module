@@ -11,7 +11,7 @@
   (property "exclude_from_bom" "")
   (property "mouser" "-")
   (attr exclude_from_pos_files exclude_from_bom)
-  (fp_text reference "REF**" (at 0 -1.8) (layer "F.SilkS")
+  (fp_text reference "REF**" (at 0 -1.8) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp b2f1e619-a2c2-46fb-b811-e9e68706a512)
   )

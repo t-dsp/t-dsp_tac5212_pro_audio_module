@@ -9,7 +9,7 @@
   (property "Sheetfile" "USB.kicad_sch")
   (property "Sheetname" "USB")
   (attr through_hole)
-  (fp_text reference "USBB_IN1" (at 3.3214 -16.4511 -180) (layer "F.SilkS")
+  (fp_text reference "USBB_IN1" (at 3.3214 -16.4511 -180) (layer "F.SilkS") hide
     (effects (font (size 0.8 0.8) (thickness 0.18)))
     (tstamp 0839ce8d-bc94-4a18-9387-0ce4b277e1aa)
   )

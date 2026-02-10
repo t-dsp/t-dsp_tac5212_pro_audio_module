@@ -7,7 +7,7 @@
   (property "Sheetname" "")
   (property "exclude_from_bom" "")
   (attr through_hole exclude_from_bom)
-  (fp_text reference "REF**" (at 12.7 -2.1) (layer "F.SilkS")
+  (fp_text reference "REF**" (at 12.7 -2.1) (layer "F.SilkS") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 93b296a1-1544-4ada-af2f-31fdb6a7c7c9)
   )

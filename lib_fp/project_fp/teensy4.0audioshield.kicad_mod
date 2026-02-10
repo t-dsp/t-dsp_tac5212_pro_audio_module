@@ -1,5 +1,5 @@
 (module 4.0audioshield (layer F.Cu) (tedit 5FDFA899)
-  (fp_text reference U2 (at 0.5207 2.89814) (layer F.SilkS)
+  (fp_text reference U2 (at 0.5207 2.89814) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_text value "audioshield REVD" (at 8.7249 -4.2926 180) (layer F.Fab)

@@ -9,7 +9,7 @@
 		(at 0 -1.2 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "3f2073b0-4b9d-4542-a046-d4a5d7e86728")
+		(uuid "66e613b5-b192-4035-b6d5-4bb2572fba07")
 		(effects
 			(font
 				(size 1 1)
@@ -21,7 +21,7 @@
 		(at -0.3 -1.05 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "2a2ebd32-bf09-40c3-af55-9dd165d2203f")
+		(uuid "155f99f2-600e-48a4-b883-80e9cdc1080e")
 		(effects
 			(font
 				(size 1 1)
@@ -34,7 +34,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "7b557002-a9de-4ae0-9153-2cb160deb14f")
+		(uuid "78ae86ce-291e-43d2-8dc6-e46891e3e7ca")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -47,10 +47,75 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "ccfbacf4-6bd2-4065-a9ed-36245a3bddef")
+		(uuid "7b445dc2-650a-495e-911b-731e48ba6493")
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9eef3b99-04b7-4140-9fcf-a9db8d97191c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC NOTES" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d1472437-3cc2-4bdc-84ef-031884a8d22c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Part Number 2020-05-29" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6284e6a8-6a85-423c-a60c-bfb8312b1dd6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Part Number 2020-08-26" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "25f1b10b-86c4-4676-90a1-5001bcbfa836")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Part Number 2020-09-07" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b620e46f-f089-4438-b4d1-b8dd5dfa1492")
+		(effects
+			(font
+				(size 1 1)
 				(thickness 0.15)
 			)
 		)
@@ -67,19 +132,19 @@
 		)
 		(fill yes)
 		(layer "F.Cu")
-		(uuid "3e75716a-b215-40ce-bed7-4ef33c8d9fc4")
+		(uuid "0e7ffd7f-10db-4e1f-b45e-6e77d43b9263")
 	)
 	(pad "1" smd circle
 		(at -0.225 0)
 		(size 0.2 0.2)
 		(layers "F.Cu")
-		(uuid "4a2e235b-49c7-40f2-a7a4-4b2f866cf8f3")
+		(uuid "e91ae6d6-6575-4e47-8404-60b1aab8af16")
 	)
 	(pad "2" smd circle
 		(at 0.225 0)
 		(size 0.2 0.2)
 		(layers "F.Cu")
-		(uuid "23a36ca5-f701-420f-92d0-d3b8c62fc296")
+		(uuid "b10ab622-f764-4a07-8695-548d078a2310")
 	)
 	(embedded_fonts no)
 )

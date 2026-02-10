@@ -11,7 +11,7 @@
   (property "Sheetfile" "teensy41_digital_audio_board.kicad_sch")
   (property "Sheetname" "")
   (attr through_hole)
-  (fp_text reference "USBC1" (at -1.85 -8.555) (layer "F.SilkS")
+  (fp_text reference "USBC1" (at -1.85 -8.555) (layer "F.SilkS") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp ec126f22-50d1-4504-87ed-b38ccae36712)
   )

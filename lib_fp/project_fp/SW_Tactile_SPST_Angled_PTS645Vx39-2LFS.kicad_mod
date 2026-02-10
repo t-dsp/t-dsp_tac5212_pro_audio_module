@@ -3,7 +3,7 @@
   (descr "tactile switch SPST right angle, PTS645VL39-2 LFS")
   (tags "tactile switch SPST angled PTS645VL39-2 LFS C&K Button")
   (attr through_hole)
-  (fp_text reference "REF**" (at 2.25 1.68) (layer "F.SilkS")
+  (fp_text reference "REF**" (at 2.25 1.68) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 97d0dad4-2435-4ce3-a18e-8b4ae3473531)
   )

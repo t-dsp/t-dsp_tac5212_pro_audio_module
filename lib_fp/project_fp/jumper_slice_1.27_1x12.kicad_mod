@@ -14,7 +14,7 @@
   (property "mouser" "-")
   (attr through_hole exclude_from_bom)
   (net_tie_pad_groups "1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24")
-  (fp_text reference "REF**" (at 1.75 7.347858 90) (layer "F.SilkS")
+  (fp_text reference "REF**" (at 1.75 7.347858 90) (layer "F.SilkS") hide
       (effects (font (size 0.8 0.8) (thickness 0.18)))
     (tstamp 95df38dd-2046-4a0d-b949-c7be568a6fd7)
   )

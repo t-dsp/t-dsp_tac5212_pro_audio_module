@@ -7,7 +7,7 @@
   (property "Sheetfile" "teensy41_audio_project_board.kicad_sch")
   (property "Sheetname" "")
   (attr smd)
-  (fp_text reference "TR59" (at 0.07 1.49) (layer "F.SilkS")
+  (fp_text reference "TR59" (at 0.07 1.49) (layer "F.SilkS") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 5f30f324-5039-4df1-b53e-1424321cb020)
   )

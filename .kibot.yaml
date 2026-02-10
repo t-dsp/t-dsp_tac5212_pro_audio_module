@@ -203,6 +203,41 @@ outputs:
     options:
       output: '%f_ibom.%x'
 
+  - name: 3d_renders
+    comment: 3D renders of the PCB from 8 angles
+    type: blender_export
+    dir: t-dsp_tac5212_pro_audio_module
+    options:
+      render_options:
+        resolution_x: 1920
+        resolution_y: 1080
+        samples: 10
+        transparent_background: true
+        auto_crop: true
+      point_of_view:
+        - view: top
+          file_id: _top
+        - view: bottom
+          file_id: _bottom
+        - view: front
+          file_id: _front
+        - view: rear
+          file_id: _rear
+        - view: left
+          file_id: _left
+        - view: right
+          file_id: _right
+        - view: top
+          file_id: _top_iso
+          rotate_x: 30
+          rotate_z: -30
+        - view: bottom
+          file_id: _bottom_iso
+          rotate_x: -30
+          rotate_z: -30
+      outputs:
+        - type: render
+
   - name: pcb_spec
     comment: PCB specifications and layer stackup for manufacturer
     type: report
@@ -236,3 +271,5 @@ outputs:
           dest: /
         - from_output: pcb_spec
           dest: /
+        - from_output: 3d_renders
+          dest: /3d_renders

@@ -203,6 +203,14 @@ outputs:
     options:
       output: '%f_ibom.%x'
 
+  - name: pcb_spec
+    comment: PCB specifications and layer stackup for manufacturer
+    type: report
+    dir: t-dsp_tac5212_pro_audio_module
+    options:
+      template: simple
+      output: '%f_pcb_spec.%x'
+
   - name: manufacturing_zip
     comment: ZIP file with all manufacturing files
     type: compress
@@ -225,4 +233,6 @@ outputs:
         - from_output: pcb_pdf
           dest: /
         - from_output: interactive_bom
+          dest: /
+        - from_output: pcb_spec
           dest: /

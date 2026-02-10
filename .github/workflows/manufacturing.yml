@@ -94,4 +94,4 @@ jobs:
       - name: Upload release assets
         env:
           GH_TOKEN: ${{ github.token }}
-        run: gh release upload "${{ github.ref_name }}" "${{ steps.find_files.outputs.zip_path }}" --clobber
+        run: gh release upload "${{ github.ref_name }}" "${{ steps.find_files.outputs.zip_path }}" --clobber --repo "${{ github.repository }}"

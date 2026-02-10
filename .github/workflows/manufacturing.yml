@@ -92,6 +92,6 @@ jobs:
           echo "zip_path=$ZIP" >> "$GITHUB_OUTPUT"
 
       - name: Upload release assets
-        uses: softprops/action-gh-release@v2
-        with:
-          files: ${{ steps.find_files.outputs.zip_path }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release upload "${{ github.ref_name }}" "${{ steps.find_files.outputs.zip_path }}" --clobber

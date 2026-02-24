@@ -89,13 +89,19 @@ jobs:
           name: manufacturing-files
           path: manufacturing/t-dsp_tac5212_pro_audio_module/
 
-      - name: Find release files
+      - name: Rename ZIP with tag version
         id: find_files
         run: |
-          ZIP=$(ls manufacturing/t-dsp_tac5212_pro_audio_module/*.zip 2>/dev/null | head -1)
-          echo "zip_path=$ZIP" >> "$GITHUB_OUTPUT"
+          TAG="${{ github.ref_name }}"
+          SRC=$(ls manufacturing/t-dsp_tac5212_pro_audio_module/*.zip 2>/dev/null | head -1)
+          DEST="manufacturing/t-dsp_tac5212_pro_audio_module/t-dsp_tac5212_pro_audio_module-manufacturing-${TAG}.zip"
+          mv "$SRC" "$DEST"
+          echo "zip_path=$DEST" >> "$GITHUB_OUTPUT"
 
-      - name: Upload release assets
+      - name: Create release and upload assets
         env:
           GH_TOKEN: ${{ github.token }}
-        run: gh release upload "${{ github.ref_name }}" "${{ steps.find_files.outputs.zip_path }}" --clobber --repo "${{ github.repository }}"
+        run: |
+          TAG="${{ github.ref_name }}"
+          gh release create "$TAG" --title "$TAG" --generate-notes --repo "${{ github.repository }}" || true
+          gh release upload "$TAG" "${{ steps.find_files.outputs.zip_path }}" --clobber --repo "${{ github.repository }}"

@@ -6,8 +6,14 @@ A compact (50mm x 34.5mm) stereo audio codec module built around the **Texas Ins
 
 ![T-DSP TAC5212 Pro Audio Module](documentation/t-dsp-tac5212-photo.png)
 
-![T-DSP TAC5212 Pro Audio Module - 3D Top](documentation/t-dsp-tac5212-3d-top.png)
-![T-DSP TAC5212 Pro Audio Module - 3D Bottom](documentation/t-dsp-tac5212-3d-bottom.png)
+[![T-DSP TAC5212 Pro Audio Module - Top Isometric](https://t-dsp.github.io/t-dsp_tac5212_pro_audio_module/renders/t-dsp_tac5212_pro_audio_module-3D_blender_th_top_iso.png)](https://t-dsp.github.io/t-dsp_tac5212_pro_audio_module/gallery.html)
+
+| | |
+|:---:|:---:|
+| [![Top](https://t-dsp.github.io/t-dsp_tac5212_pro_audio_module/renders/t-dsp_tac5212_pro_audio_module-3D_blender_th_top.png)](https://t-dsp.github.io/t-dsp_tac5212_pro_audio_module/gallery.html) | [![Bottom](https://t-dsp.github.io/t-dsp_tac5212_pro_audio_module/renders/t-dsp_tac5212_pro_audio_module-3D_blender_th_bottom.png)](https://t-dsp.github.io/t-dsp_tac5212_pro_audio_module/gallery.html) |
+| [![Front](https://t-dsp.github.io/t-dsp_tac5212_pro_audio_module/renders/t-dsp_tac5212_pro_audio_module-3D_blender_th_front.png)](https://t-dsp.github.io/t-dsp_tac5212_pro_audio_module/gallery.html) | [![Rear](https://t-dsp.github.io/t-dsp_tac5212_pro_audio_module/renders/t-dsp_tac5212_pro_audio_module-3D_blender_th_rear.png)](https://t-dsp.github.io/t-dsp_tac5212_pro_audio_module/gallery.html) |
+
+**[View 3D Render Gallery](https://t-dsp.github.io/t-dsp_tac5212_pro_audio_module/gallery.html)** -- interactive slideshow of all board views
 
 ## About T-DSP
 
@@ -98,6 +104,7 @@ The T-DSP platform has gone through several design iterations. The bench prototy
 | `/documentation/` | TAC5212 datasheets, [schematic PDF](documentation/t-dsp-tac5212-schematic.pdf), [footprint drawing](documentation/t-dsp-tac5212-footprint.pdf), and [3D model (STL)](documentation/t-dsp_tac5212_pro_audio_module.stl). View online: [schematic](https://kicanvas.org/?github=https://github.com/t-dsp/t-dsp_tac5212_pro_audio_module/blob/main/t-dsp_tac5212_pro_audio_module.kicad_sch) and [PCB layout](https://kicanvas.org/?github=https://github.com/t-dsp/t-dsp_tac5212_pro_audio_module/blob/main/t-dsp_tac5212_pro_audio_module.kicad_pcb) via KiCanvas |
 | `/lib_fp/` | Custom KiCad footprint libraries |
 | `/lib_sch/` | Custom KiCad schematic symbol libraries |
+| `/pages/` | [3D Render Gallery](https://t-dsp.github.io/t-dsp_tac5212_pro_audio_module/gallery.html), [Interactive BOM](https://t-dsp.github.io/t-dsp_tac5212_pro_audio_module/ibom.html) |
 | `/scripts/` | LCSC enrichment and BOM verification scripts |
 
 ## Building Manufacturing Files

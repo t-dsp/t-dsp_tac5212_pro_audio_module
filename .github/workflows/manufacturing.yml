@@ -23,6 +23,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - uses: INTI-CMNB/KiBot@v2_k9
         with:
@@ -36,7 +38,7 @@ jobs:
       - name: Generate 3D renders
         uses: docker://ghcr.io/inti-cmnb/kicad9_auto_full:latest
         with:
-          args: kibot -c .kibot.yaml -b t-dsp_tac5212_pro_audio_module.kicad_pcb -e t-dsp_tac5212_pro_audio_module.kicad_sch -d manufacturing 3d_renders
+          args: kibot -c .kibot.yaml -b t-dsp_tac5212_pro_audio_module.kicad_pcb -e t-dsp_tac5212_pro_audio_module.kicad_sch -d manufacturing 3d_renders 3d_renders_smd
 
       - name: Generate manufacturing ZIP
         uses: INTI-CMNB/KiBot@v2_k9
@@ -56,8 +58,10 @@ jobs:
 
       - name: Prepare GitHub Pages content
         run: |
-          mkdir -p _site
+          mkdir -p _site/renders
           cp manufacturing/t-dsp_tac5212_pro_audio_module/*_ibom.html _site/ibom.html
+          cp manufacturing/t-dsp_tac5212_pro_audio_module/*3D_blender*.png _site/renders/
+          cp pages/gallery.html _site/gallery.html
 
       - uses: actions/upload-pages-artifact@v3
 

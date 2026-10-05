@@ -1,0 +1,463 @@
+[
+ {
+  "header": "J1",
+  "pins": [
+   {
+    "number": "J1-1",
+    "name": "EN",
+    "type": "passive",
+    "x": -20.32,
+    "y": 17.78,
+    "angle": 0,
+    "length": 2.54
+   },
+   {
+    "number": "J1-2",
+    "name": "NC",
+    "type": "no_connect",
+    "x": 20.32,
+    "y": 17.78,
+    "angle": 180,
+    "length": 2.54
+   },
+   {
+    "number": "J1-3",
+    "name": "5V",
+    "type": "passive",
+    "x": -20.32,
+    "y": 15.24,
+    "angle": 0,
+    "length": 2.54
+   },
+   {
+    "number": "J1-4",
+    "name": "3V3_IO",
+    "type": "passive",
+    "x": 20.32,
+    "y": 15.24,
+    "angle": 180,
+    "length": 2.54
+   },
+   {
+    "number": "J1-5",
+    "name": "NC",
+    "type": "no_connect",
+    "x": -20.32,
+    "y": 12.7,
+    "angle": 0,
+    "length": 2.54
+   },
+   {
+    "number": "J1-6",
+    "name": "GNDD",
+    "type": "passive",
+    "x": 20.32,
+    "y": 12.7,
+    "angle": 180,
+    "length": 2.54
+   },
+   {
+    "number": "J1-7",
+    "name": "DIN",
+    "type": "passive",
+    "x": -20.32,
+    "y": 10.16,
+    "angle": 0,
+    "length": 2.54
+   },
+   {
+    "number": "J1-8",
+    "name": "GNDD",
+    "type": "passive",
+    "x": 20.32,
+    "y": 10.16,
+    "angle": 180,
+    "length": 2.54
+   },
+   {
+    "number": "J1-9",
+    "name": "DOUT",
+    "type": "passive",
+    "x": -20.32,
+    "y": 7.62,
+    "angle": 0,
+    "length": 2.54
+   },
+   {
+    "number": "J1-10",
+    "name": "GNDD",
+    "type": "passive",
+    "x": 20.32,
+    "y": 7.62,
+    "angle": 180,
+    "length": 2.54
+   },
+   {
+    "number": "J1-11",
+    "name": "BCLK",
+    "type": "passive",
+    "x": -20.32,
+    "y": 5.08,
+    "angle": 0,
+    "length": 2.54
+   },
+   {
+    "number": "J1-12",
+    "name": "GNDD",
+    "type": "passive",
+    "x": 20.32,
+    "y": 5.08,
+    "angle": 180,
+    "length": 2.54
+   },
+   {
+    "number": "J1-13",
+    "name": "LRCK",
+    "type": "passive",
+    "x": -20.32,
+    "y": 2.54,
+    "angle": 0,
+    "length": 2.54
+   },
+   {
+    "number": "J1-14",
+    "name": "GNDD",
+    "type": "passive",
+    "x": 20.32,
+    "y": 2.54,
+    "angle": 180,
+    "length": 2.54
+   },
+   {
+    "number": "J1-15",
+    "name": "DSP_SDA",
+    "type": "passive",
+    "x": -20.32,
+    "y": 0.0,
+    "angle": 0,
+    "length": 2.54
+   },
+   {
+    "number": "J1-16",
+    "name": "GNDD",
+    "type": "passive",
+    "x": 20.32,
+    "y": 0.0,
+    "angle": 180,
+    "length": 2.54
+   },
+   {
+    "number": "J1-17",
+    "name": "DSP_SCL",
+    "type": "passive",
+    "x": -20.32,
+    "y": -2.54,
+    "angle": 0,
+    "length": 2.54
+   },
+   {
+    "number": "J1-18",
+    "name": "GNDD",
+    "type": "passive",
+    "x": 20.32,
+    "y": -2.54,
+    "angle": 180,
+    "length": 2.54
+   },
+   {
+    "number": "J1-19",
+    "name": "MCLK",
+    "type": "passive",
+    "x": -20.32,
+    "y": -5.08,
+    "angle": 0,
+    "length": 2.54
+   },
+   {
+    "number": "J1-20",
+    "name": "GNDD",
+    "type": "passive",
+    "x": 20.32,
+    "y": -5.08,
+    "angle": 180,
+    "length": 2.54
+   }
+  ]
+ },
+ {
+  "header": "J2",
+  "pins": [
+   {
+    "number": "J2-1",
+    "name": "OUT1P",
+    "type": "passive",
+    "x": -20.32,
+    "y": 17.78,
+    "angle": 0,
+    "length": 2.54
+   },
+   {
+    "number": "J2-2",
+    "name": "AGND",
+    "type": "passive",
+    "x": 20.32,
+    "y": 17.78,
+    "angle": 180,
+    "length": 2.54
+   },
+   {
+    "number": "J2-3",
+    "name": "OUT1M",
+    "type": "passive",
+    "x": -20.32,
+    "y": 15.24,
+    "angle": 0,
+    "length": 2.54
+   },
+   {
+    "number": "J2-4",
+    "name": "AGND",
+    "type": "passive",
+    "x": 20.32,
+    "y": 15.24,
+    "angle": 180,
+    "length": 2.54
+   },
+   {
+    "number": "J2-5",
+    "name": "OUT2P",
+    "type": "passive",
+    "x": -20.32,
+    "y": 12.7,
+    "angle": 0,
+    "length": 2.54
+   },
+   {
+    "number": "J2-6",
+    "name": "AGND",
+    "type": "passive",
+    "x": 20.32,
+    "y": 12.7,
+    "angle": 180,
+    "length": 2.54
+   },
+   {
+    "number": "J2-7",
+    "name": "OUT2M",
+    "type": "passive",
+    "x": -20.32,
+    "y": 10.16,
+    "angle": 0,
+    "length": 2.54
+   },
+   {
+    "number": "J2-8",
+    "name": "AGND",
+    "type": "passive",
+    "x": 20.32,
+    "y": 10.16,
+    "angle": 180,
+    "length": 2.54
+   },
+   {
+    "number": "J2-9",
+    "name": "IN1P",
+    "type": "passive",
+    "x": -20.32,
+    "y": 7.62,
+    "angle": 0,
+    "length": 2.54
+   },
+   {
+    "number": "J2-10",
+    "name": "AGND",
+    "type": "passive",
+    "x": 20.32,
+    "y": 7.62,
+    "angle": 180,
+    "length": 2.54
+   },
+   {
+    "number": "J2-11",
+    "name": "IN1M",
+    "type": "passive",
+    "x": -20.32,
+    "y": 5.08,
+    "angle": 0,
+    "length": 2.54
+   },
+   {
+    "number": "J2-12",
+    "name": "AGND",
+    "type": "passive",
+    "x": 20.32,
+    "y": 5.08,
+    "angle": 180,
+    "length": 2.54
+   },
+   {
+    "number": "J2-13",
+    "name": "IN2P",
+    "type": "passive",
+    "x": -20.32,
+    "y": 2.54,
+    "angle": 0,
+    "length": 2.54
+   },
+   {
+    "number": "J2-14",
+    "name": "AGND",
+    "type": "passive",
+    "x": 20.32,
+    "y": 2.54,
+    "angle": 180,
+    "length": 2.54
+   },
+   {
+    "number": "J2-15",
+    "name": "IN2M",
+    "type": "passive",
+    "x": -20.32,
+    "y": 0.0,
+    "angle": 0,
+    "length": 2.54
+   },
+   {
+    "number": "J2-16",
+    "name": "AGND",
+    "type": "passive",
+    "x": 20.32,
+    "y": 0.0,
+    "angle": 180,
+    "length": 2.54
+   },
+   {
+    "number": "J2-17",
+    "name": "MICBIAS",
+    "type": "passive",
+    "x": -20.32,
+    "y": -2.54,
+    "angle": 0,
+    "length": 2.54
+   }
+  ]
+ },
+ {
+  "header": "J3",
+  "pins": [
+   {
+    "number": "J3-1",
+    "name": "SCL",
+    "type": "passive",
+    "x": -15.24,
+    "y": 17.78,
+    "angle": 0,
+    "length": 2.54
+   },
+   {
+    "number": "J3-2",
+    "name": "SDA",
+    "type": "passive",
+    "x": -15.24,
+    "y": 15.24,
+    "angle": 0,
+    "length": 2.54
+   },
+   {
+    "number": "J3-3",
+    "name": "GNDD",
+    "type": "passive",
+    "x": -15.24,
+    "y": 12.7,
+    "angle": 0,
+    "length": 2.54
+   },
+   {
+    "number": "J3-4",
+    "name": "GPIO1",
+    "type": "passive",
+    "x": -15.24,
+    "y": 10.16,
+    "angle": 0,
+    "length": 2.54
+   },
+   {
+    "number": "J3-5",
+    "name": "GPIO2",
+    "type": "passive",
+    "x": -15.24,
+    "y": 7.62,
+    "angle": 0,
+    "length": 2.54
+   },
+   {
+    "number": "J3-6",
+    "name": "GPO1",
+    "type": "passive",
+    "x": -15.24,
+    "y": 5.08,
+    "angle": 0,
+    "length": 2.54
+   },
+   {
+    "number": "J3-7",
+    "name": "GPI1",
+    "type": "passive",
+    "x": -15.24,
+    "y": 2.54,
+    "angle": 0,
+    "length": 2.54
+   },
+   {
+    "number": "J3-8",
+    "name": "GNDD",
+    "type": "passive",
+    "x": -15.24,
+    "y": 0.0,
+    "angle": 0,
+    "length": 2.54
+   }
+  ]
+ },
+ {
+  "header": "H",
+  "pins": [
+   {
+    "number": "H1",
+    "name": "AGND",
+    "type": "passive",
+    "x": -15.24,
+    "y": 17.78,
+    "angle": 0,
+    "length": 2.54
+   },
+   {
+    "number": "H2",
+    "name": "AGND",
+    "type": "passive",
+    "x": -15.24,
+    "y": 15.24,
+    "angle": 0,
+    "length": 2.54
+   },
+   {
+    "number": "H3",
+    "name": "DGND",
+    "type": "passive",
+    "x": -15.24,
+    "y": 12.7,
+    "angle": 0,
+    "length": 2.54
+   },
+   {
+    "number": "H4",
+    "name": "DGND",
+    "type": "passive",
+    "x": -15.24,
+    "y": 10.16,
+    "angle": 0,
+    "length": 2.54
+   }
+  ]
+ }
+]

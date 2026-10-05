@@ -15,7 +15,7 @@ less). Module pad n -> J1-n (n 1-20), J2-(n-20) (21-36), J2-17 (48), J3-(n-36) (
 H1-H4 are the module's four plated 2.2 mm holes (M2 standoffs); on the module they tie to AGND / DGND through
 E108 / E109 / G117 / G118.
 """
-import os, json
+import os, sys, json
 import pcbnew
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -60,6 +60,36 @@ HOLES = [('H1', 12.12, 1.80, 'AGND'), ('H2', 40.06, 1.80, 'AGND'), ('H3', 12.12,
          ('H4', 40.06, 24.66, 'DGND')]
 HOLE_PAD, HOLE_DRILL = 3.2, 2.2
 HOLE_CRT_R = 2.15
+
+# 3D model: the module board exported to STEP with the module's top-left corner as origin (export_step(), run with
+# --step or when the file is missing), saved next to the footprints. Only the socket footprint carries it: on the
+# module itself it would draw the board a second time. It sits STACK_Z above the backplane (8.5 mm female socket +
+# 2.5 mm male-header spacer); option parts (DNP) are left out.
+STEP = 'T-DSP_TAC5212.step'
+STEP_PCB = os.path.join(ROOT, 't-dsp_tac5212_pro_audio_module.kicad_pcb')
+STEP_ORIGIN = (84.8325, 97.9450)  # module top-left on the module board
+STACK_Z = 11.0
+# leave DNP parts out of the model (option parts)
+STEP_NO_DNP = True
+
+
+def export_step():
+    import subprocess, sys
+    cli = os.path.join(os.path.dirname(sys.executable), 'kicad-cli.exe')
+    out = os.path.join(LIB, STEP)
+    # older footprints name their models with KiCad 6-9 path variables: point them at KiCad 10's 3D library
+    lib3d = os.path.join(os.path.dirname(os.path.dirname(sys.executable)), 'share', 'kicad', '3dmodels')
+    old = sum((['-D', 'KICAD%d_3DMODEL_DIR=%s' % (v, lib3d)] for v in (6, 7, 8, 9)), [])
+    r = subprocess.run([cli, 'pcb', 'export', 'step', '--force', '--subst-models'] + (['--no-dnp'] if STEP_NO_DNP else []) + old +
+                       ['--user-origin', '%.4fx%.4fmm' % STEP_ORIGIN, '-o', out, STEP_PCB], capture_output=True, text=True)
+    print('STEP', out, '%.1f MB' % (os.path.getsize(out) / 1e6) if os.path.exists(out) else (r.stdout + r.stderr)[-800:])
+
+
+def add_model(fp):
+    m = pcbnew.FP_3DMODEL()
+    m.m_Filename = '${KIPRJMOD}/lib_fp/t-dsp_tac5212_pro_audio_module.pretty/' + STEP
+    m.m_Offset = pcbnew.VECTOR3D(0, 0, STACK_Z)
+    fp.Models().push_back(m)
 
 mm, MM = pcbnew.ToMM, pcbnew.FromMM
 
@@ -130,6 +160,8 @@ def build(name, pads, socket):
              'Module side: fit male 2.54 mm headers; board edge comes from the module board.')
     fp.SetLibDescription(desc)
     fp.SetKeywords(KEYWORDS)
+    if socket:
+        add_model(fp)
     fp.Reference().SetText('A**'); fp.Reference().SetPosition(vec(W / 2, -1.5)); fp.Reference().SetLayer(pcbnew.F_SilkS)
     fp.Value().SetText(name); fp.Value().SetPosition(vec(W / 2, H + 1.5)); fp.Value().SetLayer(pcbnew.F_Fab)
 
@@ -213,6 +245,8 @@ def main():
     pads = all_pads()
     if not os.path.isdir(LIB):
         os.makedirs(LIB)
+    if '--step' in sys.argv or not os.path.exists(os.path.join(LIB, STEP)):
+        export_step()
     io = pcbnew.PCB_IO_MGR.FindPlugin(pcbnew.PCB_IO_MGR.KICAD_SEXP)
     for name in NAMES:
         io.FootprintSave(LIB, build(name, pads, True))

@@ -1239,6 +1239,288 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "proejct_lib:LT3042xMSE"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U110"
+				(at 0.254 12.446 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LT3042xMSE"
+				(at 0.508 14.732 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "project_fp:MSOP-10-1EP_3x3mm_P0.5mm_EP1.68x1.88mm"
+				(at 1.016 14.224 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 5.334 -12.446 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "linear voltage regulator low-noise"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MSOP*1EP*3x3mm*P0.5mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LT3042xMSE_0_1"
+				(rectangle
+					(start -7.62 8.89)
+					(end 7.62 -8.89)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "LT3042xMSE_1_1"
+				(pin power_in line
+					(at -10.16 6.35 0)
+					(length 2.54)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 6.35 0)
+					(length 2.54)
+					(hide yes)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "EN/UV"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at -5.08 -11.43 90)
+					(length 2.54)
+					(name "PG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -1.27 -11.43 90)
+					(length 2.54)
+					(name "ILIM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 2.54 -11.43 90)
+					(length 2.54)
+					(name "PGFB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 -11.43 90)
+					(length 2.54)
+					(name "SET"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 10.16 6.35 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 3.81 180)
+					(length 2.54)
+					(name "OUTS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "proejct_lib:NetTie_2"
 			(pin_numbers
 				(hide yes)
@@ -5652,7 +5934,7 @@
 	)
 	(text "POWER SUPPLY"
 		(exclude_from_sim no)
-		(at 119.126 332.74 0)
+		(at -198.374 327.66 0)
 		(effects
 			(font
 				(size 5.08 5.08)
@@ -5735,6 +6017,19 @@
 		)
 		(uuid "98bab0d3-d60e-4d2f-86f5-0e10cb4bbbad")
 	)
+	(text "NEW POWER SUPPLY"
+		(exclude_from_sim no)
+		(at 111.506 341.122 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 0.4013)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "a57eeb14-e4ea-4c2e-b8dc-e1937b579bf4")
+	)
 	(text "# TAC5212 Audio Module - Input/Output Interface Documentation\n\n## Document Control\n| Version | Date | Author | Changes |\n|---------|------|--------|---------|\n| 1.0 | [Date] | [Name] | Initial release |\n\n---\n\n## Module Overview\nThe TAC5212 audio module provides flexible, high-quality audio input and output interfaces designed for compatibility with a wide range of audio sources and destinations. The module implements a modular architecture where source-specific adaptations are handled by external jack boards, maintaining maximum versatility.\n\n---\n\n## Input Circuit Design\n\n### Base Input Architecture\nThe module input stage consists of:\n- **C134**: 10µF DC-blocking capacitor\n- **R130**: 100kΩ input impedance resistor to ground  \n- **D112**: Input protection diode (BLM21AG01S or equivalent)\n- **FB109**: Ferrite bead for high-frequency noise filtering\n\nThis configuration provides:\n- Universal DC-coupled input capability\n- 100kΩ input impedance\n- Protection against overvoltage conditions\n- Effective noise filtering above audio frequencies\n\n### Input Specifications\n| Parameter | Value | Notes |\n|-----------|-------|-------|\n| Input Impedance | 100kΩ | At audio frequencies |\n| Max Input Voltage | ±5V | Limited by protection circuitry |\n| Frequency Response | 1.6Hz - 20kHz | -3dB points with 100kΩ load |\n| Input Capacitance | <100pF | Including protection devices |\n\n### Supported Input Types\n\n#### 1. Line-Level Inputs\n- **Consumer (-10dBV)**: Direct connection, no adaptation required\n- **Professional (+4dBu)**: Direct connection supported\n- **High-level pro (+24dBu)**: Add 10kΩ series resistor on jack board\n\n#### 2. Instrument Inputs (Guitar/Bass)\n- Module provides functional 100kΩ input impedance\n- For optimal tone preservation, add 1MΩ resistor to ground on jack board\n- Alternatively, use external DI box or buffer pedal\n\n#### 3. Microphone Inputs\n- **Dynamic microphones**: Direct connection using TAC5212's 60dB internal gain\n- **Condenser microphones**: Requires external phantom-powered preamp on jack board\n\n---\n\n## Output Circuit Design\n\n### Base Output Architecture\nThe module output stage consists of:\n- **R108**: 10Ω series output resistor\n- **C113**: 4.7nF capacitor to ground (RF filtering)\n- **D108**: TPD1E10B06 bidirectional TVS protection diode\n- **C110/R129**: Optional 47µF DC-blocking capacitor with bypass jumper\n\nDefault configuration: R129 populated with 0Ω (C110 unpopulated)\n\n### Output Specifications\n| Parameter | Value | Notes |\n|-----------|-------|-------|\n| Output Impedance | 10Ω | At audio frequencies |\n| Max Output Voltage | ±3.3V | TAC5212 rail-limited |\n| Output Current | 50mA max | Short-circuit protected |\n| Frequency Response | DC-20kHz | When DC-coupled |\n| Protection | ±6V TVS | TPD1E10B06 clamping |\n\n### Supported Output Types\n\n#### 1. Headphone Outputs\n**Jack board requirements:**\n- 470µF DC-blocking capacitor\n- No additional series resistance needed\n\n**Performance:**\n- Drives 16Ω to 300Ω headphones effectively\n- Output power: ~50mW into 32Ω\n- Low 10Ω output impedance ensures good damping\n\n#### 2. Consumer Line Outputs (-10dBV)\n**Jack board requirements:**\n- 47µF DC-blocking capacitor\n- Direct connection to RCA/3.5mm jacks\n\n**Compatibility:**\n- Standard consumer audio equipment\n- >10kΩ input impedance devices\n\n#### 3. Professional Line Outputs (+4dBu)\n**Jack board requirements:**\n- 47µF DC-blocking capacitor\n- Optional 50-100Ω series resistor for long cable runs (>50ft)\n\n**Features:**\n- Balanced output possible using OUTxP/OUTxN pins\n- Improved EMI rejection with series resistance\n- Short-circuit protection\n\n---\n\n## Jack Board Design Guidelines\n\n### Input Jack Boards\n1. **Universal Design**\n   - Direct pass-through for line-level sources\n   - No additional DC-blocking required\n\n2. **Guitar-Specific**\n   - Add 1MΩ resistor from input to ground\n   - Use high-quality, low-noise resistor\n\n3. **Microphone-Specific**\n   - Include phantom power supply (48V)\n   - Add microphone preamp circuit\n   - Output at line level to module\n\n### Output Jack Boards\n1. **Headphone Jack**\n   - 470µF electrolytic capacitor (rated ≥10V)\n   - 1/4\" or 3.5mm TRS jack\n   - Consider dual-gang pot for volume control\n\n2. **Line Output Jack**  \n   - 47µF electrolytic capacitor (rated ≥10V)\n   - RCA or 1/4\" TRS jacks as needed\n   - Optional output attenuator\n\n3. **Balanced Output Jack**\n   - Two 47µF capacitors (OUTxP and OUTxN)\n   - XLR or 1/4\" TRS balanced jacks\n   - Optional 50-100Ω build-out resistors\n\n---\n\n## PCB Layout Recommendations\n\n### Input Section\n- Keep input traces short and away from digital signals\n- Place ferrite bead close to TAC5212 input pin\n- Use ground plane under input circuitry\n- Consider guard rings for ultra-low noise applications\n\n### Output Section  \n- Minimize trace length between TAC5212 and R108\n- Place TVS diode close to output connector\n- Avoid running output traces near sensitive input circuits\n- Use adequate trace width for headphone currents (≥0.5mm)\n\n---\n\n## Typical Application Circuit Examples\n\n### Basic Stereo Line I/O\n```\nInput:  RCA Jack → Module Input → TAC5212\nOutput: TAC5212 → Module Output → 47µF → RCA Jack\n```\n\n### Headphone Amplifier\n```\nOutput: TAC5212 → Module Output → 470µF → 3.5mm TRS Jack\n```\n\n### Guitar Interface\n```\nInput: 1/4\" Jack → 1MΩ to GND → Module Input → TAC5212\n```\n\n---\n\n## Revision History\n| Date | Version | Description |\n|------|---------|-------------|\n| [Date] | 1.0 | Initial documentation release |\n\n---\n\n## Notes\n- All capacitor voltage ratings should be ≥10V\n- Use audio-grade electrolytic capacitors where possible\n- Consider film capacitors for professional applications\n- Temperature rating: -40°C to +85°C for all components"
 		(exclude_from_sim no)
 		(at 973.582 273.304 0)
@@ -5779,7 +6074,7 @@
 		(uuid "963c4814-b7fb-4685-88bd-fffb8771c52d")
 	)
 	(junction
-		(at 166.37 360.68)
+		(at -151.13 355.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "024b59a1-2a12-4ed3-8bbc-b57b81428f9e")
@@ -5819,6 +6114,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "128cf1c2-4067-469c-88f1-5d51c522d407")
+	)
+	(junction
+		(at 176.53 363.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "15d93ae8-b697-4200-817a-3fe8ad81ee28")
 	)
 	(junction
 		(at 416.56 168.91)
@@ -5965,22 +6266,34 @@
 		(uuid "42e24d2e-9438-44de-b0d1-0d5e6a03d516")
 	)
 	(junction
-		(at 111.76 370.84)
+		(at -205.74 365.76)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "441d6599-e0cb-465a-995a-7ee7620f9f63")
 	)
 	(junction
-		(at 120.65 360.68)
+		(at -196.85 355.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "444548de-7881-40c7-92ad-0aedc4dfde80")
+	)
+	(junction
+		(at 124.46 379.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "45efc307-c3b7-4bf3-8f06-6955433d8977")
 	)
 	(junction
 		(at 151.13 168.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "48807bab-7071-4ec2-8f0b-49de12e021d6")
+	)
+	(junction
+		(at 171.45 363.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "49ca123b-6df8-45f1-ab96-0474478dd249")
 	)
 	(junction
 		(at 180.34 256.54)
@@ -6103,13 +6416,19 @@
 		(uuid "6c09895b-81f8-4110-9912-e2c8f0dc2684")
 	)
 	(junction
+		(at 129.54 363.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6c827294-46fd-4d3c-9239-db391e0077f5")
+	)
+	(junction
 		(at 180.34 236.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6ce1ff30-5a87-404f-98d6-4e1da6aa5c0b")
 	)
 	(junction
-		(at 111.76 360.68)
+		(at -205.74 355.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6e954a5f-34c2-4da9-8648-7585989e8ce3")
@@ -6163,7 +6482,7 @@
 		(uuid "85ffed2d-413a-48f7-a8db-a8b448661156")
 	)
 	(junction
-		(at 170.18 360.68)
+		(at -147.32 355.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8881021f-d248-437b-9d01-749b1f1f1c79")
@@ -6223,7 +6542,7 @@
 		(uuid "a16216e8-1e19-46b7-95a9-e1e86094d26a")
 	)
 	(junction
-		(at 97.79 360.68)
+		(at -219.71 355.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a28488c5-5d97-4df8-8898-a7495ff9e192")
@@ -6251,6 +6570,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "adc20a97-097e-4a3c-be03-469dfe78f691")
+	)
+	(junction
+		(at 165.1 386.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "af8d335b-0d2c-42c5-b789-0e061158baf3")
 	)
 	(junction
 		(at 478.79 369.57)
@@ -6379,7 +6704,7 @@
 		(uuid "d0bd7163-4b8d-4e76-8713-a31e5fdc9b7d")
 	)
 	(junction
-		(at 128.27 347.98)
+		(at -189.23 342.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d0c2b6a2-ec2a-44b1-9c41-44a84291d0aa")
@@ -6415,7 +6740,7 @@
 		(uuid "e43983db-0a37-4c4b-8360-d06b8fc397e6")
 	)
 	(junction
-		(at 154.94 370.84)
+		(at -162.56 365.76)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e63305ce-cd0b-4f4c-9a19-a6e54d69f6a1")
@@ -6524,7 +6849,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 341.63) (xy 130.81 341.63)
+			(xy -189.23 336.55) (xy -186.69 336.55)
 		)
 		(stroke
 			(width 0)
@@ -6544,7 +6869,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 360.68) (xy 166.37 360.68)
+			(xy -154.94 355.6) (xy -151.13 355.6)
 		)
 		(stroke
 			(width 0)
@@ -6644,6 +6969,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 363.22) (xy 148.59 363.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08066527-a608-4deb-a20a-833805c2e429")
+	)
+	(wire
+		(pts
 			(xy 382.27 491.49) (xy 378.46 491.49)
 		)
 		(stroke
@@ -6651,6 +6986,16 @@
 			(type default)
 		)
 		(uuid "0854dd62-748a-460f-b4be-7236ab44afb0")
+	)
+	(wire
+		(pts
+			(xy 168.91 363.22) (xy 171.45 363.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "088a09bb-d9e4-48eb-84b7-7c9fb3aff21c")
 	)
 	(wire
 		(pts
@@ -6754,7 +7099,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 347.98) (xy 144.78 347.98)
+			(xy -189.23 342.9) (xy -172.72 342.9)
 		)
 		(stroke
 			(width 0)
@@ -6834,7 +7179,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 360.68) (xy 186.69 360.68)
+			(xy -133.35 355.6) (xy -130.81 355.6)
 		)
 		(stroke
 			(width 0)
@@ -6894,7 +7239,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 356.87) (xy 120.65 360.68)
+			(xy -196.85 351.79) (xy -196.85 355.6)
 		)
 		(stroke
 			(width 0)
@@ -6904,7 +7249,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 360.68) (xy 88.9 360.68)
+			(xy -231.14 355.6) (xy -228.6 355.6)
 		)
 		(stroke
 			(width 0)
@@ -7384,6 +7729,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 379.73) (xy 124.46 379.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "338d4d04-bfa0-408b-a385-8cafc1673997")
+	)
+	(wire
+		(pts
 			(xy 97.79 114.3) (xy 110.49 114.3)
 		)
 		(stroke
@@ -7474,7 +7829,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 358.14) (xy 166.37 360.68)
+			(xy -151.13 353.06) (xy -151.13 355.6)
 		)
 		(stroke
 			(width 0)
@@ -7534,7 +7889,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 370.84) (xy 170.18 365.76)
+			(xy -147.32 365.76) (xy -147.32 360.68)
 		)
 		(stroke
 			(width 0)
@@ -7601,6 +7956,16 @@
 			(type default)
 		)
 		(uuid "3ee8a5b6-32ec-4abf-9b0d-5a8d84a81b35")
+	)
+	(wire
+		(pts
+			(xy 171.45 379.73) (xy 171.45 372.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f084afd-48d3-4600-b4f6-e63d1e83ba64")
 	)
 	(wire
 		(pts
@@ -7694,7 +8059,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 360.68) (xy 97.79 360.68)
+			(xy -205.74 355.6) (xy -219.71 355.6)
 		)
 		(stroke
 			(width 0)
@@ -7844,7 +8209,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 347.98) (xy 144.78 363.22)
+			(xy -172.72 342.9) (xy -172.72 358.14)
 		)
 		(stroke
 			(width 0)
@@ -7954,6 +8319,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 379.73) (xy 140.97 379.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "571a010f-bdea-4f8b-859f-42ef004a7356")
+	)
+	(wire
+		(pts
 			(xy 123.19 119.38) (xy 123.19 113.03)
 		)
 		(stroke
@@ -8014,6 +8389,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 363.22) (xy 190.5 377.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b6dad2c-68ca-46f4-bb08-b7f9fa7a8d56")
+	)
+	(wire
+		(pts
 			(xy 99.06 231.14) (xy 101.6 231.14)
 		)
 		(stroke
@@ -8031,6 +8416,16 @@
 			(type default)
 		)
 		(uuid "5dac9363-bdbc-4c9d-aca3-0deee61246e2")
+	)
+	(wire
+		(pts
+			(xy 165.1 386.08) (xy 165.1 381)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5df270d2-ebee-40ef-ad75-b40a7a9e1389")
 	)
 	(wire
 		(pts
@@ -8084,6 +8479,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 386.08) (xy 171.45 386.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61a91b1f-d56c-4e90-888d-58558f275888")
+	)
+	(wire
+		(pts
 			(xy 151.13 124.46) (xy 163.83 124.46)
 		)
 		(stroke
@@ -8091,6 +8496,16 @@
 			(type default)
 		)
 		(uuid "61ee4177-0c30-47ed-ad0c-f3e8c165bf3d")
+	)
+	(wire
+		(pts
+			(xy 157.48 394.97) (xy 157.48 391.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "629d7aae-3d44-4914-b729-ddcc24ffd84c")
 	)
 	(wire
 		(pts
@@ -8114,7 +8529,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 384.81) (xy 154.94 387.35)
+			(xy -162.56 379.73) (xy -162.56 382.27)
 		)
 		(stroke
 			(width 0)
@@ -8164,6 +8579,26 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 363.22) (xy 190.5 363.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "673b600f-ac20-4422-92f9-be7330e8c4b9")
+	)
+	(wire
+		(pts
+			(xy 171.45 394.97) (xy 171.45 391.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68a377ee-8d3a-4569-8e6c-304387b9aca8")
+	)
+	(wire
+		(pts
 			(xy 121.92 279.4) (xy 121.92 276.86)
 		)
 		(stroke
@@ -8204,7 +8639,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 360.68) (xy 111.76 360.68)
+			(xy -196.85 355.6) (xy -205.74 355.6)
 		)
 		(stroke
 			(width 0)
@@ -8271,6 +8706,16 @@
 			(type default)
 		)
 		(uuid "6fbfa2cd-3476-4260-9c70-1462d6abc75a")
+	)
+	(wire
+		(pts
+			(xy 176.53 363.22) (xy 182.88 363.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fbfa720-44d8-4fd5-80f8-726d4b90bd08")
 	)
 	(wire
 		(pts
@@ -8354,7 +8799,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 365.76) (xy 97.79 370.84)
+			(xy -219.71 360.68) (xy -219.71 365.76)
 		)
 		(stroke
 			(width 0)
@@ -8444,6 +8889,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 386.08) (xy 157.48 381)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f886525-bfaf-4966-a84d-2e0cec73aa8d")
+	)
+	(wire
+		(pts
 			(xy 125.73 166.37) (xy 135.89 166.37)
 		)
 		(stroke
@@ -8454,7 +8909,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 341.63) (xy 138.43 341.63)
+			(xy -181.61 336.55) (xy -179.07 336.55)
 		)
 		(stroke
 			(width 0)
@@ -8464,7 +8919,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 370.84) (xy 170.18 370.84)
+			(xy -162.56 365.76) (xy -147.32 365.76)
 		)
 		(stroke
 			(width 0)
@@ -8481,6 +8936,16 @@
 			(type default)
 		)
 		(uuid "833c75c0-ebc7-4d52-8dee-9789ce45f4a2")
+	)
+	(wire
+		(pts
+			(xy 171.45 363.22) (xy 176.53 363.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "834733e1-a9d4-4e65-bac8-894efd14568f")
 	)
 	(wire
 		(pts
@@ -8674,7 +9139,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 360.68) (xy 186.69 374.65)
+			(xy -130.81 355.6) (xy -130.81 369.57)
 		)
 		(stroke
 			(width 0)
@@ -8754,7 +9219,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 365.76) (xy 111.76 370.84)
+			(xy -205.74 360.68) (xy -205.74 365.76)
 		)
 		(stroke
 			(width 0)
@@ -8844,6 +9309,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 369.57) (xy 148.59 369.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bc80423-c856-4988-98da-40f129221fe0")
+	)
+	(wire
+		(pts
 			(xy 459.74 491.49) (xy 478.79 491.49)
 		)
 		(stroke
@@ -8891,6 +9366,16 @@
 			(type default)
 		)
 		(uuid "9eedf666-46fe-4154-992e-635b306fdabe")
+	)
+	(wire
+		(pts
+			(xy 111.76 363.22) (xy 114.3 363.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f4fc15d-3d67-4d39-92aa-6e148df512e0")
 	)
 	(wire
 		(pts
@@ -8954,13 +9439,23 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 341.63) (xy 128.27 342.9)
+			(xy -189.23 336.55) (xy -189.23 337.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a38efde1-cc13-465c-9fb7-7323db7e175b")
+	)
+	(wire
+		(pts
+			(xy 161.29 394.97) (xy 161.29 381)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3e8b0eb-0de7-47be-b146-ef2b5b83d63c")
 	)
 	(wire
 		(pts
@@ -9004,7 +9499,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 363.22) (xy 147.32 363.22)
+			(xy -172.72 358.14) (xy -170.18 358.14)
 		)
 		(stroke
 			(width 0)
@@ -9034,7 +9529,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 347.98) (xy 128.27 347.98)
+			(xy -204.47 342.9) (xy -189.23 342.9)
 		)
 		(stroke
 			(width 0)
@@ -9071,6 +9566,16 @@
 			(type default)
 		)
 		(uuid "acd5a033-12e2-43e8-bc9a-ae53d4516482")
+	)
+	(wire
+		(pts
+			(xy 176.53 368.3) (xy 176.53 373.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ace48f87-91f1-4002-8be8-97c13fc542b2")
 	)
 	(wire
 		(pts
@@ -9234,7 +9739,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 370.84) (xy 111.76 370.84)
+			(xy -219.71 365.76) (xy -205.74 365.76)
 		)
 		(stroke
 			(width 0)
@@ -9254,7 +9759,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 370.84) (xy 154.94 370.84)
+			(xy -205.74 365.76) (xy -162.56 365.76)
 		)
 		(stroke
 			(width 0)
@@ -9364,7 +9869,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 360.68) (xy 179.07 360.68)
+			(xy -147.32 355.6) (xy -138.43 355.6)
 		)
 		(stroke
 			(width 0)
@@ -9484,6 +9989,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 394.97) (xy 165.1 391.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d855c7f3-9c39-49af-bb4d-2c70ad856e1c")
+	)
+	(wire
+		(pts
 			(xy 434.34 237.49) (xy 434.34 234.95)
 		)
 		(stroke
@@ -9541,6 +10056,16 @@
 			(type default)
 		)
 		(uuid "dde750cc-e2b0-493b-85b9-e09715dbe423")
+	)
+	(wire
+		(pts
+			(xy 140.97 379.73) (xy 140.97 369.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de3d5a4c-fdf8-428b-81d0-b943a9b21f72")
 	)
 	(wire
 		(pts
@@ -9684,6 +10209,16 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 372.11) (xy 168.91 372.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eeec70ae-9f4c-49ed-9ba6-83b6d50c0750")
+	)
+	(wire
+		(pts
 			(xy 125.73 182.88) (xy 144.78 182.88)
 		)
 		(stroke
@@ -9704,7 +10239,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 360.68) (xy 170.18 360.68)
+			(xy -151.13 355.6) (xy -147.32 355.6)
 		)
 		(stroke
 			(width 0)
@@ -9744,7 +10279,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 360.68) (xy 97.79 360.68)
+			(xy -223.52 355.6) (xy -219.71 355.6)
 		)
 		(stroke
 			(width 0)
@@ -9784,7 +10319,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 370.84) (xy 154.94 379.73)
+			(xy -162.56 365.76) (xy -162.56 374.65)
 		)
 		(stroke
 			(width 0)
@@ -9801,6 +10336,36 @@
 			(type default)
 		)
 		(uuid "f6a7a33f-b027-48ba-8c3e-99c7e47cfa32")
+	)
+	(wire
+		(pts
+			(xy 168.91 365.76) (xy 171.45 365.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7ed25a0-6458-4c8a-be01-1896e3922a6f")
+	)
+	(wire
+		(pts
+			(xy 129.54 368.3) (xy 129.54 370.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7ff04b5-5916-49f1-bb0b-3ca8445c3524")
+	)
+	(wire
+		(pts
+			(xy 171.45 365.76) (xy 171.45 363.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9ecdeec-ef9a-438a-8fce-1e21781176e8")
 	)
 	(wire
 		(pts
@@ -9824,13 +10389,23 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 360.68) (xy 147.32 360.68)
+			(xy -196.85 355.6) (xy -170.18 355.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "fc22e688-8e48-45b9-a0b3-197008989e35")
+	)
+	(wire
+		(pts
+			(xy 119.38 363.22) (xy 129.54 363.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcf4ca67-6530-4e32-bd6f-aa059dfbb35d")
 	)
 	(wire
 		(pts
@@ -9854,7 +10429,7 @@
 	)
 	(global_label "5V"
 		(shape input)
-		(at 86.36 360.68 180)
+		(at -231.14 355.6 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9864,7 +10439,7 @@
 		)
 		(uuid "02ecca3e-9984-4829-9796-0acea9ed4827")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 81.6488 360.6006 0)
+			(at -235.8512 355.5206 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9964,7 +10539,7 @@
 	)
 	(global_label "EN_HELD_HIGH"
 		(shape input)
-		(at 113.03 347.98 180)
+		(at -204.47 342.9 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9974,7 +10549,7 @@
 		)
 		(uuid "1265fd0b-69cb-4c37-a391-a2829f72f194")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 101.3311 347.98 0)
+			(at -216.1689 342.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10272,7 +10847,7 @@
 	)
 	(global_label "AVDD"
 		(shape input)
-		(at 186.69 368.3 0)
+		(at -130.81 363.22 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10282,7 +10857,7 @@
 		)
 		(uuid "40386e2c-3a9a-45a4-b552-39cd53653ce0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 191.5417 368.3 0)
+			(at -125.9583 363.22 0)
 			(effects
 				(font
 					(size 1 1)
@@ -10338,7 +10913,7 @@
 	)
 	(global_label "5V_THIN"
 		(shape input)
-		(at 120.65 356.87 180)
+		(at -196.85 351.79 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10348,7 +10923,7 @@
 		)
 		(uuid "484e9fbd-0882-4d2f-b204-ed89601c1d43")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 113.3113 356.87 0)
+			(at -204.1887 351.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10512,6 +11087,28 @@
 			)
 		)
 	)
+	(global_label "5V"
+		(shape input)
+		(at 111.76 363.22 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify right)
+		)
+		(uuid "61e73714-c706-4e02-950b-85fad74aa8c4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 107.0488 363.1406 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "5212_LRCK1"
 		(shape input)
 		(at 125.73 161.29 180)
@@ -10574,6 +11171,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IOVDD"
+		(shape input)
+		(at 205.74 365.76 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left)
+		)
+		(uuid "6dec9678-771e-4093-bc72-244d9d77caaa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 212.021 365.6975 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -10646,7 +11265,7 @@
 	)
 	(global_label "3.3V_A"
 		(shape input)
-		(at 166.37 358.14 0)
+		(at -151.13 353.06 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10656,7 +11275,7 @@
 		)
 		(uuid "767f7685-5f4b-450f-9afd-0f8a4c2dcba3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 173.5774 358.14 0)
+			(at -143.9226 353.06 0)
 			(effects
 				(font
 					(size 1 1)
@@ -10690,7 +11309,7 @@
 	)
 	(global_label "IOVDD"
 		(shape input)
-		(at 201.93 363.22 0)
+		(at -115.57 358.14 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10700,7 +11319,7 @@
 		)
 		(uuid "794135ec-9e03-4608-8a5e-c946646dcbf4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 208.211 363.1575 0)
+			(at -109.289 358.0775 0)
 			(effects
 				(font
 					(size 1 1)
@@ -10756,7 +11375,7 @@
 	)
 	(global_label "3.3v_IDE"
 		(shape input)
-		(at 138.43 341.63 0)
+		(at -179.07 336.55 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10766,7 +11385,7 @@
 		)
 		(uuid "854b67d5-2438-4760-bde0-17b762b8aab6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 146.1074 341.63 0)
+			(at -171.3926 336.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10792,6 +11411,28 @@
 			(effects
 				(font
 					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3.3V_LDO"
+		(shape input)
+		(at 190.5 377.19 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left)
+		)
+		(uuid "8bba42a1-1762-4514-8c8d-2038f7d9c4ed")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 199.7074 377.19 0)
+			(effects
+				(font
+					(size 1 1)
 				)
 				(justify left)
 				(hide yes)
@@ -10833,6 +11474,28 @@
 		(uuid "8ff3afad-2c7d-4c5a-8b57-cf1061318451")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 117.4116 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3.3v_IDE"
+		(shape input)
+		(at 205.74 365.76 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify right)
+		)
+		(uuid "92fe749c-e77f-4c73-91a9-0ebe929073ec")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 198.0626 365.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10910,7 +11573,7 @@
 	)
 	(global_label "3.3v_IDE"
 		(shape input)
-		(at 201.93 363.22 180)
+		(at -115.57 358.14 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10920,7 +11583,7 @@
 		)
 		(uuid "a14b75f5-dd08-4512-9d64-b797633abe9a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 194.2526 363.22 0)
+			(at -123.2474 358.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11480,6 +12143,28 @@
 			)
 		)
 	)
+	(global_label "AVDD"
+		(shape input)
+		(at 190.5 370.84 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left)
+		)
+		(uuid "ece59fe7-d211-43f6-8685-a73dbf9b9e66")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 195.3517 370.84 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "OUT2P+"
 		(shape input)
 		(at 130.81 259.08 180)
@@ -11614,7 +12299,7 @@
 	)
 	(global_label "3.3V_LDO"
 		(shape input)
-		(at 186.69 374.65 0)
+		(at -130.81 369.57 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11624,12 +12309,34 @@
 		)
 		(uuid "fa9be757-cb75-4f9f-88e7-b66300193962")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 195.8974 374.65 0)
+			(at -121.6026 369.57 0)
 			(effects
 				(font
 					(size 1 1)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "EN_HELD_HIGH"
+		(shape input)
+		(at 109.22 379.73 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify right)
+		)
+		(uuid "fafc77c0-25c2-4ea6-ba08-dd10b836a3ae")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 97.5211 379.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -11681,7 +12388,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 120.65 356.87 0)
+		(at -196.85 351.79 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11691,7 +12398,7 @@
 		)
 		(uuid "2d71bf79-28d4-4687-9433-21f04d5f64f1")
 		(property "Netclass" ".1"
-			(at 121.3485 354.33 0)
+			(at -196.1515 349.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11877,6 +12584,109 @@
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
 					(reference "FB108")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "proejct_lib:NetTie_2")
+		(at 185.42 363.22 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(uuid "0578a944-4209-4b2e-a421-584362c2a12c")
+		(property "Reference" "J3V109"
+			(at 185.42 368.427 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "jumper"
+			(at 185.42 366.1156 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "project_fp:jumper_slice_1mm"
+			(at 185.42 363.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 185.42 363.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 185.42 363.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Label" "3V"
+			(at 185.42 363.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "DNP"
+			(at 185.42 363.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TAC5212EVM" "n/a"
+			(at 185.42 363.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 185.42 363.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d4b05a48-d1b1-4ea8-a2a7-b533210640dd")
+		)
+		(pin "2"
+			(uuid "54791e30-1169-4c60-9e14-402ddca35993")
+		)
+		(instances
+			(project "t-dsp_tac5212_pro_audio_module"
+				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
+					(reference "J3V109")
 					(unit 1)
 				)
 			)
@@ -12170,7 +12980,7 @@
 	)
 	(symbol
 		(lib_id "proejct_lib:C_Small")
-		(at 170.18 363.22 0)
+		(at -147.32 358.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12178,7 +12988,7 @@
 		(dnp no)
 		(uuid "08dbf94f-c680-4433-b89a-eaf7914142b1")
 		(property "Reference" "T*C110"
-			(at 172.5168 362.0516 0)
+			(at -144.9832 356.9716 0)
 			(effects
 				(font
 					(size 1 1)
@@ -12187,7 +12997,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 172.5168 364.363 0)
+			(at -144.9832 359.283 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -12196,7 +13006,7 @@
 			)
 		)
 		(property "Footprint" "project_fp:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 170.18 363.22 0)
+			(at -147.32 358.14 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -12205,7 +13015,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 363.22 0)
+			(at -147.32 358.14 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -12214,7 +13024,7 @@
 			)
 		)
 		(property "Description" "10uF ±10% 16V Ceramic Capacitor X7R 0805"
-			(at 170.18 363.22 0)
+			(at -147.32 358.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12223,7 +13033,7 @@
 			)
 		)
 		(property "Package / Case" "C0805"
-			(at 170.18 363.22 0)
+			(at -147.32 358.14 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -12232,7 +13042,7 @@
 			)
 		)
 		(property "TAC5212EVM" "EMK212BB7106KG-T"
-			(at 170.18 363.22 0)
+			(at -147.32 358.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12241,7 +13051,7 @@
 			)
 		)
 		(property "LCSC" "C2182156"
-			(at 170.18 363.22 0)
+			(at -147.32 358.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12250,7 +13060,7 @@
 			)
 		)
 		(property "LCSC_Manufacturer" "Taiyo Yuden"
-			(at 64.77 5.08 0)
+			(at -252.73 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12259,7 +13069,7 @@
 			)
 		)
 		(property "LCSC_MPN" "EMK212BB7106KG-T"
-			(at 64.77 5.08 0)
+			(at -252.73 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13393,6 +14203,120 @@
 		)
 	)
 	(symbol
+		(lib_id "proejct_lib:C_Small")
+		(at 171.45 388.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1becbd93-adc6-4efa-9fa3-74e9b27a26d5")
+		(property "Reference" "T*C115"
+			(at 173.7868 387.4516 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7uF"
+			(at 173.7868 389.763 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 171.45 388.62 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 388.62 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 171.45 388.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" ""
+			(at 171.45 388.62 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "TAC5212EVM" ""
+			(at 171.45 388.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 171.45 388.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_Manufacturer" ""
+			(at 124.46 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_MPN" ""
+			(at 124.46 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0120390d-5cad-42d9-9bb6-e76283eb67f9")
+		)
+		(pin "2"
+			(uuid "c6109f3b-299d-438f-8743-43dc8f4b6f5b")
+		)
+		(instances
+			(project "t-dsp_tac5212_pro_audio_module"
+				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
+					(reference "T*C115")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "proejct_lib:Earth")
 		(at 355.6 492.76 0)
 		(unit 1)
@@ -13527,6 +14451,100 @@
 		)
 	)
 	(symbol
+		(lib_id "proejct_lib:LT3042xMSE")
+		(at 158.75 369.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "206fe569-14ce-4556-9c3f-a853fa6ef605")
+		(property "Reference" "U110"
+			(at 159.004 357.124 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LT3042xMSE"
+			(at 159.258 354.838 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "project_fp:MSOP-10-1EP_3x3mm_P0.5mm_EP1.68x1.88mm"
+			(at 159.766 355.346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 369.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 164.084 382.016 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "10"
+			(uuid "3fd39163-a4c1-4811-b6e2-3a80a2986b80")
+		)
+		(pin "1"
+			(uuid "47d6515a-fef0-4a57-bcbf-843cea67aefa")
+		)
+		(pin "2"
+			(uuid "7bb7697c-bd91-4c9c-ba5f-086ddb3b7c60")
+		)
+		(pin "3"
+			(uuid "aea594d4-a2a1-4e32-bca0-17c81b29f18d")
+		)
+		(pin "5"
+			(uuid "34336066-5a93-454a-824c-15f7d9f7fcc2")
+		)
+		(pin "11"
+			(uuid "7631ae7b-d07b-497e-ad48-0d51ed0ecc73")
+		)
+		(pin "8"
+			(uuid "a1a3f8ac-67ef-422f-8782-0507eb729895")
+		)
+		(pin "4"
+			(uuid "04dfa62e-f7ed-4227-9191-b18583c65863")
+		)
+		(pin "7"
+			(uuid "d1dcfded-d059-42f6-b68e-9df6eca5e2f0")
+		)
+		(pin "6"
+			(uuid "1c4a7d44-600f-48fa-bd4a-441dc38a7fc2")
+		)
+		(pin "9"
+			(uuid "434cdf29-890e-41ea-b3e4-d2b65b9ee0cd")
+		)
+		(instances
+			(project ""
+				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
+					(reference "U110")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "proejct_lib:via")
 		(at 347.98 406.4 0)
 		(unit 1)
@@ -13613,6 +14631,74 @@
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
 					(reference "G114")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "proejct_lib:Earth")
+		(at 161.29 394.97 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "239ce7e3-fa20-41a2-8fc1-9e560fdf8222")
+		(property "Reference" "#PWR0123"
+			(at 161.29 401.32 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 161.29 398.78 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 161.29 394.97 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 394.97 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 161.29 394.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5e866dd2-26a0-42d4-908d-824b74b65040")
+		)
+		(instances
+			(project "t-dsp_tac5212_pro_audio_module"
+				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
+					(reference "#PWR0123")
 					(unit 1)
 				)
 			)
@@ -14438,6 +15524,121 @@
 	)
 	(symbol
 		(lib_id "proejct_lib:R_Small")
+		(at 165.1 388.62 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "33a61b18-c48f-42dc-8f12-2756ddb76367")
+		(property "Reference" "R116"
+			(at 162.306 389.128 90)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "33.2kΩ"
+			(at 166.878 392.938 90)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 168.402 405.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 388.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 165.1 388.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" ""
+			(at 165.1 388.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TAC5212EVM" ""
+			(at 165.1 388.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 165.1 388.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_Manufacturer" ""
+			(at 101.6 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_MPN" ""
+			(at 101.6 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f1dfd08d-bf84-48b7-83be-1d38fa78a5b3")
+		)
+		(pin "2"
+			(uuid "6736a47c-ffc8-42d7-af6d-4c1429dab678")
+		)
+		(instances
+			(project "t-dsp_tac5212_pro_audio_module"
+				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
+					(reference "R116")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "proejct_lib:R_Small")
 		(at 401.32 179.07 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14631,6 +15832,74 @@
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
 					(reference "FB110")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "proejct_lib:Earth")
+		(at 171.45 394.97 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "36f0dcf1-7d25-47db-a5f1-36fd988bbe82")
+		(property "Reference" "#PWR0121"
+			(at 171.45 401.32 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 171.45 398.78 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 171.45 394.97 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 171.45 394.97 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 171.45 394.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "013b9d7c-b2e5-4e38-bbc4-5afa5e7e8397")
+		)
+		(instances
+			(project "t-dsp_tac5212_pro_audio_module"
+				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
+					(reference "#PWR0121")
 					(unit 1)
 				)
 			)
@@ -14875,7 +16144,6 @@
 				(font
 					(size 0.8 0.8)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "project_fp:L_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
@@ -15557,6 +16825,74 @@
 		)
 	)
 	(symbol
+		(lib_id "proejct_lib:Earth")
+		(at 176.53 373.38 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4264963e-f51c-4376-8a10-63bcc267d1a4")
+		(property "Reference" "#PWR0125"
+			(at 176.53 379.73 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 176.53 377.19 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 373.38 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 176.53 373.38 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 176.53 373.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2fc61745-cb90-4d75-8e83-3bf899a02006")
+		)
+		(instances
+			(project "t-dsp_tac5212_pro_audio_module"
+				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
+					(reference "#PWR0125")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "proejct_lib:via")
 		(at 382.27 165.1 270)
 		(unit 1)
@@ -15718,6 +17054,74 @@
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
 					(reference "#PWR0114")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "proejct_lib:Earth")
+		(at 171.45 379.73 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "49f27413-da53-4ee7-96af-bc7209293d19")
+		(property "Reference" "#PWR0124"
+			(at 171.45 386.08 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 171.45 383.54 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 171.45 379.73 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 171.45 379.73 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 171.45 379.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fb41ff3a-9794-4bcd-ac2d-d8248e0dd404")
+		)
+		(instances
+			(project "t-dsp_tac5212_pro_audio_module"
+				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
+					(reference "#PWR0124")
 					(unit 1)
 				)
 			)
@@ -17126,7 +18530,7 @@
 	)
 	(symbol
 		(lib_id "proejct_lib:NetTie_2")
-		(at 133.35 341.63 0)
+		(at -184.15 336.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -17134,7 +18538,7 @@
 		(dnp yes)
 		(uuid "645d347a-cf94-402f-a921-80e836a82b3a")
 		(property "Reference" "SCL109"
-			(at 133.35 338.328 0)
+			(at -184.15 333.248 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17142,7 +18546,7 @@
 			)
 		)
 		(property "Value" "jumper"
-			(at 133.35 338.7344 0)
+			(at -184.15 333.6544 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17151,7 +18555,7 @@
 			)
 		)
 		(property "Footprint" "project_fp:jumper_slice_1mm"
-			(at 133.35 341.63 0)
+			(at -184.15 336.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17160,7 +18564,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 133.35 341.63 0)
+			(at -184.15 336.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17169,7 +18573,7 @@
 			)
 		)
 		(property "Description" "Net tie, 2 pins"
-			(at 133.35 341.63 0)
+			(at -184.15 336.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17178,7 +18582,7 @@
 			)
 		)
 		(property "Label" "3V"
-			(at 133.35 341.63 0)
+			(at -184.15 336.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17187,7 +18591,7 @@
 			)
 		)
 		(property "Package / Case" "DNP"
-			(at 133.35 341.63 0)
+			(at -184.15 336.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17196,7 +18600,7 @@
 			)
 		)
 		(property "TAC5212EVM" "n/a"
-			(at 133.35 341.63 0)
+			(at -184.15 336.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17205,7 +18609,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 133.35 341.63 0)
+			(at -184.15 336.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18380,7 +19784,6 @@
 					(size 0.8 0.8)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "project_fp:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
@@ -18702,7 +20105,7 @@
 	)
 	(symbol
 		(lib_id "proejct_lib:C_Small")
-		(at 97.79 363.22 0)
+		(at -219.71 358.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18710,7 +20113,7 @@
 		(dnp no)
 		(uuid "7c99ebb8-899c-4337-b4b9-04c6a002a9a6")
 		(property "Reference" "T*C108"
-			(at 100.1268 362.0516 0)
+			(at -217.3732 356.9716 0)
 			(effects
 				(font
 					(size 1 1)
@@ -18719,7 +20122,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 100.1268 364.363 0)
+			(at -217.3732 359.283 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -18728,7 +20131,7 @@
 			)
 		)
 		(property "Footprint" "project_fp:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 97.79 363.22 0)
+			(at -219.71 358.14 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -18737,7 +20140,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 97.79 363.22 0)
+			(at -219.71 358.14 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -18746,7 +20149,7 @@
 			)
 		)
 		(property "Description" "10uF ±10% 16V Ceramic Capacitor X7R 0805"
-			(at 97.79 363.22 0)
+			(at -219.71 358.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18755,7 +20158,7 @@
 			)
 		)
 		(property "Package / Case" "C0805"
-			(at 97.79 363.22 0)
+			(at -219.71 358.14 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -18764,7 +20167,7 @@
 			)
 		)
 		(property "TAC5212EVM" "EMK212BB7106KG-T"
-			(at 97.79 363.22 0)
+			(at -219.71 358.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18773,7 +20176,7 @@
 			)
 		)
 		(property "LCSC" "C2182156"
-			(at 97.79 363.22 0)
+			(at -219.71 358.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18782,7 +20185,7 @@
 			)
 		)
 		(property "LCSC_Manufacturer" "Taiyo Yuden"
-			(at 64.77 5.08 0)
+			(at -252.73 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18791,7 +20194,7 @@
 			)
 		)
 		(property "LCSC_MPN" "EMK212BB7106KG-T"
-			(at 64.77 5.08 0)
+			(at -252.73 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19464,6 +20867,83 @@
 		)
 	)
 	(symbol
+		(lib_id "proejct_lib:NetTie_2")
+		(at 116.84 363.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "8579775a-03c1-4422-ae11-358a18d04d3c")
+		(property "Reference" "NT110"
+			(at 116.84 358.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NetTie_2"
+			(at 116.84 360.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "project_fp:NetTie-2_SMD_Pad0.2mm"
+			(at 116.84 363.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 116.84 363.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 116.84 363.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 116.84 363.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6c62a52f-bad2-4715-b590-7d29ce8d798e")
+		)
+		(pin "2"
+			(uuid "341ab2b9-5f7b-4818-a75e-a8473f6a53ca")
+		)
+		(instances
+			(project "t-dsp_tac5212_pro_audio_module"
+				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
+					(reference "NT110")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "proejct_lib:via")
 		(at 339.09 233.68 0)
 		(unit 1)
@@ -19767,7 +21247,7 @@
 	)
 	(symbol
 		(lib_id "proejct_lib:Earth")
-		(at 154.94 387.35 0)
+		(at -162.56 382.27 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19777,7 +21257,7 @@
 		(fields_autoplaced yes)
 		(uuid "89b083ad-74a6-41e2-bbd8-736f3c62913e")
 		(property "Reference" "#PWR0140"
-			(at 154.94 393.7 0)
+			(at -162.56 388.62 0)
 			(effects
 				(font
 					(size 1 1)
@@ -19786,7 +21266,7 @@
 			)
 		)
 		(property "Value" "Earth"
-			(at 154.94 391.16 0)
+			(at -162.56 386.08 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -19795,7 +21275,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 154.94 387.35 0)
+			(at -162.56 382.27 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -19804,7 +21284,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 154.94 387.35 0)
+			(at -162.56 382.27 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -19813,7 +21293,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 154.94 387.35 0)
+			(at -162.56 382.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20560,7 +22040,6 @@
 					(size 0.8 0.8)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "project_fp:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
@@ -21126,7 +22605,7 @@
 	)
 	(symbol
 		(lib_id "proejct_lib:R_Small")
-		(at 128.27 345.44 0)
+		(at -189.23 340.36 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -21135,7 +22614,7 @@
 		(dnp yes)
 		(uuid "920023af-9ff6-442a-bd53-dc2d425821b6")
 		(property "Reference" "R199"
-			(at 125.476 345.948 90)
+			(at -192.024 340.868 90)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -21144,7 +22623,7 @@
 			)
 		)
 		(property "Value" "2.21k ohm"
-			(at 130.048 349.758 90)
+			(at -187.452 344.678 90)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -21153,7 +22632,7 @@
 			)
 		)
 		(property "Footprint" "project_fp:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 128.27 345.44 0)
+			(at -189.23 340.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21162,7 +22641,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 128.27 345.44 0)
+			(at -189.23 340.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21171,7 +22650,7 @@
 			)
 		)
 		(property "Description" "RES 2.2K OHM 1% 1/8W 0402"
-			(at 128.27 345.44 0)
+			(at -189.23 340.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21180,7 +22659,7 @@
 			)
 		)
 		(property "Package / Case" "R0805"
-			(at 128.27 345.44 0)
+			(at -189.23 340.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21189,7 +22668,7 @@
 			)
 		)
 		(property "TAC5212EVM" "RC0402FR-072K21L"
-			(at 128.27 345.44 0)
+			(at -189.23 340.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21198,7 +22677,7 @@
 			)
 		)
 		(property "LCSC" "C138019"
-			(at 128.27 345.44 90)
+			(at -189.23 340.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21207,7 +22686,7 @@
 			)
 		)
 		(property "LCSC_Manufacturer" "YAGEO"
-			(at 64.77 5.08 0)
+			(at -252.73 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21216,7 +22695,7 @@
 			)
 		)
 		(property "LCSC_MPN" "RC0402FR-072K21L"
-			(at 64.77 5.08 0)
+			(at -252.73 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21900,6 +23379,301 @@
 		)
 	)
 	(symbol
+		(lib_id "proejct_lib:GNDD")
+		(at 124.46 384.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a047667f-886c-4324-9408-89c56583ac51")
+		(property "Reference" "#PWR0110"
+			(at 124.46 391.16 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 124.46 389.382 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 384.81 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 384.81 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 124.46 384.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "59d97154-5f00-4f6b-a08d-c1e62d3e6920")
+		)
+		(instances
+			(project "t-dsp_tac5212_pro_audio_module"
+				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
+					(reference "#PWR0110")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "proejct_lib:R_Small")
+		(at 157.48 388.62 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a2b3e799-2d48-4f2a-b34f-1433e8f66fc3")
+		(property "Reference" "R114"
+			(at 154.686 389.128 90)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4.99k"
+			(at 159.258 392.938 90)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 157.48 388.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 157.48 388.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 388.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" ""
+			(at 157.48 388.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TAC5212EVM" ""
+			(at 157.48 388.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 157.48 388.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_Manufacturer" ""
+			(at 93.98 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_MPN" ""
+			(at 93.98 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c4e1d741-e580-46f4-9077-13551968f01a")
+		)
+		(pin "2"
+			(uuid "ae49ca40-31c1-4e49-8e20-9444f69163b2")
+		)
+		(instances
+			(project "t-dsp_tac5212_pro_audio_module"
+				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
+					(reference "R114")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "proejct_lib:C_Small")
+		(at 129.54 365.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a6bf40ee-b137-4864-98c9-093676f2ebe4")
+		(property "Reference" "T*C112"
+			(at 131.8768 364.5916 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7uF"
+			(at 131.8768 366.903 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 129.54 365.76 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 365.76 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1uF ±10% 35V Ceramic Capacitor X7R 0603"
+			(at 129.54 365.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "C0603"
+			(at 129.54 365.76 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "TAC5212EVM" "C1608X7R1V105K080AC"
+			(at 129.54 365.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2172920"
+			(at 129.54 365.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_Manufacturer" "TDK"
+			(at 82.55 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_MPN" "C1608X7R1V105K080AC"
+			(at 82.55 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "34d8b1ce-468c-4475-84c8-e9da0184ada6")
+		)
+		(pin "2"
+			(uuid "85ad8a32-28d2-40e9-a3c3-c5fad448386c")
+		)
+		(instances
+			(project "t-dsp_tac5212_pro_audio_module"
+				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
+					(reference "T*C112")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "proejct_lib:C_Small")
 		(at 114.3 91.44 0)
 		(unit 1)
@@ -22166,7 +23940,6 @@
 					(size 0.8 0.8)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "project_fp:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
@@ -22366,6 +24139,74 @@
 			(project "tac5212_audio_board_single_ended"
 				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
 					(reference "C124")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "proejct_lib:Earth")
+		(at 157.48 394.97 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ac63402a-0b38-40da-aec3-108187b0b028")
+		(property "Reference" "#PWR0122"
+			(at 157.48 401.32 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 157.48 398.78 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 394.97 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 157.48 394.97 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 157.48 394.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7faf9acb-82ee-40ed-88bb-1ec52234883c")
+		)
+		(instances
+			(project "t-dsp_tac5212_pro_audio_module"
+				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
+					(reference "#PWR0122")
 					(unit 1)
 				)
 			)
@@ -24638,7 +26479,7 @@
 	)
 	(symbol
 		(lib_id "proejct_lib:GNDD")
-		(at 128.27 353.06 0)
+		(at -189.23 347.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24647,7 +26488,7 @@
 		(fields_autoplaced yes)
 		(uuid "cadf8dee-77e0-4c03-8fa7-b0359967effa")
 		(property "Reference" "#PWR0141"
-			(at 128.27 359.41 0)
+			(at -189.23 354.33 0)
 			(effects
 				(font
 					(size 1 1)
@@ -24656,7 +26497,7 @@
 			)
 		)
 		(property "Value" "GNDD"
-			(at 128.27 357.632 0)
+			(at -189.23 352.552 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -24664,7 +26505,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 128.27 353.06 0)
+			(at -189.23 347.98 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -24673,7 +26514,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 128.27 353.06 0)
+			(at -189.23 347.98 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -24682,7 +26523,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 128.27 353.06 0)
+			(at -189.23 347.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25219,15 +27060,15 @@
 	)
 	(symbol
 		(lib_id "proejct_lib:C_Small")
-		(at 111.76 363.22 0)
+		(at 176.53 365.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "d2ed790a-27c6-4771-88b9-6a93eaf99f59")
-		(property "Reference" "T*C109"
-			(at 114.0968 362.0516 0)
+		(uuid "d2921cb8-bb5a-4f65-85ac-bd3ed1cf086b")
+		(property "Reference" "T*C113"
+			(at 178.8668 364.5916 0)
 			(effects
 				(font
 					(size 1 1)
@@ -25235,8 +27076,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
-			(at 114.0968 364.363 0)
+		(property "Value" "4.7uF"
+			(at 178.8668 366.903 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -25244,8 +27085,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "project_fp:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 111.76 363.22 0)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 176.53 365.76 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -25254,7 +27095,121 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 363.22 0)
+			(at 176.53 365.76 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10uF ±10% 16V Ceramic Capacitor X7R 0805"
+			(at 176.53 365.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "C0805"
+			(at 176.53 365.76 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "TAC5212EVM" "EMK212BB7106KG-T"
+			(at 176.53 365.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2182156"
+			(at 176.53 365.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_Manufacturer" "Taiyo Yuden"
+			(at 143.51 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_MPN" "EMK212BB7106KG-T"
+			(at 143.51 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7bebbb25-e5fc-4883-a285-4d2a9395396b")
+		)
+		(pin "2"
+			(uuid "b8f6d62f-bb49-454b-87ec-3a20ff895b17")
+		)
+		(instances
+			(project "t-dsp_tac5212_pro_audio_module"
+				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
+					(reference "T*C113")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "proejct_lib:C_Small")
+		(at -205.74 358.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d2ed790a-27c6-4771-88b9-6a93eaf99f59")
+		(property "Reference" "T*C109"
+			(at -203.4032 356.9716 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at -203.4032 359.283 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "project_fp:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at -205.74 358.14 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -205.74 358.14 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -25263,7 +27218,7 @@
 			)
 		)
 		(property "Description" "1uF ±10% 35V Ceramic Capacitor X7R 0603"
-			(at 111.76 363.22 0)
+			(at -205.74 358.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25272,7 +27227,7 @@
 			)
 		)
 		(property "Package / Case" "C0603"
-			(at 111.76 363.22 0)
+			(at -205.74 358.14 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -25281,7 +27236,7 @@
 			)
 		)
 		(property "TAC5212EVM" "C1608X7R1V105K080AC"
-			(at 111.76 363.22 0)
+			(at -205.74 358.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25290,7 +27245,7 @@
 			)
 		)
 		(property "LCSC" "C2172920"
-			(at 111.76 363.22 0)
+			(at -205.74 358.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25299,7 +27254,7 @@
 			)
 		)
 		(property "LCSC_Manufacturer" "TDK"
-			(at 64.77 5.08 0)
+			(at -252.73 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25308,7 +27263,7 @@
 			)
 		)
 		(property "LCSC_MPN" "C1608X7R1V105K080AC"
-			(at 64.77 5.08 0)
+			(at -252.73 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25607,7 +27562,7 @@
 	)
 	(symbol
 		(lib_id "proejct_lib:NetTie_2")
-		(at 181.61 360.68 180)
+		(at -135.89 355.6 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -25615,7 +27570,7 @@
 		(dnp yes)
 		(uuid "d518a76d-5df6-4e5c-ae14-fe8c7b1bdf42")
 		(property "Reference" "J3V108"
-			(at 181.61 365.887 0)
+			(at -135.89 360.807 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25623,7 +27578,7 @@
 			)
 		)
 		(property "Value" "jumper"
-			(at 181.61 363.5756 0)
+			(at -135.89 358.4956 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25631,7 +27586,7 @@
 			)
 		)
 		(property "Footprint" "project_fp:jumper_slice_1mm"
-			(at 181.61 360.68 0)
+			(at -135.89 355.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25640,7 +27595,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 181.61 360.68 0)
+			(at -135.89 355.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25649,7 +27604,7 @@
 			)
 		)
 		(property "Description" "Net tie, 2 pins"
-			(at 181.61 360.68 0)
+			(at -135.89 355.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25658,7 +27613,7 @@
 			)
 		)
 		(property "Label" "3V"
-			(at 181.61 360.68 0)
+			(at -135.89 355.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25667,7 +27622,7 @@
 			)
 		)
 		(property "Package / Case" "DNP"
-			(at 181.61 360.68 0)
+			(at -135.89 355.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25676,7 +27631,7 @@
 			)
 		)
 		(property "TAC5212EVM" "n/a"
-			(at 181.61 360.68 0)
+			(at -135.89 355.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25685,7 +27640,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 181.61 360.68 0)
+			(at -135.89 355.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25999,7 +27954,7 @@
 	)
 	(symbol
 		(lib_id "proejct_lib:TLV70012_SOT23-5")
-		(at 154.94 363.22 0)
+		(at -162.56 358.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26008,7 +27963,7 @@
 		(fields_autoplaced yes)
 		(uuid "dd059499-dea7-4ab4-816d-cb440703fe76")
 		(property "Reference" "U109"
-			(at 154.94 354.33 0)
+			(at -162.56 349.25 0)
 			(effects
 				(font
 					(size 1 1)
@@ -26016,7 +27971,7 @@
 			)
 		)
 		(property "Value" "3.3v LDO - TLV74133PDBVR"
-			(at 154.94 356.87 0)
+			(at -162.56 351.79 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -26024,7 +27979,7 @@
 			)
 		)
 		(property "Footprint" "project_fp:SOT-23-5"
-			(at 154.94 354.965 0)
+			(at -162.56 349.885 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -26034,7 +27989,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 361.95 0)
+			(at -162.56 356.87 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -26043,7 +27998,7 @@
 			)
 		)
 		(property "Description" "3.3V 5.5V Positive Fixed SOT-23-5 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators RoHS"
-			(at 154.94 363.22 0)
+			(at -162.56 358.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26052,7 +28007,7 @@
 			)
 		)
 		(property "Package / Case" "SOT-23-5"
-			(at 154.94 363.22 0)
+			(at -162.56 358.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26061,7 +28016,7 @@
 			)
 		)
 		(property "TAC5212EVM" "TLV74133PDBVR"
-			(at 154.94 363.22 0)
+			(at -162.56 358.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26070,7 +28025,7 @@
 			)
 		)
 		(property "LCSC" "C471862"
-			(at 154.94 363.22 0)
+			(at -162.56 358.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26079,7 +28034,7 @@
 			)
 		)
 		(property "LCSC_Manufacturer" "TI"
-			(at 64.77 5.08 0)
+			(at -252.73 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26088,7 +28043,7 @@
 			)
 		)
 		(property "LCSC_MPN" "TLV74133PDBVR"
-			(at 64.77 5.08 0)
+			(at -252.73 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26236,7 +28191,7 @@
 	)
 	(symbol
 		(lib_id "proejct_lib:NetTie_2")
-		(at 154.94 382.27 270)
+		(at -162.56 377.19 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -26244,7 +28199,7 @@
 		(dnp yes)
 		(uuid "de145286-1413-46eb-879a-b20b0c110c32")
 		(property "Reference" "G119"
-			(at 155.956 387.604 0)
+			(at -161.544 382.524 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26252,7 +28207,7 @@
 			)
 		)
 		(property "Value" "jumper"
-			(at 156.21 375.92 0)
+			(at -161.29 370.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26261,7 +28216,7 @@
 			)
 		)
 		(property "Footprint" "project_fp:jumper_slice"
-			(at 154.94 382.27 0)
+			(at -162.56 377.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26270,7 +28225,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 154.94 382.27 0)
+			(at -162.56 377.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26279,7 +28234,7 @@
 			)
 		)
 		(property "Description" "Net tie, 2 pins"
-			(at 154.94 382.27 0)
+			(at -162.56 377.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26288,7 +28243,7 @@
 			)
 		)
 		(property "Label" "G"
-			(at 154.94 382.27 0)
+			(at -162.56 377.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26297,7 +28252,7 @@
 			)
 		)
 		(property "Package / Case" "DNP"
-			(at 154.94 382.27 0)
+			(at -162.56 377.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26306,7 +28261,7 @@
 			)
 		)
 		(property "TAC5212EVM" "n/a"
-			(at 154.94 382.27 0)
+			(at -162.56 377.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26315,7 +28270,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 154.94 382.27 0)
+			(at -162.56 377.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26823,6 +28778,120 @@
 		)
 	)
 	(symbol
+		(lib_id "proejct_lib:C_Small")
+		(at 124.46 382.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e38f9fd7-0680-4f21-b54d-23863b61e491")
+		(property "Reference" "C132"
+			(at 126.7968 381.1016 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 126.7968 383.413 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "project_fp:C_0402_1005Metric"
+			(at 124.46 382.27 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 382.27 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100nF ±10% 16V Ceramic Capacitor X7R 0402"
+			(at 124.46 382.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "C0402"
+			(at 124.46 382.27 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "TAC5212EVM" "GRM155R71C104KA88J"
+			(at 124.46 382.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C106994"
+			(at 124.46 382.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_Manufacturer" "muRata"
+			(at 60.96 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_MPN" "GRM155R71C104KA88J"
+			(at 60.96 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "054a2647-ad9f-4221-9d81-b388874c14d2")
+		)
+		(pin "2"
+			(uuid "1784c8cb-1ce6-467a-85eb-a8efdc63f43f")
+		)
+		(instances
+			(project "t-dsp_tac5212_pro_audio_module"
+				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
+					(reference "C132")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "proejct_lib:R_Small")
 		(at 464.82 280.67 270)
 		(unit 1)
@@ -27225,7 +29294,7 @@
 	)
 	(symbol
 		(lib_id "proejct_lib:NetTie_2")
-		(at 91.44 360.68 0)
+		(at -226.06 355.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -27234,7 +29303,7 @@
 		(fields_autoplaced yes)
 		(uuid "eb8d4b8f-e520-4465-bbf0-8354a5c3607a")
 		(property "Reference" "NT108"
-			(at 91.44 355.6 0)
+			(at -226.06 350.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27242,7 +29311,7 @@
 			)
 		)
 		(property "Value" "NetTie_2"
-			(at 91.44 358.14 0)
+			(at -226.06 353.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27250,7 +29319,7 @@
 			)
 		)
 		(property "Footprint" "project_fp:NetTie-2_SMD_Pad0.2mm"
-			(at 91.44 360.68 0)
+			(at -226.06 355.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27259,7 +29328,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 91.44 360.68 0)
+			(at -226.06 355.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27268,7 +29337,7 @@
 			)
 		)
 		(property "Description" "Net tie, 2 pins"
-			(at 91.44 360.68 0)
+			(at -226.06 355.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27277,7 +29346,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 91.44 360.68 0)
+			(at -226.06 355.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27876,6 +29945,74 @@
 		)
 	)
 	(symbol
+		(lib_id "proejct_lib:Earth")
+		(at 129.54 370.84 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f298a951-8427-47c7-a577-363f2864e533")
+		(property "Reference" "#PWR0118"
+			(at 129.54 377.19 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 129.54 374.65 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 370.84 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 370.84 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 129.54 370.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e2a31955-4edf-462d-b69f-5429f899d0bb")
+		)
+		(instances
+			(project "t-dsp_tac5212_pro_audio_module"
+				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
+					(reference "#PWR0118")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "proejct_lib:NetTie_2")
 		(at 190.5 287.02 180)
 		(unit 1)
@@ -28175,6 +30312,74 @@
 		)
 	)
 	(symbol
+		(lib_id "proejct_lib:Earth")
+		(at 165.1 394.97 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f82acc94-06ec-4b74-b063-0c3a0aae8603")
+		(property "Reference" "#PWR0119"
+			(at 165.1 401.32 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 165.1 398.78 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 394.97 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 394.97 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 165.1 394.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eabecb47-07ea-43cb-86c3-c72d79e1dd37")
+		)
+		(instances
+			(project "t-dsp_tac5212_pro_audio_module"
+				(path "/8cee3af6-3893-45a9-89a4-21657973eeff"
+					(reference "#PWR0119")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "proejct_lib:NetTie_2")
 		(at 111.76 276.86 0)
 		(unit 1)
@@ -28292,7 +30497,7 @@
 	)
 	(symbol
 		(lib_id "proejct_lib:C_Small")
-		(at 128.27 350.52 0)
+		(at -189.23 345.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28300,7 +30505,7 @@
 		(dnp no)
 		(uuid "fbf57619-c9e8-4a83-8124-4b0ead632a7e")
 		(property "Reference" "C129"
-			(at 130.6068 349.3516 0)
+			(at -186.8932 344.2716 0)
 			(effects
 				(font
 					(size 1 1)
@@ -28309,7 +30514,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 130.6068 351.663 0)
+			(at -186.8932 346.583 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -28318,7 +30523,7 @@
 			)
 		)
 		(property "Footprint" "project_fp:C_0402_1005Metric"
-			(at 128.27 350.52 0)
+			(at -189.23 345.44 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -28327,7 +30532,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 128.27 350.52 0)
+			(at -189.23 345.44 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -28336,7 +30541,7 @@
 			)
 		)
 		(property "Description" "100nF ±10% 16V Ceramic Capacitor X7R 0402"
-			(at 128.27 350.52 0)
+			(at -189.23 345.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28345,7 +30550,7 @@
 			)
 		)
 		(property "Package / Case" "C0402"
-			(at 128.27 350.52 0)
+			(at -189.23 345.44 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -28354,7 +30559,7 @@
 			)
 		)
 		(property "TAC5212EVM" "GRM155R71C104KA88J"
-			(at 128.27 350.52 0)
+			(at -189.23 345.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28363,7 +30568,7 @@
 			)
 		)
 		(property "LCSC" "C106994"
-			(at 128.27 350.52 0)
+			(at -189.23 345.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28372,7 +30577,7 @@
 			)
 		)
 		(property "LCSC_Manufacturer" "muRata"
-			(at 64.77 5.08 0)
+			(at -252.73 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28381,7 +30586,7 @@
 			)
 		)
 		(property "LCSC_MPN" "GRM155R71C104KA88J"
-			(at 64.77 5.08 0)
+			(at -252.73 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)

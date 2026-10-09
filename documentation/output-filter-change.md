@@ -1,7 +1,51 @@
 # DAC output filter change (next respin / rework of built units)
 
-**Date:** 2026-10-02
-**Status:** Decided, not yet applied to the schematic. BOM change only, no layout change.
+**Date:** 2026-10-02, revised 2026-10-09
+**Status:** REVISED 2026-10-09: the 220 R / 10 nF change below is **cancelled** (it breaks headphone drive). The
+new plan is **10 R / 220 nF C0G**, one filter for headphones and line. Needs a bench test first and bigger capacitor
+pads (layout change). See "Revision 2026-10-09" right below.
+
+## Revision 2026-10-09: one filter for headphones and line
+
+The original change (further down) was only checked against amplifier inputs (47 k / 10 k). Into headphones it fails:
+220 R in series with a 32 R headphone leaves 32 / 252 of the signal (-18 dB, under 1 mW), 16 R gets -23 dB, and
+the 220 R output impedance lets the headphone's impedance curve bend the frequency response.
+
+Rule for a filter that serves both loads: keep the series resistor small and let the capacitor set the corner.
+
+| References | Now | Change to |
+|---|---|---|
+| R108, R111, R132, R135 | 10 R, 0603 | **10 R, unchanged** |
+| C113, C114, C120, C122 | 4.7 nF, 0603 | **220 nF C0G / NP0, 50 V, 1206** (pads grow from 0603 to 1206: layout change) |
+
+| Load | 220 R / 10 nF (cancelled) | 10 R / 220 nF |
+|---|---|---|
+| Line input, 10 k and up | -0.2 dB, corner 72 kHz | -0.01 dB, corner 72 kHz |
+| Headphones 32 R | -18 dB | -2.4 dB (same as today), corner about 95 kHz |
+| Headphones 16 R | -23 dB | -4.2 dB (same as today), corner about 120 kHz |
+| At 20 kHz | -0.3 dB | -0.3 dB line, about -0.2 dB headphones |
+
+With a headphone load the corner moves up (the source R is 10 R in parallel with the load), so headphones get a little
+less out-of-band filtering. That is acceptable: headphones are passive, the out-of-band noise only hurt through
+amplifier input stages that fold it back into the audio band.
+
+Fallback if 1206 does not fit: 100 nF C0G 0805 (corner about 160 kHz, the same as the bench test below).
+
+Open point: the codec must stay stable driving 220 nF through 10 R. It is fine with 4.7 nF today and 10 R is the usual
+isolation resistor for a capacitive load, but the TAC5212 datasheet's capacitive-load limit has not been checked.
+
+**Bench test before the respin (replaces the one further down):** on a current module, solder 220 nF C0G (or film)
+from one output leg to AGND, next to the existing 4.7 nF.
+1. 10 kHz square wave at -6 dBFS, scope the leg: no ringing and no oscillation (also check with nothing plugged in).
+2. Listen on 32 R headphones and through the power amplifier: the harshness should be gone on both.
+3. If it rings or oscillates, the fallback is a small op-amp output stage on the module (buffer plus filter).
+
+Backplanes then need no output filter of their own: headphones and line outputs connect to the module outputs
+through the backplane's coupling capacitors only.
+
+---
+
+*Original plan (2026-10-02), cancelled; kept for the record:*
 
 ## Symptom
 

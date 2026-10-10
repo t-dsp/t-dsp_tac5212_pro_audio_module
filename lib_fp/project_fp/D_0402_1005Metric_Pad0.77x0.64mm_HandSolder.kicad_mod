@@ -9,7 +9,7 @@
 		(at 0.05 -0.775 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "3e94a912-05c9-4a98-82b0-b41b16c7d0e8")
+		(uuid "f498542c-8206-411d-a6d6-14a106d8c242")
 		(effects
 			(font
 				(size 0.8 0.8)
@@ -17,10 +17,10 @@
 			)
 		)
 	)
-	(property "Value" "TPD1E1B04 - 0402 size"
+	(property "Value" "TPD1E10B06DPYR"
 		(at 0 1.17 0)
 		(layer "F.Fab")
-		(uuid "681abdcd-c4a4-4e3a-a69b-15a0993dec1a")
+		(uuid "15baf621-af05-4d7f-a704-dff679e2fae3")
 		(effects
 			(font
 				(size 1 1)
@@ -28,12 +28,12 @@
 			)
 		)
 	)
-	(property "Datasheet" "http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf"
-		(at 0 0 0)
+	(property "Datasheet" ""
+		(at 0 0 180)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "bf909aff-1bc2-47b7-975f-b286b49f72fe")
+		(uuid "b1e97380-2e29-488d-b53c-8364c676652f")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -41,12 +41,12 @@
 			)
 		)
 	)
-	(property "Description" "0402 Diode for Audio Systems 5v rating. (3.6v possible)"
-		(at 0 0 0)
+	(property "Description" "14VC Clamp 6A@8/20us Ipp ESD DIODE X1-SON-2(0.6x1)"
+		(at 0 0 180)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "3ac54c82-56ec-414a-a4f6-249d5a9b6238")
+		(uuid "0403d529-dc79-4520-8c45-a564a8cc3baf")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -58,7 +58,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "5b3d0b9a-4cab-4647-a2ed-a2a744303446")
+		(uuid "f69ecd3c-a6df-4a13-b713-457205f7f020")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -70,7 +70,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "7be1c197-25d6-498c-bee9-b8612c2f0ace")
+		(uuid "b80f4121-fdbb-4d4e-a87f-3c579982c7e0")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -82,7 +82,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "a624a5df-12ae-4207-8d6d-5bfba9449892")
+		(uuid "9a72add1-3537-4b96-b7bb-ccbd24f06ac6")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -91,11 +91,11 @@
 		)
 	)
 	(property "Package / Case" "D0402"
-		(at 0 0 180)
+		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "582458b8-09dc-40bf-80f1-53b4318861c7")
+		(uuid "bf0549bf-2621-4a24-858d-9a7c43a7fa8b")
 		(effects
 			(font
 				(size 1 1)
@@ -104,11 +104,11 @@
 		)
 	)
 	(property "TAC5212EVM" "TPD1E10B06DPYR"
-		(at 0 0 180)
+		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "d2df4c31-62b8-4bc1-9158-e7d91648f9d9")
+		(uuid "b47ec968-eaa1-4582-b0ed-537e16a86e0d")
 		(effects
 			(font
 				(size 1 1)
@@ -117,11 +117,11 @@
 		)
 	)
 	(property "REPLACE FOR NEXT BUILD" ""
-		(at 0 0 180)
+		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "fc7c2f3a-6476-4c15-8602-3fc343a39151")
+		(uuid "d60775a1-3efb-42e2-88f2-f61071cf586b")
 		(effects
 			(font
 				(size 1 1)
@@ -130,11 +130,11 @@
 		)
 	)
 	(property "LCSC" "C48260"
-		(at 0 0 0)
+		(at 0 0 180)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "8d7414b6-541c-43fc-b7c2-715d74e56676")
+		(uuid "110eaa80-d1f2-4a04-83de-e0c22452f66d")
 		(effects
 			(font
 				(size 1 1)
@@ -143,11 +143,11 @@
 		)
 	)
 	(property "LCSC_Manufacturer" "TI"
-		(at 0 0 0)
+		(at 0 0 180)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "f3175604-f1a0-4e5f-b832-b0d636ec34ea")
+		(uuid "2e93add4-31f5-449c-bc22-947f405242c1")
 		(effects
 			(font
 				(size 1 1)
@@ -156,11 +156,11 @@
 		)
 	)
 	(property "LCSC_MPN" "TPD1E10B06DPYR"
-		(at 0 0 0)
+		(at 0 0 180)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "e7c1a485-77e7-47b1-b05a-f2602137cf27")
+		(uuid "0d588f8c-c889-48a3-974a-81e3364afc28")
 		(effects
 			(font
 				(size 1 1)
@@ -169,11 +169,11 @@
 		)
 	)
 	(property "Manufacturer" ""
-		(at 0 0 0)
+		(at 0 0 180)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "8913c908-fc8d-43d1-b5b6-95ab7807edeb")
+		(uuid "ce2b68ec-d428-4836-a1b3-e9a078bb59fa")
 		(effects
 			(font
 				(size 1 1)
@@ -182,11 +182,11 @@
 		)
 	)
 	(property "Manufacturer_Part_Number" ""
-		(at 0 0 0)
+		(at 0 0 180)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "6d552667-6cc3-4ca1-89ec-75645a1f964a")
+		(uuid "3a507b5c-bd21-499d-ba45-8003ba0f9643")
 		(effects
 			(font
 				(size 1 1)
@@ -195,11 +195,11 @@
 		)
 	)
 	(property "mouser" ""
-		(at 0 0 0)
+		(at 0 0 180)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "45f1ef56-0d0a-444a-bc48-c8e9189b91dc")
+		(uuid "3727ea03-17ea-446b-99b3-93fbaeff6aed")
 		(effects
 			(font
 				(size 1 1)
@@ -208,11 +208,11 @@
 		)
 	)
 	(property "LCSC NOTES" ""
-		(at 0 0 0)
+		(at 0 0 180)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "44fdd77d-1118-4a0b-856f-7bcd8cc0b21e")
+		(uuid "e9f09c7b-da5e-4219-990f-9e5120611618")
 		(effects
 			(font
 				(size 1 1)
@@ -230,7 +230,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "20947c4a-36c5-405c-b222-fb45d664a308")
+		(uuid "3d582022-a1f2-47ce-81bc-4fbcaccec18c")
 	)
 	(fp_line
 		(start 1.1 0.47)
@@ -240,7 +240,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "ac6129ea-2849-4b60-b11f-c6b7ae9977b2")
+		(uuid "5cd06454-07f5-486d-9e82-1c9ccec94704")
 	)
 	(fp_line
 		(start 1.1 -0.47)
@@ -250,7 +250,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "81781998-7d95-483a-8cab-1c74f53fe76f")
+		(uuid "21a3968a-c4c6-43d5-ab0d-d2f62754a333")
 	)
 	(fp_line
 		(start -1.1 0.47)
@@ -260,7 +260,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "297f634e-59a5-44cc-a34d-7290529e5c78")
+		(uuid "2af8af13-fafc-4332-8d65-b795e6cbbd44")
 	)
 	(fp_line
 		(start -1.1 -0.47)
@@ -270,7 +270,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "b77eae5c-4a69-40ad-bf33-dfeaaab2e242")
+		(uuid "0820bce1-dcba-47ae-a628-ad4be9e7e444")
 	)
 	(fp_line
 		(start 0.5 0.25)
@@ -280,7 +280,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "f8b4cb00-d996-4cc3-b0e9-eb9c1bc32bbb")
+		(uuid "f479a0c7-7428-4856-9182-e3e1c23b6678")
 	)
 	(fp_line
 		(start 0.5 -0.25)
@@ -290,7 +290,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "e976d54a-a5e0-4152-a086-c41ec67c1af3")
+		(uuid "abbfe43b-0d2c-4eca-9182-c10fb4ea3fd7")
 	)
 	(fp_line
 		(start -0.3 0.25)
@@ -300,7 +300,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "56f49763-1e35-45f0-a8cc-f9e07b0793f0")
+		(uuid "11494b55-a87c-4a9f-a96d-29f1bee330f5")
 	)
 	(fp_line
 		(start -0.4 0.25)
@@ -310,7 +310,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "ef10125a-0ecb-4219-a7c9-acd9fff9bea3")
+		(uuid "161236c3-7ab1-4c94-82be-f5798af1bc22")
 	)
 	(fp_line
 		(start -0.5 0.25)
@@ -320,7 +320,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "63a956b4-dad7-4cf6-b4e9-d524fa49e1e8")
+		(uuid "291883ed-70b1-4828-8902-92e11c287dc2")
 	)
 	(fp_line
 		(start -0.5 -0.25)
@@ -330,12 +330,12 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "e1e665de-7a99-488d-82a1-25c72838963b")
+		(uuid "efa76769-8684-4748-83cc-774eee176a3c")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "9718d94e-ee96-4759-aa30-e4d199c502b4")
+		(uuid "f3264ec4-77ab-4f80-a7c6-d0c26cd1d264")
 		(effects
 			(font
 				(size 0.25 0.25)
@@ -344,18 +344,18 @@
 		)
 	)
 	(pad "1" smd roundrect
-		(at -0.5725 0)
+		(at -0.5725 0 180)
 		(size 0.765 0.64)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
-		(uuid "98f14b32-7643-40fa-8846-b6d15b79eb43")
+		(uuid "787bab1b-725a-4392-a3d8-a34454939866")
 	)
 	(pad "2" smd roundrect
-		(at 0.5725 0)
+		(at 0.5725 0 180)
 		(size 0.765 0.64)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
-		(uuid "c7d6be75-95ab-4b4e-9b3a-04395b65698e")
+		(uuid "f7df8175-80aa-4796-8593-f8caaafe7c76")
 	)
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/3d_models/TPD1E10B06DPYR.STEP"

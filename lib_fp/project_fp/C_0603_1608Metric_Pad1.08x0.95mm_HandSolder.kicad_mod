@@ -9,7 +9,7 @@
 		(at 0 -1.43 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "372322dc-9b44-471b-810d-78572bef7bbe")
+		(uuid "5e075f24-5bdf-4799-80a6-2074b2608668")
 		(effects
 			(font
 				(size 1 1)
@@ -17,10 +17,10 @@
 			)
 		)
 	)
-	(property "Value" "10UF"
+	(property "Value" "10uF"
 		(at 0 1.43 0)
 		(layer "F.Fab")
-		(uuid "0edab52a-ddd7-4764-93e6-cebf0c57eaad")
+		(uuid "c589cddd-af60-4bbf-b559-1f4bca5bb474")
 		(effects
 			(font
 				(size 1 1)
@@ -28,12 +28,12 @@
 			)
 		)
 	)
-	(property "Datasheet" "~"
-		(at 0 0 180)
+	(property "Datasheet" ""
+		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "29fcce65-8880-4c73-a079-3797bada67ee")
+		(uuid "e361abdc-d9ad-4ac0-bd06-fe6348c69546")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -41,12 +41,12 @@
 			)
 		)
 	)
-	(property "Description" "CAP CER 10UF 16 V X5R 0603"
-		(at 0 0 180)
+	(property "Description" "10uF X5R ±20% 16V 0603 Ceramic Capacitors RoHS"
+		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "8b930b4c-a669-488d-b0cb-725660cf9aa5")
+		(uuid "91013f78-28c0-4d80-850d-a0ce11720abd")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -58,7 +58,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "8ddb4449-518d-44d3-b49d-4434368698d7")
+		(uuid "b1b5d1a2-4039-450c-9213-0cec69a5c2ac")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -67,11 +67,11 @@
 		)
 	)
 	(property "TAC5212EVM" "C1608X5R1C106M080AB"
-		(at 0 0 0)
+		(at 0 0 180)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "48f9fbb6-4a94-47cc-9f1f-cf9596287ab4")
+		(uuid "a8b4dfa5-b4ae-4e7b-a958-a8e9a0850cb4")
 		(effects
 			(font
 				(size 1 1)
@@ -80,11 +80,11 @@
 		)
 	)
 	(property "REPLACE FOR NEXT BUILD" ""
-		(at 0 0 0)
+		(at 0 0 180)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "f2734a82-35dd-4b15-b417-435911409d67")
+		(uuid "d9554ed3-ab2a-4c86-835c-026c2f3e1bde")
 		(effects
 			(font
 				(size 1 1)
@@ -93,11 +93,11 @@
 		)
 	)
 	(property "LCSC" "C2167896"
-		(at 0 0 0)
+		(at 0 0 180)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "6e70e891-bf82-4dff-9d17-e9b70a7ce65d")
+		(uuid "8995eb88-341e-40e4-a262-044660a72ca0")
 		(effects
 			(font
 				(size 1 1)
@@ -106,11 +106,11 @@
 		)
 	)
 	(property "LCSC_Manufacturer" "TDK"
-		(at 0 0 0)
+		(at 0 0 180)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "98449e51-699f-409f-92ab-eb2698690aea")
+		(uuid "84fe4bfb-0bc3-4961-9775-3ca860bb88dc")
 		(effects
 			(font
 				(size 1 1)
@@ -119,11 +119,11 @@
 		)
 	)
 	(property "LCSC_MPN" "C1608X5R1C106M080AB"
-		(at 0 0 0)
+		(at 0 0 180)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "b2c3bec2-10a8-4164-b768-2b76bad1dea4")
+		(uuid "9dfc109a-67a7-4fab-b9e9-e8bbb776099e")
 		(effects
 			(font
 				(size 1 1)
@@ -132,11 +132,11 @@
 		)
 	)
 	(property "Manufacturer" ""
-		(at 0 0 0)
+		(at 0 0 180)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "edc7b5d5-a1f9-4db8-9fa6-e30a19950231")
+		(uuid "7e92693f-9abc-43af-a746-be783aaa649e")
 		(effects
 			(font
 				(size 1 1)
@@ -145,11 +145,11 @@
 		)
 	)
 	(property "Manufacturer_Part_Number" ""
-		(at 0 0 0)
+		(at 0 0 180)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "d52b25bc-a921-442c-8ba1-02164ca5d62c")
+		(uuid "92941d0b-40dd-4260-accf-6ee64d4220d9")
 		(effects
 			(font
 				(size 1 1)
@@ -158,11 +158,11 @@
 		)
 	)
 	(property "mouser" ""
-		(at 0 0 0)
+		(at 0 0 180)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "0016f370-9ea2-48d0-94f2-69126ddf196d")
+		(uuid "a9ebe022-8d9c-4522-9f12-3b4c1804b5f5")
 		(effects
 			(font
 				(size 1 1)
@@ -171,11 +171,11 @@
 		)
 	)
 	(property "LCSC NOTES" ""
-		(at 0 0 0)
+		(at 0 0 180)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "344dee4e-0a74-4ace-ba5f-5a1380790574")
+		(uuid "42b24823-2277-4dad-b574-1852fb3c5fab")
 		(effects
 			(font
 				(size 1 1)
@@ -184,11 +184,11 @@
 		)
 	)
 	(property "Part Number 2020-05-29" ""
-		(at 0 0 0)
+		(at 0 0 180)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "95996489-9104-46aa-924e-bc136481ebe6")
+		(uuid "13631a79-4136-40db-a299-e7a8266aa294")
 		(effects
 			(font
 				(size 1 1)
@@ -197,11 +197,11 @@
 		)
 	)
 	(property "Part Number 2020-08-26" ""
-		(at 0 0 0)
+		(at 0 0 180)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "d99043dd-8d87-4499-a06d-7a1128696487")
+		(uuid "b6e2e347-098e-42d2-9b7c-3b44e3f37ea0")
 		(effects
 			(font
 				(size 1 1)
@@ -210,11 +210,11 @@
 		)
 	)
 	(property "Part Number 2020-09-07" ""
-		(at 0 0 0)
+		(at 0 0 180)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "507385ae-3fe0-4d9c-918e-b6780a572816")
+		(uuid "0f360228-5a43-4103-a90f-c397aff8638d")
 		(effects
 			(font
 				(size 1 1)
@@ -231,7 +231,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "c8bdeeef-a942-4777-ac4b-7caf85dd3255")
+		(uuid "4ba3fba9-2d05-48ce-b20f-bf8c4ece9b2f")
 	)
 	(fp_line
 		(start -0.146267 -0.51)
@@ -241,7 +241,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "18d97a4a-c496-410c-9b0f-d070c4c38d9d")
+		(uuid "cc48bbc7-5960-4738-8a57-f26caf35f2a0")
 	)
 	(fp_line
 		(start 1.65 0.73)
@@ -251,7 +251,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "bdfffa9c-976f-4de1-980c-ae27340e08df")
+		(uuid "12b349b9-5881-495e-a5d5-985830ea3bae")
 	)
 	(fp_line
 		(start 1.65 -0.73)
@@ -261,7 +261,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "1821f84f-8e0d-48f7-a4c1-9e9f3d575ad5")
+		(uuid "b40b71ad-6060-44df-ae64-4a7a7e2e1bf7")
 	)
 	(fp_line
 		(start -1.65 0.73)
@@ -271,7 +271,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "2986a5bb-67c8-4e57-a21a-5f81baf0084e")
+		(uuid "45b8346c-eb14-424e-b344-af03c3484f76")
 	)
 	(fp_line
 		(start -1.65 -0.73)
@@ -281,7 +281,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "6fdc3be9-0341-47bd-8919-fcfab0be1e2f")
+		(uuid "988c7d76-24f7-4ce5-9b5d-f2a9313d4add")
 	)
 	(fp_line
 		(start 0.8 0.4)
@@ -291,7 +291,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "2f11bc6b-3663-4c2e-93e5-1ec44c44f6ce")
+		(uuid "a12a0739-148a-44bd-ba66-697bc20df913")
 	)
 	(fp_line
 		(start 0.8 -0.4)
@@ -301,7 +301,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "e4d0c402-3478-4c71-9725-15922f1b35a9")
+		(uuid "ffd0b559-01f3-45c0-837f-545ad812834b")
 	)
 	(fp_line
 		(start -0.8 0.4)
@@ -311,7 +311,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "52b8e3b1-32b5-4e40-99b8-ccd5ce05031a")
+		(uuid "923b3f06-b593-47f4-b813-7139a2dd694b")
 	)
 	(fp_line
 		(start -0.8 -0.4)
@@ -321,12 +321,12 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "7c8ecc60-929c-479d-a7be-355ee13d698e")
+		(uuid "c0f2fcf0-c2e6-4acc-aab0-19bdbd6ef4be")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "db741392-4d01-4ddd-9693-725d65266aed")
+		(uuid "64b26366-ee9c-4855-bb7d-84e3321a93bb")
 		(effects
 			(font
 				(size 0.4 0.4)
@@ -335,18 +335,18 @@
 		)
 	)
 	(pad "1" smd roundrect
-		(at -0.8625 0 180)
+		(at -0.8625 0)
 		(size 1.075 0.95)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
-		(uuid "2d6379b7-1aca-4e75-ae3d-ab5a5fe8e018")
+		(uuid "7a8c7efa-2f6b-4af0-9eab-c0d01afc7d2e")
 	)
 	(pad "2" smd roundrect
-		(at 0.8625 0 180)
+		(at 0.8625 0)
 		(size 1.075 0.95)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
-		(uuid "0a1f9f74-7906-4ee9-832f-644eb670cb77")
+		(uuid "cb15d1dd-69e0-4a8d-992e-8271403d1d81")
 	)
 	(embedded_fonts no)
 	(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step"

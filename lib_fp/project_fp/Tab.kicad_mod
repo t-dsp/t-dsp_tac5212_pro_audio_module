@@ -8,7 +8,7 @@
 		(at -0.25 -2 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "c306a9a4-8d1b-460f-9509-f92786cd2822")
+		(uuid "61f2d073-7856-4277-a49b-435f82258b3e")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 	(property "Value" "Tab"
 		(at -3 -1 0)
 		(layer "Dwgs.User")
-		(uuid "354c7e40-5da7-4ed8-9d7e-26de81002e82")
+		(uuid "30ea9f88-fdd9-43ca-a0d5-5b879c0ace48")
 		(effects
 			(font
 				(size 1.2 1.2)
@@ -31,7 +31,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "9d2cf249-be63-4a6e-a060-df33ba0cf32c")
+		(uuid "430e28f1-5d9c-45fd-bf58-f8daa46ce97b")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -43,7 +43,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "a1fd3bba-a57b-4384-80e0-ed58f8656e05")
+		(uuid "6568373e-c127-4f35-be66-7bc84dc2040c")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -56,7 +56,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "413b8272-b4f9-4728-850d-654e664e88a3")
+		(uuid "fb3cedb4-d536-46da-9a3a-0a9bde027e4b")
 		(effects
 			(font
 				(size 1 1)
@@ -69,7 +69,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "e6e33055-546f-4858-ac4b-f89c66e70cf3")
+		(uuid "61e795e5-6022-47d1-93d1-65a58ffa74de")
 		(effects
 			(font
 				(size 1 1)
@@ -82,7 +82,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "e11fe2fc-4f12-4d86-9cd9-a0ba185b297f")
+		(uuid "43f28d6d-a9a6-4bdf-a713-06be72945ea2")
 		(effects
 			(font
 				(size 1 1)
@@ -95,7 +95,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "a8367d65-19df-4368-8bca-af77617f2522")
+		(uuid "033ea7fa-e8be-4466-a77c-ae627e4413f7")
 		(effects
 			(font
 				(size 1 1)
@@ -108,7 +108,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "b0df32de-21aa-45ea-99be-097d0c5829a8")
+		(uuid "140f9e14-686d-4ad2-9c1f-cc1639a5dd9b")
 		(effects
 			(font
 				(size 1 1)
@@ -116,7 +116,9 @@
 			)
 		)
 	)
-	(attr board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+	(attr board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard
+		dnp
+	)
 	(fp_line
 		(start 0 0)
 		(end -3 0)
@@ -125,7 +127,7 @@
 			(type solid)
 		)
 		(layer "Dwgs.User")
-		(uuid "3591aeb7-74b4-470a-8746-b77e5c908d30")
+		(uuid "9aa712aa-3ea8-4feb-9808-0dd772b1dfb9")
 	)
 	(fp_line
 		(start 0 0)
@@ -135,7 +137,7 @@
 			(type solid)
 		)
 		(layer "Dwgs.User")
-		(uuid "ee1aae41-a457-4c2a-800d-ecc353b5ef8d")
+		(uuid "ed00105a-e38a-4636-8293-fe507dea3dd7")
 	)
 	(fp_line
 		(start 0 0)
@@ -145,7 +147,7 @@
 			(type solid)
 		)
 		(layer "Dwgs.User")
-		(uuid "3f3667ec-c075-4e9d-87a9-2aa06fced54d")
+		(uuid "1f915edf-abb0-43ce-8f94-e4663836da35")
 	)
 	(fp_line
 		(start 0 1)
@@ -155,12 +157,12 @@
 			(type solid)
 		)
 		(layer "Dwgs.User")
-		(uuid "20dc348c-4ce2-45c0-b1f8-b1e1db8c20b2")
+		(uuid "3965c35e-7dbd-48fe-ab96-c45247ef4001")
 	)
 	(fp_text user "KIKIT: width: 3mm"
 		(at -5.5 0 90)
 		(layer "Dwgs.User")
-		(uuid "f6a1a78d-94d1-459f-8ed5-b2a81949c794")
+		(uuid "c52c0f09-7a3f-4602-bf66-1ffdf65f3120")
 		(effects
 			(font
 				(size 1 1)

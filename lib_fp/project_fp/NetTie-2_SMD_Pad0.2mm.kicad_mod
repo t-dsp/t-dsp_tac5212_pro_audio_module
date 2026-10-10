@@ -9,7 +9,7 @@
 		(at 0 -1.2 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "66e613b5-b192-4035-b6d5-4bb2572fba07")
+		(uuid "21d2dbcf-3e6f-42d7-925d-65dfb16a8d3d")
 		(effects
 			(font
 				(size 1 1)
@@ -21,7 +21,7 @@
 		(at -0.3 -1.05 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "155f99f2-600e-48a4-b883-80e9cdc1080e")
+		(uuid "ee560397-77a5-4325-9265-ac652195241c")
 		(effects
 			(font
 				(size 1 1)
@@ -34,7 +34,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "78ae86ce-291e-43d2-8dc6-e46891e3e7ca")
+		(uuid "49dc730d-5595-41ba-917e-b7f8e3b772fe")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -47,7 +47,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "7b445dc2-650a-495e-911b-731e48ba6493")
+		(uuid "68333f78-744e-45be-a4bc-b74579b7fa68")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -60,7 +60,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "9eef3b99-04b7-4140-9fcf-a9db8d97191c")
+		(uuid "3e74e708-4650-49f7-b2d1-1ef72a6167f0")
 		(effects
 			(font
 				(size 1 1)
@@ -73,7 +73,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "d1472437-3cc2-4bdc-84ef-031884a8d22c")
+		(uuid "667a60a5-59e8-4d13-83b2-4d31266f1d6a")
 		(effects
 			(font
 				(size 1 1)
@@ -86,7 +86,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "6284e6a8-6a85-423c-a60c-bfb8312b1dd6")
+		(uuid "58e8c1d3-f0d1-4608-a1f6-39bd6a4f0111")
 		(effects
 			(font
 				(size 1 1)
@@ -99,7 +99,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "25f1b10b-86c4-4676-90a1-5001bcbfa836")
+		(uuid "19bedc01-446d-46bf-8853-8f18d414f7fe")
 		(effects
 			(font
 				(size 1 1)
@@ -112,7 +112,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "b620e46f-f089-4438-b4d1-b8dd5dfa1492")
+		(uuid "d85cf06f-c739-4f22-89c9-d5544f64a447")
 		(effects
 			(font
 				(size 1 1)
@@ -120,7 +120,7 @@
 			)
 		)
 	)
-	(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+	(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard dnp)
 	(net_tie_pad_groups "1, 2")
 	(fp_poly
 		(pts
@@ -132,19 +132,19 @@
 		)
 		(fill yes)
 		(layer "F.Cu")
-		(uuid "0e7ffd7f-10db-4e1f-b45e-6e77d43b9263")
+		(uuid "d8f675ee-0c78-40ca-a29c-d860669c2819")
 	)
 	(pad "1" smd circle
 		(at -0.225 0)
 		(size 0.2 0.2)
 		(layers "F.Cu")
-		(uuid "e91ae6d6-6575-4e47-8404-60b1aab8af16")
+		(uuid "4798d08e-fcc3-41ac-aeb1-046f42e9d8c3")
 	)
 	(pad "2" smd circle
 		(at 0.225 0)
 		(size 0.2 0.2)
 		(layers "F.Cu")
-		(uuid "b10ab622-f764-4a07-8695-548d078a2310")
+		(uuid "64c9e317-5f07-4389-9041-43e6dcd49e2f")
 	)
 	(embedded_fonts no)
 )
